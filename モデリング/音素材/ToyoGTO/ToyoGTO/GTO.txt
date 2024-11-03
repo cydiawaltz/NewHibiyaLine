@@ -1,0 +1,16 @@
+version 1.0
+
+[Motor]
+0 = sound\Motor1.wav
+1 = sound\Motor2.wav
+2 = sound\Motor3.wav
+3 = sound\Motor4.wav
+4 = sound\Motor5.wav
+5 = sound\Motor6.wav
+6 = sound\Motor7.wav
+7 = sound\Motor8.wav
+8 = sound\Motor0.wav
+9 = sound\Motor10.wav
+10= sound\Motor11.wav
+11= sound\Motor12.wav
+//回生失効2.5km/h

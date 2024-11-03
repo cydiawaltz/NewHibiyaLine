@@ -1,0 +1,3 @@
+BveTs Vehicle 1.00
+Sound = GTO.txt
+MotorNoise = Noise\MotorNoise.txt

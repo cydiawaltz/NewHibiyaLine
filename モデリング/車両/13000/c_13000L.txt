@@ -1,0 +1,10 @@
+bvets train 0.01
+
+
+
+[structure]
+key=c_13000L
+distance=-137
+z=20
+span=20
+

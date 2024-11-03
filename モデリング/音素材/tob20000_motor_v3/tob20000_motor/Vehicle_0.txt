@@ -1,0 +1,4 @@
+BveTs Vehicle 1.00
+
+Sound = Sound_c.cfg
+MotorNoise = ch\MotorNoise\MotorNoise.txt
