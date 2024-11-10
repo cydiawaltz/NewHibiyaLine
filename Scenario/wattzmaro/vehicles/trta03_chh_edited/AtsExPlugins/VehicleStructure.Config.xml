@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <VehicleTrain>
+    <StructureGroups>
+      <StructureGroup Vibrate="false" >
+        <Structures>
+          <Structure Model="../../../structures\trains\03\TEST.x" Distance="18" Span="18" Z="-18" />
+        </Structures>
+      </StructureGroup>
+    </StructureGroups>
+  </VehicleTrain>
+</Config>

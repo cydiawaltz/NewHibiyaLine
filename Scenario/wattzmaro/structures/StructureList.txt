@@ -1,0 +1,17 @@
+BveTs Structure List 1.00
+
+線路系
+RailL0, RailL0.x
+RailL1, RailL1.x
+RailL2, RailL2.x
+RailL3, RailL3.x
+RailL4, RailL4.x
+RailR0, RailR0.x
+RailR1, RailR1.x
+RailR2, RailR2.x
+RailR3, RailR3.x
+RailR4, RailR4.x
+
+TEST
+03test,trains\03\TEST.x
+bg0,BackGround\Bg.x
