@@ -1,0 +1,74 @@
+BveTs Map 2.02
+
+//共通
+145;
+Curve.BeginTransition();
+curve.Begin(200,0);
+//134 point
+//170~ 橋桁(片方) 
+//215~230 道路 橋桁(両方)
+210;
+curve.End();
+250;
+curve.Begin(-700,0);
+413;
+//curve.Begin(1000,0);
+//500;
+curve.End();
+//235~ 家ストラクチャ
+700;
+curve.Begin(1500,0);
+710;
+curve.End();
+
+1015;
+curve.BeginTransition();
+curve.Begin(-1200,0);
+1120;
+curve.End();
+1250;
+curve.BeginTransition();
+1280;
+curve.Begin(1000,0);
+1360;
+curve.End();
+1480;
+curve.BeginTransition();
+curve.Begin(800,0);
+1545;
+curve.End();
+1670;
+//curve.Begin(800,0);
+1700;
+curve.Begin(400,0);
+1785;
+curve.End();
+1980;
+Curve.BeginTransition();
+2000;
+curve.Begin(166,0);
+//南千住
+2050;
+curve.End();
+2150;
+Curve.BeginTransition();
+curve.Begin(180,0);
+2293;
+curve.End();
+2415;
+curve.BeginTransition();
+curve.Begin(-190,0);
+2430;
+curve.Begin(-300,-0.03);
+2440;
+curve.Begin(-160,-0.05);
+#2465 トンネル入
+2505;
+curve.Begin(-300,-0.03);
+2530;
+curve.Begin(-500,-0.02);
+2560;
+curve.Begin(-800,-0.02);
+2590;
+curve.Begin(-600,-0.02);
+//三ノ輪

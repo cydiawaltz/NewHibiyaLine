@@ -1,0 +1,87 @@
+BveTs Map 2.02
+$base = 1067;
+$base;
+curve.SetGauge(1.067);
+$base + 130;
+Curve.BeginTransition();
+curve.Begin(300,0);
+$base + 175;
+Curve.Begin(-300,0);
+$base + 200;
+curve.Begin(-200,0);
+$base + 235;
+curve.End();
+$base + 265;
+curve.Begin(300,0);
+$base + 280;
+curve.Begin(-300,0);
+$base + 295;
+Curve.Begin(-120,0);
+$base + 379.55;
+curve.End();
+//まっすぐのびるのはここで終わり
+$base + 555;
+curve.Begin(200,0);
+$base + 580;
+curve.Begin(-200,0);
+$base + 605;
+curve.End();
+//1672 = 605
+
+$baseA = 0;
+$baseA + 1720;
+curve.Begin(400,0);
+$baseA + 1800;
+Gradient.End();
+$baseA + 1812;
+curve.End();
+$baseA + 1980;
+Curve.BeginTransition();
+Gradient.BeginTransition();
+$baseA + 2000;
+Gradient.Begin(2);
+$baseA + 2020;
+curve.Begin(166,0);
+//南千住
+$baseA + 2058;
+curve.End();
+$baseA + 2140;
+Curve.BeginTransition();
+Gradient.BeginTransition();
+$baseA + 2165;
+curve.Begin(180,0);
+Gradient.Begin(-39);
+$baseA + 2293;
+curve.End();
+$baseA + 2415;
+curve.BeginTransition();
+curve.Begin(-190,0);
+$baseA + 2430;
+curve.Begin(-300,-0.03);
+$baseA + 2440;
+curve.Begin(-160,-0.05);
+#2465 トンネル入
+$baseA+ 2505;
+curve.Begin(-300,-0.03);
+$baseA + 2530;
+curve.Begin(-500,-0.02);
+Gradient.Begin(-30);
+$baseA + 2550;
+curve.End();
+Gradient.Begin(-16);
+$baseA + 2560;
+curve.Begin(-800,-0.02);
+Gradient.BeginTransition();
+$baseA + 2590;
+curve.Begin(-600,-0.02);
+Gradient.Begin(2);
+//三ノ輪
+
+
+#$base + 270;
+#curve.Begin(-300,0);
+#$base + 300;
+#curve.Begin(-125,0);
+#$base + 383;
+#curve.End();
+#$base + 800;

@@ -1,0 +1,18 @@
+BveTs Map 2.02
+$base = 0;
+curve.SetGauge(1.067);
+$base + 60;
+curve.BeginTransition();
+$base + 110;
+curve.Begin(-360,0);
+//$base + 230;=>5番線への接続経路
+//curve.End();
+$base + 210;
+curve.Begin(360,0);
+$base + 220;
+Curve.Begin(-200,0);
+$base + 230;
+curve.End();
+$base + 250;
+curve.Begin(-180,0);
+$base + 266;

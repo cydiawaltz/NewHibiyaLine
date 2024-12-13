@@ -1,0 +1,25 @@
+BveTs Map 2.02
+$base = 0;
+curve.SetGauge(1.067);
+$base + 60;
+curve.BeginTransition();
+$base + 110;
+curve.Begin(-360,0);
+//$base + 230;=>5番線への接続経路
+//curve.End();
+$base + 210;
+curve.Begin(360,0);
+$base + 260;
+curve.Begin(-350,0);
+$base + 300;
+curve.Begin(-250,0);
+$base + 333;
+curve.End();
+$base + 500;
+curve.Begin(-400,0);
+$base + 540;
+curve.End();
+$base + 590;
+curve.Begin(400,0);
+$base + 674;
+//これ以降は3.8mの距離を保ちつつ続行

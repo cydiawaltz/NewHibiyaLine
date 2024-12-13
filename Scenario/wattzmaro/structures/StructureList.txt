@@ -1,17 +1,19 @@
 BveTs Structure List 1.00
 
 線路系
-RailL0, RailL0.x
-RailL1, RailL1.x
-RailL2, RailL2.x
-RailL3, RailL3.x
-RailL4, RailL4.x
-RailR0, RailR0.x
-RailR1, RailR1.x
-RailR2, RailR2.x
-RailR3, RailR3.x
-RailR4, RailR4.x
+RailL0, rails\RailL0.x
+RailL1, rails\RailL1.x
+RailL2, rails\RailL2.x
+RailL3, rails\RailL3.x
+RailL4, rails\RailL4.x
+RailR0, rails\RailR0.x
+RailR1, rails\RailR1.x
+RailR2, rails\RailR2.x
+RailR3, rails\RailR3.x
+RailR4, rails\RailR4.x
 
 TEST
-03test,trains\03\TEST.x
+03test,TEST\03\TEST.x
 bg0,BackGround\Bg.x
+plateau,TEST\軌道作成専用\test.x
+plateau2,TEST\軌道作成専用\test2.x

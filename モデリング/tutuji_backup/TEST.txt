@@ -1,0 +1,65 @@
+BveTs Map 2.02
+//7番線
+0;
+Curve.Gauge(1.067);
+8;
+Curve.BeginTransition();
+curve.Begin(200,0);
+28;
+Curve.End();
+
+
+//共通
+130;
+//Curve.BeginTransition();
+//curve.Begin(700,0);
+//134 point
+//170~ 橋桁(片方) 
+//215~230 道路 橋桁(両方)
+210;
+//curve.End();
+250;
+curve.Begin(-800,0);
+420;
+//curve.Begin(1000,0);
+//500;
+curve.End();
+//235~ 家ストラクチャ
+1015;
+curve.BeginTransition();
+curve.Begin(-1200,0);
+1115;
+curve.End();
+1250;
+curve.BeginTransition();
+1300;
+curve.Begin(1000,0);
+1370;
+curve.End();
+1480;
+curve.BeginTransition();
+curve.Begin(800,0);
+1545;
+curve.End();
+1670;
+//curve.Begin(800,0);
+1700;
+curve.Begin(400,0);
+1785;
+curve.End();
+1980;
+Curve.BeginTransition();
+2000;
+curve.Begin(166,0);
+2050;
+curve.End();
+2150;
+Curve.BeginTransition();
+curve.Begin(180,0);
+2293;
+curve.End();
+2410;
+curve.BeginTransition();
+curve.Begin(-190,0);
+
+3000;

@@ -1,0 +1,125 @@
+BveTs Map 2.02
+$base = 0;
+//7番線
+$base + 0;
+Curve.Gauge(1.067);
+$base + 8;
+Curve.BeginTransition();
+curve.Begin(200,0);
+Gradient.BeginTransition();
+$base + 15;
+Gradient.Begin(-10);
+$base + 28;
+Curve.End();
+$base + 120;
+Gradient.Begin(-20);
+
+//共通
+$base + 145;
+Curve.BeginTransition();
+curve.Begin(500,0);
+//134 point
+//170~ 橋桁(片方) 
+//215~230 道路 橋桁(両方)
+$base + 210;
+Gradient.Begin(-33);
+curve.End();
+$base + 250;
+curve.Begin(-700,0);
+$base + 340;
+Gradient.Begin();
+$base + 390;
+Gradient.Begin(-7);
+$base + 413;
+curve.End();
+Gradient.BeginTransition();
+$base + 560;
+Gradient.Begin(4);
+//235~ 家ストラクチャ
+$base + 650;
+Gradient.BeginTransition();
+$base + 700;
+Gradient.Begin(-14);
+curve.Begin(1500,0);
+$base + 710;
+curve.End();
+Gradient.BeginTransition();
+$base + 803;
+Gradient.Begin(24);
+$base + 915;
+Gradient.Begin(8);
+$base + 1000;
+curve.BeginTransition();
+$base + 1045;
+curve.Begin(-1070,0);
+$base + 1120;
+curve.End();
+Gradient.End();
+$base + 1250;
+curve.BeginTransition();
+$base + 1280;
+curve.Begin(800,0);
+Gradient.Begin(-9);
+$base + 1340;
+curve.End();
+Gradient.End();
+$base + 1450;
+Gradient.BeginTransition();
+$base + 1480;
+curve.BeginTransition();
+curve.Begin(800,0);
+$base + 1500;
+Gradient.Begin(10);
+$base + 1530;
+Gradient.Begin(2);
+$base + 1555;
+curve.End();
+$base + 1670;
+//curve.Begin(800,0);
+$base + 1720;
+curve.Begin(400,0);
+$base + 1800;
+Gradient.End();
+$base + 1812;
+curve.End();
+$base + 1980;
+Curve.BeginTransition();
+Gradient.BeginTransition();
+$base + 2000;
+Gradient.Begin(2);
+$base + 2020;
+curve.Begin(166,0);
+//南千住
+$base + 2058;
+curve.End();
+$base + 2140;
+Curve.BeginTransition();
+Gradient.BeginTransition();
+$base + 2165;
+curve.Begin(180,0);
+Gradient.Begin(-39);
+$base + 2293;
+curve.End();
+$base + 2415;
+curve.BeginTransition();
+curve.Begin(-190,0);
+$base + 2430;
+curve.Begin(-300,-0.03);
+$base + 2440;
+curve.Begin(-160,-0.05);
+#2465 トンネル入
+$base + 2505;
+curve.Begin(-300,-0.03);
+$base + 2530;
+curve.Begin(-500,-0.02);
+Gradient.Begin(-30);
+$base + 2550;
+curve.End();
+Gradient.Begin(-16);
+$base + 2560;
+curve.Begin(-800,-0.02);
+Gradient.BeginTransition();
+$base + 2590;
+curve.Begin(-600,-0.02);
+Gradient.Begin(2);
+//三ノ輪

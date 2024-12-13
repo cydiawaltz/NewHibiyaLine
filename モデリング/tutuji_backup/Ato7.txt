@@ -1,0 +1,24 @@
+BveTs Map 2.02
+$base = 0;
+curve.SetGauge(1.067);
+$base + 60;
+curve.BeginTransition();
+$base + 110;
+curve.Begin(-360,0);
+$base + 150;
+curve.Begin(-250,0);
+$base + 210;
+curve.End();
+$base + 280;
+curve.Begin(-300,0);
+$base + 320;
+curve.Begin(300,0);
+$base + 350;
+Curve.End();
+$base + 400;
+//$base + 310;
+//curve.Begin(300,0);
+//$base + 325.9;
+//curve.End();
+//$base + 518;
+//7番線起点

@@ -1,0 +1,23 @@
+BveTs Map 2.02
+$base = 1067;
+$base;
+curve.SetGauge(1.067);
+$base + 130;
+Curve.BeginTransition();
+curve.Begin(300,0);
+$base + 175;
+Curve.Begin(-300,0);
+$base + 200;
+curve.Begin(-200,0);
+$base + 235;
+curve.End();
+$base + 265;
+curve.Begin(300,0);
+$base + 280;
+curve.Begin(-300,0);
+$base + 295;
+Curve.Begin(-120,0);
+$base + 379.55;
+curve.End();
+//まっすぐのびるのはここで終わり
+$base + 650;
