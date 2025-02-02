@@ -1,0 +1,19 @@
+bvets train 0.01
+
+[Structure]
+key=20000test
+distance=0
+z=0
+span=16
+
+[Structure]
+key=20000test
+distance=18
+z=0
+span=16
+
+[Structure]
+key=20000test
+distance=36
+z=0
+span=16

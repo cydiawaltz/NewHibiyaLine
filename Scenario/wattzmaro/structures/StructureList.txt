@@ -14,6 +14,7 @@ RailR4, rails\RailR4.x
 
 TEST
 03test,TEST\03\TEST.x
+20000test,TEST\20000\20000-1.x
 bg0,BackGround\Bg.x
 plateau,TEST\軌道作成専用\test.x
 plateau2,TEST\軌道作成専用\test2.x
