@@ -543,6 +543,21 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.BcValve"/> クラスのインスタンス。</returns>
         </member>
+        <member name="P:BveTypes.ClassWrappers.BcValve.IsBcServo">
+            <summary>
+            圧力比例制御式かどうかを取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.BcValve.RapidReleaseSpeed">
+            <summary>
+            滑走再粘着制御における急排気速度 [Pa^(1/2)/s] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.BcValve.RapidApplySpeed">
+            <summary>
+            滑走再粘着制御における急給気速度 [Pa^(1/2)/s] を取得・設定します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.BcValve.ReleaseStartMargin">
             <summary>
             排気が開始する際の圧力指令と現在圧力の差 [Pa] を取得・設定します。
@@ -562,6 +577,79 @@
             <summary>
             給気が停止する際の圧力指令と現在圧力の差 [Pa] を取得・設定します。
             </summary>
+        </member>
+        <member name="T:BveTypes.ClassWrappers.BpValve">
+            <summary>
+            ブレーキ管の圧力調整弁を表します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BpValve.#ctor(System.Object)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.BpValve"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BpValve.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.BpValve"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.BpValve.RapidReleaseSpeed">
+            <summary>
+            非常ブレーキ時の排気速度 [Pa^(1/2)/s] を取得・設定します。
+            </summary>
+        </member>
+        <member name="T:BveTypes.ClassWrappers.CircuitBreaker">
+            <summary>
+            回路遮断器を表します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CircuitBreaker.#ctor(System.Object)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.CircuitBreaker"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CircuitBreaker.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.CircuitBreaker"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.CircuitBreaker.RegenerationLimit">
+            <summary>
+            電気ブレーキを遮断する走行速度 [m/s] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.CircuitBreaker.RegenerationStartLimit">
+            <summary>
+            電気ブレーキが開始可能な最低走行速度 [m/s] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.CircuitBreaker.Performance">
+            <summary>
+            車両性能テーブルを取得します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CircuitBreaker.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CircuitBreaker.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CircuitBreaker.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.CircuitBreaker.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.CircuitBreaker.Tick(System.Double)"/>
         </member>
         <member name="T:BveTypes.ClassWrappers.CircularGauge">
             <summary>
@@ -634,6 +722,254 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.ClassicMapParser"/> クラスのインスタンス。</returns>
         </member>
+        <member name="M:BveTypes.ClassWrappers.ClassicMapParser.Parse(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:BveTypes.ClassWrappers.Compressor">
+            <summary>
+            空気圧縮機を表します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Compressor.#ctor(System.Object)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.Compressor"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Compressor.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.Compressor"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Compressor.UpperPressure">
+            <summary>
+            空気圧縮機が停止する元空気溜め圧力 [Pa] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Compressor.LowerPressure">
+            <summary>
+            空気圧縮機が始動する元空気溜め圧力 [Pa] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Compressor.CompressionSpeed">
+            <summary>
+            空気圧縮機による元空気溜め圧力上昇速度 [Pa/s] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Compressor.LeakSpeed">
+            <summary>
+            元空気溜めの空気漏れ速度 [Pa/s] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Compressor.IsWorking">
+            <summary>
+            動作中かどうかを取得・設定します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Compressor.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Compressor.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Compressor.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.Compressor.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.Compressor.Tick(System.Double)"/>
+        </member>
+        <member name="T:BveTypes.ClassWrappers.IMapLoader">
+            <summary>
+            マップを読み込むための機能を表します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IMapLoader.Include(System.String)">
+            <summary>
+            他のマップファイルの内容を挿入します。
+            </summary>
+            <param name="filePath">挿入するマップファイルのパス。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IMapLoader.ThrowError(BveTypes.ClassWrappers.LoadError)">
+            <summary>
+            マップ読込中に発生したエラーをエラー一覧に追加します。
+            </summary>
+            <param name="error">追加するエラー。</param>
+        </member>
+        <member name="T:BveTypes.ClassWrappers.IniReader">
+            <summary>
+            INI 形式の設定ファイルを読み込むための機能を提供します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IniReader.#ctor(System.Object)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.IniReader"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IniReader.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.IniReader"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IniReader.#ctor(System.String,System.String[])">
+            <summary>
+            指定したファイルを読み込むための <see cref="T:BveTypes.ClassWrappers.IniReader"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="filePath">読み込むファイルのパス。</param>
+            <param name="validHeaders">有効なヘッダー文字列の一覧。</param>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.IniReader.CommentMarks">
+            <summary>
+            コメントを表す記号の一覧を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.IniReader.SectionName">
+            <summary>
+            現在のセクションの名前を取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.IniReader.Key">
+            <summary>
+            現在の要素のキーを取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.IniReader.LineIndex">
+            <summary>
+            現在の要素の行番号を取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.IniReader.DirectoryName">
+            <summary>
+            読み込んでいるファイルのディレクトリ名を取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.IniReader.FileName">
+            <summary>
+            読み込んでいるファイルの名前を取得します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IniReader.ReadNext">
+            <summary>
+            次の要素を読み出します。
+            </summary>
+            <returns>
+            次の要素が存在し、正常に読み出された場合は <see langword="true"/>。次の要素が存在しない場合は <see langword="false"/>。
+            </returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IniReader.GetString">
+            <summary>
+            現在の要素の値を <see cref="T:System.String"/> 型として取得します。
+            </summary>
+            <returns>
+            現在の要素の値の <see cref="T:System.String"/> 型表現。
+            </returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IniReader.GetSingle">
+            <summary>
+            現在の要素の値を <see cref="T:System.Single"/> 型として取得します。
+            </summary>
+            <returns>
+            現在の要素の値の <see cref="T:System.Single"/> 型表現。
+            </returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IniReader.GetDouble">
+            <summary>
+            現在の要素の値を <see cref="T:System.Double"/> 型として取得します。
+            </summary>
+            <returns>
+            現在の要素の値の <see cref="T:System.Double"/> 型表現。
+            </returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IniReader.GetInt32">
+            <summary>
+            現在の要素の値を <see cref="T:System.Int32"/> 型として取得します。
+            </summary>
+            <returns>
+            現在の要素の値の <see cref="T:System.Int32"/> 型表現。
+            </returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IniReader.GetBoolean">
+            <summary>
+            現在の要素の値を <see cref="T:System.Boolean"/> 型として取得します。
+            </summary>
+            <returns>
+            現在の要素の値の <see cref="T:System.Boolean"/> 型表現。
+            </returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IniReader.GetStringArray">
+            <summary>
+            現在の要素の値を <see cref="T:System.String"/> 型の配列として取得します。
+            </summary>
+            <returns>
+            現在の要素の値の <see cref="T:System.String"/> 型配列表現。
+            </returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IniReader.GetDoubleArray">
+            <summary>
+            現在の要素の値を <see cref="T:System.Double"/> 型の配列として取得します。
+            </summary>
+            <returns>
+            現在の要素の値の <see cref="T:System.Double"/> 型配列表現。
+            </returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IniReader.GetInt32Array">
+            <summary>
+            現在の要素の値を <see cref="T:System.Int32"/> 型の配列として取得します。
+            </summary>
+            <returns>
+            現在の要素の値の <see cref="T:System.Int32"/> 型配列表現。
+            </returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.IniReader.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="T:BveTypes.ClassWrappers.CscFilteredTimeDelayedHandleSet">
+            <summary>
+            むだ時間フィルタを適用し、定速制御のモードを反映したハンドルのセットを表します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CscFilteredTimeDelayedHandleSet.#ctor(System.Object)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.CscFilteredTimeDelayedHandleSet"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CscFilteredTimeDelayedHandleSet.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.CscFilteredTimeDelayedHandleSet"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CscFilteredTimeDelayedHandleSet.#ctor(BveTypes.ClassWrappers.HandleSet)">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.CscFilteredTimeDelayedHandleSet"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="baseHandles">入力ソースとなるハンドルのセット。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CscFilteredTimeDelayedHandleSet.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CscFilteredTimeDelayedHandleSet.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.CscFilteredTimeDelayedHandleSet.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.CscFilteredTimeDelayedHandleSet.Tick(System.Double)"/>
+        </member>
         <member name="T:BveTypes.ClassWrappers.DigitalGauge">
             <summary>
             自列車の運転台の円形デジタルゲージ計器要素を表します。
@@ -690,6 +1026,34 @@
             数字配列画像の 1 コマの高さを取得・設定します。
             </summary>
         </member>
+        <member name="T:BveTypes.ClassWrappers.ElectricBrakeCommand">
+            <summary>
+            電空協調制御から主回路へ送られる電気ブレーキ力の目標値の指令を表します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.ElectricBrakeCommand.#ctor(System.Object)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.ElectricBrakeCommand"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.ElectricBrakeCommand.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.ElectricBrakeCommand"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ElectricBrakeCommand.Rate">
+            <summary>
+            ブレーキ率を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ElectricBrakeCommand.Force">
+            <summary>
+            ブレーキ力 [N] を取得・設定します。
+            </summary>
+        </member>
         <member name="T:BveTypes.ClassWrappers.ConfigForm">
             <summary>
             「設定」フォームを表します。
@@ -716,6 +1080,57 @@
         </member>
         <member name="M:BveTypes.ClassWrappers.ConfigForm.Dispose">
             <inheritdoc/>
+        </member>
+        <member name="T:BveTypes.ClassWrappers.LoadCompensator">
+            <summary>
+            応荷重制御装置を表します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.LoadCompensator.#ctor(System.Object)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.LoadCompensator"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.LoadCompensator.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.LoadCompensator"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.LoadCompensator.IsEnabled">
+            <summary>
+            応荷重制御が有効かどうかを取得・設定します。
+            </summary>
+        </member>
+        <member name="T:BveTypes.ClassWrappers.MapGrammar">
+            <summary>
+            マップファイルの構文を定義します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.MapGrammar.Src">
+            <summary>
+            ラップされているオリジナルの <see cref="T:Irony.Parsing.Grammar"/> 型オブジェクトを取得します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.MapGrammar.#ctor(System.Object)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.MapGrammar"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.MapGrammar.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.MapGrammar"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.MapGrammar.#ctor">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.MapGrammar"/> クラスの新しいインスタンスを初期化します。
+            </summary>
         </member>
         <member name="T:BveTypes.ClassWrappers.MapLoader">
             <summary>
@@ -852,10 +1267,10 @@
             <param name="filePath">リストファイルのパス。</param>
         </member>
         <member name="M:BveTypes.ClassWrappers.MapLoader.Include(System.String)">
-            <summary>
-            他のマップファイルの内容を挿入します。
-            </summary>
-            <param name="filePath">挿入するマップファイルのパス。</param>
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.MapLoader.ThrowError(BveTypes.ClassWrappers.LoadError)">
+            <inheritdoc/>
         </member>
         <member name="T:BveTypes.ClassWrappers.MapParser">
             <summary>
@@ -875,6 +1290,9 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.MapParser"/> クラスのインスタンス。</returns>
         </member>
+        <member name="M:BveTypes.ClassWrappers.MapParser.Parse(System.String,System.String)">
+            <inheritdoc/>
+        </member>
         <member name="M:BveTypes.ClassWrappers.MapParser.Include(Irony.Parsing.ParseTreeNode)">
             <summary>
             他のマップファイルをインクルードします。
@@ -883,9 +1301,9 @@
         </member>
         <member name="M:BveTypes.ClassWrappers.MapParser.SetLocation(Irony.Parsing.ParseTreeNode)">
             <summary>
-            距離程 [m] を設定します。
+            距離程 [m] を設定するか、ステートメントを登録します。
             </summary>
-            <param name="node">距離程を設定する構文 (例: <c>1200;</c>) を表す構文木。</param>
+            <param name="node">距離程を設定する構文 (例: <c>1200;</c>) またはステートメント (例: <c>Beacon.Put(1, 0, 0);</c>) を表す構文木。</param>
         </member>
         <member name="M:BveTypes.ClassWrappers.MapParser.GetValue(Irony.Parsing.ParseTreeNode)">
             <summary>
@@ -942,6 +1360,11 @@
             オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.MapParserBase"/> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.MapParserBase.Parent">
+            <summary>
+            親となる <see cref="T:BveTypes.ClassWrappers.IMapLoader"/> オブジェクトを取得・設定します。
+            </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.MapParserBase.Variables">
             <summary>
@@ -1300,6 +1723,57 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.SoundObjectList"/> クラスのインスタンス。</returns>
         </member>
+        <member name="T:BveTypes.ClassWrappers.TimeDelayedHandleSet">
+            <summary>
+            むだ時間フィルタを適用したハンドルのセットを表します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TimeDelayedHandleSet.#ctor(System.Object)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.TimeDelayedHandleSet"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TimeDelayedHandleSet.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.TimeDelayedHandleSet"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TimeDelayedHandleSet.#ctor(BveTypes.ClassWrappers.HandleSet)">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.TimeDelayedHandleSet"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="baseHandles">入力ソースとなるハンドルのセット。</param>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.TimeDelayedHandleSet.Delay">
+            <summary>
+            ハンドル出力の遅延時間 [s] を設定します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TimeDelayedHandleSet.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TimeDelayedHandleSet.Update">
+            <summary>
+            ハンドル出力を最新の状態に更新します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TimeDelayedHandleSet.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TimeDelayedHandleSet.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.TimeDelayedHandleSet.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.TimeDelayedHandleSet.Tick(System.Double)"/>
+        </member>
         <member name="T:BveTypes.ClassWrappers.TrainSchedule">
             <summary>
             他列車の運行スケジュールを表します。
@@ -1536,11 +2010,32 @@
             車両パラメーターファイルにて指定する VolumeRatio の逆数であることに注意してください。
             </remarks>
         </member>
+        <member name="P:BveTypes.ClassWrappers.Valve.Pressure">
+            <summary>
+            現在の圧力 [Pa] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Valve.Mode">
+            <summary>
+            給排気のモードを取得・設定します。
+            </summary>
+        </member>
         <member name="M:BveTypes.ClassWrappers.Valve.Initialize">
             <inheritdoc/>
         </member>
         <member name="M:BveTypes.ClassWrappers.Valve.Tick(System.Double)">
             <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Valve.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.Valve.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.Valve.Tick(System.Double)"/>
         </member>
         <member name="T:BveTypes.ClassWrappers.BrakeBlenderBase">
             <summary>
@@ -1556,6 +2051,11 @@
         <member name="P:BveTypes.ClassWrappers.BrakeBlenderBase.InitialPressure">
             <summary>
             初込め圧力 [Pa] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.BrakeBlenderBase.ElectricBrakeCommand">
+            <summary>
+            主回路へ送られる指令を取得・設定します。
             </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.BrakeBlenderBase.MaximumPressure">
@@ -1575,6 +2075,23 @@
             <summary>
             ブレーキシリンダー圧力が上昇するための最低圧力指令 [Pa] を取得・設定します。
             </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BrakeBlenderBase.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BrakeBlenderBase.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BrakeBlenderBase.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.BrakeBlenderBase.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.BrakeBlenderBase.Tick(System.Double)"/>
         </member>
         <member name="T:BveTypes.ClassWrappers.CarBrake">
             <summary>
@@ -1596,18 +2113,35 @@
         </member>
         <member name="P:BveTypes.ClassWrappers.CarBrake.BcValve">
             <summary>
-            ブレーキシリンダ電磁弁を表す <see cref="T:BveTypes.ClassWrappers.BcValve"/> を取得します。
+            ブレーキシリンダ電磁弁を取得します。
             </summary>
         </member>
-        <member name="P:BveTypes.ClassWrappers.CarBrake.BasicBrake">
+        <member name="P:BveTypes.ClassWrappers.CarBrake.Piston">
             <summary>
-            基礎ブレーキ装置を表す <see cref="T:BveTypes.ClassWrappers.BasicBrake"/> を取得します。
+            基礎ブレーキ装置のピストンを取得します。
             </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.CarBrake.BrakeReAdhesion">
             <summary>
             基礎ブレーキ装置の滑走再粘着制御機構を取得します。
             </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CarBrake.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CarBrake.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CarBrake.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.CarBrake.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.CarBrake.Tick(System.Double)"/>
         </member>
         <member name="T:BveTypes.ClassWrappers.ConstantSpeedRelay">
             <summary>
@@ -1645,6 +2179,21 @@
         <member name="P:BveTypes.ClassWrappers.ConstantSpeedRelay.MinSpeed">
             <summary>
             定速制御が作動する最低速度 [m/s] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ConstantSpeedRelay.Input">
+            <summary>
+            ハンドル入力を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ConstantSpeedRelay.Output">
+            <summary>
+            ハンドル出力を取得・設定します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.ConstantSpeedRelay.Initialize">
+            <summary>
+            初期化します。
             </summary>
         </member>
         <member name="T:BveTypes.ClassWrappers.InterpolatableMapObjectList">
@@ -1725,9 +2274,15 @@
             てこ比を 1、機械的損失を 0 としたときの 1 両あたりのシリンダ受圧面積 [m^2] を取得・設定します。
             </summary>
             <remarks>
-            必要に応じて <see cref="P:BveTypes.ClassWrappers.BasicBrake.PistonArea"/> プロパティも設定してください。
+            必要に応じて <see cref="P:BveTypes.ClassWrappers.BrakePiston.Area"/> プロパティも設定してください。
             </remarks>
-            <seealso cref="P:BveTypes.ClassWrappers.BasicBrake.PistonArea"/>
+            <seealso cref="P:BveTypes.ClassWrappers.BrakePiston.Area"/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.AirSupplement.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.AirSupplement.Tick(System.Double)">
+            <inheritdoc/>
         </member>
         <member name="T:BveTypes.ClassWrappers.AssistantText">
             <summary>
@@ -1873,25 +2428,35 @@
             <param name="direct3DProvider">描画に使用する <see cref="T:BveTypes.ClassWrappers.Direct3DProvider"/>。</param>
             <param name="rotationMatrix">方角に合わせるための回転行列。</param>
         </member>
-        <member name="T:BveTypes.ClassWrappers.BasicBrake">
+        <member name="T:BveTypes.ClassWrappers.BrakePiston">
             <summary>
-            基礎ブレーキ装置を表します。
+            基礎ブレーキ装置のピストンを表します。
             </summary>
         </member>
-        <member name="M:BveTypes.ClassWrappers.BasicBrake.#ctor(System.Object)">
+        <member name="M:BveTypes.ClassWrappers.BrakePiston.#ctor(System.Object)">
             <summary>
-            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.BasicBrake"/> クラスの新しいインスタンスを初期化します。
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.BrakePiston"/> クラスの新しいインスタンスを初期化します。
             </summary>
             <param name="src">ラップするオリジナル オブジェクト。</param>
         </member>
-        <member name="M:BveTypes.ClassWrappers.BasicBrake.FromSource(System.Object)">
+        <member name="M:BveTypes.ClassWrappers.BrakePiston.FromSource(System.Object)">
             <summary>
             オリジナル オブジェクトからラッパーのインスタンスを生成します。
             </summary>
             <param name="src">ラップするオリジナル オブジェクト。</param>
-            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.BasicBrake"/> クラスのインスタンス。</returns>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.BrakePiston"/> クラスのインスタンス。</returns>
         </member>
-        <member name="P:BveTypes.ClassWrappers.BasicBrake.PistonArea">
+        <member name="P:BveTypes.ClassWrappers.BrakePiston.Stroke">
+            <summary>
+            ピストンの最大位置 [-] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.BrakePiston.Force">
+            <summary>
+            1 両当たりのピストンの押し付け力 [N] を取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.BrakePiston.Area">
             <summary>
             てこ比を 1、機械的損失を 0 としたときの 1 両あたりのシリンダ受圧面積 [m^2] を取得・設定します。
             </summary>
@@ -1899,6 +2464,38 @@
             必要に応じて <see cref="P:BveTypes.ClassWrappers.AirSupplement.PistonArea"/> プロパティも設定してください。
             </remarks>
             <seealso cref="P:BveTypes.ClassWrappers.AirSupplement.PistonArea"/>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.BrakePiston.ApplyPressure">
+            <summary>
+            ピストンが伸びる最低圧 [Pa] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.BrakePiston.ReleasePressure">
+            <summary>
+            ピストンが縮む最高圧 [Pa] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.BrakePiston.Speed">
+            <summary>
+            ピストンの伸縮速度 [Pa^(1/2)/s] を取得・設定します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BrakePiston.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BrakePiston.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.BrakePiston.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.BrakePiston.Tick(System.Double)"/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BrakePiston.Initialize">
+            <inheritdoc/>
         </member>
         <member name="T:BveTypes.ClassWrappers.Beacon">
             <summary>
@@ -1970,6 +2567,33 @@
             電気指令式ブレーキおよび電磁直通空気ブレーキの場合に限り認識されます。
             </remarks>
         </member>
+        <member name="P:BveTypes.ClassWrappers.BrakeControllerBase.Handles">
+            <summary>
+            ハンドル入力を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.BrakeControllerBase.OutputPressure">
+            <summary>
+            出力する圧力 [Pa] を取得・設定します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BrakeControllerBase.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BrakeControllerBase.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.BrakeControllerBase.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.BrakeControllerBase.Tick(System.Double)"/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BrakeControllerBase.Initialize">
+            <inheritdoc/>
+        </member>
         <member name="T:BveTypes.ClassWrappers.BrakePosition">
             <summary>
             ブレーキハンドルの位置を指定します。
@@ -2008,9 +2632,14 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.BrakeSystem"/> クラスのインスタンス。</returns>
         </member>
+        <member name="P:BveTypes.ClassWrappers.BrakeSystem.TimeDelayedHandles">
+            <summary>
+            出力を遅延させたハンドルのセットを取得します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.BrakeSystem.BrakeBlender">
             <summary>
-            自列車が使用する電空協調制御を取得します。
+            自列車が使用する電空協調制御を取得・設定します。
             </summary>
             <remarks>
             取得される値は、パラメーターファイルでの設定に合わせて <see cref="P:BveTypes.ClassWrappers.BrakeSystem.AirSupplement"/> プロパティ、<see cref="P:BveTypes.ClassWrappers.BrakeSystem.LockoutValve"/> プロパティのどちらかとなります。
@@ -2028,7 +2657,7 @@
         </member>
         <member name="P:BveTypes.ClassWrappers.BrakeSystem.BrakeController">
             <summary>
-            自列車が使用するブレーキ方式を取得します。
+            自列車が使用するブレーキ方式を取得・設定します。
             </summary>
             <remarks>
             取得される値は、パラメーターファイルでの設定に合わせて <see cref="P:BveTypes.ClassWrappers.BrakeSystem.Ecb"/> プロパティ、<see cref="P:BveTypes.ClassWrappers.BrakeSystem.Smee"/> プロパティ、<see cref="P:BveTypes.ClassWrappers.BrakeSystem.Cl"/> プロパティのいずれかとなります。
@@ -2063,6 +2692,28 @@
             <summary>
             先頭車両のブレーキを表す <see cref="T:BveTypes.ClassWrappers.CarBrake"/> を取得・設定します。
             </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.BrakeSystem.Compressor">
+            <summary>
+            空気圧縮機を取得します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BrakeSystem.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BrakeSystem.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.BrakeSystem.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.BrakeSystem.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.BrakeSystem.Tick(System.Double)"/>
         </member>
         <member name="T:BveTypes.ClassWrappers.BveFile">
             <summary>
@@ -2107,6 +2758,9 @@
             <summary>
             現在の状態を説明するテキストを取得します。
             </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.CabBase.Dispose">
+            <inheritdoc/>
         </member>
         <member name="T:BveTypes.ClassWrappers.CameraLocation">
             <summary>
@@ -2249,6 +2903,21 @@
             慣性係数を取得・設定します。
             </summary>
         </member>
+        <member name="P:BveTypes.ClassWrappers.CarInfo.Tachogenerator">
+            <summary>
+            車輪の運動を測定する速度発電機を取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.CarInfo.MotorState">
+            <summary>
+            モーターの状態を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.CarInfo.BrakePistonForce">
+            <summary>
+            基礎ブレーキ装置のピストンの 1 両当たりの押し付け力 [N] を取得・設定します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.CarInfo.ShoeFrictionA">
             <summary>
             制輪子摩擦係数式の係数 a を取得・設定します。
@@ -2287,6 +2956,16 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.Cl"/> クラスのインスタンス。</returns>
         </member>
+        <member name="P:BveTypes.ClassWrappers.Cl.Er">
+            <summary>
+            釣り合い空気溜めの圧力調整弁を取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Cl.Bp">
+            <summary>
+            ブレーキ管の圧力調整弁を取得します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.Cl.BpInitialPressure">
             <summary>
             ブレーキ緩解時のブレーキ管圧力 [Pa] を取得・設定します。
@@ -2294,6 +2973,12 @@
             <remarks>
             電磁直通空気ブレーキおよび自動空気ブレーキの場合に限り認識されます。
             </remarks>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Cl.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Cl.Initialize">
+            <inheritdoc/>
         </member>
         <member name="T:BveTypes.ClassWrappers.ClockText">
             <summary>
@@ -2696,6 +3381,12 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.Ecb"/> クラスのインスタンス。</returns>
         </member>
+        <member name="M:BveTypes.ClassWrappers.Ecb.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Ecb.Initialize">
+            <inheritdoc/>
+        </member>
         <member name="T:BveTypes.ClassWrappers.IDrawable">
             <summary>
             Direct3D9 によって描画することが可能であるコンポーネントなどを表します。
@@ -2753,6 +3444,21 @@
         <member name="P:BveTypes.ClassWrappers.JerkRegulator.MotorState">
             <summary>
             自列車のモーターの状態を取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.JerkRegulator.ElectricBrakeCommand">
+            <summary>
+            電空協調制御から送られる指令を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.JerkRegulator.CurrentIncrease">
+            <summary>
+            電流増加速度 [A/s] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.JerkRegulator.CurrentDecrease">
+            <summary>
+            電流減少速度 [A/s] を取得・設定します。
             </summary>
         </member>
         <member name="M:BveTypes.ClassWrappers.JerkRegulator.Initialize">
@@ -2883,6 +3589,11 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.SpeedLimitList"/> クラスのインスタンス。</returns>
         </member>
+        <member name="P:BveTypes.ClassWrappers.SpeedLimitList.VehicleLength">
+            <summary>
+            自列車の長さ [m] を取得・設定します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.SpeedLimitList.CurrentLimit">
             <summary>
             現在の制限速度 [m/s] を取得します。
@@ -2906,6 +3617,13 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.TwoLeverCab"/> クラスのインスタンス。</returns>
         </member>
+        <member name="M:BveTypes.ClassWrappers.TwoLeverCab.#ctor(BveTypes.ClassWrappers.InputManager,BveTypes.ClassWrappers.HandleSet)">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.TwoLeverCab"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="inputManager">キー入力の情報。</param>
+            <param name="handles">ハンドル入力。</param>
+        </member>
         <member name="T:BveTypes.ClassWrappers.OneLeverCab">
             <summary>
             ワンハンドル式の運転台を表します。
@@ -2923,6 +3641,13 @@
             </summary>
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.OneLeverCab"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.OneLeverCab.#ctor(BveTypes.ClassWrappers.InputManager,BveTypes.ClassWrappers.HandleSet)">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.OneLeverCab"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="inputManager">キー入力の情報。</param>
+            <param name="handles">ハンドル入力。</param>
         </member>
         <member name="T:BveTypes.ClassWrappers.ReAdhesionControl">
             <summary>
@@ -2950,6 +3675,41 @@
         <member name="P:BveTypes.ClassWrappers.ReAdhesionControl.IsEnabled">
             <summary>
             再粘着制御を使用するかどうかを取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ReAdhesionControl.SlipAcceleration">
+            <summary>
+            点 A の軸加速度 [m/s^2] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ReAdhesionControl.SlipDeceleration">
+            <summary>
+            点 A の軸減速度 [m/s^2] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ReAdhesionControl.SlipVelocity">
+            <summary>
+            点 A の軸速度と基準速度の差 [m/s] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ReAdhesionControl.BalanceAcceleration">
+            <summary>
+            点 B の軸加速度 [m/s^2] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ReAdhesionControl.HoldingTime">
+            <summary>
+            点 A から点 C までの最小時間 [s] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ReAdhesionControl.ReferenceAcceleration">
+            <summary>
+            基準速度計算用の加速度 [m/s^2] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ReAdhesionControl.ReferenceDeceleration">
+            <summary>
+            基準速度計算用の減速度 [m/s^2] を取得・設定します。
             </summary>
         </member>
         <member name="T:BveTypes.ClassWrappers.ReAdhesionControlMode">
@@ -3206,6 +3966,16 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.Passenger"/> クラスのインスタンス。</returns>
         </member>
+        <member name="P:BveTypes.ClassWrappers.Passenger.Load">
+            <summary>
+            1 両当たりの乗客の合計質量 [kg] を取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Passenger.BodyWeight">
+            <summary>
+            乗客 1 人当たりの質量 [kg] を取得・設定します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.Passenger.State">
             <summary>
             停車場における乗降の進捗を取得します。
@@ -3214,6 +3984,16 @@
         <member name="P:BveTypes.ClassWrappers.Passenger.Capacity">
             <summary>
             1 両当たりの定員を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Passenger.BoardingSpeed">
+            <summary>
+            旅客が乗車する速さ [/s] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Passenger.AlightingSpeed">
+            <summary>
+            旅客が降車する速さ [/s] を取得・設定します。
             </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.Passenger.Count">
@@ -3629,6 +4409,36 @@
             変換行列を取得・設定します。
             </summary>
         </member>
+        <member name="T:BveTypes.ClassWrappers.ValveMode">
+            <summary>
+            弁の給排気のモードを指定します。
+            </summary>
+        </member>
+        <member name="F:BveTypes.ClassWrappers.ValveMode.RapidRelease">
+            <summary>
+            急ゆるめ。
+            </summary>
+        </member>
+        <member name="F:BveTypes.ClassWrappers.ValveMode.Release">
+            <summary>
+            全ゆるめ。
+            </summary>
+        </member>
+        <member name="F:BveTypes.ClassWrappers.ValveMode.PartialRelease">
+            <summary>
+            ゆるめ。
+            </summary>
+        </member>
+        <member name="F:BveTypes.ClassWrappers.ValveMode.Lap">
+            <summary>
+            重なり。
+            </summary>
+        </member>
+        <member name="F:BveTypes.ClassWrappers.ValveMode.Apply">
+            <summary>
+            作用。
+            </summary>
+        </member>
         <member name="T:BveTypes.ClassWrappers.VehicleBogieWheel">
             <summary>
             台車の車輪 (軌道接触部) を表します。
@@ -3699,33 +4509,60 @@
         </member>
         <member name="P:BveTypes.ClassWrappers.VehicleElectricity.Performance">
             <summary>
-            自列車の車両性能を取得します。
+            車両性能を取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleElectricity.TimeDelayedHandles">
+            <summary>
+            出力を遅延させたハンドルのセットを取得します。
             </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.VehicleElectricity.MotorState">
             <summary>
-            自列車のモーターの状態を取得します。
+            モーターの状態を取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleElectricity.Breaker">
+            <summary>
+            遮断器を取得します。
             </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.VehicleElectricity.RegenerationLimit">
             <summary>
-            電気ブレーキを遮断する走行速度 [m/s] を取得・設定します。
+            電空協調制御を行う最低走行速度 [m/s] を取得・設定します。
             </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.VehicleElectricity.PowerReAdhesion">
             <summary>
-            自列車の主制御装置の空転・滑走再粘着制御機構を取得します。
+            主制御装置の空転・滑走再粘着制御機構を取得します。
             </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.VehicleElectricity.JerkRegulator">
             <summary>
-            自列車のジャーク制御機構を取得します。
+            ジャーク制御機構を取得します。
             </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.VehicleElectricity.SlipVelocityCoefficient">
             <summary>
             インバーター制御におけるトルク分電流とすべり速度の比を取得・設定します。
             </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleElectricity.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleElectricity.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleElectricity.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.VehicleElectricity.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.VehicleElectricity.Tick(System.Double)"/>
         </member>
         <member name="T:BveTypes.ClassWrappers.ChartForm">
             <summary>
@@ -3890,7 +4727,7 @@
         </member>
         <member name="M:BveTypes.ClassWrappers.MainForm.CreateDirectXDevices">
             <summary>
-            シナリオを閉じます。
+            DirectX 関連デバイスを初期化します。
             </summary>
         </member>
         <member name="M:BveTypes.ClassWrappers.MainForm.OpenScenario(System.String)">
@@ -3985,6 +4822,12 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.HandleSet"/> クラスのインスタンス。</returns>
         </member>
+        <member name="M:BveTypes.ClassWrappers.HandleSet.#ctor(BveTypes.ClassWrappers.NotchInfo)">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.HandleSet"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="notchInfo">ノッチの情報。</param>
+        </member>
         <member name="P:BveTypes.ClassWrappers.HandleSet.NotchInfo">
             <summary>
             ノッチの情報を取得・設定します。
@@ -4049,6 +4892,12 @@
             <summary>
             <see cref="E:BveTypes.ClassWrappers.HandleSet.ConstantSpeedChanged"/> イベントを実行します。
             </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.HandleSet.Sync(BveTypes.ClassWrappers.HandleSet)">
+            <summary>
+            ハンドル位置を他の <see cref="T:BveTypes.ClassWrappers.HandleSet"/> と同期します。
+            </summary>
+            <param name="source">同期先の <see cref="T:BveTypes.ClassWrappers.HandleSet"/>。</param>
         </member>
         <member name="T:BveTypes.ClassWrappers.InputManager">
             <summary>
@@ -4298,6 +5147,11 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.Tachogenerator"/> クラスのインスタンス。</returns>
         </member>
+        <member name="M:BveTypes.ClassWrappers.Tachogenerator.#ctor">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.Tachogenerator"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.Tachogenerator.Speed">
             <summary>
             速度 [m/s] を取得します。
@@ -4306,6 +5160,24 @@
             速度の変更には <see cref="M:BveTypes.ClassWrappers.Tachogenerator.SetSpeed(System.Double)"/> メソッドを使用してください。
             </remarks>
             <seealso cref="M:BveTypes.ClassWrappers.Tachogenerator.SetSpeed(System.Double)"/>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Tachogenerator.Acceleration">
+            <summary>
+            加速度 [m/s^2] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Tachogenerator.ResistanceAcceleration">
+            <summary>
+            抵抗加速度 [m/s^2] を取得・設定します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Tachogenerator.Tick(System.Double,System.Double,System.Double)">
+            <summary>
+            毎フレーム呼び出され、速度の値を更新します。
+            </summary>
+            <param name="acceleration">加速度 [m/s^2]。</param>
+            <param name="resistanceAcceleration">抵抗加速度 [m/s^2]。</param>
+            <param name="elapsedSeconds">前フレームからの経過時間 [s]。</param>
         </member>
         <member name="M:BveTypes.ClassWrappers.Tachogenerator.SetSpeed(System.Double)">
             <summary>
@@ -4334,6 +5206,12 @@
             </summary>
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.LockoutValve"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.LockoutValve.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.LockoutValve.Tick(System.Double)">
+            <inheritdoc/>
         </member>
         <member name="T:BveTypes.ClassWrappers.MapFunctionList">
             <summary>
@@ -4525,6 +5403,15 @@
             <param name="filePath">X ファイルのパス。</param>
             <returns>読み込まれたモデルを表す <see cref="T:BveTypes.ClassWrappers.Model"/>。</returns>
         </member>
+        <member name="M:BveTypes.ClassWrappers.Model.CreateRectangleWithTexture(System.Drawing.RectangleF,System.Single,System.IO.Stream)">
+            <summary>
+            XY 平面に平行な、テクスチャが貼り付けられた長方形のモデルを作成します。
+            </summary>
+            <param name="rectangle">長方形のサイズ。</param>
+            <param name="z">モデルの Z 座標。</param>
+            <param name="textureStream">テクスチャファイルのストリーム。</param>
+            <returns>読み込まれたモデルを表す <see cref="T:BveTypes.ClassWrappers.Model"/>。</returns>
+        </member>
         <member name="M:BveTypes.ClassWrappers.Model.CreateRectangleWithTexture(System.Drawing.RectangleF,System.Single,System.Int32,System.String)">
             <summary>
             XY 平面に平行な、テクスチャが貼り付けられた長方形のモデルを作成します。
@@ -4533,6 +5420,13 @@
             <param name="z">モデルの Z 座標。</param>
             <param name="transparentColor">透過色として使用する色を表す ARGB 値。<paramref name="texturePath"/> で指定するテクスチャが bmp 形式の場合のみ有効です。</param>
             <param name="texturePath">テクスチャファイルのパス。</param>
+            <returns>読み込まれたモデルを表す <see cref="T:BveTypes.ClassWrappers.Model"/>。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Model.FromMesh(SlimDX.Direct3D9.Mesh)">
+            <summary>
+            メッシュを指定してモデルを読み込みます。
+            </summary>
+            <param name="mesh">モデルのメッシュ。</param>
             <returns>読み込まれたモデルを表す <see cref="T:BveTypes.ClassWrappers.Model"/>。</returns>
         </member>
         <member name="M:BveTypes.ClassWrappers.Model.Dispose">
@@ -4572,6 +5466,11 @@
             </summary>
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.NotchInfo"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.NotchInfo.#ctor">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.NotchInfo"/> クラスの新しいインスタンスを初期化します。
+            </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.NotchInfo.PowerNotchCount">
             <summary>
@@ -4723,7 +5622,7 @@
         </member>
         <member name="P:BveTypes.ClassWrappers.AtsPlugin.IsPluginLoaded">
             <summary>
-            自列車のハンドルのセットを取得・設定します。
+            何らかの ATS プラグインが読み込まれているかどうかを取得・設定します。
             </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.AtsPlugin.HModule">
@@ -5170,6 +6069,16 @@
             固定音源の一覧を取得します。
             </summary>
         </member>
+        <member name="P:BveTypes.ClassWrappers.Map.AdhesionObjects">
+            <summary>
+            設定した車輪 - レール間の粘着特性のリストを取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Map.BrakeShoeFrictionObjects">
+            <summary>
+            設定した粘着係数のリストを取得します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.Map.IrregularityObjects">
             <summary>
             設定した軌道変位のリストを取得します。
@@ -5573,6 +6482,16 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.Smee"/> クラスのインスタンス。</returns>
         </member>
+        <member name="P:BveTypes.ClassWrappers.Smee.Sap">
+            <summary>
+            直通管の圧力調整弁を取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.Smee.Bp">
+            <summary>
+            ブレーキ管の圧力調整弁を取得します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.Smee.BpInitialPressure">
             <summary>
             ブレーキ緩解時のブレーキ管圧力 [Pa] を取得・設定します。
@@ -5580,6 +6499,12 @@
             <remarks>
             電磁直通空気ブレーキおよび自動空気ブレーキの場合に限り認識されます。
             </remarks>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Smee.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Smee.Initialize">
+            <inheritdoc/>
         </member>
         <member name="T:BveTypes.ClassWrappers.Station">
             <summary>
@@ -6465,6 +7390,11 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.VehicleLocation"/> クラスのインスタンス。</returns>
         </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleLocation.#ctor">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.VehicleLocation"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.VehicleLocation.Location">
             <summary>
             自車両の位置を取得します。
@@ -6482,6 +7412,15 @@
             25m 毎に 1 つの描画ブロックが定義されており、全てのストラクチャーは設置された距離程が含まれるブロックに登録されます。<br/>
             各ストラクチャーが描画距離内に入っているかどうかを描画ブロック単位で判定することで、ストラクチャーの描画処理を高速化しています。
             </remarks>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleLocation.Tick(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            毎フレーム呼び出され、速度および距離程の値を更新します。
+            </summary>
+            <param name="acceleration">加速度 [m/s^2]。</param>
+            <param name="resistanceAcceleration">抵抗加速度 [m/s^2]。</param>
+            <param name="gradient">勾配。</param>
+            <param name="elapsedSeconds">前フレームからの経過時間 [s]。</param>
         </member>
         <member name="M:BveTypes.ClassWrappers.VehicleLocation.SetLocation(System.Double,System.Boolean)">
             <summary>
@@ -6596,11 +7535,28 @@
             <param name="loadingProgressForm">「シナリオを読み込んでいます...」フォーム。</param>
             <param name="vehicleFile">車両ファイル。</param>
         </member>
+        <member name="M:BveTypes.ClassWrappers.Vehicle.Initialize">
+            <inheritdoc/>
+        </member>
         <member name="M:BveTypes.ClassWrappers.Vehicle.Initialize(BveTypes.ClassWrappers.BrakePosition)">
             <summary>
             自列車を初期化します。
             </summary>
             <param name="brakePosition">ブレーキハンドルの位置。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Vehicle.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Vehicle.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.Vehicle.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.Vehicle.Tick(System.Double)"/>
         </member>
         <member name="M:BveTypes.ClassWrappers.Vehicle.Dispose">
             <inheritdoc/>
@@ -6622,6 +7578,22 @@
             </summary>
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.VehicleDynamics"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleDynamics.#ctor(BveTypes.ClassWrappers.VehicleLocation,BveTypes.ClassWrappers.VehicleVibration,BveTypes.ClassWrappers.ValueContainer,BveTypes.ClassWrappers.MyTrack,BveTypes.ClassWrappers.MapFunctionList,BveTypes.ClassWrappers.MapFunctionList)">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.VehicleDynamics"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="vehicleLocation">自列車の位置情報。</param>
+            <param name="vehicleVibration">自列車の揺れ。</param>
+            <param name="passengerLoad">乗客 1 人当たりの質量 [kg]。</param>
+            <param name="myTrack">自軌道。</param>
+            <param name="adhesionObjects">車輪 - レール間の粘着特性のリスト。</param>
+            <param name="brakeShoeFrictionObjects">粘着係数のリスト。</param>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleDynamics.InertiaRatio">
+            <summary>
+            空車時に対する自列車全体の慣性比を取得します。
+            </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.VehicleDynamics.CurveResistanceFactor">
             <summary>
@@ -6668,7 +7640,50 @@
         </member>
         <member name="P:BveTypes.ClassWrappers.VehicleDynamics.FirstCar">
             <summary>
-            先頭車両の情報を提供する <see cref="T:BveTypes.ClassWrappers.CarInfo"/> を取得します。
+            先頭車両の情報を提供する <see cref="T:BveTypes.ClassWrappers.CarInfo"/> を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleDynamics.TotalMass">
+            <summary>
+            乗客を含めた自列車全体の質量 [kg] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleDynamics.TotalInertia">
+            <summary>
+            乗客を含めた自列車全体の慣性モーメントの質量相当 [kg] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleDynamics.MassRatio">
+            <summary>
+            空車時に対する自列車全体の質量比を取得・設定します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleDynamics.Tick(System.Double)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <param name="elapsedSeconds">前フレームからの経過時間 [s]。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleDynamics.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.VehicleDynamics.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.VehicleDynamics.Tick(System.Double)"/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleDynamics.Initialize(System.Double)">
+            <summary>
+            初期化します。
+            </summary>
+            <param name="speed">速度 [m/s]。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleDynamics.Setup">
+            <summary>
+            両数に依存するパラメータを計算します。
             </summary>
         </member>
         <member name="T:BveTypes.ClassWrappers.VehicleInstrumentSet">
@@ -6688,6 +7703,15 @@
             </summary>
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.VehicleInstrumentSet"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleInstrumentSet.#ctor(BveTypes.ClassWrappers.HandleSet,BveTypes.ClassWrappers.ValueContainer,BveTypes.ClassWrappers.Tachogenerator,BveTypes.ClassWrappers.Tachogenerator)">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.VehicleInstrumentSet"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="handles">ハンドル入力。</param>
+            <param name="inertiaRatio">空車時に対する自列車全体の慣性比。</param>
+            <param name="motorCarTachogenerator">動力車の車輪の運動を測定する速度発電機。</param>
+            <param name="trailerCarTachogenerator">付随車の車輪の運動を測定する速度発電機。</param>
         </member>
         <member name="P:BveTypes.ClassWrappers.VehicleInstrumentSet.ConstantSpeedRelay">
             <summary>
@@ -6713,6 +7737,37 @@
             <summary>
             ATS プラグインを取得・設定します。
             </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleInstrumentSet.LoadCompensator">
+            <summary>
+            応荷重制御装置を取得します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleInstrumentSet.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleInstrumentSet.Initialize(BveTypes.ClassWrappers.BrakePosition)">
+            <summary>
+            初期化します。
+            </summary>
+            <param name="brakePosition">ブレーキハンドルの位置。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleInstrumentSet.Tick(System.Double)">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleInstrumentSet.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.VehicleInstrumentSet.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.VehicleInstrumentSet.Tick(System.Double)"/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleInstrumentSet.Dispose">
+            <inheritdoc/>
         </member>
         <member name="T:BveTypes.ClassWrappers.VehicleMotorState">
             <summary>
@@ -6977,6 +8032,13 @@
             <summary>
             電気ブレーキ性能を取得します。
             </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehiclePerformanceBase.LoadFromFile(BveTypes.ClassWrappers.LoadingProgressForm,System.String)">
+            <summary>
+            車両性能ファイルを読み込みます。
+            </summary>
+            <param name="loadingProgressForm">エラーの出力先となる「シナリオを読み込んでいます...」フォーム。</param>
+            <param name="filePath">車両性能ファイルのパス。</param>
         </member>
         <member name="T:BveTypes.ClassWrappers.VehiclePositioner">
             <summary>
@@ -7257,6 +8319,15 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.VehicleVibration"/> クラスのインスタンス。</returns>
         </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleVibration.#ctor(BveTypes.ClassWrappers.VehicleLocation,BveTypes.ClassWrappers.MyTrack,BveTypes.ClassWrappers.MapFunctionList,BveTypes.ClassWrappers.Passenger)">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.VehicleVibration"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="vehicleLocation">自列車の位置情報。</param>
+            <param name="myTrack">自軌道。</param>
+            <param name="irregularityObjects">軌道変位のリスト。</param>
+            <param name="passenger">乗客。</param>
+        </member>
         <member name="P:BveTypes.ClassWrappers.VehicleVibration.CarBodyTransform">
             <summary>
             車両中心原点・車両前方を基準とした座標系から運転士視点の座標系に変換する行列を格納している <see cref="T:BveTypes.ClassWrappers.Transform"/> を取得します。
@@ -7324,14 +8395,30 @@
             右前、左前、右後、左後の順番で格納されています。
             </remarks>
         </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleVibration.Initialize">
+            <summary>
+            初期化します。
+            </summary>
+        </member>
         <member name="M:BveTypes.ClassWrappers.VehicleVibration.Tick(System.Double)">
             <summary>
             毎フレーム呼び出されます。
             </summary>
         </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleVibration.Tick(System.TimeSpan)">
+            <summary>
+            毎フレーム呼び出されます。
+            </summary>
+            <remarks>
+            このメソッドはオリジナルではないため、<see cref="M:TypeWrapping.ClassMemberSet.GetSourceMethodOf(System.String,System.Type[])"/> メソッドから参照することはできません。<br/>
+            このメソッドのオリジナルバージョンは <see cref="M:BveTypes.ClassWrappers.VehicleVibration.Tick(System.Double)"/> です。
+            </remarks>
+            <param name="elapsed">前フレームからの経過時間。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.VehicleVibration.Tick(System.Double)"/>
+        </member>
         <member name="M:BveTypes.ClassWrappers.VehicleVibration.UpdateCarBodyTransform">
             <summary>
-            車両
+            車体の揺れを表す行列を更新します。
             </summary>
         </member>
         <member name="T:BveTypes.ClassWrappers.StopPositionGauge">

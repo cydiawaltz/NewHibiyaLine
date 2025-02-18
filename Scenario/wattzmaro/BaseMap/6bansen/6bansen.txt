@@ -1,0 +1,210 @@
+BveTs Map 2.02
+
+$P09_RP = 0.000000;
+
+$P09_RP + 0;
+curve.SetGauge(1.067);
+
+//20 kanwa
+
+//3 Afree,Bfree îºåaéwíË
+
+$pt_a = 39.500000;
+$P09_RP + $pt_a +0.120191;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a +25.120191;
+Curve.Interpolate(-200.000000, $cant);
+$P09_RP + $pt_a +69.479258;
+Curve.Interpolate(-200.000000, $cant);
+$P09_RP + $pt_a +94.479258;
+Curve.Interpolate(0.000000,0);
+//ï™äÚstart
+$pt_a = 162.000000;
+$P09_RP + $pt_a -0.639221;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a -0.639221;
+Curve.Interpolate(-214.000000, $cant);
+$P09_RP + $pt_a +34.991780;
+Curve.Interpolate(-214.000000, $cant);
+$P09_RP + $pt_a +34.991780;
+Curve.Interpolate(0.000000,0);
+//2 bÇ´ÇﬂÅAa free
+//6î‘êÈï™äÚ
+$pt_a = 215.500000;
+$P09_RP + $pt_a +18.104745;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a +18.104745;
+Curve.Interpolate(214.000000, $cant);
+$P09_RP + $pt_a +46.562323;
+Curve.Interpolate(214.000000, $cant);
+$P09_RP + $pt_a +46.562323;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 287.500000;
+$P09_RP + $pt_a +0.777115;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a +0.777115;
+Curve.Interpolate(-350.000000, $cant);
+$P09_RP + $pt_a +26.310602;
+Curve.Interpolate(-350.000000, $cant);
+$P09_RP + $pt_a +26.310602;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 452.000000;
+$P09_RP + $pt_a -20.389512;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a -20.389512;
+Curve.Interpolate(-555.631171, $cant);
+$P09_RP + $pt_a +21.486894;
+Curve.Interpolate(-555.631171, $cant);
+$P09_RP + $pt_a +21.486894;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 526.000000;
+$P09_RP + $pt_a;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a +0.000000;
+Curve.Interpolate(285.010740, $cant);
+$P09_RP + $pt_a +50.486821;
+Curve.Interpolate(285.010740, $cant);
+$P09_RP + $pt_a +50.486821;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 611.000000;
+$P09_RP + $pt_a -7.332951;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a -7.332951;
+Curve.Interpolate(630.606278, $cant);
+$P09_RP + $pt_a +80.744762;
+Curve.Interpolate(630.606278, $cant);
+$P09_RP + $pt_a +80.744762;
+Curve.Interpolate(0.000000,0);
+//ì•êÿÇÃÇ∆Ç±ÇÎÇÇ≠ÇÆÇ¡ÇΩå„
+$pt_a = 709.000000;
+$P09_RP + $pt_a -1.252692;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a -1.252692;
+Curve.Interpolate(-661.471042, $cant);
+$P09_RP + $pt_a +159.024579;
+Curve.Interpolate(-661.471042, $cant);
+$P09_RP + $pt_a +159.024579;
+Curve.Interpolate(0.000000,0);
+//~ãûê¨â∫
+$pt_a = 1179.000000;
+$P09_RP + $pt_a -76.042696;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a -76.042696;
+Curve.Interpolate(7564.742926, $cant);
+$P09_RP + $pt_a +15.286667;
+Curve.Interpolate(7564.742926, $cant);
+$P09_RP + $pt_a +15.286667;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 1330.000000;
+$P09_RP + $pt_a -56.566988;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a -56.566988;
+Curve.Interpolate(-4703.150419, $cant);
+$P09_RP + $pt_a +23.193673;
+Curve.Interpolate(-4703.150419, $cant);
+$P09_RP + $pt_a +23.193673;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 1539.500000;
+$P09_RP + $pt_a -23.868998;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a -23.868998;
+Curve.Interpolate(-922.460964, $cant);
+$P09_RP + $pt_a +46.231776;
+Curve.Interpolate(-922.460964, $cant);
+$P09_RP + $pt_a +46.231776;
+Curve.Interpolate(0.000000,0);
+//ã˜ìcêÏ
+$pt_a = 1753.000000;
+$P09_RP + $pt_a -1.394154;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a -1.394154;
+Curve.Interpolate(457.222741, $cant);
+$P09_RP + $pt_a +36.476950;
+Curve.Interpolate(457.222741, $cant);
+$P09_RP + $pt_a +36.476950;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 1936.500000;
+$P09_RP + $pt_a +9.546753;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a +9.546753;
+Curve.Interpolate(423.612268, $cant);
+$P09_RP + $pt_a +48.725874;
+Curve.Interpolate(423.612268, $cant);
+$P09_RP + $pt_a +48.725874;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 2184.500000;
+$P09_RP + $pt_a -15.153853;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a -15.153853;
+Curve.Interpolate(470.911888, $cant);
+$P09_RP + $pt_a +92.997771;
+Curve.Interpolate(470.911888, $cant);
+$P09_RP + $pt_a +92.997771;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 2463.000000;
+$P09_RP + $pt_a -7.235459;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a +12.764541;
+Curve.Interpolate(165.822306, $cant);
+$P09_RP + $pt_a +53.410744;
+Curve.Interpolate(165.822306, $cant);
+$P09_RP + $pt_a +73.410744;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 2617.000000;
+$P09_RP + $pt_a -11.679344;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$P09_RP + $pt_a +30.320656;
+Curve.Interpolate(162.279507, $cant);
+$P09_RP + $pt_a +111.537444;
+Curve.Interpolate(162.279507, $cant);
+$P09_RP + $pt_a +153.537444;
+Curve.Interpolate(0.000000,0);
+
+$P09_RP + 2875;
+Curve.BeginTransition();
+$P09_RP + 2890;
+Curve.Begin(-190,0.03);
+$P09_RP + 3000;
+Curve.Begin(-600,0.03);

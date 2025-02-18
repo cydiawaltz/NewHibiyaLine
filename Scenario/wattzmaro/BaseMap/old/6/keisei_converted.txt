@@ -1,0 +1,63 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 0.000000;
+
+# Track['keisei'].X
+$P09_RP + 1171.394;
+Track['keisei'].X.Interpolate(-157.855,-2770.873);
+$P09_RP + 1172.948;
+Track['keisei'].X.Interpolate(-152.711,-788.864);
+$P09_RP + 1197.926;
+Track['keisei'].X.Interpolate(-82.055,-415.611);
+$P09_RP + 1221.000;
+Track['keisei'].X.Interpolate(-34.919,-287.745);
+$P09_RP + 1231.000;
+Track['keisei'].X.Interpolate(-18.435,-363.144);
+$P09_RP + 1241.462;
+Track['keisei'].X.Interpolate(-3.344,-411.335);
+$P09_RP + 1254.982;
+Track['keisei'].X.Interpolate(14.100,0.000);
+$P09_RP + 1259.899;
+Track['keisei'].X.Interpolate(20.075,0.000);
+
+# Track['keisei'].Y
+$P09_RP + 1171.394;
+Track['keisei'].Y.Interpolate(0.875,92.329);
+$P09_RP + 1172.948;
+Track['keisei'].Y.Interpolate(0.941,-1978.557);
+$P09_RP + 1197.926;
+Track['keisei'].Y.Interpolate(2.994,-2898.322);
+$P09_RP + 1221.000;
+Track['keisei'].Y.Interpolate(4.639,-1641.157);
+$P09_RP + 1231.000;
+Track['keisei'].Y.Interpolate(5.302,-196.383);
+$P09_RP + 1241.462;
+Track['keisei'].Y.Interpolate(5.922,-2545.910);
+$P09_RP + 1254.982;
+Track['keisei'].Y.Interpolate(6.019,-162.180);
+$P09_RP + 1259.899;
+Track['keisei'].Y.Interpolate(6.035,0.000);
+
+# Track['keisei'].Cant.Interpolate
+$P09_RP + 1171.394;
+Track['keisei'].Cant.Interpolate(0.000);
+$P09_RP + 1172.948;
+Track['keisei'].Cant.Interpolate(0.000);
+$P09_RP + 1197.926;
+Track['keisei'].Cant.Interpolate(0.000);
+$P09_RP + 1254.982;
+Track['keisei'].Cant.Interpolate(0.000);
+
+# Track['keisei'].Cant.SetFunction
+$P09_RP + 1171.394;
+Track['keisei'].Cant.SetFunction(1);
+
+# Track['keisei'].Cant.SetCenter
+$P09_RP + 1171.394;
+Track['keisei'].Cant.SetCenter(0.000);
+
+# Track['keisei'].Cant.SetGauge
+$P09_RP + 1171.394;
+Track['keisei'].Cant.SetGauge(1.067);
+

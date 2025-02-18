@@ -1,0 +1,8 @@
+Bvets Vehicle 2.00
+PerformanceCurve = notch\notch.txt
+Parameters = parameters.txt
+Panel = panel.txt
+Sound = sound.cfg
+MotorNoise = motornoise\motornoise.txt
+
+#改造済み(by cydiawattz)
