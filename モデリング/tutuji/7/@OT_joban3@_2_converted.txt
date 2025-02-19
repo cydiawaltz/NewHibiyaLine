@@ -1,0 +1,73 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 136176.000000;
+
+# Track['@OT_joban3@_2'].X
+$P09_RP + 2004.574;
+Track['@OT_joban3@_2'].X.Interpolate(-34.669,-251.848);
+$P09_RP + 2020.000;
+Track['@OT_joban3@_2'].X.Interpolate(-24.564,-148.271);
+$P09_RP + 2052.475;
+Track['@OT_joban3@_2'].X.Interpolate(-10.087,-196.303);
+$P09_RP + 2058.000;
+Track['@OT_joban3@_2'].X.Interpolate(-8.451,401.693);
+$P09_RP + 2071.761;
+Track['@OT_joban3@_2'].X.Interpolate(-4.459,-1643.727);
+$P09_RP + 2098.980;
+Track['@OT_joban3@_2'].X.Interpolate(4.003,0.000);
+$P09_RP + 2140.000;
+Track['@OT_joban3@_2'].X.Interpolate(15.971,-332.178);
+$P09_RP + 2156.795;
+Track['@OT_joban3@_2'].X.Interpolate(20.517,-248.131);
+$P09_RP + 2165.000;
+Track['@OT_joban3@_2'].X.Interpolate(22.329,-275.567);
+$P09_RP + 2184.934;
+Track['@OT_joban3@_2'].X.Interpolate(25.581,-549.143);
+$P09_RP + 2271.878;
+Track['@OT_joban3@_2'].X.Interpolate(29.572,-176.486);
+$P09_RP + 2293.000;
+Track['@OT_joban3@_2'].X.Interpolate(27.853,8788.796);
+$P09_RP + 2299.609;
+Track['@OT_joban3@_2'].X.Interpolate(26.821,398.576);
+$P09_RP + 2363.650;
+Track['@OT_joban3@_2'].X.Interpolate(21.967,0.000);
+
+# Track['@OT_joban3@_2'].Y
+$P09_RP + 2004.574;
+Track['@OT_joban3@_2'].Y.Interpolate(-6.638,0.000);
+$P09_RP + 2020.000;
+Track['@OT_joban3@_2'].Y.Interpolate(-6.669,0.000);
+$P09_RP + 2052.475;
+Track['@OT_joban3@_2'].Y.Interpolate(-6.734,0.000);
+$P09_RP + 2058.000;
+Track['@OT_joban3@_2'].Y.Interpolate(-6.745,0.000);
+$P09_RP + 2071.761;
+Track['@OT_joban3@_2'].Y.Interpolate(-6.773,0.000);
+$P09_RP + 2098.980;
+Track['@OT_joban3@_2'].Y.Interpolate(-6.827,0.000);
+$P09_RP + 2140.000;
+Track['@OT_joban3@_2'].Y.Interpolate(-6.909,602.969);
+$P09_RP + 2156.795;
+Track['@OT_joban3@_2'].Y.Interpolate(-6.711,668.817);
+$P09_RP + 2165.000;
+Track['@OT_joban3@_2'].Y.Interpolate(-6.447,0.000);
+$P09_RP + 2184.934;
+Track['@OT_joban3@_2'].Y.Interpolate(-5.670,0.000);
+$P09_RP + 2271.878;
+Track['@OT_joban3@_2'].Y.Interpolate(-2.282,0.000);
+$P09_RP + 2293.000;
+Track['@OT_joban3@_2'].Y.Interpolate(-1.459,0.000);
+$P09_RP + 2299.609;
+Track['@OT_joban3@_2'].Y.Interpolate(-1.201,0.000);
+$P09_RP + 2363.650;
+Track['@OT_joban3@_2'].Y.Interpolate(1.295,0.000);
+
+# Track['@OT_joban3@_2'].Cant.Interpolate
+
+# Track['@OT_joban3@_2'].Cant.SetFunction
+
+# Track['@OT_joban3@_2'].Cant.SetCenter
+
+# Track['@OT_joban3@_2'].Cant.SetGauge
+

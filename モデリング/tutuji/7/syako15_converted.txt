@@ -1,0 +1,83 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 136176.000000;
+
+# Track['syako15'].X
+$P09_RP + 1189.838;
+Track['syako15'].X.Interpolate(-282.410,0.000);
+$P09_RP + 1250.000;
+Track['syako15'].X.Interpolate(-187.965,991.679);
+$P09_RP + 1271.652;
+Track['syako15'].X.Interpolate(-151.727,-464.194);
+$P09_RP + 1280.000;
+Track['syako15'].X.Interpolate(-137.707,-251.696);
+$P09_RP + 1286.744;
+Track['syako15'].X.Interpolate(-127.348,-159.224);
+$P09_RP + 1318.595;
+Track['syako15'].X.Interpolate(-93.148,444.711);
+$P09_RP + 1340.000;
+Track['syako15'].X.Interpolate(-74.260,-213.473);
+$P09_RP + 1362.623;
+Track['syako15'].X.Interpolate(-56.644,214.836);
+$P09_RP + 1377.887;
+Track['syako15'].X.Interpolate(-45.341,-481.039);
+$P09_RP + 1382.666;
+Track['syako15'].X.Interpolate(-41.479,-120.940);
+$P09_RP + 1450.000;
+Track['syako15'].X.Interpolate(-15.044,-115.950);
+$P09_RP + 1451.629;
+Track['syako15'].X.Interpolate(-14.945,0.000);
+
+# Track['syako15'].Y
+$P09_RP + 1189.838;
+Track['syako15'].Y.Interpolate(-7.059,0.000);
+$P09_RP + 1250.000;
+Track['syako15'].Y.Interpolate(-7.059,0.000);
+$P09_RP + 1271.652;
+Track['syako15'].Y.Interpolate(-7.059,927.583);
+$P09_RP + 1280.000;
+Track['syako15'].Y.Interpolate(-7.059,0.000);
+$P09_RP + 1286.744;
+Track['syako15'].Y.Interpolate(-6.998,0.000);
+$P09_RP + 1318.595;
+Track['syako15'].Y.Interpolate(-6.712,-2358.695);
+$P09_RP + 1340.000;
+Track['syako15'].Y.Interpolate(-6.519,0.000);
+$P09_RP + 1362.623;
+Track['syako15'].Y.Interpolate(-6.519,0.000);
+$P09_RP + 1377.887;
+Track['syako15'].Y.Interpolate(-6.519,0.000);
+$P09_RP + 1382.666;
+Track['syako15'].Y.Interpolate(-6.519,0.000);
+$P09_RP + 1450.000;
+Track['syako15'].Y.Interpolate(-6.519,-4072.352);
+$P09_RP + 1451.629;
+Track['syako15'].Y.Interpolate(-6.519,0.000);
+
+# Track['syako15'].Cant.Interpolate
+$P09_RP + 1271.652;
+Track['syako15'].Cant.Interpolate(0.000);
+$P09_RP + 1286.744;
+Track['syako15'].Cant.Interpolate(0.000);
+$P09_RP + 1318.595;
+Track['syako15'].Cant.Interpolate(0.000);
+$P09_RP + 1339.821;
+Track['syako15'].Cant.Interpolate(0.000);
+$P09_RP + 1362.623;
+Track['syako15'].Cant.Interpolate(0.000);
+$P09_RP + 1377.887;
+Track['syako15'].Cant.Interpolate(0.000);
+$P09_RP + 1382.666;
+Track['syako15'].Cant.Interpolate(0.000);
+$P09_RP + 1451.629;
+Track['syako15'].Cant.Interpolate(0.000);
+
+# Track['syako15'].Cant.SetFunction
+
+# Track['syako15'].Cant.SetCenter
+
+# Track['syako15'].Cant.SetGauge
+$P09_RP + 1189.838;
+Track['syako15'].Cant.SetGauge(1.067);
+

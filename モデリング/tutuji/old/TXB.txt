@@ -1,0 +1,18 @@
+BveTs Map 2.02
+$base = -504;
+$base;
+curve.SetGauge(1.067);
+$base + 245;
+Curve.BeginTransition();
+curve.Begin(600,0.03);
+$base + 325;
+Curve.Begin(-600,0.03);
+$base + 375;
+curve.End();
+$base + 665;
+curve.BeginTransition();
+Curve.Begin(600,0.03);
+$base + 730;
+curve.End();
+
+//この後ずっと3.8m感覚

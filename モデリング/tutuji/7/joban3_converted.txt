@@ -1,0 +1,85 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 136176.000000;
+
+# Track['joban3'].X
+$P09_RP + 2005.972;
+Track['joban3'].X.Interpolate(-37.215,-245.490);
+$P09_RP + 2020.000;
+Track['joban3'].X.Interpolate(-28.316,-146.669);
+$P09_RP + 2053.487;
+Track['joban3'].X.Interpolate(-13.975,-152.545);
+$P09_RP + 2058.000;
+Track['joban3'].X.Interpolate(-12.722,393.605);
+$P09_RP + 2072.527;
+Track['joban3'].X.Interpolate(-8.816,0.000);
+$P09_RP + 2140.000;
+Track['joban3'].X.Interpolate(10.867,-338.095);
+$P09_RP + 2158.558;
+Track['joban3'].X.Interpolate(15.877,-262.346);
+$P09_RP + 2165.000;
+Track['joban3'].X.Interpolate(17.302,-268.064);
+$P09_RP + 2185.770;
+Track['joban3'].X.Interpolate(20.736,-544.549);
+$P09_RP + 2271.947;
+Track['joban3'].X.Interpolate(24.665,-177.024);
+$P09_RP + 2293.000;
+Track['joban3'].X.Interpolate(22.894,3061.853);
+$P09_RP + 2299.635;
+Track['joban3'].X.Interpolate(21.857,401.841);
+$P09_RP + 2363.614;
+Track['joban3'].X.Interpolate(17.067,0.000);
+
+# Track['joban3'].Y
+$P09_RP + 2005.972;
+Track['joban3'].Y.Interpolate(-6.641,0.000);
+$P09_RP + 2020.000;
+Track['joban3'].Y.Interpolate(-6.669,0.000);
+$P09_RP + 2053.487;
+Track['joban3'].Y.Interpolate(-6.736,0.000);
+$P09_RP + 2058.000;
+Track['joban3'].Y.Interpolate(-6.745,0.000);
+$P09_RP + 2072.527;
+Track['joban3'].Y.Interpolate(-6.774,0.000);
+$P09_RP + 2140.000;
+Track['joban3'].Y.Interpolate(-6.909,596.186);
+$P09_RP + 2158.558;
+Track['joban3'].Y.Interpolate(-6.664,716.256);
+$P09_RP + 2165.000;
+Track['joban3'].Y.Interpolate(-6.447,0.000);
+$P09_RP + 2185.770;
+Track['joban3'].Y.Interpolate(-5.638,0.000);
+$P09_RP + 2271.947;
+Track['joban3'].Y.Interpolate(-2.279,0.000);
+$P09_RP + 2293.000;
+Track['joban3'].Y.Interpolate(-1.459,0.000);
+$P09_RP + 2299.635;
+Track['joban3'].Y.Interpolate(-1.200,0.000);
+$P09_RP + 2363.614;
+Track['joban3'].Y.Interpolate(1.293,0.000);
+
+# Track['joban3'].Cant.Interpolate
+$P09_RP + 2053.487;
+Track['joban3'].Cant.Interpolate(0.000);
+$P09_RP + 2072.527;
+Track['joban3'].Cant.Interpolate(0.000);
+$P09_RP + 2158.558;
+Track['joban3'].Cant.Interpolate(0.000);
+$P09_RP + 2185.770;
+Track['joban3'].Cant.Interpolate(0.000);
+$P09_RP + 2271.947;
+Track['joban3'].Cant.Interpolate(0.000);
+$P09_RP + 2299.635;
+Track['joban3'].Cant.Interpolate(0.000);
+$P09_RP + 2363.614;
+Track['joban3'].Cant.Interpolate(0.000);
+
+# Track['joban3'].Cant.SetFunction
+
+# Track['joban3'].Cant.SetCenter
+
+# Track['joban3'].Cant.SetGauge
+$P09_RP + 2005.972;
+Track['joban3'].Cant.SetGauge(1.067);
+

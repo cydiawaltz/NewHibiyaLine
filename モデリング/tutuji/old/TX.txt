@@ -1,0 +1,50 @@
+BveTs Map 2.02
+$base = -504;
+$base;
+curve.SetGauge(1.067);
+$base + 250;
+Curve.BeginTransition();
+curve.Begin(-1800,0.01);
+$base + 280;
+curve.Begin(1800,0.01);
+$base + 385;
+curve.End();
+$base + 540;
+curve.Begin(1000,0.02);
+$base + 650;
+curve.End();
+$base + 730;
+track[1].Position(4,0);
+$base + 765;
+Curve.BeginTransition();
+curve.Begin(-1300,0.03);
+$base + 902;
+curve.End();
+
+#勾配注意
+$base + 1120;
+Gradient.End();
+$base + 1400;
+Curve.BeginTransition();
+curve.Begin(1000,0.03);
+$base + 1415;
+curve.End();
+$base + 1515;
+Curve.BeginTransition();
+curve.Begin(-1000,0.03);
+$base + 1560;
+curve.End();
+$base + 1970;
+Curve.BeginTransition();
+curve.Begin(700,0.03);
+$base + 2100;
+
+#勾配
+$Gbase = 0;
+$Gbase + 460;
+Gradient.Begin(-20);
+$Gbase + 640;
+Gradient.End();
+
+//-3.5m
+//460 => 640 kudari

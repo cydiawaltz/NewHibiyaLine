@@ -1,0 +1,175 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 136176.000000;
+
+# Track['syakoSubtoMain'].X
+$P09_RP + 1225.793;
+Track['syakoSubtoMain'].X.Interpolate(-287.028,0.000);
+$P09_RP + 1258.000;
+Track['syakoSubtoMain'].X.Interpolate(-236.702,846.660);
+$P09_RP + 1288.000;
+Track['syakoSubtoMain'].X.Interpolate(-184.636,-3183.962);
+$P09_RP + 1291.757;
+Track['syakoSubtoMain'].X.Interpolate(-177.760,493.653);
+$P09_RP + 1310.694;
+Track['syakoSubtoMain'].X.Interpolate(-138.975,-243.606);
+$P09_RP + 1320.618;
+Track['syakoSubtoMain'].X.Interpolate(-118.482,-165.962);
+$P09_RP + 1339.606;
+Track['syakoSubtoMain'].X.Interpolate(-90.542,-202.352);
+$P09_RP + 1348.000;
+Track['syakoSubtoMain'].X.Interpolate(-80.875,0.000);
+$P09_RP + 1359.646;
+Track['syakoSubtoMain'].X.Interpolate(-68.898,361.717);
+$P09_RP + 1370.537;
+Track['syakoSubtoMain'].X.Interpolate(-57.159,-275.634);
+$P09_RP + 1380.721;
+Track['syakoSubtoMain'].X.Interpolate(-46.150,-123.721);
+$P09_RP + 1387.983;
+Track['syakoSubtoMain'].X.Interpolate(-39.277,-120.062);
+$P09_RP + 1454.608;
+Track['syakoSubtoMain'].X.Interpolate(-10.419,-3796.327);
+$P09_RP + 1458.000;
+Track['syakoSubtoMain'].X.Interpolate(-10.093,0.000);
+$P09_RP + 1488.000;
+Track['syakoSubtoMain'].X.Interpolate(-7.239,-791.263);
+$P09_RP + 1508.000;
+Track['syakoSubtoMain'].X.Interpolate(-5.575,-778.271);
+$P09_RP + 1524.669;
+Track['syakoSubtoMain'].X.Interpolate(-4.577,-815.427);
+$P09_RP + 1538.000;
+Track['syakoSubtoMain'].X.Interpolate(-4.031,-790.961);
+$P09_RP + 1559.858;
+Track['syakoSubtoMain'].X.Interpolate(-3.621,-999.449);
+$P09_RP + 1563.000;
+Track['syakoSubtoMain'].X.Interpolate(-3.611,0.000);
+$P09_RP + 1669.874;
+Track['syakoSubtoMain'].X.Interpolate(-3.494,130.964);
+$P09_RP + 1689.539;
+Track['syakoSubtoMain'].X.Interpolate(-1.891,-126.307);
+$P09_RP + 1708.952;
+Track['syakoSubtoMain'].X.Interpolate(-0.289,0.000);
+$P09_RP + 1728.000;
+Track['syakoSubtoMain'].X.Interpolate(-0.268,-800.850);
+$P09_RP + 1728.951;
+Track['syakoSubtoMain'].X.Interpolate(-0.268,0.000);
+$P09_RP + 1808.000;
+Track['syakoSubtoMain'].X.Interpolate(-0.364,8531.193);
+$P09_RP + 1808.888;
+Track['syakoSubtoMain'].X.Interpolate(-0.365,404.523);
+$P09_RP + 1820.000;
+Track['syakoSubtoMain'].X.Interpolate(-0.288,124.616);
+$P09_RP + 1823.874;
+Track['syakoSubtoMain'].X.Interpolate(-0.143,130.292);
+$P09_RP + 1841.712;
+Track['syakoSubtoMain'].X.Interpolate(2.140,-129.430);
+$P09_RP + 1859.549;
+Track['syakoSubtoMain'].X.Interpolate(4.424,0.000);
+
+# Track['syakoSubtoMain'].Y
+$P09_RP + 1225.793;
+Track['syakoSubtoMain'].Y.Interpolate(-7.079,0.000);
+$P09_RP + 1258.000;
+Track['syakoSubtoMain'].Y.Interpolate(-7.079,3333.558);
+$P09_RP + 1288.000;
+Track['syakoSubtoMain'].Y.Interpolate(-7.079,0.000);
+$P09_RP + 1291.757;
+Track['syakoSubtoMain'].Y.Interpolate(-7.045,0.000);
+$P09_RP + 1310.694;
+Track['syakoSubtoMain'].Y.Interpolate(-6.875,0.000);
+$P09_RP + 1320.618;
+Track['syakoSubtoMain'].Y.Interpolate(-6.786,0.000);
+$P09_RP + 1339.606;
+Track['syakoSubtoMain'].Y.Interpolate(-6.615,-932.716);
+$P09_RP + 1348.000;
+Track['syakoSubtoMain'].Y.Interpolate(-6.539,0.000);
+$P09_RP + 1359.646;
+Track['syakoSubtoMain'].Y.Interpolate(-6.539,0.000);
+$P09_RP + 1370.537;
+Track['syakoSubtoMain'].Y.Interpolate(-6.539,358.391);
+$P09_RP + 1380.721;
+Track['syakoSubtoMain'].Y.Interpolate(-6.533,299.816);
+$P09_RP + 1387.983;
+Track['syakoSubtoMain'].Y.Interpolate(-6.339,-5329.825);
+$P09_RP + 1454.608;
+Track['syakoSubtoMain'].Y.Interpolate(-3.391,0.000);
+$P09_RP + 1458.000;
+Track['syakoSubtoMain'].Y.Interpolate(-3.255,-5329.038);
+$P09_RP + 1488.000;
+Track['syakoSubtoMain'].Y.Interpolate(-2.140,-4927.457);
+$P09_RP + 1508.000;
+Track['syakoSubtoMain'].Y.Interpolate(-1.492,-2429.729);
+$P09_RP + 1524.669;
+Track['syakoSubtoMain'].Y.Interpolate(-0.987,2851.655);
+$P09_RP + 1538.000;
+Track['syakoSubtoMain'].Y.Interpolate(-0.711,-902.990);
+$P09_RP + 1559.858;
+Track['syakoSubtoMain'].Y.Interpolate(-0.097,-799.724);
+$P09_RP + 1563.000;
+Track['syakoSubtoMain'].Y.Interpolate(-0.089,0.000);
+$P09_RP + 1669.874;
+Track['syakoSubtoMain'].Y.Interpolate(-0.089,0.000);
+$P09_RP + 1689.539;
+Track['syakoSubtoMain'].Y.Interpolate(-0.088,0.000);
+$P09_RP + 1708.952;
+Track['syakoSubtoMain'].Y.Interpolate(-0.088,0.000);
+$P09_RP + 1728.000;
+Track['syakoSubtoMain'].Y.Interpolate(-0.088,0.000);
+$P09_RP + 1728.951;
+Track['syakoSubtoMain'].Y.Interpolate(-0.088,0.000);
+$P09_RP + 1808.000;
+Track['syakoSubtoMain'].Y.Interpolate(-0.088,0.000);
+$P09_RP + 1808.888;
+Track['syakoSubtoMain'].Y.Interpolate(-0.086,0.000);
+$P09_RP + 1820.000;
+Track['syakoSubtoMain'].Y.Interpolate(-0.064,0.000);
+$P09_RP + 1823.874;
+Track['syakoSubtoMain'].Y.Interpolate(-0.056,0.000);
+$P09_RP + 1841.712;
+Track['syakoSubtoMain'].Y.Interpolate(-0.020,0.000);
+$P09_RP + 1859.549;
+Track['syakoSubtoMain'].Y.Interpolate(0.016,0.000);
+
+# Track['syakoSubtoMain'].Cant.Interpolate
+$P09_RP + 1291.757;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1310.694;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1320.618;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1339.606;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1359.646;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1370.537;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1380.721;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1454.608;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1669.874;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1689.539;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1708.952;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1728.951;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1808.888;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1823.874;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1841.712;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+$P09_RP + 1859.549;
+Track['syakoSubtoMain'].Cant.Interpolate(0.000);
+
+# Track['syakoSubtoMain'].Cant.SetFunction
+
+# Track['syakoSubtoMain'].Cant.SetCenter
+
+# Track['syakoSubtoMain'].Cant.SetGauge
+$P09_RP + 1225.793;
+Track['syakoSubtoMain'].Cant.SetGauge(1.067);
+

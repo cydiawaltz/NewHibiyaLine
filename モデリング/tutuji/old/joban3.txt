@@ -1,0 +1,30 @@
+BveTs Map 2.02
+
+$base = 607;
+$base;
+curve.SetGauge(1.067);
+track[2].Position(3,0);
+track[3].Position(-3.5,0);
+track[4].Position(-7,0);
+$base+ 60;
+curve.Begin(400,0);
+$base + 80;
+curve.End();
+
+$baseA = 0;
+$baseA + 715;
+track[2].Position(4.9,0);
+$baseA + 775;
+Curve.Begin(600,0);
+$baseA + 800;
+curve.Begin(250,0);
+$baseA + 875;
+curve.End();
+$baseA + 900;
+curve.Begin(400,0);
+$baseA + 965;
+curve.End();
+track[4].Position(-8,0);
+
+//1070; Track[4]のオブジェクト終了
+$base + 2000;

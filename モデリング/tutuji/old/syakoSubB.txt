@@ -1,0 +1,66 @@
+BveTs Map 2.02
+$base = 1067;
+$base;
+curve.SetGauge(1.067);
+$base + 130;
+Curve.BeginTransition();
+curve.Begin(300,0);
+$base + 175;
+Curve.Begin(-300,0);
+$base + 200;
+curve.Begin(-200,0);
+$base + 235;
+curve.End();
+$base + 265;
+curve.Begin(300,0);
+$base + 280;
+curve.Begin(-300,0);
+$base + 295;
+Curve.Begin(-120,0);
+Gradient.Begin(20);
+$base + 305;
+Gradient.Begin(40);
+$base + 450;
+Gradient.Begin(30);
+$base + 485;
+Gradient.Begin(2);
+$base + 379.55;
+curve.End();
+//まっすぐのびるのはここで終わり
+$base + 555;
+curve.Begin(120,0);
+$base + 575;
+curve.Begin(-120,0);
+$base + 595;
+curve.Begin(120,0);
+$base + 615;
+Curve.Begin(-120,0);
+$base + 635;
+curve.End();
+//1816開始
+$baseA = -5;
+$baseA + 1720;
+curve.Begin(400,0);
+$baseA + 1806;
+curve.BeginTransition();
+$baseA + 1821;
+curve.Begin(-120,0);
+$baseA + 1838.5;
+curve.Begin(120,0);
+$baseA + 1856;
+curve.End();
+
+//1799
+
+
+//$base + 555;
+//curve.Begin(150,0);
+//$base + 576.5;
+#curve.Begin(-150,0);
+#$base + 598;
+#urve.Begin(150,0);
+#$base + 619.5;
+#curve.Begin(-150,0);
+#$base + 641;
+#curve.End();
+//1672 = 605

@@ -1,0 +1,79 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 136176.000000;
+
+# Track['Ato7'].X
+$P09_RP + -453.000;
+Track['Ato7'].X.Interpolate(-6.877,0.000);
+$P09_RP + -403.000;
+Track['Ato7'].X.Interpolate(-6.828,0.000);
+$P09_RP + -402.019;
+Track['Ato7'].X.Interpolate(-6.825,0.000);
+$P09_RP + -361.250;
+Track['Ato7'].X.Interpolate(-6.673,-926.526);
+$P09_RP + -300.067;
+Track['Ato7'].X.Interpolate(-8.482,371.855);
+$P09_RP + -293.000;
+Track['Ato7'].X.Interpolate(-8.864,366.926);
+$P09_RP + -243.000;
+Track['Ato7'].X.Interpolate(-7.695,0.000);
+$P09_RP + -233.000;
+Track['Ato7'].X.Interpolate(-6.759,-435.469);
+$P09_RP + -229.176;
+Track['Ato7'].X.Interpolate(-6.411,-195.363);
+$P09_RP + -189.339;
+Track['Ato7'].X.Interpolate(-7.053,576.405);
+$P09_RP + -168.000;
+Track['Ato7'].X.Interpolate(-9.280,221.465);
+$P09_RP + -160.295;
+Track['Ato7'].X.Interpolate(-9.799,0.000);
+
+# Track['Ato7'].Y
+$P09_RP + -453.000;
+Track['Ato7'].Y.Interpolate(0.000,0.000);
+$P09_RP + -403.000;
+Track['Ato7'].Y.Interpolate(0.000,0.000);
+$P09_RP + -402.019;
+Track['Ato7'].Y.Interpolate(0.000,0.000);
+$P09_RP + -361.250;
+Track['Ato7'].Y.Interpolate(0.000,0.000);
+$P09_RP + -300.067;
+Track['Ato7'].Y.Interpolate(0.000,0.000);
+$P09_RP + -293.000;
+Track['Ato7'].Y.Interpolate(0.000,0.000);
+$P09_RP + -243.000;
+Track['Ato7'].Y.Interpolate(0.000,0.000);
+$P09_RP + -233.000;
+Track['Ato7'].Y.Interpolate(0.000,0.000);
+$P09_RP + -229.176;
+Track['Ato7'].Y.Interpolate(0.000,0.000);
+$P09_RP + -189.339;
+Track['Ato7'].Y.Interpolate(0.000,0.000);
+$P09_RP + -168.000;
+Track['Ato7'].Y.Interpolate(0.000,0.000);
+$P09_RP + -160.295;
+Track['Ato7'].Y.Interpolate(0.000,0.000);
+
+# Track['Ato7'].Cant.Interpolate
+$P09_RP + -453.000;
+Track['Ato7'].Cant.Interpolate(0.000);
+$P09_RP + -402.019;
+Track['Ato7'].Cant.Interpolate(0.000);
+$P09_RP + -361.250;
+Track['Ato7'].Cant.Interpolate(0.000);
+$P09_RP + -300.067;
+Track['Ato7'].Cant.Interpolate(0.000);
+$P09_RP + -229.176;
+Track['Ato7'].Cant.Interpolate(0.000);
+$P09_RP + -189.339;
+Track['Ato7'].Cant.Interpolate(0.000);
+$P09_RP + -160.295;
+Track['Ato7'].Cant.Interpolate(0.000);
+
+# Track['Ato7'].Cant.SetFunction
+
+# Track['Ato7'].Cant.SetCenter
+
+# Track['Ato7'].Cant.SetGauge
+

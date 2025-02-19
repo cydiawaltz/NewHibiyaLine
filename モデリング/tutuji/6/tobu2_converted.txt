@@ -1,0 +1,49 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 136176.000000;
+
+# Track['tobu2'].X
+$P09_RP + 195.990;
+Track['tobu2'].X.Interpolate(-4.846,-433.095);
+$P09_RP + 209.942;
+Track['tobu2'].X.Interpolate(-9.881,-193.833);
+$P09_RP + 218.000;
+Track['tobu2'].X.Interpolate(-13.194,-273.404);
+$P09_RP + 258.000;
+Track['tobu2'].X.Interpolate(-35.258,-426.478);
+$P09_RP + 299.722;
+Track['tobu2'].X.Interpolate(-66.108,0.000);
+
+# Track['tobu2'].Y
+$P09_RP + 195.990;
+Track['tobu2'].Y.Interpolate(-7.076,0.000);
+$P09_RP + 209.942;
+Track['tobu2'].Y.Interpolate(-6.797,621.049);
+$P09_RP + 218.000;
+Track['tobu2'].Y.Interpolate(-6.635,0.000);
+$P09_RP + 258.000;
+Track['tobu2'].Y.Interpolate(-5.316,0.000);
+$P09_RP + 299.722;
+Track['tobu2'].Y.Interpolate(-3.940,0.000);
+
+# Track['tobu2'].Cant.Interpolate
+$P09_RP + 195.990;
+Track['tobu2'].Cant.Interpolate(0.000);
+$P09_RP + 209.942;
+Track['tobu2'].Cant.Interpolate(0.000);
+$P09_RP + 299.722;
+Track['tobu2'].Cant.Interpolate(0.000);
+
+# Track['tobu2'].Cant.SetFunction
+$P09_RP + 195.990;
+Track['tobu2'].Cant.SetFunction(1);
+
+# Track['tobu2'].Cant.SetCenter
+$P09_RP + 195.990;
+Track['tobu2'].Cant.SetCenter(0.000);
+
+# Track['tobu2'].Cant.SetGauge
+$P09_RP + 195.990;
+Track['tobu2'].Cant.SetGauge(1.067);
+

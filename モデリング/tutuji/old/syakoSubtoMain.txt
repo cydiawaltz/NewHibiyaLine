@@ -1,0 +1,48 @@
+BveTs Map 2.02
+$base = 1067;
+$base;
+curve.SetGauge(1.067);
+$base + 130;
+Curve.BeginTransition();
+curve.Begin(300,0);
+$base + 175;
+Curve.Begin(-300,0);
+$base + 200;
+curve.Begin(-200,0);
+$base + 235;
+curve.End();
+$base + 265;
+curve.Begin(300,0);
+$base + 280;
+curve.Begin(-300,0);
+$base + 295;
+Curve.Begin(-120,0);
+Gradient.Begin(20);
+$base + 305;
+Gradient.Begin(40);
+$base + 450;
+Gradient.Begin(30);
+$base + 485;
+Gradient.Begin(2);
+$base + 379.55;
+curve.End();
+//まっすぐのびるのはここで終わり
+$base + 595;
+curve.Begin(120,0);
+$base + 614.5;
+curve.Begin(-120,0);
+$base + 634;
+curve.End();
+//ここで一句
+
+$baseA = 1;
+$baseA + 1720;
+curve.Begin(400,0);
+$baseA + 1800;
+Curve.BeginTransition();
+$baseA + 1815;
+curve.Begin(120,0);
+$baseA + 1833;
+curve.Begin(-120,0);
+$baseA + 1851;
+curve.End();

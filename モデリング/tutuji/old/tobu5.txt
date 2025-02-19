@@ -1,0 +1,8 @@
+BveTs Map 2.02
+$base = 0;
+$base;
+curve.SetGauge(1.067);
+curve.Begin(-1000,0);
+$base + 70;
+curve.Begin(-600,0);
+$base + 104;

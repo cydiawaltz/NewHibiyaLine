@@ -1,0 +1,22 @@
+BveTs Map 2.02
+$base = 0;
+curve.SetGauge(1.067);
+$base + 60;
+curve.BeginTransition();
+$base + 110;
+curve.Begin(-360,0);
+$base + 150;
+curve.Begin(-250,0);
+$base + 210;
+curve.End();
+//ここからストラクチャ
+$base + 230;
+curve.Begin(250,0);
+$base + 260;
+curve.End();
+Curve.Begin(-250,0);
+$base + 280;
+curve.End();
+//Curve.Begin(-1200,0);
+$base + 326;
+//curve.End();
