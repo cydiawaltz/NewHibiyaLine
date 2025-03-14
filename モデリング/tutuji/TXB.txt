@@ -1,0 +1,114 @@
+BveTs Map 2.02:utf-8
+
+0;
+curve.SetGauge(1.067);
+
+$pt_a = 113.500000;
+$pt_a -47.677047;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$pt_a -47.677047;
+Curve.Interpolate(1305.397970, $cant);
+$pt_a +65.114220;
+Curve.Interpolate(1305.397970, $cant);
+$pt_a +65.114220;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 261.000000;
+$pt_a +3.011639;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$pt_a +3.011639;
+Curve.Interpolate(-746.548002, $cant);
+$pt_a +37.329122;
+Curve.Interpolate(-746.548002, $cant);
+$pt_a +37.329122;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 542.000000;
+$pt_a -60.624751;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$pt_a -60.624751;
+Curve.Interpolate(1131.899368, $cant);
+$pt_a +39.535189;
+Curve.Interpolate(1131.899368, $cant);
+$pt_a +39.535189;
+Curve.Interpolate(0.000000,0);
+
+
+$pt_a = 675.000000;
+$pt_a +3.563094;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$pt_a +3.563094;
+Curve.Interpolate(-388.037083, $cant);
+$pt_a +34.467703;
+Curve.Interpolate(-388.037083, $cant);
+$pt_a +34.467703;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 1310.500000;
+$pt_a +32.902042;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$pt_a +32.902042;
+Curve.Interpolate(-3933.714589, $cant);
+$pt_a +169.115088;
+Curve.Interpolate(-3933.714589, $cant);
+$pt_a +169.115088;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 1829.000000;
+$pt_a -0.614061;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$pt_a -0.614061;
+Curve.Interpolate(425.866934, $cant);
+$pt_a +64.439613;
+Curve.Interpolate(425.866934, $cant);
+$pt_a +64.439613;
+Curve.Interpolate(0.000000,0);
+
+
+#TEST => $g = 106;
+$g = 1;
+$g;
+Gradient.BeginTransition();
+$g+1;
+Gradient.Begin(-6);
+$g+170;
+Gradient.BeginTransition();
+$g+180;
+Gradient.End();
+$g+430;
+Gradient.BeginTransition();
+$g+440;
+Gradient.Begin(-15);
+$g+650;
+Gradient.BeginTransition();
+$g+670;
+Gradient.Begin(-35);
+$g+910;
+Gradient.BeginTransition();
+$g+950;
+Gradient.End();
+
+$g+1050;
+Gradient.BeginTransition();
+$g+1090;
+Gradient.Begin(5);
+$g+1380;
+Gradient.BeginTransition();
+$g+1400;
+Gradient.End();
+$g+1600;
+Gradient.BeginTransition();
+$g+1680;
+Gradient.Begin(-25);

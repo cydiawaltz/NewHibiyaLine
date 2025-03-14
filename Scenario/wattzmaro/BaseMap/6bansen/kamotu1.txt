@@ -1,0 +1,141 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 0.000000;
+
+# Track['kamotu1'].X
+$P09_RP + 1981.125;
+Track['kamotu1'].X.Interpolate(-287.304,-23.549);
+$P09_RP + 1985.226;
+Track['kamotu1'].X.Interpolate(-282.236,0.000);
+$P09_RP + 2085.000;
+Track['kamotu1'].X.Interpolate(-209.246,0.000);
+$P09_RP + 2092.000;
+Track['kamotu1'].X.Interpolate(-204.125,751.496);
+$P09_RP + 2169.346;
+Track['kamotu1'].X.Interpolate(-147.541,-421.711);
+$P09_RP + 2253.370;
+Track['kamotu1'].X.Interpolate(-84.271,-116.704);
+$P09_RP + 2277.498;
+Track['kamotu1'].X.Interpolate(-73.255,-284.495);
+$P09_RP + 2299.323;
+Track['kamotu1'].X.Interpolate(-67.685,0.000);
+$P09_RP + 2346.967;
+Track['kamotu1'].X.Interpolate(-57.612,-1627.874);
+$P09_RP + 2407.875;
+Track['kamotu1'].X.Interpolate(-45.946,6556.146);
+$P09_RP + 2427.879;
+Track['kamotu1'].X.Interpolate(-42.513,204.818);
+$P09_RP + 2455.000;
+Track['kamotu1'].X.Interpolate(-35.923,108.918);
+$P09_RP + 2455.765;
+Track['kamotu1'].X.Interpolate(-35.679,175.521);
+$P09_RP + 2470.000;
+Track['kamotu1'].X.Interpolate(-30.299,425.182);
+$P09_RP + 2475.765;
+Track['kamotu1'].X.Interpolate(-27.786,-939.300);
+$P09_RP + 2498.257;
+Track['kamotu1'].X.Interpolate(-18.031,-167.995);
+$P09_RP + 2511.384;
+Track['kamotu1'].X.Interpolate(-13.177,1417.833);
+$P09_RP + 2516.411;
+Track['kamotu1'].X.Interpolate(-11.566,4298.264);
+$P09_RP + 2523.379;
+Track['kamotu1'].X.Interpolate(-9.297,-446.388);
+$P09_RP + 2536.411;
+Track['kamotu1'].X.Interpolate(-5.315,0.000);
+$P09_RP + 2571.793;
+Track['kamotu1'].X.Interpolate(4.998,0.000);
+
+# Track['kamotu1'].Y
+$P09_RP + 1981.125;
+Track['kamotu1'].Y.Interpolate(-4.015,0.000);
+$P09_RP + 1985.226;
+Track['kamotu1'].Y.Interpolate(-4.056,0.000);
+$P09_RP + 2085.000;
+Track['kamotu1'].Y.Interpolate(-5.054,753.917);
+$P09_RP + 2092.000;
+Track['kamotu1'].Y.Interpolate(-5.089,0.000);
+$P09_RP + 2169.346;
+Track['kamotu1'].Y.Interpolate(-5.089,0.000);
+$P09_RP + 2253.370;
+Track['kamotu1'].Y.Interpolate(-5.089,0.000);
+$P09_RP + 2277.498;
+Track['kamotu1'].Y.Interpolate(-5.089,0.000);
+$P09_RP + 2299.323;
+Track['kamotu1'].Y.Interpolate(-5.089,0.000);
+$P09_RP + 2346.967;
+Track['kamotu1'].Y.Interpolate(-5.089,0.000);
+$P09_RP + 2407.875;
+Track['kamotu1'].Y.Interpolate(-5.089,0.000);
+$P09_RP + 2427.879;
+Track['kamotu1'].Y.Interpolate(-5.089,0.000);
+$P09_RP + 2455.000;
+Track['kamotu1'].Y.Interpolate(-5.089,-5734.065);
+$P09_RP + 2455.765;
+Track['kamotu1'].Y.Interpolate(-5.089,-7908.622);
+$P09_RP + 2470.000;
+Track['kamotu1'].Y.Interpolate(-5.104,0.000);
+$P09_RP + 2475.765;
+Track['kamotu1'].Y.Interpolate(-5.115,0.000);
+$P09_RP + 2498.257;
+Track['kamotu1'].Y.Interpolate(-5.160,0.000);
+$P09_RP + 2511.384;
+Track['kamotu1'].Y.Interpolate(-5.187,0.000);
+$P09_RP + 2516.411;
+Track['kamotu1'].Y.Interpolate(-5.197,0.000);
+$P09_RP + 2523.379;
+Track['kamotu1'].Y.Interpolate(-5.211,0.000);
+$P09_RP + 2536.411;
+Track['kamotu1'].Y.Interpolate(-5.237,0.000);
+$P09_RP + 2571.793;
+Track['kamotu1'].Y.Interpolate(-5.308,0.000);
+
+# Track['kamotu1'].Cant.Interpolate
+$P09_RP + 1981.125;
+Track['kamotu1'].Cant.Interpolate(0.000);
+$P09_RP + 2253.370;
+Track['kamotu1'].Cant.Interpolate(0.000);
+$P09_RP + 2299.323;
+Track['kamotu1'].Cant.Interpolate(0.000);
+$P09_RP + 2346.967;
+Track['kamotu1'].Cant.Interpolate(0.000);
+$P09_RP + 2407.875;
+Track['kamotu1'].Cant.Interpolate(0.000);
+$P09_RP + 2427.879;
+Track['kamotu1'].Cant.Interpolate(0.000);
+$P09_RP + 2498.257;
+Track['kamotu1'].Cant.Interpolate(0.000);
+$P09_RP + 2511.384;
+Track['kamotu1'].Cant.Interpolate(0.000);
+$P09_RP + 2523.379;
+Track['kamotu1'].Cant.Interpolate(0.000);
+$P09_RP + 2571.793;
+Track['kamotu1'].Cant.Interpolate(0.000);
+
+# Track['kamotu1'].Cant.SetFunction
+$P09_RP + 1981.125;
+Track['kamotu1'].Cant.SetFunction(1);
+$P09_RP + 2253.370;
+Track['kamotu1'].Cant.SetFunction(1);
+$P09_RP + 2346.967;
+Track['kamotu1'].Cant.SetFunction(1);
+$P09_RP + 2427.879;
+Track['kamotu1'].Cant.SetFunction(1);
+$P09_RP + 2511.384;
+Track['kamotu1'].Cant.SetFunction(1);
+$P09_RP + 2571.793;
+Track['kamotu1'].Cant.SetFunction(1);
+
+# Track['kamotu1'].Cant.SetCenter
+$P09_RP + 1981.125;
+Track['kamotu1'].Cant.SetCenter(0.000);
+$P09_RP + 2571.793;
+Track['kamotu1'].Cant.SetCenter(0.000);
+
+# Track['kamotu1'].Cant.SetGauge
+$P09_RP + 1981.125;
+Track['kamotu1'].Cant.SetGauge(1.067);
+$P09_RP + 2571.793;
+Track['kamotu1'].Cant.SetGauge(1.067);
+

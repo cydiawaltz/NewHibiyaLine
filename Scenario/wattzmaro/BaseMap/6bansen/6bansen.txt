@@ -208,3 +208,66 @@ $P09_RP + 2890;
 Curve.Begin(-190,0.03);
 $P09_RP + 3000;
 Curve.Begin(-600,0.03);
+
+#勾配
+
+$g = 00;$P09_RP + //停止位置460
+$g+470;
+Gradient.BeginTransition();
+$P09_RP + $g+475;
+Gradient.Begin(-10);
+$P09_RP + $g+526;
+Gradient.BeginTransition();
+$P09_RP + $g+546;
+Gradient.Begin(-20);
+$P09_RP + $g+650;
+Gradient.Begin(-33);
+$P09_RP + $g+922;
+Gradient.BeginTransition();
+$P09_RP + $g+960;
+Gradient.Begin(4);
+$P09_RP + $g + 1050;
+Gradient.BeginTransition();
+$P09_RP + $g+1130;
+Gradient.Begin(-14);
+$P09_RP + $g+1215;
+Gradient.BeginTransition();
+$P09_RP + $g+1230;
+Gradient.Begin(24);
+$P09_RP + $g+1333;
+Gradient.BeginTransition();
+$P09_RP + $g+1339;
+Gradient.Begin(8);
+$P09_RP + $g+1420;
+Gradient.End();
+$P09_RP + $g;$P09_RP + 1720;
+Gradient.BeginTransition();
+$P09_RP + $g+1750;
+Gradient.Begin(-9);
+$P09_RP + $g+1770;
+Gradient.BeginTransition();
+$P09_RP + $g+1780;
+Gradient.End();
+$P09_RP + $g+1945;
+Gradient.BeginTransition();
+$P09_RP + $g+1967;
+Gradient.Begin(10);
+$P09_RP + $g+2085;
+Gradient.BeginTransition();
+$P09_RP + $g+2092;
+Gradient.End();
+$P09_RP + $g+2455;
+Gradient.BeginTransition();
+$P09_RP + $g+2470;
+Gradient.Begin(2);
+$P09_RP + $g+2600;
+Gradient.BeginTransition();
+$P09_RP + $g+2700;
+Gradient.Begin(-39);
+$P09_RP + $g+2920;
+Gradient.BeginTransition();
+$P09_RP + $g+3100;
+Gradient.Begin(2);
+//3200 ホーム開始
+
+//3340 停止位置;

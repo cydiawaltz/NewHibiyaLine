@@ -1,0 +1,31 @@
+BveTs Map 2.02:utf-8
+
+0;
+curve.SetGauge(1.067);
+
+$pt_a = 39.000000;
+$pt_a -7.150781;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$pt_a +12.849219;
+Curve.Interpolate(-254.659177, $cant);
+$pt_a +103.085329;
+Curve.Interpolate(-254.659177, $cant);
+$pt_a +123.085329;
+Curve.Interpolate(0.000000,0);
+
+//Ato7とはここで分岐
+//１０番分岐器
+
+$pt_a = 188.000000;
+$pt_a +43.421167;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$pt_a +43.421167;
+Curve.Interpolate(-257.110625, $cant);
+$pt_a +89.260937;
+Curve.Interpolate(-257.110625, $cant);
+$pt_a +89.260937;
+Curve.Interpolate(0.000000,0);

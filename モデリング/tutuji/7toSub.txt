@@ -1,0 +1,52 @@
+BveTs Map 2.02:utf-8
+
+0;
+curve.SetGauge(1.067);
+
+$pt_a = 139.000000;
+$pt_a +2.491468;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$pt_a +2.491468;
+Curve.Interpolate(167.255210, $cant);
+$pt_a +23.003229;
+Curve.Interpolate(167.255210, $cant);
+$pt_a +23.003229;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 181.500000;
+$pt_a -12.124961;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$pt_a -12.124961;
+Curve.Interpolate(-207.137082, $cant);
+$pt_a +26.558260;
+Curve.Interpolate(-207.137082, $cant);
+$pt_a +26.558260;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 261.500000;
+$pt_a -19.932314;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$pt_a -19.932314;
+Curve.Interpolate(-303.047549, $cant);
+$pt_a +26.474757;
+Curve.Interpolate(-303.047549, $cant);
+$pt_a +26.474757;
+Curve.Interpolate(0.000000,0);
+
+$pt_a = 319.500000;
+$pt_a -1.681806;
+$cant = 0;
+Curve.SetFunction(1);
+Curve.Interpolate(0.000000,0);
+$pt_a +8.318194;
+Curve.Interpolate(-78.590997, $cant);
+$pt_a +53.968425;
+Curve.Interpolate(-78.590997, $cant);
+$pt_a +53.968425;
+Curve.Interpolate(0.000000,0);

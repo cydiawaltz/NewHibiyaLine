@@ -1,79 +1,10 @@
 BveTs Map 2.02
 //tsutsuji出力をまとめるためだけのファイル郡
-$base ='\7\';
-include ex_relativedir + $base +'@OT_joban1@_joban2_converted.txt';
-include ex_relativedir + $base +'@OT_joban3@_2_converted.txt';
-include ex_relativedir + $base +'@@OT_joban3@_3_converted.txt';
-include ex_relativedir + $base +'@OT_joban3@_4_converted.txt';
-include ex_relativedir + $base +'@OT_keisei@_1_converted.txt';
-include ex_relativedir + $base +'@OT_TXA@_1_converted.txt';
-include ex_relativedir + $base +'6bansen_converted.txt';
-include ex_relativedir + $base +'Ato6_converted.txt';
-include ex_relativedir + $base +'Ato7_converted.txt';
-include ex_relativedir + $base +'Bto5_converted.txt';
-include ex_relativedir + $base +'joban1_converted.txt';
-include ex_relativedir + $base +'joban2_converted.txt';
-include ex_relativedir + $base +'joban3_converted.txt';
-include ex_relativedir + $base +'keisei_converted.txt';
-include ex_relativedir + $base +'main.txt';
-$base = '\7\';
-include ex_relativedir + $base +'mainto5_converted.txt';
-include ex_relativedir + $base +'mainto7_converted.txt';
-include ex_relativedir + $base +'subto5to2_converted.txt';
-include ex_relativedir + $base +'subto7_converted.txt';
-include ex_relativedir + $base +'syako15_converted.txt';
-include ex_relativedir + $base +'syakoMain_converted.txt';
-include ex_relativedir + $base +'syakoSubA_converted.txt';
-include ex_relativedir + $base +'syakoSubB_converted.txt';
-include ex_relativedir + $base +'syakoSubtoMain_converted.txt';
-include ex_relativedir + $base +'tobu1_converted.txt';
-include ex_relativedir + $base +'tobu2_converted.txt';
-include ex_relativedir + $base +'tobu3_converted.txt';
-include ex_relativedir + $base +'tobu4_converted.txt';
-include ex_relativedir + $base +'tobu5_converted.txt';
-include ex_relativedir + $base +'tobu6_converted.txt';
-include ex_relativedir + $base +'tobu7_converted.txt';
-include ex_relativedir + $base +'TXA_converted.txt';
-include ex_relativedir + $base +'TXB_converted.txt';
-//ChatGPTによるデスコーディングゾーン
-Repeater['@OT_joban3@_3_rail'].Begin0('@OT_joban3@_3',0,2,2,'RailL0');
-Repeater['@OT_joban3@_4_rail'].Begin0('@OT_joban3@_4',0,2,2,'RailL0');
-Repeater['@OT_keisei@_1_rail'].Begin0('@OT_keisei@_1',0,2,2,'RailL0');
+
+0;
+$base ='7bansen\';
+include ex_relativedir + $base +'6bansen.txt';//main
+include ex_relativedir + $base +'7bansen.txt';
+
 Repeater['7bansen_rail'].Begin0('7bansen',0,2,2,'RailL0');
-Repeater['Ato6_rail'].Begin0('Ato6',0,2,2,'RailL0');
-Repeater['Ato7_rail'].Begin0('Ato7',0,2,2,'RailL0');
-Repeater['Bto5_rail'].Begin0('Bto5',0,2,2,'RailL0');
-Repeater['main_rail'].Begin0('main',0,2,2,'RailL0');
-Repeater['mainto5_rail'].Begin0('mainto5',0,2,2,'RailL0');
-Repeater['mainto7_rail'].Begin0('mainto7',0,2,2,'RailL0');
-Repeater['subto5to2_rail'].Begin0('subto5to2',0,2,2,'RailL0');
-Repeater['subto7_rail'].Begin0('subto7',0,2,2,'RailL0');
-5810;
-Repeater['tobu1_rail'].Begin0('tobu1',0,2,2,'RailL0');
-Repeater['tobu2_rail'].Begin0('tobu2',0,2,2,'RailL0');
-Repeater['tobu3_rail'].Begin0('tobu3',0,2,2,'RailL0');
-Repeater['tobu4_rail'].Begin0('tobu4',0,2,2,'RailL0');
-Repeater['tobu5_rail'].Begin0('tobu5',0,2,2,'RailL0');
-Repeater['tobu6_rail'].Begin0('tobu6',0,2,2,'RailL0');
-Repeater['tobu7_rail'].Begin0('tobu7',0,2,2,'RailL0');
-
-Repeater['TXA_rail'].Begin0('TXA',0,2,2,'RailL0');
-Repeater['TXB_rail'].Begin0('TXB',0,2,2,'RailL0');
-Repeater['@OT_TXA@_1_rail'].Begin0('@OT_TXA@_1',0,2,2,'RailL0');
-
-
-Repeater['keisei_rail'].Begin0('keisei',0,2,2,'RailL0');
-
-
-Repeater['joban1_rail'].Begin0('joban1',0,2,2,'RailL0');
-Repeater['joban2_rail'].Begin0('joban2',0,2,2,'RailL0');
-Repeater['joban3_rail'].Begin0('joban3',0,2,2,'RailL0');
-
-6600;
-Repeater['syako15_rail'].Begin0('syako15',0,2,2,'RailL0');
-Repeater['syakoMain_rail'].Begin0('syakoMain',0,2,2,'RailL0');
-Repeater['syakoSubA_rail'].Begin0('syakoSubA',0,2,2,'RailL0');
-Repeater['syakoSubB_rail'].Begin0('syakoSubB',0,2,2,'RailL0');
-Repeater['syakoSubtoMain_rail'].Begin0('syakoSubtoMain',0,2,2,'RailL0');
-
-Repeater['@OT_7bansen@_2_rail'].Begin0('@OT_7bansen@_2',0,2,2,'RailL0');
+Repeater['6bansen_rail'].Begin0('6bansen',0,2,2,'RailL0');
