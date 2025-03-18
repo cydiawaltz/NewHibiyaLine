@@ -27,3 +27,16 @@ Curve.Interpolate(-237.839338, $cant);
 $pt_a +110.126996;
 Curve.Interpolate(0.000000,0);
 
+$g = 0;
+$g+260;
+Gradient.BeginTransition();
+$g+273;
+Gradient.Begin(30);
+$g;423;
+Gradient.BeginTransition();
+$g+428;
+Gradient.End();
+$g+485;
+Gradient.BeginTransition();
+$g+495;
+Gradient.Begin(-10);

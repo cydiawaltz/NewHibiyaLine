@@ -12,6 +12,13 @@ RailR2, rails\RailR2.x
 RailR3, rails\RailR3.x
 RailR4, rails\RailR4.x
 
+ballast1,rails\Tr_Bal1.x
+ballast2,rails\Tr_Bal2.x
+ballast3,rails\Tr_Bal3.x
+ballast4,rails\Tr_Bal4.x
+ballast5,rails\Tr_Bal5.x
+
+
 TEST
 03test,TEST\03\TEST.x
 20000test,TEST\20000\20000-1.x

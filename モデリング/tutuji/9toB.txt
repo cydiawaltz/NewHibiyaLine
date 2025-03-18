@@ -138,7 +138,7 @@ Curve.Interpolate(0.000000,0);
 
 #勾配
 #TEST => $g = 1528;
-$g = - 4;
+$g = 2;
 $g+310;
 Gradient.BeginTransition();
 $g+376;

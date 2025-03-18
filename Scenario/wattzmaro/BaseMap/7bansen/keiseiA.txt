@@ -1,0 +1,133 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 0.000000;
+
+# Track['keiseiA'].X
+$P09_RP + 997.883;
+Track['keiseiA'].X.Interpolate(-403.463,0.000);
+$P09_RP + 1050.000;
+Track['keiseiA'].X.Interpolate(-310.032,4290.560);
+$P09_RP + 1062.421;
+Track['keiseiA'].X.Interpolate(-287.766,380.624);
+$P09_RP + 1090.764;
+Track['keiseiA'].X.Interpolate(-223.418,4460.937);
+$P09_RP + 1101.009;
+Track['keiseiA'].X.Interpolate(-192.202,0.000);
+$P09_RP + 1108.447;
+Track['keiseiA'].X.Interpolate(-169.016,0.000);
+$P09_RP + 1112.467;
+Track['keiseiA'].X.Interpolate(-156.548,0.000);
+$P09_RP + 1130.000;
+Track['keiseiA'].X.Interpolate(-102.667,-2607.069);
+$P09_RP + 1136.985;
+Track['keiseiA'].X.Interpolate(-81.426,-234.269);
+$P09_RP + 1168.957;
+Track['keiseiA'].X.Interpolate(-18.541,-234.250);
+$P09_RP + 1171.996;
+Track['keiseiA'].X.Interpolate(-14.410,-254.086);
+$P09_RP + 1177.318;
+Track['keiseiA'].X.Interpolate(-7.610,0.000);
+$P09_RP + 1193.432;
+Track['keiseiA'].X.Interpolate(12.133,0.000);
+$P09_RP + 1207.924;
+Track['keiseiA'].X.Interpolate(29.854,0.000);
+$P09_RP + 1215.000;
+Track['keiseiA'].X.Interpolate(38.507,0.000);
+$P09_RP + 1230.000;
+Track['keiseiA'].X.Interpolate(56.849,5866.314);
+$P09_RP + 1272.578;
+Track['keiseiA'].X.Interpolate(108.916,0.000);
+$P09_RP + 1352.339;
+Track['keiseiA'].X.Interpolate(211.539,0.000);
+$P09_RP + 1363.000;
+Track['keiseiA'].X.Interpolate(225.036,0.000);
+$P09_RP + 1400.000;
+Track['keiseiA'].X.Interpolate(271.881,1129.040);
+$P09_RP + 1514.776;
+Track['keiseiA'].X.Interpolate(417.194,1429.246);
+$P09_RP + 1522.906;
+Track['keiseiA'].X.Interpolate(432.363,0.000);
+
+# Track['keiseiA'].Y
+$P09_RP + 997.883;
+Track['keiseiA'].Y.Interpolate(2.785,0.000);
+$P09_RP + 1050.000;
+Track['keiseiA'].Y.Interpolate(2.576,4246.621);
+$P09_RP + 1062.421;
+Track['keiseiA'].Y.Interpolate(2.544,4499.246);
+$P09_RP + 1090.764;
+Track['keiseiA'].Y.Interpolate(2.600,4139.843);
+$P09_RP + 1101.009;
+Track['keiseiA'].Y.Interpolate(2.665,295.899);
+$P09_RP + 1108.447;
+Track['keiseiA'].Y.Interpolate(2.727,53.991);
+$P09_RP + 1112.467;
+Track['keiseiA'].Y.Interpolate(2.955,7519.438);
+$P09_RP + 1130.000;
+Track['keiseiA'].Y.Interpolate(4.867,-2881.428);
+$P09_RP + 1136.985;
+Track['keiseiA'].Y.Interpolate(5.637,-635.079);
+$P09_RP + 1168.957;
+Track['keiseiA'].Y.Interpolate(8.210,-70.855);
+$P09_RP + 1171.996;
+Track['keiseiA'].Y.Interpolate(8.332,0.000);
+$P09_RP + 1177.318;
+Track['keiseiA'].Y.Interpolate(8.407,0.000);
+$P09_RP + 1193.432;
+Track['keiseiA'].Y.Interpolate(8.632,0.000);
+$P09_RP + 1207.924;
+Track['keiseiA'].Y.Interpolate(8.835,-405.383);
+$P09_RP + 1215.000;
+Track['keiseiA'].Y.Interpolate(8.872,-408.777);
+$P09_RP + 1230.000;
+Track['keiseiA'].Y.Interpolate(8.560,0.000);
+$P09_RP + 1272.578;
+Track['keiseiA'].Y.Interpolate(6.866,0.000);
+$P09_RP + 1352.339;
+Track['keiseiA'].Y.Interpolate(3.636,0.000);
+$P09_RP + 1363.000;
+Track['keiseiA'].Y.Interpolate(3.208,2348.845);
+$P09_RP + 1400.000;
+Track['keiseiA'].Y.Interpolate(2.019,0.000);
+$P09_RP + 1514.776;
+Track['keiseiA'].Y.Interpolate(-0.750,0.000);
+$P09_RP + 1522.906;
+Track['keiseiA'].Y.Interpolate(-1.008,0.000);
+
+# Track['keiseiA'].Cant.Interpolate
+$P09_RP + 997.883;
+Track['keiseiA'].Cant.Interpolate(0.000);
+$P09_RP + 1062.421;
+Track['keiseiA'].Cant.Interpolate(0.000);
+$P09_RP + 1090.764;
+Track['keiseiA'].Cant.Interpolate(0.000);
+$P09_RP + 1136.985;
+Track['keiseiA'].Cant.Interpolate(0.000);
+$P09_RP + 1177.318;
+Track['keiseiA'].Cant.Interpolate(0.000);
+$P09_RP + 1522.906;
+Track['keiseiA'].Cant.Interpolate(0.000);
+
+# Track['keiseiA'].Cant.SetFunction
+$P09_RP + 997.883;
+Track['keiseiA'].Cant.SetFunction(1);
+$P09_RP + 1062.421;
+Track['keiseiA'].Cant.SetFunction(1);
+$P09_RP + 1136.985;
+Track['keiseiA'].Cant.SetFunction(1);
+$P09_RP + 1522.906;
+Track['keiseiA'].Cant.SetFunction(1);
+
+# Track['keiseiA'].Cant.SetCenter
+$P09_RP + 997.883;
+Track['keiseiA'].Cant.SetCenter(0.000);
+$P09_RP + 1522.906;
+Track['keiseiA'].Cant.SetCenter(0.000);
+
+# Track['keiseiA'].Cant.SetGauge
+$P09_RP + 997.883;
+Track['keiseiA'].Cant.SetGauge(1.067);
+$P09_RP + 1522.906;
+Track['keiseiA'].Cant.SetGauge(1.067);
+

@@ -185,20 +185,24 @@ Curve.Interpolate(0.000000,0);
 
 #勾配
 #TEST => $g = 560;
-$g = 0;
+$g = 0.5;
 $g+100;
 Gradient.BeginTransition();
 $g+200;
-Gradient.Begin(6);
-$g+900;
+Gradient.Begin(8);
+$g+400;
 Gradient.BeginTransition();
-$g+950;
+$g+420;
+Gradient.Begin(6.5);
+$g+930;
+Gradient.BeginTransition();
+$g+980;
 Gradient.End();
 
 $g+1240;
 Gradient.BeginTransition();
 $g+1300;
-Gradient.Begin(-8);
+Gradient.Begin(-5);
 $g+1400;
 Gradient.BeginTransition();
 $g+1500;

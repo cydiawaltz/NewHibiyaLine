@@ -1,4 +1,11 @@
 BveTs Map 2.02
+
+//  /================\
+//  |_03-124__中目黒__|
+//   ||  |◯|       || 
+//   ||__|__|v______|| 
+//   | ■□|S |￣￣￣□■|
+//   |￣ |￣ |￣￣￣￣|
 //本シナリオの実行にはAtsEX(2.0)を必要とします。
 BveEx.MapPlugin.LoadAssembly('..\Plugins\debug\MetroDrive\MetroDriveEX.dll');
 Structure.Load('../structures/StructureList.txt');

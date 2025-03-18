@@ -1,10 +1,145 @@
 BveTs Map 2.02
 //tsutsuji出力をまとめるためだけのファイル郡
-
 0;
 $base ='7bansen\';
-include ex_relativedir + $base +'6bansen.txt';//main
+include ex_relativedir + $base +'6bansen.txt';
+include ex_relativedir + $base +'2toAtoB.txt';
+include ex_relativedir + $base +'5bansen.txt';
+include ex_relativedir + $base +'5tosubtoA.txt';
+include ex_relativedir + $base +'6toSub.txt';
 include ex_relativedir + $base +'7bansen.txt';
+include ex_relativedir + $base +'7toA.txt';
+include ex_relativedir + $base +'8toA.txt';
+include ex_relativedir + $base +'9toB.txt';
+include ex_relativedir + $base +'Ato6.txt';
+include ex_relativedir + $base +'Ato7.txt';
+include ex_relativedir + $base +'Bto5.txt';
+include ex_relativedir + $base +'joban1.txt';
+include ex_relativedir + $base +'joban2.txt';
+include ex_relativedir + $base +'joban3.txt';
+include ex_relativedir + $base +'kamotu1.txt';
+include ex_relativedir + $base +'kamotu2.txt';
+include ex_relativedir + $base +'kamotu3.txt';
+include ex_relativedir + $base +'kamotu4.txt';
+include ex_relativedir + $base +'keiseiA.txt';
+include ex_relativedir + $base +'keiseiB.txt';
+include ex_relativedir + $base +'subto5.txt';
+include ex_relativedir + $base +'tobu1.txt';
+include ex_relativedir + $base +'tobu2.txt';
+include ex_relativedir + $base +'tobu3.txt';
+include ex_relativedir + $base +'tobu4.txt';
+include ex_relativedir + $base +'tobu5.txt';
+include ex_relativedir + $base +'tobuSub1.txt';
+include ex_relativedir + $base +'tobuSub2.txt';
+include ex_relativedir + $base +'tobuSub3.txt';
+include ex_relativedir + $base +'TXA.txt';
+include ex_relativedir + $base +'TXB.txt';
+
 
 Repeater['7bansen_rail'].Begin0('7bansen',0,2,2,'RailL0');
 Repeater['6bansen_rail'].Begin0('6bansen',0,2,2,'RailL0');
+Repeater['Ato6_rail'].Begin0('Ato6',0,2,2,'RailL0');
+Repeater['Ato7_rail'].Begin0('Ato7',0,2,2,'RailL0');
+Repeater['5bansen_rail'].Begin0('5bansen',0,2,2,'RailL0');
+Repeater['Bto5_rail'].Begin0('Bto5',0,2,2,'RailL0');
+Repeater['subto5_rail'].Begin0('subto5',0,2,2,'RailL0');
+
+Repeater['joban1_rail'].Begin0('joban1',0,2,2,'RailL0');
+Repeater['joban2_rail'].Begin0('joban2',0,2,2,'RailL0');
+Repeater['TXA_rail'].Begin0('TXA',0,2,2,'RailL0');
+Repeater['TXB_rail'].Begin0('TXB',0,2,2,'RailL0');
+
+1870;
+Repeater['joban3_rail'].Begin0('joban3',0,2,2,'RailL0');
+
+675;
+Repeater['tobu1_rail'].Begin0('tobu1',0,2,2,'RailL0');
+Repeater['tobuSub3_rail'].Begin0('tobuSub3',0,2,2,'RailL0');
+660;
+Repeater['tobu2_rail'].Begin0('tobu2',0,2,2,'RailL0');
+650;
+Repeater['tobu3_rail'].Begin0('tobu3',0,2,2,'RailL0');
+620;
+Repeater['tobu4_rail'].Begin0('tobu4',0,2,2,'RailL0');
+Repeater['tobu5_rail'].Begin0('tobu5',0,2,2,'RailL0');
+710;
+Repeater['tobuSub1_rail'].Begin0('tobuSub1',0,2,2,'RailL0');
+Repeater['tobuSub2_rail'].Begin0('tobuSub2',0,2,2,'RailL0');
+
+2000;#貨物車庫
+Repeater['kamotu1_rail'].Begin0('kamotu1',0,2,2,'RailL0');
+Repeater['kamotu2_rail'].Begin0('kamotu2',0,2,2,'RailL0');
+Repeater['kamotu3_rail'].Begin0('kamotu3',0,2,2,'RailL0');
+Repeater['kamotu4_rail'].Begin0('kamotu4',0,2,2,'RailL0');
+
+1650;//南千住車庫
+Repeater['2toAtoB_rail'].Begin0('2toAtoB',0,2,2,'RailL0');
+Repeater['5tosubtoA_rail'].Begin0('5tosubtoA',0,2,2,'RailL0');
+Repeater['6toSub_rail'].Begin0('6toSub',0,2,2,'RailL0');
+Repeater['7toA_rail'].Begin0('7toA',0,2,2,'RailL0');
+Repeater['8toA_rail'].Begin0('8toA',0,2,2,'RailL0');
+Repeater['9toB_rail'].Begin0('9toB',0,2,2,'RailL0');
+
+1000;
+Repeater['keiseiA_rail'].Begin0('keiseiA',0,2,2,'RailL0');
+Repeater['keiseiB_rail'].Begin0('keiseiB',0,2,2,'RailL0');
+
+#END
+590;
+Repeater['7bansen_rail'].end();
+300;
+Repeater['Ato6_rail'].end();
+Repeater['Ato7_rail'].end();
+Repeater['Bto5_rail'].end();
+Repeater['subto5_rail'].end();
+
+277;
+Repeater['Ato6_rail'].end();
+Repeater['Ato7_rail'].end();
+
+300;//５番線停車目標
+Repeater['Bto5_rail'].end();
+Repeater['subto5_rail'].end();
+2350;
+Repeater['2toAtoB_rail'].end();
+Repeater['5tosubtoA_rail'].end();
+2160;
+Repeater['6toSub_rail'].end();
+1980;
+Repeater['7toA_rail'].end();
+2340;
+Repeater['8toA_rail'].end();
+Repeater['9toB_rail'].end();
+4000;
+Repeater['joban1_rail'].end();
+Repeater['joban2_rail'].end();
+Repeater['joban3_rail'].end();
+2566;
+Repeater['kamotu1_rail'].end();
+4000;
+Repeater['kamotu2_rail'].end();
+4000;
+Repeater['kamotu3_rail'].end();
+2930;
+Repeater['kamotu4_rail'].end();
+1400;
+Repeater['keiseiA_rail'].end();
+Repeater['keiseiB_rail'].end();
+930;
+Repeater['tobu1_rail'].end();
+Repeater['tobu2_rail'].end();
+Repeater['tobu3_rail'].end();
+Repeater['tobu4_rail'].end();
+Repeater['tobu5_rail'].end();
+860;
+Repeater['tobuSub1_rail'].end();
+800;
+Repeater['tobuSub2_rail'].end();
+
+Repeater['tobuSub3_rail'].end();
+2000;
+Repeater['TXA_rail'].end();
+Repeater['TXB_rail'].end();
+
+
+
