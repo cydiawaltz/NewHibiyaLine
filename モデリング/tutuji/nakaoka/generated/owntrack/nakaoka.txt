@@ -1,0 +1,28 @@
+BveTs Map 2.02
+
+$P09_RP = 0.000000;
+
+$a = 0;
+$P09_RP + 10030-$a;
+Curve.BeginTransition();
+$P09_RP + 10037-$a;
+Curve.Begin(-500);
+$P09_RP + 10067-$a;
+Curve.End();
+$P09_RP + 10070-$a;
+Curve.Begin(500);
+$P09_RP + 10100-$a;
+Curve.End();
+$P09_RP + 10167-$a;
+Curve.BeginTransition();
+$P09_RP + 10170-$a;
+Curve.Begin(1000,0);
+$P09_RP + 10180-$a;
+Curve.End();
+$P09_RP + 10204-$a;
+$P09_RP + 10210-$a;
+Curve.BeginTransition();
+$P09_RP + 10220-$a;
+Curve.Begin(-400,0);
+$P09_RP + 10240-$a;
+Curve.End();

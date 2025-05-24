@@ -1,0 +1,9 @@
+BveTs Scenario 2.00
+Title = TEST_07
+Author = Wattz麻呂
+Image =
+Route = wattzmaro\MDHibiya\Diagram\TESTDiagram_07.txt
+RouteTitle = 試験用07_YuRakuTyo
+Vehicle = wattzmaro\vehicles\trta03_chh_ultimated\vehicle.txt
+VehicleTitle = Series03-124F_ultimated
+Comment = BveEX試験(非実用)

@@ -1,0 +1,60 @@
+BveTs Map 2.02
+//本シナリオの実行にはAtsEX(2.0)を必要とします。
+//BveEx.MapPlugin.LoadAssembly('..\Plugins\debug\MetroDrive\MetroDriveEX.dll');
+include '[[BveEx::NOMPI]] CydiaWattz MetroDrive2_TEST05';
+include '[[BveEx::NOMPI]] 引き込み線 => 7番線 (三ノ輪まで)';
+//Structure.Load('../structures/StructureList.txt');
+//Background.Change('Bg');
+//Sound.Load('soundNew.txt');
+Station.Load('../BaseMap/stations/StationTest.csv');
+BveEx.MapPlugin.LoadAssembly('..\Plugins\debug\MetroDrive\MetroDriveEX.dll');
+#このダイヤでは、6番線から発車し、そのまま中目黒へと向かうダイヤである
+#現在は三ノ輪〜人形町を暫定開業とする
+#ATC指示など
+//include 'Maps\TESt\beacon.txt';
+//include 'Maps\TEST\debug.txt';
+#カーブ 
+//include '../BaseMap/curve.txt';
+#勾配
+//include '../BaseMap/Gradient.txt';
+#Structureと運転台明るさ
+//include '../BaseMap/Structure.txt';
+//include 'Maps\nakaoka\2_converted.txt';
+//include 'Maps\KitaMino.txt';
+//include '../BaseMap/H21~H20.txt';
+//include '../BaseMap/Chijo7.txt';
+#人形町とか
+#include 'Maps\NingyoNormal.txt';
+//Train['test'].Load('../otherTrain/TESTs/03.txt',2,-1);
+
+//train.Add('test','../otherTrain/TESTs/03.txt',2,-1);
+7000;
+//train['test'].Enable('16:02:00');
+8000;
+//train['test'].Stop(-3,30,3,30);
+5630;
+//Structure['plateau'].Put(0,0,-10,0,0,0,0,3,100);
+140;
+station['H23'].Put(0,-50,50);
+//5630;
+420;
+Station['H22'].Put(-1,-50,50);#北千住
+//7650;
+2463;
+Station['H21'].Put(-1,-50,50);#南千住
+//8400;
+3283;
+Station['H20'].Put(-1,-50,50);#三ノ輪
+8984;
+//Station['H19'].Put(-1,-50,50);#入谷
+9633;
+//Station['H18'].Put(-1,-50,50);#上野
+10197;
+//Station['H17'].Put(1,-50,50);#仲御徒町
+10825;
+//Station['H16'].Put(-1,-50,50);#秋葉原
+11560;
+//Station['H15'].Put(-1,-50,50);#小伝馬町
+12197;
+//Station['H14'].Put(-1,-50,50);#人形町
+12950;

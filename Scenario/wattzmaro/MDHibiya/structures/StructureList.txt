@@ -1,0 +1,102 @@
+BveTs Structure List 1.00
+
+線路系
+RailL0, rails\RailL0.x
+RailL1, rails\RailL1.x
+RailL2, rails\RailL2.x
+RailL3, rails\RailL3.x
+RailL4, rails\RailL4.x
+RailR0, rails\RailR0.x
+RailR1, rails\RailR1.x
+RailR2, rails\RailR2.x
+RailR3, rails\RailR3.x
+RailR4, rails\RailR4.x
+
+ballast1,rails\Tr_Bal1.x
+ballast2,rails\Tr_Bal2.x
+ballast3,rails\Tr_Bal3.x
+ballast4,rails\Tr_Bal4.x
+ballast5,rails\Tr_Bal5.x
+ballast_LQ,rails\Tr_Bal_EQ.x
+ballast_5m,rails\Tr_Bal5m.x
+cross_5m,rails\cross_5m.x
+cross,rails\cross.x
+
+#建物TEST
+minami2,builds\minami2\minami2.x
+minami5,builds\minami5\minami5.x
+minami7,builds\minami7\minami7.x
+sekiya,builds\sekiya\sekiya.x
+bokutei1,builds\bokutei\1.x
+azuma1,builds\azuma\azuma.x
+naka,builds\nakacho\naka.x
+oofumikiri1,builds\oofumikiri\oofumikiri.x
+ekimae,builds\ekimae\ekimae.x
+hikikomi,builds\hikikomi\hikikomi.x
+
+#駅とか
+#三ノ輪
+minowa1,builds\H19\minowa1.x
+minowa2,builds\H19\minowa2.x
+#入谷
+iriyakabe,builds\H18\iriyakabe.x
+iriyakabe2,builds\H18\iriyakabe2.x
+#上野
+uenoyuka,builds\H17\uenoyuka.x
+uenokabe,builds\H17\uenokabe.x
+uenohashira,builds\H17\uenohashira.x
+uenokabe3,builds\H17\uenokabe3.x
+#仲御徒町
+nakaokawall,builds\H16\nakaokawall1.x
+nakaokawall2,builds\H16\nakaokawall2.x
+nakaokayuka,builds\H16\nakaokayuka.x
+hashira1,builds\H16\hashira1.x
+hashira2,builds\H16\hashira2.x
+nakaokatenjou,builds\H16\tenjou.x
+nakaokakabe3,builds\H16\nakaokakabe3.x
+nakaokakabe2,builds\H16\nakaokakabe2.x
+#秋葉原
+akibatenjo,builds\H15\akibatenjo.x
+akibawall1,builds\H15\akibawall1.x
+akibawall2,builds\H15\akibawall2.x
+akibaedge,builds\H15\akibaedge.x
+akibawall6,builds\H15\akibawall6.x
+akibawall3,builds\H15\akibawall3.x
+akibawall4,builds\H15\akibawall4.x
+akibaenter,builds\H15\akibaenter.x
+#小伝馬町
+kodenmawall1,builds\H14\kodenmawall1.x
+kodenmawall2,builds\H14\kodenmawall2.x
+kodenmatenjo,builds\H14\kodenmatenjo.x
+kodenmayuka,builds\H14\kodenmayuka.x
+kodenmalight,builds\H14\kodenmalight.x
+kodenmahashira,builds\H14\kodenmahashira.x
+#人形町
+ningyowall1,builds\H13\ningyowall1.x
+ningyowall2,builds\H13\ningyowall2.x
+ningyotenjo,builds\H13\ningyotenjo.x
+light,builds\H13\light.x
+ningyoyuka,builds\H13\NingyoYuka.x
+kaidan1,builds\H13\kaidan1.x
+kaidanwall1,builds\H13\kaidanwall1.x
+cakeshop,builds\H13\cakeshop.x
+#茅場町
+kayabawall,builds\H12\kayabawall.x
+kayabayuka,builds\H12\kayabayuka.x
+kayabatenjo,builds\H12\kayabatenjo.x
+kayabapole,builds\H12\kayabapole.x
+
+
+#汎用シリーズ
+form-hidari,builds\general\form-hidari.x
+form-migi,builds\general\form-migi.x
+
+
+
+TEST
+03test,TEST\03\TEST.x
+20000test,TEST\20000\20000-1.x
+bg0,BackGround\Bg.x
+
+#plateau,TEST\軌道作成専用\test.x
+#plateau2,TEST\軌道作成専用\test2.x

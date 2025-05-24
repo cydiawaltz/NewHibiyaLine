@@ -1,0 +1,180 @@
+﻿menu.open	シナリオを開く...
+menu.reset	シナリオをやり直す
+menu.goto	停車場へ移動
+menu.close	シナリオを閉じる
+menu.timetable	時刻表
+menu.camera	視点を切り替える
+menu.toolwin	ツール ウィンドウ
+menu.timepos	時刻と位置
+menu.chart	車両物理量
+menu.config	設定...
+menu.about	{0} について...
+menu.exit	{0} を終了
+assist.sta.passtime	次 "{0}" 通過 {1}
+assist.sta.pass	次 "{0}" 通過
+assist.sta.stoptime	次 "{0}" 停車 {1}
+assist.sta.stop	次 "{0}" 停車
+assist.sta.departtime	"{0}" 発車 {1}
+assist.sta.depart	"{0}"
+assist.sta.dist	{0} あと {1}
+assist.spdlim.sig	信号 {0} km/h
+assist.spdlim.fix	速度制限 {0} km/h
+assist.inst.pause	一時停止 ("{0}" キーで再開)
+assist.inst.sigexceed	信号の示した速度を超えています。直ちに減速してください ("{0}" キー)!
+assist.inst.sig0pass	停止信号を無視しました。直ちに停車してください ("{0}" キー)!
+assist.inst.limexceed	速度制限を超えています。直ちに減速してください ("{0}" キー)!
+assist.inst.stapass	停止位置を行き過ぎました。直ちに停車してください ("{0}" キー)!
+assist.inst.moving	ドアが開いたまま走行しています。直ちに停車してください ("{0}" キー)!
+assist.inst.dontback	後退できません。直ちに停止してください ("{0}" キー)!
+assist.inst.release	マスコンを操作する前にブレーキを緩めてください ("{0}" キー)。
+assist.inst.poweroff	ブレーキをかける前にマスコンを切に戻してください ("{0}" キー)。
+assist.inst.dontdepart	まだ発車できません。マスコンを切に戻してください ("{0}" キー)。
+assist.inst.keepbrake	停車中はブレーキをかけてください ("{0}" キー)。
+assist.inst.backward	停止位置は後方です。レバーサーを後にしてください ("{0}" キー)。
+assist.inst.goback	停止位置は後方です。後退してください。
+assist.inst.goahead	停止位置は前方です。前進してください。
+assist.inst.forward	レバーサーを前にしてください ("{0}" キー)。
+assist.inst.releaseemg	ブレーキを非常から常用にしてください ("{0}" キー)。
+assist.inst.depart	ブレーキを緩め ("{0}" キー)、マスコンを操作し ("{1}" キー)、発車してください。
+assist.inst.coast	適切な速度になったら、加速をやめてください ("{0}" キー)。
+assist.inst.limnear	{1} km/h の速度制限に近づいています。減速してください ("{0}" キー)。
+assist.inst.signear	前方の信号が {1} km/h を示しています。減速してください ("{0}" キー)。
+assist.inst.sig0near	停止信号です。停車してください ("{0}" キー)。
+assist.inst.stanear	まもなく停車駅です。ブレーキをかけてください ("{0}" キー)。
+assist.inst.regulate	ブレーキを調節して停止位置に停めてください ("{0}" キーと "{1}" キー)。
+assist.inst.arrived	駅に停車しました。
+config	設定
+config.graphics	グラフィック
+config.screen	画面
+config.winmode	ウィンドウ
+config.fullscr	フルスクリーン
+config.winsize	ウィンドウサイズ
+config.resolution	解像度
+config.desktop	デスクトップと同じ
+config.restart	次回起動時に有効になります。
+config.drawdist	描画距離と処理速度
+config.dist	距離: {0} m
+config.short	短い
+config.long	長い
+config.fast	速い
+config.slow	遅い
+config.coarse	粗い
+config.fine	細かい
+config.filter	テクスチャー フィルター
+config.anisotropy	異方性フィルター: {0}
+config.assist	補助表示
+config.assist.lever	ハンドル位置
+config.assist.clock	速度・時刻
+config.assist.sta	次駅情報
+config.assist.stop	停止位置
+config.assist.limit	制限速度
+config.assist.warn	警告
+config.assist.inst	運転指示
+config.assist.sway	乗客の揺れ
+config.assist.geom	曲線・勾配
+config.assist.detail	内部計算値
+config.pos	位置
+config.resetpos	既定位置に戻す
+config.font	フォント
+config.sysfont	(既定)
+config.bold	太字
+config.size	大きさ: {0}
+config.sim	シミュレーション
+config.headmove	運転士の頭の揺れ
+config.amp	振幅: {0}
+config.input	入力デバイス
+config.key	キーボード
+config.assign	キー割り当て...
+config.extinput	追加の入力デバイス
+config.interfname	インターフェース名
+config.ver	バージョン
+config.author	提供者
+config.file	ファイル
+config.prop	プロパティー...
+config.advance	高度な設定
+config.develop	開発用機能を有効にする
+open	シナリオの選択
+open.view	表示
+open.sort	並び替え
+open.start	運転開始
+open.icon	アイコン
+open.detail	詳細
+open.tile	並べて表示
+open.title	タイトル
+open.author	作者
+open.route	路線
+open.vehicle	車両
+open.date	運転日時
+open.file	ファイル
+button.ok	OK
+button.cancel	キャンセル
+button.ignore	続行
+button.abort	中止
+load.load	シナリオを読み込んでいます...
+load.error	シナリオ読み込み中にエラーが発生しました。
+load.warn	続行するとアプリが正常に動作しない可能性があります。
+load.desc	説明
+load.file	ファイル
+load.line	行
+load.column	列
+load.copy	コピー
+timetable.sta	停車場名
+timetable.arrive	着
+timetable.depart	発(通)
+timetable.pass	↓
+timetable.end	＝
+assign	キーの割り当て
+assign.preset	プリセット:
+assign.axis	ハンドル
+assign.switch	スイッチ
+assign.up	＋方向
+assign.down	－方向
+assign.return	切方向
+assign.min	最小
+assign.zero	切
+assign.max	最大
+assign.custom	(カスタム)
+assign.default	デフォルト
+assign.axis0	レバーサー (逆転ハンドル)
+assign.axis1	マスコン (主ハンドル)
+assign.axis2	ブレーキ
+assign.axis3	ワンハンドルマスコン
+assign.pause	一時停止
+assign.wait	割り当てるキーを押してください。
+assign.push	入/切
+assign.horn0	警笛 1
+assign.horn1	警笛 2
+assign.hornm	ミュージックホーン
+assign.constspeed	定速運転
+assign.ats0	保安装置 0 (S)
+assign.ats1	保安装置 1 (A1)
+assign.ats2	保安装置 2 (A2)
+assign.ats3	保安装置 3 (B1)
+assign.ats4	保安装置 4 (B2)
+assign.ats5	保安装置 5 (C1)
+assign.ats6	保安装置 6 (C2)
+assign.ats7	保安装置 7 (D)
+assign.ats8	保安装置 8 (E)
+assign.ats9	保安装置 9 (F)
+assign.ats10	保安装置 10 (G)
+assign.ats11	保安装置 11 (H)
+assign.ats12	保安装置 12 (I)
+assign.ats13	保安装置 13 (J)
+assign.ats14	保安装置 14 (K)
+assign.ats15	保安装置 15 (L)
+assign.viewup	視界を上に移動
+assign.viewdown	視界を下に移動
+assign.viewleft	視界を左に移動
+assign.viewright	視界を右に移動
+assign.viewreturn	視界を元に戻す
+assign.viewtele	視界の拡大
+assign.viewwide	視界の縮小
+assign.viewswitch	視点の切り替え
+assign.timetable	時刻表の表示/非表示
+assign.speedchange	走行速度の変更
+assign.fastforward	時間の早送り
+assign.reload	シナリオの再読込
+timepos	時刻と位置
+timepos.meter	m
+timepos.kph	km/h
+chart	車両物理量
