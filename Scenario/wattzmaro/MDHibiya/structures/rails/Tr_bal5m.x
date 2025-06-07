@@ -170,7 +170,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Tie.png";
+    "Tie.dds";
    }
   }
 
@@ -181,7 +181,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Ballast.png";
+    "Ballast.dds";
    }
   }
 
@@ -192,7 +192,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Ballast.png";
+    "Ballast.dds";
    }
   }
 
@@ -203,7 +203,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Rail.png";
+    "Rail.dds";
    }
   }
 
@@ -214,7 +214,7 @@ Mesh  {
    0.000000;0.000000;0.000000;;
 
    TextureFilename  {
-    "Rail.png";
+    "Rail.dds";
    }
   }
  }

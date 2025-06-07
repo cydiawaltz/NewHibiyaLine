@@ -31,23 +31,28 @@ include '../BaseMap/Gradient.txt';
 include '../BaseMap/Chijo6.txt';
 include '../BaseMap/Structure.txt';
 include '../BaseMap/nakaoka.txt';
+include '../BaseMap/watari.txt';
 #人形町とか
 #include 'Maps\NingyoNormal.txt';
 include '../BaseMap/NingyoNormal.txt';
 //Train['test'].Load('../otherTrain/TESTs/03.txt',2,-1);
 train.Add('test','../otherTrain/TESTs/03.txt',2,-1);
-2000;
+7700;
 train['test'].Enable('16:02:00');
-3000;
+7700;
 train['test'].Stop(-3,30,3,30);
 
-train.Add('test2','../otherTrain/TESTs/03.txt',2,-1);
-4850;
+train.Add('test2','../otherTrain/TESTs/03.txt',0,-1);
+7700;
 train['test2'].Enable('16:02:00');
-4900;
+7700;
 train['test2'].Stop(-3,30,3,30);
 5630;
 //Structure['plateau'].Put(0,0,-10,0,0,0,0,3,100);
+
+1150;
+station['TEST02'].Put(0,-300,300);
+
 140;
 station['H23'].Put(0,-50,50);
 //5630;

@@ -62,7 +62,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Sk_Tie.png";
+    "Sk_Tie.dds";
    }
   }
 
@@ -73,7 +73,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Rail.png";
+    "Rail.dds";
    }
   }
 
@@ -84,7 +84,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Rail.png";
+    "Rail.dds";
    }
   }
  }

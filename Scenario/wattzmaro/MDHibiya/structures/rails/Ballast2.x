@@ -20,7 +20,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "rail2.png";
+    "rail2.dds";
    }
   }
  }

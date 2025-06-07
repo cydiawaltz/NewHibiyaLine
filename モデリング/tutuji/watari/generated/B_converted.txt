@@ -1,0 +1,29 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 0.000000;
+
+# Track['B'].X
+$P09_RP + 0.000;
+Track['B'].X.Interpolate(5.000,0.000);
+
+# Track['B'].Y
+$P09_RP + 0.000;
+Track['B'].Y.Interpolate(0.000,0.000);
+
+# Track['B'].Cant.Interpolate
+$P09_RP + 0.000;
+Track['B'].Cant.Interpolate(0.000);
+
+# Track['B'].Cant.SetFunction
+$P09_RP + 0.000;
+Track['B'].Cant.SetFunction(1);
+
+# Track['B'].Cant.SetCenter
+$P09_RP + 0.000;
+Track['B'].Cant.SetCenter(0.000);
+
+# Track['B'].Cant.SetGauge
+$P09_RP + 0.000;
+Track['B'].Cant.SetGauge(1.067);
+

@@ -27,12 +27,41 @@ minami2,builds\minami2\minami2.x
 minami5,builds\minami5\minami5.x
 minami7,builds\minami7\minami7.x
 sekiya,builds\sekiya\sekiya.x
-bokutei1,builds\bokutei\1.x
-azuma1,builds\azuma\azuma.x
+bokutei,builds\bokutei\bokutei.x
+azuma,builds\azuma\azuma_new.x
 naka,builds\nakacho\naka.x
 oofumikiri1,builds\oofumikiri\oofumikiri.x
 ekimae,builds\ekimae\ekimae.x
 hikikomi,builds\hikikomi\hikikomi.x
+jogi,TEST\軌道作成専用\jogi.x
+
+#北千住~三ノ輪
+#駅前
+
+#大踏切(千住東北+旭町南部)
+
+#千住東中央
+azuma0,builds\azuma\0.x
+azuma1,builds\azuma\1.x
+azuma2,builds\azuma\2.x
+azuma3,builds\azuma\3.x
+azuma4,builds\azuma\4.x
+azuma5,builds\azuma\5.x
+azuma6,builds\azuma\6.x
+azuma7,builds\azuma\7.x
+azuma8,builds\azuma\8.x
+azuma9,builds\azuma\9.x
+azuma10,builds\azuma\10.x
+azuma11,builds\azuma\11.x
+azuma12,builds\azuma\12.x
+azuma13,builds\azuma\13.x
+
+#墨堤通り前
+
+#千住関屋・橋戸町
+
+#仲町・千住一丁目
+
 
 #駅とか
 #三ノ輪
@@ -92,6 +121,23 @@ form-hidari,builds\general\form-hidari.x
 form-migi,builds\general\form-migi.x
 
 
+#くーせみ様提供
+103L,collaborator\kuusemi\wayobj\103L.x
+104L,collaborator\kuusemi\wayobj\104L.x
+103R,collaborator\kuusemi\wayobj\103R.x
+104R,collaborator\kuusemi\wayobj\104R.x
+105L,collaborator\kuusemi\wayobj\105L.x
+106,collaborator\kuusemi\wayobj\106.x
+202_3,collaborator\kuusemi\wayobj\202_3.x
+
+#wattzmaro改造
+205,collaborator\kuusemi\wayobj\205.x
+
+#BVE_i_様提供
+Rail3_1,collaborator\BVE_i_\Rail\3_1.x
+Rail3_2,collaborator\BVE_i_\Rail\3_2.x
+Rail3_3,collaborator\BVE_i_\Rail\3_3.x
+Rail2,collaborator\BVE_i_\Rail\2.x
 
 TEST
 03test,TEST\03\TEST.x

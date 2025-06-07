@@ -1,7 +1,7 @@
 info:  Game: BveTs.exe
 info:  DXVK: v2.6.1
 info:  Build: x86_64 gcc 14.2.0
-info:  Vulkan: Found vkGetInstanceProcAddr in vulkan-1.dll @ 0x7ffebf9eeb80
+info:  Vulkan: Found vkGetInstanceProcAddr in vulkan-1.dll @ 0x7ffdfc64eb80
 info:  Built-in extension providers:
 info:    Platform WSI
 info:    OpenVR

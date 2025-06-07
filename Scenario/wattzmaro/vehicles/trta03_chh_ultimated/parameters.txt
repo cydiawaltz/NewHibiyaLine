@@ -37,5 +37,5 @@ MotorBrakeNotch = 1
 AtsCancelNotch = 1
 [ViewPoint]
 X = -0.74
-Y = 2.5
+Y = 2.2
 Z = -1.17

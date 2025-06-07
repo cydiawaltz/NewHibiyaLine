@@ -39,7 +39,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Ballast.png";
+    "Ballast.dds";
    }
   }
 
@@ -50,7 +50,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Ballast.png";
+    "Ballast.dds";
    }
   }
 
@@ -61,7 +61,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Tie.png";
+    "Tie.dds";
    }
   }
  }

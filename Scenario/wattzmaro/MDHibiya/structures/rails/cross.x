@@ -62,7 +62,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "Sk_Tie.png";
+    "Sk_Tie.dds";
    }
   }
 

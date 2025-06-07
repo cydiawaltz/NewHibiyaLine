@@ -148,7 +148,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "rail.png";
+    "rail.dds";
    }
   }
 
@@ -159,7 +159,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "gaishi2.png";
+    "gaishi2.dds";
    }
   }
 
@@ -170,7 +170,7 @@ Mesh {
    0.000000;0.000000;0.000000;;
 
    TextureFilename {
-    "tsurigu.png";
+    "tsurigu.dds";
    }
   }
  }
