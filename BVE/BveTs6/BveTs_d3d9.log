@@ -1,7 +1,7 @@
 info:  Game: BveTs.exe
 info:  DXVK: v2.6.1
 info:  Build: x86_64 gcc 14.2.0
-info:  Vulkan: Found vkGetInstanceProcAddr in vulkan-1.dll @ 0x7ffdfc64eb80
+info:  Vulkan: Found vkGetInstanceProcAddr in vulkan-1.dll @ 0x7ffdaf7ceb80
 info:  Built-in extension providers:
 info:    Platform WSI
 info:    OpenVR
@@ -182,3 +182,47 @@ info:  VK_KHR_external_memory_win32
 info:    extension supported                    : 1
 info:  VK_KHR_external_semaphore_win32
 info:    extension supported                    : 1
+info:  VK_KHR_load_store_op_none
+info:    extension supported                    : 1
+info:  VK_KHR_maintenance5
+info:    maintenance5                           : 1
+info:  VK_KHR_maintenance7
+info:    maintenance7                           : 1
+info:  VK_KHR_present_id
+info:    presentId                              : 0
+info:  VK_KHR_present_wait
+info:    presentWait                            : 0
+info:  VK_NV_descriptor_pool_overallocation
+info:    descriptorPoolOverallocation           : 0
+info:  VK_NV_low_latency2
+info:    extension supported                    : 0
+info:  VK_NV_raw_access_chains
+info:    shaderRawAccessChains                  : 0
+info:  VK_NVX_binary_import
+info:    extension supported                    : 0
+info:  VK_NVX_image_view_handle
+info:    extension supported                    : 0
+info:  VK_KHR_win32_keyed_mutex
+info:    extension supported                    : 1
+info:  Queue families:
+info:    Graphics : 0
+info:    Transfer : 0
+info:    Sparse   : 0
+info:  Memory type mask for buffer resources: 0x7, usage: 0x1ff
+info:  DXVK: Graphics pipeline libraries supported
+info:  D3D9DeviceEx::ResetSwapChain:
+info:    Requested Presentation Parameters
+info:      - Width:              0
+info:      - Height:             0
+info:      - Format:             D3D9Format::X8R8G8B8
+info:      - Auto Depth Stencil: true
+info:                  ^ Format: D3D9Format::D24S8
+info:      - Windowed:           true
+info:      - Swap effect:        1
+info:  Presenter: Actual swapchain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_FIFO_KHR (dynamic: no)
+info:    Buffer size:  1440x810
+info:    Image count:  3
+info:  DXVK: Using 12 compiler threads

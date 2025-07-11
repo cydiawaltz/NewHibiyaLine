@@ -131,17 +131,17 @@ structure['hikikomi'].Put('6bansen',0,-14.3,0,0,5,0,100,100);
 655+$b;
 structure['ekimae'].Put('6bansen',20,-10.3,0,0,5,0,100,100);
 845+$b;
-structure['oofumikiri1'].Put('6bansen',-10,-3.3,0,0,3,0,100,100);
+#structure['oofumikiri'].Put('6bansen',-10,-3.3,0,0,3,0,100,100);
 975+$b;
 //structure['azuma'].Put('6bansen',-10,-0.8,0,0,-2,0,100,100);
-structure['azuma'].Put('6bansen',-15,-0.8,0,0,-2,0,100,100);
+//structure['azuma'].Put('6bansen',-15,-0.8,0,0,-2,0,100,100);
 1090+$b;
 structure['naka'].Put('6bansen',-35,-2,0,0,-10,0,50,100);
 1160+$b;
 //地面-3.78m
-structure['bokutei'].Put('6bansen',-2,-2,0,0,0,0,50,100);
+//structure['bokutei'].Put('6bansen',-2,-2,0,0,0,0,50,100);
 1570+$b;
-structure['sekiya'].Put('6bansen',-107,-10,0,0,-8,0,50,100);
+//structure['sekiya'].Put('6bansen',-107,-10,0,0,-8,0,50,100);
 2200+$b;
 structure['minami7'].Put('6bansen',-165,-10,0,0,-30,0,50,100);
 2700+$b;
@@ -149,34 +149,109 @@ structure['minami7'].Put('6bansen',-165,-10,0,0,-30,0,50,100);
 2910+$b;
 //structure['minami2'].Put('6bansen',-10,8,0,0,-70,0,50,100);
 structure['minami2'].Put('6bansen',10,8,50,0,-73,0,50,100);
-950;
-structure['jogi'].Put('6bansen',-15,-3.65,0,0,0,0,50,100);
+900;
+//structure['jogi'].Put('6bansen',-15,-3.65,0,0,0,0,50,100);
+structure['jogi'].Put('6bansen',-15,-3,0,0,0,0,50,100);
 
+//大踏切~千住東北
+732+$b;
+structure['oofumikiri9'].Put('6bansen',-5,-6.5,0,0,3,0,100,100);
+//8は見えないので省略
+738+$b;
+//structure['oofumikiri8'].Put('6bansen',-8,-6.5,0,0,0,0,100,100);
+746+$b;
+structure['oofumikiri7'].Put('6bansen',-3,-5.7,0,0,40,0,100,100);
+769+$b;
+structure['oofumikiri6'].Put('6bansen',-5,-5.7,0,0,00,0,100,100);
+782+$b;
+structure['oofumikiri5'].Put('6bansen',-3,-5.7,0,0,00,0,100,100);
+790+$b;
+structure['oofumikiri4'].Put('6bansen',-3,-5.7,0,0,00,0,100,100);
+802+$b;
+structure['oofumikiri3'].Put('6bansen',-3,-5.2,0,0,00,0,100,100);
+817+$b;
+structure['oofumikiri2'].Put('6bansen',-3,-4.4,0,0,8,0,100,100);
+827+$b;
+structure['oofumikiri1'].Put('6bansen',-3,-4.4,0,0,0,0,100,100);
+838+$b;
+structure['oofumikiri0'].Put('6bansen',-3,-4,0,0,0,0,100,100);
 
 //千住東中央
+855+$b;
+structure['azuma13'].Put('6bansen',-3,-3.5,0,0,10,0,100,100);//３連
+855+$b;
+structure['azuma12'].Put('6bansen',-5,-3.5,0,0,20,0,100,100);//灰色
+865+$b;
+structure['azuma11'].Put('6bansen',-4,-3.5,0,0,20,0,100,100);//黄ばんでる方（Extreme・失礼）
+870+$b;
+structure['azuma10'].Put('6bansen',-7.3,-3.5,0,0,20,0,100,100);//奥1・黒い家
 889+$b;
-structure['azuma9'].Put('6bansen',-8,-3.5,0,0,10,0,100,100);//角
+structure['azuma9'].Put('6bansen',-5,-3.5,0,0,10,0,100,100);//角
 898+$b;
-structure['azuma8'].Put('6bansen',-8,-3.5,0,0,2,0,100,100);//レンガ家
+structure['azuma8'].Put('6bansen',-5.5,-3.5,0,0,2,0,100,100);//レンガ家
 910+$b;
-structure['azuma7'].Put('6bansen',-8,-3.3,0,0,2,0,100,100);//クリーニング
+structure['azuma7'].Put('6bansen',-6.5,-3.3,0,0,2,0,100,100);//クリーニング
 917+$b;
-structure['azuma6'].Put('6bansen',-8,-3.3,0,0,2,0,100,100);//黄色ガレージ
+structure['azuma6'].Put('6bansen',-6.5,-3.3,0,0,2,0,100,100);//黄色ガレージ
 924+$b;
-structure['azuma5'].Put('6bansen',-8.3,-2.7,0,0,2,0,100,100);//レンガ家
+structure['azuma5'].Put('6bansen',-6.8,-2.7,0,0,2,0,100,100);//レンガ家
 940+$b;
-structure['azuma4'].Put('6bansen',-8.5,-2.9,0,0,2,0,100,100);//ソレイユ7
+structure['azuma4'].Put('6bansen',-7,-2.9,0,0,2,0,100,100);//ソレイユ7
 948+$b;
-structure['azuma3'].Put('6bansen',-8.5,-2.8,0,0,2,0,100,100);//カラフル4階アパート
+structure['azuma3'].Put('6bansen',-7,-2.8,0,0,2,0,100,100);//カラフル4階アパート
 965+$b;
-structure['azuma1'].Put('6bansen',-9,-2.8,0,0,2,0,100,100);//ボロ屋
+structure['azuma1'].Put('6bansen',-7.5,-2.8,0,0,2,0,100,100);//ボロ屋
 970+$b;
-structure['azuma2'].Put('6bansen',-9,-2.8,0,0,10,0,100,100);////デカマンション
+structure['azuma2'].Put('6bansen',-7.5,-2.8,0,0,10,0,100,100);////デカマンション
 975+$b;
-structure['azuma0'].Put('6bansen',-9,-3,0,0,3,0,100,100);//角
-
+structure['azuma0'].Put('6bansen',-7.5,-3,0,0,3,0,100,100);//角
 
 //墨堤通り
+1015+$b;
+structure['bokutei6'].Put('6bansen',-3,-2.5,0,0,0,0,100,100);//角
+1050+$b;
+structure['bokutei5'].Put('6bansen',-3,-2.6,0,0,0,0,100,100);//ヤクザ家
+1070+$b;
+structure['bokutei4'].Put('6bansen',-3,-2.6,0,0,0,0,100,100);//角
+1094+$b;
+structure['bokutei3'].Put('6bansen',-3,-2.6,0,0,0,0,100,100);//角
+1100+$b;
+structure['bokutei2'].Put('6bansen',-3,-2.6,0,0,0,0,100,100);
+1143+$b;
+structure['bokutei1'].Put('6bansen',-3,-2.6,0,0,0,0,100,100);
+
+//関屋町・河原町左
+1570+$b;
+//structure['sekiya'].Put('6bansen',-107,-10,0,0,-8,0,50,100);
+1200+$b;
+//structure['sekiya7L'].Put('6bansen',-3,-2.6,0,0,0,0,100,100);//完成街
+1254+$b;
+structure['sekiya6L'].Put('6bansen',-5,-5,0,0,-3,0,100,100);//連チャン
+1280+$b;
+structure['sekiya5L'].Put('6bansen',-1,-7,0,0,-3,0,100,100);//青マンション
+1320+$b;
+structure['sekiya4L'].Put('6bansen',0,-8,0,0,0,0,100,100);//南国マンション
+1415+$b;
+structure['sekiya3L'].Put('6bansen',10,-9.5,0,0,-10,0,100,100);//倉庫
+1480+$b;
+structure['sekiya2L'].Put('6bansen',-8,-9.5,0,0,-5,0,100,100);//奥マンション+メタル丸全昭和運輸
+1510+$b;
+structure['sekiya1L'].Put('6bansen',-45,-9.5,0,0,-10,0,100,100);//左奥マンション+あんま見えん倉庫
+1590+$b;
+structure['sekiya0L'].Put('6bansen',0,-9.5,0,0,-10,0,100,100);//蒼丸全昭和運輸+その他もろもろ
+//関屋町・河原町右
+1581+$b;
+structure['sekiya0R'].Put('joban2',5,-5,0,0,-5,0,100,100);//東都冷蔵
+1501+$b;
+structure['sekiya1R'].Put('joban2',5,-5,0,0,-5,0,100,100);//やっちゃ場
+1366+$b;
+structure['sekiya2R'].Put('joban2',-18,-8,0,0,-20,0,100,100);//デカマンション
+1316+$b;
+//structure['sekiya3R'].Put('joban2',-18,-8,0,0,-20,0,100,100);//完成街
+1165+$b;
+structure['sekiya4R'].Put('joban2',-10,-8,0,0,-10,0,100,100);//赤マンション
+1195+$b;
+structure['sekiya5R'].Put('joban2',-10,-8,0,0,-10,0,100,100);//赤マンション+謎マンション
 
 
 
@@ -438,7 +513,7 @@ Track['2'].Position(5,0);
 10680-$a;
 CabIlluminance.Set(0.1);
 10685-$a;
-Track[2].Position(5,0);
+//Track[2].Position(4.5,0);
 # repeater['slabA'].Begin0(0,3,5,5,'slab');repeater['dike'].Begin(0,-0.5,0,0,0,0,0,3,25,25,'dike');
 ##repeater['wall'].End();
 # # repeater['wallB'].End();
@@ -497,12 +572,12 @@ repeater['yuka1B'].End();
 # # repeater['wallB'].Begin(2,1,0,0,0,0,0,3,5,5,'wall5-ura','wall5-ura','wall5-ura','wall4-ura');
 10835-$a;
 Repeater['6bansen_ballast'].Begin('6bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
-Repeater['5bansen_ballast'].Begin('2', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
+Repeater['5bansen_ballast'].Begin(2, 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
 repeater['dike'].Begin(0,1.4,0, 0, 0, 0, 0, 1, 15, 15, '202_3');
 Repeater['wallA1'].Begin(0, -1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '103L');
 Repeater['tenjo105'].Begin(0, -1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '105L');
 Repeater['tenjo106'].Begin(0, -2, 0.01, 0, 0, 0, 0, 1, 15, 15, '106');
-Repeater['wallB1'].Begin('2', 1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '103R');
+Repeater['wallB1'].Begin(2, 1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '103R');
 # repeater['slabA'].Begin0(0,3,5,5,'slab2');CabIlluminance.Set(0.1);
 #秋葉原の広告
 10718-$a;
@@ -515,6 +590,9 @@ Structure['Tosei'].Put(0,-5.5,-0.5,0,0,0,0,0,0);
 Structure['kuon'].Put(0,-5.5,-0.5,0,0,0,0,0,0);
 10742-$a;
 Structure['Shitugaiki'].Put(0,-4,-0.5,0,0,-90,0,0,0);
+
+//5781;
+//Track[2].Position(4.5,0);
 
 #小伝馬町
 11415-$a;

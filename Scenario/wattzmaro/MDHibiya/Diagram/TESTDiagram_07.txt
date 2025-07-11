@@ -6,7 +6,7 @@ include '[[BveEx::NOMPI]] 引き込み線 => 7番線 (三ノ輪まで)';
 //Structure.Load('../structures/StructureList.txt');
 //Background.Change('Bg');
 //Sound.Load('soundNew.txt');
-Station.Load('../BaseMap/stations/StationTest.csv');
+Station.Load('../BaseMap/stations/ForDebug.csv');
 BveEx.MapPlugin.LoadAssembly('..\Plugins\debug\MetroDrive\MetroDriveEX.dll');
 #このダイヤでは、6番線から発車し、そのまま中目黒へと向かうダイヤである
 #現在は三ノ輪〜人形町を暫定開業とする

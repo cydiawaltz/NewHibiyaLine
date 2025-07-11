@@ -30,7 +30,7 @@ sekiya,builds\sekiya\sekiya.x
 bokutei,builds\bokutei\bokutei.x
 azuma,builds\azuma\azuma_new.x
 naka,builds\nakacho\naka.x
-oofumikiri1,builds\oofumikiri\oofumikiri.x
+oofumikiri,builds\oofumikiri\oofumikiri.x
 ekimae,builds\ekimae\ekimae.x
 hikikomi,builds\hikikomi\hikikomi.x
 jogi,TEST\軌道作成専用\jogi.x
@@ -39,6 +39,16 @@ jogi,TEST\軌道作成専用\jogi.x
 #駅前
 
 #大踏切(千住東北+旭町南部)
+oofumikiri0,builds\oofumikiri\0.x
+oofumikiri1,builds\oofumikiri\1.x
+oofumikiri2,builds\oofumikiri\2.x
+oofumikiri3,builds\oofumikiri\3.x
+oofumikiri4,builds\oofumikiri\4.x
+oofumikiri5,builds\oofumikiri\5.x
+oofumikiri6,builds\oofumikiri\6.x
+oofumikiri7,builds\oofumikiri\7.x
+oofumikiri8,builds\oofumikiri\8.x
+oofumikiri9,builds\oofumikiri\9.x
 
 #千住東中央
 azuma0,builds\azuma\0.x
@@ -57,11 +67,33 @@ azuma12,builds\azuma\12.x
 azuma13,builds\azuma\13.x
 
 #墨堤通り前
+bokutei1,builds\bokutei\1.x
+bokutei2,builds\bokutei\2.x
+bokutei3,builds\bokutei\3.x
+bokutei4,builds\bokutei\4.x
+bokutei5,builds\bokutei\5.x
+bokutei6,builds\bokutei\6.x
+
+
 
 #千住関屋・橋戸町
 
 #仲町・千住一丁目
+sekiya0L,builds\sekiya\0L.x
+sekiya1L,builds\sekiya\1L.x
+sekiya2L,builds\sekiya\2L.x
+sekiya3L,builds\sekiya\3L.x
+sekiya4L,builds\sekiya\4L.x
+sekiya5L,builds\sekiya\5L.x
+sekiya6L,builds\sekiya\6L.x
+sekiya7L,builds\sekiya\7L.x
 
+sekiya0R,builds\sekiya\0R.x
+sekiya1R,builds\sekiya\1R.x
+sekiya2R,builds\sekiya\2R.x
+sekiya3R,builds\sekiya\3R.x
+sekiya4R,builds\sekiya\4R.x
+sekiya5R,builds\sekiya\5R.x
 
 #駅とか
 #三ノ輪
@@ -120,6 +152,14 @@ kayabapole,builds\H12\kayabapole.x
 form-hidari,builds\general\form-hidari.x
 form-migi,builds\general\form-migi.x
 
+
+#車両
+70090-1,trains\70000\70090-1.x
+70090-2,trains\70000\70090-2.x
+70090-1_TH,trains\70000\70090-1_TH.x
+70090-2_TH,trains\70000\70090-2_TH.x
+70000-1,trains\70000\70000-1.x
+70000-2,trains\70000\70000-2.x
 
 #くーせみ様提供
 103L,collaborator\kuusemi\wayobj\103L.x

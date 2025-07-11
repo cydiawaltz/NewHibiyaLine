@@ -7,7 +7,7 @@ Bottom           = 2088
 Right            = 2088
 Left             = 200
 Center           = 200,1170
-Origin           = 1000,1000
+Origin           = 1200,1000
 
 ;‰^“]‘ä
 [Pilotlamp]
