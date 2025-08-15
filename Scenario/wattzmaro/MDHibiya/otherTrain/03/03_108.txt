@@ -1,0 +1,49 @@
+BveTs Train 1.01
+
+[structure]
+key = 03Tc_3chp
+distance = 18
+span = 14
+z = 7
+
+[structure]
+key = 03T_chp
+distance = 35.4
+span = 14
+z = 7
+
+[structure]
+key = 03M_chp
+distance = 52.6
+span = 14
+z = 7
+
+[structure]
+key = 03T_chp
+distance = 69.8
+span = 14
+z = 7
+
+[structure]
+key = 03T_chp
+distance = 88
+span = 14
+z = 7
+
+[structure]
+key = 03T_chp
+distance = 105.2
+span = 14
+z = 7
+
+[structure]
+key = 03M_chp
+distance = 122.4
+span = 14
+z = 7
+
+[structure]
+key = 03TcB_3chp
+distance = 139.6
+span = 14
+z = 7

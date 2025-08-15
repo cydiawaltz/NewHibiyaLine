@@ -1,0 +1,61 @@
+BveTs Train 1.01
+
+[structure]
+key = Tc'E656-0
+distance = 20
+span = 14
+z = 7
+
+[structure]
+key = ME657-0
+distance = 41
+span = 14
+z = 7
+
+[structure]
+key = ME656-0
+distance = 61.5
+span = 14
+z = 7
+
+[structure]
+key = TE657-0
+distance = 82
+span = 14
+z = 7
+
+[structure]
+key = TsE657-0
+distance = 102.5
+span = 14
+z = 7
+
+[structure]
+key = ME657-0
+distance = 123
+span = 14
+z = 7
+
+[structure]
+key = ME656-0
+distance = 143.5
+span = 14
+z = 7
+
+[structure]
+key = ME657-0
+distance = 164
+span = 14
+z = 7
+
+[structure]
+key = ME656-0
+distance = 184.5
+span = 14
+z = 7
+
+[structure]
+key = TcE657-0
+distance = 205.3
+span = 14
+z = 7

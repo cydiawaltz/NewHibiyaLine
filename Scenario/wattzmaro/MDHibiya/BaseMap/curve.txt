@@ -2,11 +2,11 @@ BveTs Map 2.02:utf-8
 
 $a = 5220;
 #三ノ輪～入谷
-8822-$a;
+8622-$a;
 Curve.BeginTransition();
-8824-$a;
+8624-$a;
 Curve.Begin(1000,0.015);
-8884-$a;
+8784-$a;
 Curve.End();
 #入谷～上野
 8984-$a;

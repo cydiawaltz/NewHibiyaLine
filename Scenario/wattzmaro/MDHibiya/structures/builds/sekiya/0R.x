@@ -50,7 +50,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "DSC02469p--1.png";
+    "DSC02469p--1.dds";
    }
   }
 
@@ -61,7 +61,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "DSC024490.png";
+    "DSC024490.dds";
    }
   }
 
@@ -72,7 +72,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "DSC02469p-1p-1.png";
+    "DSC02469p-1p-1.dds";
    }
   }
 
@@ -83,7 +83,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "DSC02469p-2.png";
+    "DSC02469p-2.dds";
    }
   }
  }

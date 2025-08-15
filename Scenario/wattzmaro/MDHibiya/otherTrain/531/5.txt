@@ -1,0 +1,31 @@
+BveTs Train 1.01
+
+[structure]
+key = Tc'E530-5000
+distance = 20
+span = 14
+z = 7
+
+[structure]
+key = ME530-4000
+distance = 40
+span = 14
+z = 7
+
+[structure]
+key = ME531-3000
+distance = 60
+span = 14
+z = 7
+
+[structure]
+key = TE531-3000
+distance = 80
+span = 14
+z = 7
+
+[structure]
+key = TcE531-4000
+distance = 100
+span = 14
+z = 7

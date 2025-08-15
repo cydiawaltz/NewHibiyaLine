@@ -1,0 +1,61 @@
+BveTs Train 1.01
+
+[structure]
+key = 8000tc
+distance = 16.5
+span = 14
+z = 7
+
+[structure]
+key = 8000mtp
+distance = 33
+span = 14
+z = 7
+
+[structure]
+key = 8000mt
+distance = 49.5
+span = 14
+z = 7
+
+[structure]
+key = 8000mtp
+distance = 66
+span = 14
+z = 7
+
+[structure]
+key = 8000mt
+distance = 82.5
+span = 14
+z = 7
+
+[structure]
+key = 8000mt
+distance = 99
+span = 14
+z = 7
+
+[structure]
+key = 8000mt
+distance = 115.5
+span = 14
+z = 7
+
+[structure]
+key = 8000mtp
+distance = 132
+span = 14
+z = 7
+
+[structure]
+key = 8000mt
+distance = 148.5
+span = 14
+z = 7
+
+[structure]
+key = 8000tcb
+distance = 166
+span = 14
+z = 7
