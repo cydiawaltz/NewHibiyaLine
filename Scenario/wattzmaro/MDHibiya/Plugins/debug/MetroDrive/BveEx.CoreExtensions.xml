@@ -309,11 +309,6 @@
         <member name="M:BveEx.Extensions.LoadErrorManager.LoadErrorList.RemoveAt(System.Int32)">
             <inheritdoc/>
         </member>
-        <member name="F:BveEx.Extensions.MapStatements.Builtin.Preprocess.IfBlock.HasMatched">
-            <summary>
-            各ネストの if ブロックにおいて、既にマッチする条件が出現したかどうか。
-            </summary>
-        </member>
         <member name="T:BveEx.Extensions.MapStatements.ClauseFilter">
             <summary>
             マップステートメントの句を検索する際の絞り込み条件を表します。
@@ -435,6 +430,79 @@
             関数。<c>Hoge['a'].Fuga.Piyo('b');</c> の Piyo が該当します。
             </summary>
         </member>
+        <member name="T:BveEx.Extensions.MapStatements.Parsing.RawParserBase">
+            <summary>
+            追加文法を独自に定義し、それに則ってマップ構文を解析します。
+            </summary>
+        </member>
+        <member name="M:BveEx.Extensions.MapStatements.Parsing.RawParserBase.ConstructGrammar(Irony.Parsing.Grammar,BveEx.Extensions.MapStatements.Parsing.TerminalSet)">
+            <summary>
+            文法を定義します。
+            </summary>
+            <param name="grammar">マップ構文の文法。</param>
+            <param name="terminals">既定の文法にて定義されている代表的な <see cref="T:Irony.Parsing.BnfTerm"/> のセット。</param>
+        </member>
+        <member name="M:BveEx.Extensions.MapStatements.Parsing.RawParserBase.TryParseNode(BveTypes.ClassWrappers.MapParser,Irony.Parsing.ParseTreeNode)">
+            <summary>
+            式の解析を試行します。
+            </summary>
+            <param name="parser">構文解析器。</param>
+            <param name="node">解析対象となる式。</param>
+            <returns>
+            式の解析が完了したかどうか。<see langword="false"/> を返すと、他の構文解析器へ処理がフォールバックされます。
+            どの構文解析器でも解析ができなかった場合は、BVE の既定の解析処理を使用します。
+            </returns>
+        </member>
+        <member name="M:BveEx.Extensions.MapStatements.Parsing.RawParserBase.TryGetSystemVariable(BveTypes.ClassWrappers.MapParser,System.String,System.Object@)">
+            <summary>
+            システム変数の取得を試行します。
+            </summary>
+            <param name="parser">構文解析器。</param>
+            <param name="key">変数の名前。</param>
+            <param name="result">変数の値。</param>
+            <returns>
+            システム変数の取得が完了したかどうか。<see langword="false"/> を返すと、他の構文解析器へ処理がフォールバックされます。
+            どの構文解析器でも解析ができなかった場合は、BVE の既定の解析処理を使用します。
+            </returns>
+        </member>
+        <member name="M:BveEx.Extensions.MapStatements.Parsing.RawParserBase.TryCalculateSign(System.Object,System.String,System.Object@)">
+            <summary>
+            符号演算を試行します。
+            </summary>
+            <param name="value">演算前の値。</param>
+            <param name="operatorName">符号の名前。</param>
+            <param name="result">演算後の値。</param>
+            <returns>
+            符号演算が完了したかどうか。<see langword="false"/> を返すと、他の構文解析器へ処理がフォールバックされます。
+            どの構文解析器でも解析ができなかった場合は、BVE の既定の解析処理を使用します。
+            </returns>
+        </member>
+        <member name="M:BveEx.Extensions.MapStatements.Parsing.RawParserBase.TryCalculateOperator(System.Object,System.Object,System.String,System.Object@)">
+            <summary>
+            二項演算を試行します。
+            </summary>
+            <param name="left">左辺の値。</param>
+            <param name="right">右辺の値。</param>
+            <param name="operatorName">演算子の名前。</param>
+            <param name="result">演算後の値。</param>
+            <returns>
+            二項演算が完了したかどうか。<see langword="false"/> を返すと、他の構文解析器へ処理がフォールバックされます。
+            どの構文解析器でも解析ができなかった場合は、BVE の既定の解析処理を使用します。
+            </returns>
+        </member>
+        <member name="M:BveEx.Extensions.MapStatements.Parsing.RawParserBase.ToBool(System.Object)">
+            <summary>
+            <see cref="T:System.String"/> 型、<see cref="T:System.Double"/> 型、<see cref="T:System.Int32"/> 型のオブジェクトを真偽値に変換します。
+            </summary>
+            <param name="value">変換元のオブジェクト。</param>
+            <returns></returns>
+            <exception cref="T:System.NotSupportedException"><paramref name="value"/> が <see cref="T:System.String"/> 型、<see cref="T:System.Double"/> 型、<see cref="T:System.Int32"/> 型以外です。</exception>
+        </member>
+        <member name="T:BveEx.Extensions.MapStatements.Parsing.TerminalSet">
+            <summary>
+            既定のマップ構文 文法にて定義されている、代表的な <see cref="T:Irony.Parsing.BnfTerm"/> のセットを表します。
+            </summary>
+        </member>
         <member name="T:BveEx.Extensions.MapStatements.IStatementSet">
             <summary>
             BveEX マップステートメントのセットを表します。
@@ -449,6 +517,16 @@
             <summary>
             マップの読込が完了したときに発生します。
             </summary>
+        </member>
+        <member name="M:BveEx.Extensions.MapStatements.IStatementSet.RegisterParser(BveEx.Extensions.MapStatements.Parsing.RawParserBase)">
+            <summary>
+            独自の文法をサポートする構文解析器を登録します。
+            </summary>
+            <remarks>
+            独自の文法を追加すると、将来のアップデートで BVE 本体や BveEX 公式の文法と衝突する危険性があります。
+            この機能は可能な限り使わず、単純なマップステートメントを使用されることを強く推奨します。
+            </remarks>
+            <param name="parser">登録する構文解析器。</param>
         </member>
         <member name="M:BveEx.Extensions.MapStatements.IStatementSet.FindOfficialStatement(BveEx.Extensions.MapStatements.ClauseFilter[])">
             <summary>
@@ -493,6 +571,14 @@
             <summary>
             このステートメントのソースを取得します。
             </summary>
+        </member>
+        <member name="P:BveEx.Extensions.MapStatements.Statement.OriginalSource">
+            <summary>
+            このステートメントのソースを、<c>ex_using</c> 句による補完を行う前の形で取得します。
+            </summary>
+            <remarks>
+            補完をしていない場合は <see cref="P:BveEx.Extensions.MapStatements.Statement.Source"/> と同じオブジェクトを返します。
+            </remarks>
         </member>
         <member name="M:BveEx.Extensions.MapStatements.Statement.ToString">
             <inheritdoc/>
@@ -1130,6 +1216,14 @@
             <summary>
             BVE で利用可能な音声を簡単に読み込むための機能を提供します。
             </summary>
+        </member>
+        <member name="P:BveEx.Extensions.SoundFactory.ISoundFactory.IsAvailable">
+            <summary>
+            <see cref="M:BveEx.Extensions.SoundFactory.ISoundFactory.LoadFrom(System.String,System.Double,BveTypes.ClassWrappers.Sound.SoundPosition,System.Int32)"/> メソッドが使用可能であるかどうかを取得します。
+            </summary>
+            <remarks>
+            <see cref="T:BveTypes.ClassWrappers.AtsPlugin"/> オブジェクトの生存期間 (コンストラクタが実行されてから、<see cref="M:BveTypes.ClassWrappers.AtsPlugin.Dispose"/> メソッドが呼び出されるまで) に一致します。
+            </remarks>
         </member>
         <member name="M:BveEx.Extensions.SoundFactory.ISoundFactory.LoadFrom(System.String,System.Double,BveTypes.ClassWrappers.Sound.SoundPosition,System.Int32)">
             <summary>

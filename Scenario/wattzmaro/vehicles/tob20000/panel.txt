@@ -1,0 +1,319 @@
+Version 1.0
+
+[This]
+Resolution       = 2048
+Left             = 10
+Top              = 700
+Right            = 2000
+Bottom           = 2020
+Center           = 870,1050
+Origin           = 900,935
+DaytimeImage     = panel\panel.png
+NighttimeImage   = panel\panel_d.png
+
+[Pilotlamp]
+Subject          = door
+Location         = 1036,1908
+DaytimeImage     = panel\DoorCls_0.png
+NighttimeImage   = panel\DoorCls_0d.png
+Layer            = 3
+
+[Needle]
+Subject = bc
+Location = 1081, 1783
+DaytimeImage = panel\prs_up.bmp
+Color = #1E1E1E
+TransparentColor = #000000
+Origin = 64, 328
+Layer = 3
+Radius = 78
+InitialAngle = -135
+LastAngle = 160
+Minimum = 0
+Maximum = 1200
+NaturalFreq = 0
+
+[Needle]
+Subject = mr
+Location = 1081, 1783
+DaytimeImage = panel\prs_up.bmp
+Color = #963228
+TransparentColor = #000000
+Origin = 64, 328
+Layer = 2
+Radius = 78
+InitialAngle = -120
+LastAngle = 120
+Minimum = 0
+Maximum = 1200
+NaturalFreq = 0
+
+[Needle]
+Subject = kmph
+Location = 804, 1780
+DaytimeImage = panel\speed.bmp
+Color = #1E1E1E
+TransparentColor = #000000
+Origin = 16, 256
+Layer = 3
+Radius = 80
+InitialAngle = -120
+LastAngle = 120
+Minimum = 0
+Maximum = 120
+NaturalFreq = 5
+
+[PilotLamp]
+Subject = true
+Location = 762, 1744
+DaytimeImage = panel\SpdCov.png
+NighttimeImage = panel\SpdCov_d.png
+Layer = 10
+
+[PilotLamp]
+Subject = true
+Location = 1270, 1743
+DaytimeImage = panel\BrkCov.png
+NighttimeImage = panel\BrkCov_d.png
+Layer = 10
+
+;-------------------------------
+
+;ATSATC Section
+[Needle]
+Subject = ats51
+Location = 1307, 1781
+DaytimeImage = panel\speed.bmp
+Color = #1E1E1E
+TransparentColor = #000000
+Origin = 16, 256
+Layer = 2
+Radius = 82
+InitialAngle = -125
+LastAngle = 26
+Minimum = 0
+Maximum = 9
+NaturalFreq = 15
+
+[Pilotlamp]
+Subject          = ats44
+Location         = 699,1872
+DaytimeImage     = ats\ats_dousa.bmp
+Layer            = 3
+
+[DigitalNumber]
+Subject          = ats92
+Location         = 1477,1923
+DaytimeImage     = panel\key.bmp
+Layer            = 3
+Interval         = 64
+
+[Pilotlamp]
+Subject          = ats42
+Location         = 658,1765
+DaytimeImage     = ats\15.bmp
+Layer            = 2
+
+[Pilotlamp]
+Subject          = ats43
+Location         = 785,1640
+DaytimeImage     = ats\60.bmp
+Layer            = 2
+
+[DigitalNumber]
+Subject          = ats72
+Location         = 53,1686
+DaytimeImage     = panel\handle.png
+NighttimeImage   = panel\handle_d.png
+Layer            = 5
+Interval         = 128
+
+[Needle]
+Subject 	 = ats135
+Location         = 804, 1780
+DaytimeImage     = panel\speed.bmp
+Color 		 = #d52222
+Origin           = 16, 256
+Layer 		 = 2
+Radius 		 = 80
+InitialAngle 	 = -120
+LastAngle 	 = 160
+Minimum 	 = 0
+Maximum 	 = 1300
+NaturalFreq 	 = 5
+DampingRatio 	 = 0.5
+
+[Pilotlamp]
+Subject          = ats131
+Location         = 750,1653
+DaytimeImage     = atc\stop.bmp
+Layer            = 6
+
+[Pilotlamp]
+Subject          = ats132
+Location         = 843,1653
+DaytimeImage     = atc\go.bmp
+Layer            = 6
+
+[Pilotlamp]
+Subject          = ats101
+Location         = 792,1888
+DaytimeImage     = atc\x.bmp
+Layer            = 6
+
+[Pilotlamp]
+Subject          = ats134
+Location         = 708,1856
+DaytimeImage     = atc\p.bmp
+Layer            = 6
+
+;-------------------------------
+
+;ATC Speed
+[Pilotlamp] ;0
+Subject          = ats102
+Location         = 699,1828
+DaytimeImage     = atc\000.bmp
+Layer            = 6
+
+[Pilotlamp] ;10
+Subject          = ats104
+Location         = 691,1798
+DaytimeImage     = atc\010.bmp
+Layer            = 6
+
+[Pilotlamp] ;15
+Subject          = ats105
+Location         = 689,1779
+DaytimeImage     = atc\015.bmp
+Layer            = 6
+
+[Pilotlamp] ;20
+Subject          = ats106
+Location         = 690,1757
+DaytimeImage     = atc\020.bmp
+Layer            = 6
+
+[Pilotlamp] ;25
+Subject          = ats107
+Location         = 693,1738
+DaytimeImage     = atc\025.bmp
+Layer            = 6
+
+[Pilotlamp] ;30
+Subject          = ats108
+Location         = 702,1721
+DaytimeImage     = atc\030.bmp
+Layer            = 6
+
+[Pilotlamp] ;35
+Subject          = ats109
+Location         = 711,1702
+DaytimeImage     = atc\035.bmp
+Layer            = 6
+
+[Pilotlamp] ;40
+Subject          = ats110
+Location         = 725,1688
+DaytimeImage     = atc\040.bmp
+Layer            = 6
+
+[Pilotlamp] ;45
+Subject          = ats111
+Location         = 741,1676
+DaytimeImage     = atc\045.bmp
+Layer            = 6
+
+[Pilotlamp] ;50
+Subject          = ats112
+Location         = 759,1669
+DaytimeImage     = atc\050.bmp
+Layer            = 6
+
+[Pilotlamp] ;55
+Subject          = ats113
+Location         = 778,1665
+DaytimeImage     = atc\055.bmp
+Layer            = 6
+
+[Pilotlamp] ;60
+Subject          = ats114
+Location         = 796,1663
+DaytimeImage     = atc\060.bmp
+Layer            = 6
+
+[Pilotlamp] ;65
+Subject          = ats115
+Location         = 815,1665
+DaytimeImage     = atc\065.bmp
+Layer            = 6
+
+[Pilotlamp] ;70
+Subject          = ats116
+Location         = 832,1669
+DaytimeImage     = atc\070.bmp
+Layer            = 6
+
+[Pilotlamp] ;75
+Subject          = ats117
+Location         = 848,1676
+DaytimeImage     = atc\075.bmp
+Layer            = 6
+
+[Pilotlamp] ;80
+Subject          = ats118
+Location         = 864,1687
+DaytimeImage     = atc\080.bmp
+Layer            = 6
+
+[Pilotlamp] ;85
+Subject          = ats119
+Location         = 875,1701
+DaytimeImage     = atc\085.bmp
+Layer            = 6
+
+[Pilotlamp] ;90
+Subject          = ats120
+Location         = 883,1716
+DaytimeImage     = atc\090.bmp
+Layer            = 6
+
+[Pilotlamp] ;95
+Subject          = ats121
+Location         = 890,1732
+DaytimeImage     = atc\095.bmp
+Layer            = 6
+
+[Pilotlamp] ;100
+Subject          = ats122
+Location         = 894,1751
+DaytimeImage     = atc\100.bmp
+Layer            = 6
+
+[Pilotlamp] ;110
+Subject          = ats124
+Location         = 894,1786
+DaytimeImage     = atc\110.bmp
+Layer            = 6
+
+[Pilotlamp]
+Subject          = ats133
+Location         = 835,1875
+DaytimeImage     = atc\atc_soon.bmp
+Layer            = 6
+
+;------------------------------
+
+[Pilotlamp]
+Subject = ats252
+Location = 23, 1417
+DaytimeImage   = panel\nextstop.png
+NighttimeImage = panel\nextstop_d.png
+Layer = 10
+
+[Pilotlamp]
+Subject = ats251
+Location = 23, 1417
+DaytimeImage   = panel\nextstop.png
+NighttimeImage = panel\nextstop_d.png
+Layer = 10

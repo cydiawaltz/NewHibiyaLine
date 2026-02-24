@@ -1,0 +1,38 @@
+Bvets Vehicle Parameters 0.04
+FirstCar = T
+[Compressor]
+UpperPressure = 770000
+LowerPressure = 640000
+[BcServo]
+ApplyStart = -20000
+ApplyStop = 0
+ReleaseStart = 0
+ReleaseStop = 0
+ApplySpeed = 485.3815
+ReleaseSpeed = 561.4543
+PistonArea = 0.7069753
+[AirSupplement]
+MaximumPressure = 225000
+RegenerationLimit = 5
+[ECB]
+MaximumPressure = 225000
+PressureRates = 0, 0.125, 0.25, 0.375, 0.5, 0.625, 0.75, 0.875, 1, 1.377778
+LeverDelay = 0.2
+[MainCircuit]
+RegenerationLimit = 4
+NotchDelay = 1
+[Dynamics]
+MotorcarWeight = 32600
+MotorcarCount = 4
+TrailerWeight = 24300
+TrailerCount = 4
+CarLength = 18
+[Cab]
+BrakeNotchCount = 8
+PowerNotchCount = 4
+AtsCancelNotch = 1
+MotorBrakeNotch = 1
+[ViewPoint]
+X = -0.71
+Y = 2.45
+Z = -1.17

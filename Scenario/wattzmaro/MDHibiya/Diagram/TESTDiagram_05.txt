@@ -11,6 +11,8 @@ include '[[BveEx::NOMPI]] CydiaWattz MetroDrive2_TEST05';
 include '[[BveEx::NOMPI]] 引き込み線 => 7番線 (三ノ輪まで)';
 BveEx.MapPlugin.LoadAssembly('..\Plugins\debug\ResumeLocation\MapPlugin.dll');
 Structure.Load('../structures/StructureList.txt');
+//他列車strファイル
+Structure.Load('../structures/test05.txt');
 //Background.Change('Bg');
 //Sound.Load('soundNew.txt');
 Station.Load('../BaseMap/stations/StationTest.csv');
@@ -37,6 +39,9 @@ include '../BaseMap/OtherTrainTrack.txt';
 #人形町とか
 #include 'Maps\NingyoNormal.txt';
 include '../BaseMap/NingyoNormal.txt';
+
+#ライト
+include '../BaseMap/lights.txt';
 //Train['test'].Load('../otherTrain/TESTs/03.txt',2,-1);
 //train.Add('test','../otherTrain/TESTs/03.txt',2,-1);
 7700;
@@ -58,7 +63,7 @@ include '../BaseMap/NingyoNormal.txt';
 //structure['70000-2'].Put('5bansen',0,0,0,0,0,0,3,20);
 
 900;
-#structure['70090-1'].Put('2',0,0,0,0,0,0,3,20);
+#structure['13000Tc'].Put('5bansen',0,0,0,0,0,0,3,20);
 5919;
 //structure['70090-2'].Put('2',0,0,0,0,0,0,3,20);
 940;
@@ -131,6 +136,25 @@ train['03-112'].Enable('8:58:00');
 train['03-124'].Enable('8:58:00');
 train['03-136'].Enable('8:59:00');
 
+//debug
+0;
+train.Add('debug_n','../otherTrain/03/03_108n.txt','5bansen_n',-1);
+train.Add('debug_d','../otherTrain/03/03_108.txt','5bansen_d',-1);
+#train.Add('debug_n','../otherTrain/20000/20050n.txt','5bansen_n',-1);
+#train.Add('debug_d','../otherTrain/20000/20050.txt','5bansen_d',-1);
+#train.Add('debug_n','../otherTrain/70000/70090THn.txt','5bansen_n',-1);
+#train.Add('debug_d','../otherTrain/70000/70090TH.txt','5bansen_d',-1);
+#train.Add('debug_n','../otherTrain/13000/13000n.txt','5bansen_n',-1);
+#train.Add('debug_d','../otherTrain/13000/13000.txt','5bansen_d',-1);
+train['debug_n'].Enable('8:55:00');
+train['debug_d'].Enable('8:55:00');
+
+300;
+Beacon.Put(900,0,0);//駅名表示の種類 0:発車　1:停車 2:通過
+
+350;
+Beacon.Put(901,0,0);
+
 600;
 #structure['8000tcb'].Put('6bansen',0,0,0,0,0,0,3,20);
 
@@ -156,7 +180,7 @@ Station['H19'].Put(-1,-50,50);#入谷
 4413;
 Station['H18'].Put(-1,-50,50);#上野
 //10197;
-4677;
+4978;
 Station['H17'].Put(1,-50,50);#仲御徒町
 //10825;
 5605;
@@ -170,3 +194,29 @@ Station['H14'].Put(-1,-50,50);#人形町
 //12950;
 7730;
 //茅場
+
+#ライト（地上区間）
+#晴・6番線発車
+
+215;
+CabIlluminance.Set(1);
+256;
+CabIlluminance.Set(0.7);
+306;
+CabIlluminance.Set(0.7);
+360;
+CabIlluminance.Set(0.8);
+#北千住
+406;
+CabIlluminance.Set(0.8);
+415;
+CabIlluminance.Set(1);
+
+1163;
+CabIlluminance.Set(1);
+1168;
+CabIlluminance.Set(0.6);
+1175;
+CabIlluminance.Set(0.6);
+1183;
+CabIlluminance.Set(1);

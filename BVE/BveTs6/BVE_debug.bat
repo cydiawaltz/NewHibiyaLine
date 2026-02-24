@@ -1,3 +1,3 @@
 @echo off
 
-start "" /high "BveTs.exe"
+start "" "BveTs.exe"

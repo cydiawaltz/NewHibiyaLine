@@ -50,9 +50,14 @@ repeater['TX_Pole'].Begin0('TXA',3,25,25,'TX_Pole');
 repeater['jari'].Begin('joban1',-10,-0,0,0,0,0,3,25,25,'jari');
 1087;
 repeater['jari'].Begin('5bansen',5,-0,0,0,0,0,3,25,25,'jari');
+1119;
+repeater['jari'].Begin('TXA',0,-2.4,0,0,0,0,3,25,25,'TX_down');
 1111;
+repeater['jari2'].Begin('joban1',0,-2,0,0,0,0,3,25,25,'TX_down');
 repeater['TX_kouka'].End();
-repeater['jari'].end();
+1125;
+structure['TX_downwall'].Put('TXA',0,-3,0,0,0,0,3,100);
+
 1850;
 repeater['TX_Pole'].end();
 repeater['TX_KOUKA'].end();
@@ -116,6 +121,12 @@ structure['HibiyaPole_C2'].Put('Ato7',17.5,-0.4,0,0,0,0,3,6); structure['HibiyaP
 repeater['HibiyaWall_A'].end();
 repeater['HibiyaWall_B'].end();
 
+615;
+Structure['down'].Put('6bansen',2,-1,0,0,-10,0,3,100);
+2830;
+Structure['side'].Put('6bansen',-3,0,0,0,3,0,0,100);
+Structure['side2'].Put('6bansen',6,0,0,0,3,0,0,100);
+
 447 +$b;//北千住駅終了
 repeater['6bansen_ballast'].Begin0('6bansen',3,5,5,'ballast_5m');
 repeater['HibiyaWall_A'].Begin('7bansen',-2.3,-0.4,0,0,0,0,3,6,6,'HibiyaWall');
@@ -153,6 +164,7 @@ repeater['HibiyaWall_A'].Begin('7bansen',-4.4,-0.2,0,0,0,0,3,5,5,'saku');
 repeater['HibiyaWall_B'].end();
 1150;
 repeater['HibiyaWall_A'].Begin('7bansen',-2.3,-0.4,0,0,0,0,3,6,6,'HibiyaWall');
+1100;
 repeater['HibiyaWall_B'].Begin('5bansen',2.7,-0.4,0,0,0,0,3,6,6,'HibiyaWall');
 1988;
 repeater['HibiyaWall_A'].Begin('6toSub',-2.3,-0.4,0,0,0,0,3,6,6,'HibiyaWall');
@@ -262,14 +274,14 @@ structure['ekimae'].Put('6bansen',20,-10.3,0,0,5,0,100,100);
 //structure['azuma'].Put('6bansen',-10,-0.8,0,0,-2,0,100,100);
 //structure['azuma'].Put('6bansen',-15,-0.8,0,0,-2,0,100,100);
 1090+$b;
-structure['naka'].Put('6bansen',-35,-2,0,0,-10,0,50,100);
+//structure['naka'].Put('6bansen',-35,-2,0,0,-10,0,50,100);
 1160+$b;
 //地面-3.78m
 //structure['bokutei'].Put('6bansen',-2,-2,0,0,0,0,50,100);
 1570+$b;
 //structure['sekiya'].Put('6bansen',-107,-10,0,0,-8,0,50,100);
 2200+$b;
-structure['minami7'].Put('6bansen',-165,-10,0,0,-30,0,50,100);
+#structure['minami7'].Put('6bansen',-165,-10,0,0,-30,0,50,100);
 2700+$b;
 //structure['minami5'].Put('6bansen',350,-20,0,0,-30,0,50,100);
 2910+$b;
@@ -306,6 +318,27 @@ structure['oofumikiri1'].Put('6bansen',-3,-4.4,0,0,0,0,100,100);
 structure['oofumikiri0'].Put('6bansen',-3,-4,0,0,0,0,100,100);
 842+$b;
 structure['of_ground'].Put('6bansen',-2,-3.2,0,0,7,0,100,100);
+
+//仲町
+730+$b;
+structure['naka0'].Put('6bansen',36,-1.2,0,0,-7,0,100,100);
+770+$b;
+structure['naka1'].Put('6bansen',32,-4.2,0,0,0,0,100,100);
+830+$b;
+structure['naka2'].Put('6bansen',30,-3.2,0,0,0,0,100,100);
+860+$b;
+structure['naka3'].Put('6bansen',32,-1.2,0,0,0,0,100,100);
+890+$b;
+structure['naka4'].Put('6bansen',30,-1.2,0,0,0,0,100,100);
+940+$b;
+structure['naka5'].Put('6bansen',30,-1.2,0,0,0,0,100,100);
+960+$b;
+structure['naka6'].Put('6bansen',30,-1.2,0,0,0,0,100,100);
+1020+$b;
+structure['naka7'].Put('6bansen',33,-1.2,0,0,0,0,100,100);
+1060+$b;
+structure['naka8'].Put('6bansen',63,-1.2,0,0,0,0,100,100);
+structure['naka9'].Put('6bansen',33,-1.2,0,0,0,0,100,100);
 
 //千住東中央
 855+$b;
@@ -357,8 +390,8 @@ structure['bokutei1'].Put('6bansen',-3,-2.6,0,0,0,0,100,100);
 //関屋町・河原町左
 1570+$b;
 //structure['sekiya'].Put('6bansen',-107,-10,0,0,-8,0,50,100);
-1200+$b;
-//structure['sekiya7L'].Put('6bansen',-3,-2.6,0,0,0,0,100,100);//完成街
+1195+$b;
+structure['sekiya7L'].Put('6bansen',-8,-2.6,0,0,0,0,100,100);//完成街
 1254+$b;
 structure['sekiya6L'].Put('6bansen',-5,-3,0,0,-3,0,100,100);//連チャン
 1280+$b;
@@ -388,9 +421,66 @@ structure['sekiya4R'].Put('joban2',-10,-8,0,0,-10,0,100,100);//赤マンショ�
 1195+$b;
 structure['sekiya5R'].Put('joban2',-10,-8,0,0,-10,0,100,100);//赤マンション+謎マンション
 
+1690;
+structure['sumidatruss'].Put('6bansen',0,0,0,0,0,0,3,0);
+
 #南千住7丁目
-1700+$b;
+2200+$b;
+#structure['minami7'].Put('6bansen',-165,-10,0,0,-30,0,50,100);
+1780+$b;
 #repeater['minami7_road'].Begin('6bansen',25,-5,0,0,0,0,3,50,50,'minami7_road');
+structure['minami7_0L'].Put('6bansen',-15,-8,0,0,-10,0,100,100);
+1840+$b;
+structure['minami7_1L'].Put('6bansen',-35,-8,0,0,-10,0,100,100);
+1940+$b;
+structure['minami7_2L'].Put('6bansen',-20,-6,0,0,-10,0,100,100);
+2050+$b;
+structure['minami7_3L'].Put('6bansen',-7,-8,0,0,0,0,100,100);
+2203+$b;
+structure['minami7_4L'].Put('6bansen',-46,-8,0,0,-20,0,100,100);
+2300+$b;
+structure['minami7_0c'].Put('6bansen',15,-8,0,0,0,0,100,100);
+2320+$b;
+structure['minami7_5L'].Put('6bansen',-3,-8,0,0,0,0,100,100);
+structure['minami7_1c'].Put('6bansen',20,-8,0,0,0,0,100,100);
+2320+$b;
+structure['minami7_6L'].Put('6bansen',-25,-8,0,0,-10,0,100,100);
+2320+$b;
+structure['minami7_ground'].Put('6bansen',-3,-15,0,0,0,0,100,100);
+2340+$b;
+structure['minami7_5R'].Put('6bansen',80,-8,0,0,0,0,100,100);
+
+#常磐線ホーム
+2120+$b;
+repeater['jobanhome_L'].Begin('joban1',5,0,0,0,0,0,3,10,10,'jobanhome');
+repeater['jobankabe'].Begin('joban1',-3,-0.5,0,0,0,0,3,20,20,'jobankabe1');
+repeater['joban1_Pole'].end();
+repeater['joban2_Pole'].end();
+2250+$b;
+repeater['jobankabe'].Begin('joban1',-3,0,0,0,0,0,3,19,19,'jobankabe2');
+2446+$b;
+repeater['jobanhome_L'].end();
+repeater['jobankabe'].end();
+repeater['joban1_Pole'].Begin0('joban1',3,25,25,'L11L');
+repeater['joban2_Pole'].Begin0('joban2',3,25,25,'R11R');
+
+#日比谷線　南千住
+
+2335+$b;
+repeater['HibiyaWall_A'].end();
+repeater['HibiyaWall_B'].end();
+repeater['HibiyaPole'].end();
+Repeater['minahome'].Begin('6bansen',0,0,0,0,0,0,3,25.1,25.1,'minahome1');
+2410.3+$b;
+Repeater['minahome'].Begin('6bansen',0,0,0,0,0,0,3,25.1,25.1,'minahome2');
+
+2460+$b;
+repeater['minahome'].end();
+2450+$b;
+structure['minahome3'].Put('6bansen',-0.15,0,10,0,0,0,25,25);
+2475+$b;
+repeater['HibiyaWall_A'].Begin('7bansen',-2.3,-0.4,0,0,0,0,3,6,6,'HibiyaWall');
+repeater['HibiyaWall_B'].Begin('5bansen',2.7,-0.4,0,0,0,0,3,5,5,'HibiyaWall');
 
 #南千住2丁目
 2910;
@@ -416,17 +506,24 @@ structure['mina2_11'].Put('6bansen',-3,2.8,0,0,0,0,100,100);
 2863+$b;
 structure['mina2_12'].Put('6bansen',-2.5,4.5,0,0,0,0,100,100);
 
+
+#南千住5丁目
+3000+$b;
+structure['minami5_R'].Put('6bansen',120,6.5,0,0,-90,0,100,100);
+
 //地上区間終了
 
 Fog.Interpolate(0, 0, 0,0);
 7886-$a;
 Track['5bansen'].Position(5,0);
 8130-$a;
+repeater['joban1_Pole'].End();
+repeater['joban2_Pole'].End();
 repeater['HibiyaWall_A'].end();
 repeater['HibiyaWall_B'].end();
 repeater['HibiyaPole'].end();
 #//repeater['wall'].Begin(0,-1,0,0,0,0,0,3,5,5,'wall5','wall5','wall5','wall4');
-# # //repeater['wallB'].Begin(2,1,0,0,0,0,0,3,5,5,'wall5-ura','wall5-ura','wall5-ura','wall4-ura');
+# # //repeater['wallB'].Begin('5bansen',1,0,0,0,0,0,3,5,5,'wall5-ura','wall5-ura','wall5-ura','wall4-ura');
 Repeater['wallA1'].Begin(0, -1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '103L');
 Repeater['wallA2'].Begin(0, -2.05, 0, 0, 0, 0, 0, 1, 4.5, 4.5, '104L');
 Repeater['tenjo105'].Begin(0, -1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '105L');
@@ -434,6 +531,7 @@ Repeater['tenjo106'].Begin(0, -2, 0.01, 0, 0, 0, 0, 1, 15, 15, '106');
 Repeater['wallB1'].Begin('5bansen', 1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '103R');
 Repeater['wallB2'].Begin('5bansen', 2.05, 0, 0, 0, 0, 0, 1, 4.5, 4.5, '104R');
 repeater['dike'].Begin(0,1.4,0, 0, 0, 0, 0, 1, 15, 15, '202_3');
+Background.Change('');
 8135-$a;
 Repeater['6bansen_ballast'].Begin('6bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
 Repeater['5bansen_ballast'].Begin('5bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
@@ -445,13 +543,33 @@ repeater['wallA2'].end();
 repeater['wallB2'].end();
 repeater['wallA1'].Begin(0,-4.1,0,0,0,0,0,3,3,3,'minowa1','minowa2','minowa2');
 repeater['wallB1'].Begin('5bansen',4.1,0,0,0,180,0,3,3,3,'minowa1','minowa2','minowa2');
-repeater['form-hidariB'].Begin(2,4.3,0,0,0,180,0,3,1.65,1.65,'form-hidari');
-repeater['form-hidari'].Begin(0,-4.3,0,0,0,0,0,3,1.65,1.65,'form-hidari');
 repeater['yuka1'].Begin(0,-4.3,0,0,0,0,0,3,1.75,1.75,'yuka1');
-repeater['yuka2'].Begin(2,2.73,0,0,0,0,0,3,0,1.75,'yuka1');
+repeater['yuka2'].Begin('5bansen',3.73,0,0,0,0,0,3,0,1.75,'yuka1');
 repeater['tenjo105'].Begin(0,-3.8,0.4,0,0,180,0,3,10,10,'tenjou');
-repeater['tenjo106'].Begin(2,3.8,0,0,0,180,0,3,10,10,'tenjou');
+repeater['tenjo106'].Begin('5bansen',3.8,0.3,0,0,180,0,3,9.5,10,'tenjou');
 
+8308-$a;
+repeater['form-hidariB'].Begin('5bansen',4.3,0,0,0,180,0,3,1.65,1.65,'form-hidari');
+repeater['form-hidari'].Begin(0,-4.3,0.05,0,0,0,0,3,1.65,1.65,'form-hidari');
+
+8400 -$a;
+repeater['minodekoA'].Begin(0,0.1,0,0,0,0,0,3,3,3,'minodeko1','minodeko2');
+repeater['minodekoB'].Begin('5bansen',0,0,0,0,180,0,3,3,3,'minodeko2','minodeko1');
+8430 -$a;
+repeater['wallA1'].end();
+8432 -$a;
+structure['minowa3'].Put(0,-4,0.12,0,0,0,0,0,0);
+8435.2-$a;
+repeater['wallA1'].Begin(0,-4.1,0,0,0,0,0,3,3,3,'minowa1','minowa2','minowa2');
+8453-$a;
+repeater['minodekoA'].end();
+repeater['minodekoB'].end();
+8450-$a;
+repeater['minopole'].Begin(0,0,0,0,0,0,0,3,5,5,'minopole');
+8468-$a;
+structure['minoend'].Put('6bansen',0.13,0.14,0,0,0,0,3,3);
+repeater['minopole'].end();
+repeater['form-hidari'].end();
 8470-$a;
 Repeater['wallA1'].Begin(0, -1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '103L');
 Repeater['wallA2'].Begin(0, -2.05, 0, 0, 0, 0, 0, 1, 4.5, 4.5, '104L');
@@ -462,7 +580,6 @@ Repeater['wallB2'].Begin('5bansen', 2.05, 0, 0, 0, 0, 0, 1, 4.5, 4.5, '104R');
 repeater['yuka1'].end();
 repeater['yuka2'].end();
 repeater['form-hidariB'].end();
-repeater['form-hidari'].end();
 
 #入谷
 8844-$a;
@@ -485,12 +602,18 @@ repeater['iriyalight'].Begin(0,-5.33,0.28,0,0,0,0,3,5,5,'kodenmalight');
 8852-$a;
 # repeater['wallB'].End();
 8854-$a;
-repeater['form-migi'].Begin(2,0,0,0,0,0,0,3,0,1.65,'form-migi');
-repeater['yuka2'].Begin(2,2.73,0,0,0,0,0,3,0,1.75,'yuka1');
-repeater['iriyawallB'].Begin(2,2.8,-0.2,0,0,0,0,3,3.2,3.2,'iriyakabe','iriyakabe2');
-repeater['iriyatenjou'].Begin(2,-8.7,0.2,0,0,0,0,3,10,10,'tenjou');
+repeater['form-migi'].Begin('5bansen',0,0,0,0,0,0,3,0,1.65,'form-migi');
+repeater['yuka2'].Begin('5bansen',2.73,0,0,0,0,0,3,0,1.75,'yuka1');
+repeater['iriyawallB'].Begin('5bansen',2.8,-0.2,0,0,0,0,3,3.2,3.2,'iriyakabe','iriyakabe2');
+repeater['iriyatenjou'].Begin('5bansen',-8.7,0.2,0,0,0,0,3,10,10,'tenjou');
 # repeater['slabA'].Begin0(0,3,5,5,'slab');8866-$a;
 //repeater['19kanbanA'].Begin(0,-5,0.75,0,0,0,0,3,0,20,'19kanban');
+8922.5-$a;
+repeater['iriyawallA'].Begin(0,-2.8,-0.2,0,0,180,0,3,3.2,3.2,'iriyakabe3','iriyakabe2','iriyakabe2','iriyakabe4');
+8935.2-$a;
+repeater['iriyawallA'].Begin(0,-2.8,-0.2,0,0,180,0,3,3.2,3.2,'iriyakabe','iriyakabe2');
+8976-$a;
+repeater['iriyawallA'].Begin(0,-2.8,-0.2,0,0,180,0,3,20,20,'iriyaexit');
 8993-$a;
 repeater['form-hidari'].End();
 Repeater['6bansen_ballast'].Begin('6bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
@@ -516,8 +639,9 @@ repeater['form-migi'].End();
 repeater['yuka2'].End();
 repeater['19kanbanA'].End();
 repeater['iriyawallB'].end();
+structure['iriyakabe2'].Put(0,-2.3,-0.2,-0.8,0,-90,0,3,100);
 # repeater['slabA'].Begin0(0,3,5,5,'slab2');9006-$a;
-# repeater['wallB'].Begin(2,1,0,0,0,0,0,3,5,5,'wall5-ura','wall5-ura','wall5-ura','wall4-ura');
+# repeater['wallB'].Begin('5bansen',1,0,0,0,0,0,3,5,5,'wall5-ura','wall5-ura','wall5-ura','wall4-ura');
 9015-$a;
 repeater['dike'].Begin(0,1.4,0, 0, 0, 0, 0, 1, 15, 15, '202_3');
 
@@ -536,35 +660,60 @@ CabIlluminance.Set(0.1);
 9485-$a;#ホーム開始
 CabIlluminance.Set(0.8);
 repeater['uenoyuka'].Begin(0,-5,0,0,0,0,0,3,2,2,'uenoyuka');
-repeater['uenokabe'].Begin(0,-5,-0.2,0,0,180,0,3,2.3,2.3,'uenokabe');
+repeater['uenotenjo'].Begin(0,-5,-0.2,0,0,0,0,3,2,2,'uenotenjo');
+repeater['uenokabe'].Begin(0,-6,-0.2,0,0,180,0,3,2.3,2.3,'uenokabe');
 repeater['form-hidari'].Begin(0,-4.3,0.01,0,0,0,0,3,1.65,1.65,'form-hidari');
+#謎obj
+9500-$a;
+Structure['uenoobj1'].Put(0,-5.97,-0.2,0,0,180,0,3,3);
 9505-$a;
-repeater['uenoyuka2'].Begin(2,4.3,0,0,0,0,0,3,2,2,'uenoyuka');
-repeater['uenokabe2'].Begin(2,5,-0.2,0,0,0,0,3,2.3,2.3,'uenokabe');
-repeater['form-hidari2'].Begin(2,4.3,0.01,0,0,180,0,3,1.65,1.65,'form-hidari');
-9489-$a;
-repeater['uenohashira'].Begin(0,-3.3,0,0,0,0,0,3,0,5,'uenohashira');
-9509-$a;
-repeater['uenohashira2'].Begin(2,3.3,0,0,0,0,0,3,0,5,'uenohashira');
+Structure['uenoobj0'].Put(0,-5.97,-0.2,0,0,180,0,3,3);
+9508-$a;
+repeater['uenoad0'].Begin(0,-5.97,-0.2,0,0,179,0,3,2.45,2.45,'uenoad0','uenoad1','uenoad2');
+9515-$a;
+repeater['uenoad0'].end();
 9520-$a;
-Structure['03_1'].Put(2,0,0,0,0,0,0,3,0);
-Structure['03_1'].Put(0,0,0,0,0,0,0,3,0);
-9551-$a;
-structure['object1'].Put(0,-6.5,3.5,0,90,0,0,0,0);
+repeater['uenokabe'].end();
+9525-$a;
+Structure['uenoexit0'].Put(0,-7.5,-0.2,0,0,180,0,3,3);
+9533-$a;
+repeater['uenokabe'].Begin(0,-6,-0.2,0,0,180,0,3,2.3,2.3,'uenokabe');
+9540-$a;
+Structure['uenoside'].Put(0,-6.8,-0.2,0,0,0,0,3,3);
+9543-$a;
+repeater['uenokabe'].Begin(0,-4.5,-0.2,0,0,180,0,3,2.3,2.3,'uenokabe');
+9590-$a;
+repeater['uenokabe'].Begin(0,-6,-0.2,0,0,180,0,3,2.3,2.3,'uenokabe');
+
+#B線
+9505-$a;
+repeater['uenoyuka2'].Begin('5bansen',4.3,0,0,0,0,0,3,2,2,'uenoyuka');
+repeater['uenokabe2'].Begin('5bansen',5,-0.2,0,0,0,0,3,2.3,2.3,'uenokabe');
+repeater['form-hidari2'].Begin('5bansen',4.3,0.01,0,0,180,0,3,1.65,1.65,'form-hidari');
+9489-$a;
+repeater['uenohashira'].Begin(0,-3.3,-0.2,0,0,0,0,3,0,7,'uenohashira');
+9509-$a;
+repeater['uenohashira2'].Begin('5bansen',3.3,0,0,0,0,0,3,0,7,'uenohashira');
+
 9633-$a;//停車位置
+9640-$a;
+Structure['uenoexit1'].Put(0,-4.3,-0,0,0,0,0,3,3);
+9637-$a;
+repeater['uenotenjo'].end();
 9640-$a;//ホーム終了
 repeater['uenoyuka'].End();
 repeater['form-hidari'].End();
-Structure['uenokabe3'].Put(0,-4.5,-0.2,0,0,90,0,3,0);
+Structure['uenokabe3'].Put(0,-3.8,-0.2,0,0,90,0,3,0);
 repeater['uenohashira'].End();
+Repeater['wallA1'].Begin(0, -1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '103L');//明るめなのを一つ
+
 9643-$a;
 CabIlluminance.Set(0.8);
 repeater['uenokabe'].End();
-Repeater['wallA1'].Begin(0, -1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '103L');//明るめなのを一つ
 9662-$a;
 repeater['uenoyuka2'].End();
 repeater['form-hidari2'].End();
-Structure['uenokabe3'].Put(2,4.5,-0.2,0,0,90,0,3,0);
+Structure['uenokabe3'].Put('5bansen',4.5,-0.2,0,0,90,0,3,0);
 repeater['uenohashira2'].End();
 repeater['uenokabe2'].End();
 Repeater['6bansen_ballast'].Begin('6bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
@@ -577,7 +726,7 @@ Repeater['wallB1'].Begin('5bansen', 1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '103R');
 Repeater['wallB2'].Begin('5bansen', 2.05, 0, 0, 0, 0, 0, 1, 4.5, 4.5, '104R');
 repeater['dike'].Begin(0,1.4,0, 0, 0, 0, 0, 1, 15, 15, '202_3');
 9663-$a;
-# repeater['wallB'].Begin(2,1,0,0,0,0,0,3,5,5,'wall5-ura','wall5-ura','wall5-ura','wall4-ura');
+# repeater['wallB'].Begin('5bansen',1,0,0,0,0,0,3,5,5,'wall5-ura','wall5-ura','wall5-ura','wall4-ura');
 ##repeater['wall'].Begin(0,-1,0,0,0,0,0,3,5,5,'wall5','wall5','wall5','wall4');
 9645-$a;
 CabIlluminance.Set(0.7);
@@ -606,18 +755,19 @@ Repeater['BA_ballast'].END();
 CabIlluminance.Set(0.1);
 10068-$a;
 repeater['nakaokawallA'].Begin(0,-2,0,0,0,0,0,1,5.3,5.3,'nakaokawall','nakaokawall2');//5.55感覚だった
-repeater['nakaokawallB'].Begin(2,2.2,0,0,0,180,0,3,5.55,5.55,'nakaokawall','nakaokawall2');
+repeater['nakaokawallB'].Begin('5bansen',2.2,0,0,0,180,0,3,5.55,5.55,'nakaokawall','nakaokawall2');
 CabIlluminance.Set(0.5);
 repeater['nakaokayuka'].Begin(0,10,-0.15,0,0,0,0,3,5,5,'nakaokayuka');
-repeater['nakaokatenjou'].Begin(0,10,0,0,0,0,0,3,10,10,'nakaokatenjou');
 Repeater['6bansen_ballast'].Begin('6bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail2');
 Repeater['5bansen_ballast'].Begin('5bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail2');
 # repeater['slabA'].Begin0(0,3,5,5,'slab');10072-$a;
 repeater['dike'].End();
+10070-$a;
+repeater['nakaokatenjou'].Begin(0,10,0,0,0,0,0,3,10,10,'nakaokatenjou');
 10072-$a;
 repeater['form-migi'].Begin(0,0,-0.15,0,0,0,0,3,1.65,1.65,'form-migi');
 10074-$a;
-repeater['form-hidari'].Begin(2,0,-0.15,0,0,180,0,3,1.65,1.65,'form-migi');
+repeater['form-hidari'].Begin('5bansen',0,-0.15,0,0,180,0,3,1.65,1.65,'form-migi');
 //
 10080-$a;
 Structure['hashira2'].Put(0,4,-0.8,0,0,9,0,3,0);
@@ -629,10 +779,12 @@ Structure['hashira2'].Put(0,4,-0.8,0,0,9,0,3,0);
 Structure['hashira2'].Put(0,4,-0.8,0,0,9,0,3,0);
 10101-$a;
 //案内板（大）
+Structure['nakaokacenter'].Put(0,10.2,0,0,0,0,0,3,0);
 10105-$a;
 Structure['hashira2'].Put(0,4,-0.8,0,0,9,0,3,0);
-10108-$a;
+10085-$a;
 //自販機
+//Structure['Jihanki'].Put(0,5.8,-0.8,0,0,180,0,0,0);
 10112-$a;
 Structure['hashira1'].Put(0,4,-0.8,0,0,9,0,3,0);
 10115-$a;
@@ -640,7 +792,7 @@ Structure['hashira1'].Put(0,4,-0.8,0,0,9,0,3,0);
 10119-$a;
 Structure['hashira1'].Put(0,4,-0.8,0,0,9,0,3,0);
 10130-$a;
-Structure['nakaokakabe2'].Put(0,-1,0,0,0,180,0,0,0);
+Structure['nakaokakabe2'].Put(0,-1,0,0,0,0,0,0,0);
 10133-$a;
 Structure['hashira2'].Put(0,4,-0.8,0,0,9,0,3,0);
 10137-$a;
@@ -664,27 +816,28 @@ Structure['hashira2'].Put(0,4,-0.8,0,0,9,0,3,0);
 
 
 
-10194-$a;
-STructure['nakaokakabe3'].Put(0,10,0,0,0,0,0,0,0);
-10200-$a;
+10201-$a;
+STructure['nakaokakabe3'].Put(0,10.2,-0.2,0,0,0,0,0,0);
+10212-$a;
 repeater['nakaokayuka'].End();
 repeater['nakaokatenjou'].End();
-10205-$a;
+10213-$a;
 repeater['nakaokawallA'].End();
-repeater['nakaokawallB'].End();
 repeater['form-migi'].End();
 repeater['form-hidari'].End();
+10218-$a;
+repeater['nakaokawallB'].End();
 
 Repeater['6bansen_ballast'].Begin('6bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
 Repeater['5bansen_ballast'].Begin('5bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
-10211-$a;
+10213-$a;
 ##repeater['wall'].Begin(0,0,0,0,0,0,0,3,5,5,'wall5','wall5','wall5','wall4');
-# repeater['wallB'].Begin(2,1,0,0,0,0,0,3,5,5,'wall5-ura','wall5-ura','wall5-ura','wall4-ura');
-repeater['dike'].Begin(0,1.4,0, 0, 0, 0, 0, 1, 15, 15, '205');
+# repeater['wallB'].Begin('5bansen',1,0,0,0,0,0,3,5,5,'wall5-ura','wall5-ura','wall5-ura','wall4-ura');
+repeater['dike'].Begin(0,2.4,0, 0, 0, 0, 0, 1, 15, 15, '205');
 # repeater['slabA'].Begin0(0,3,5,5,'slab2');10202-$a;
-10203-$a;
+10211-$a;
 CabIlluminance.Set(0.54);
-10205-$a;
+10213-$a;
 CabIlluminance.Set(0.1);
 //Track[2].X.Interpolate(8.29,300);
 10250-$a;
@@ -695,17 +848,17 @@ Structure['hashira2'].Put(0,4,-0.8,0,0,9,0,3,0);
 10275 -$a;
 repeater['dike'].Begin(0,1.4,0, 0, 0, 0, 0, 1, 15, 15, '202_3');
 5060;
-Track['5bansen'].Position(5,0);
+//Track['5bansen'].Position(4.5,0);
 
 
 #秋葉原
 10680-$a;
 CabIlluminance.Set(0.1);
 10685-$a;
-//Track[2].Position(4.5,0);
+Track['5bansen'].Position(4.6,0);
 # repeater['slabA'].Begin0(0,3,5,5,'slab');repeater['dike'].Begin(0,-0.5,0,0,0,0,0,3,25,25,'dike');
 ##repeater['wall'].End();
-# # repeater['wallB'].End();
+# # repeater['wallB'].End();c:\Users\wattz\Documents\BVE\日比谷線新\Scenario\wattzmaro\MDHibiya\BaseMap\Structure.txt c:\Users\wattz\Documents\BVE\日比谷線新\Scenario\wattzmaro\MDHibiya\BaseMap\OtherTrainTrack.txt
 repeater['wallA1'].end();
 repeater['wallA2'].end();
 repeater['wallB1'].end();
@@ -714,31 +867,32 @@ repeater['dike'].Begin(0,1.4,0, 0, 0, 0, 0, 1, 15, 15, '202_3');
 Repeater['6bansen_ballast'].Begin('6bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail2');
 Repeater['5bansen_ballast'].Begin('5bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail2');
 
-repeater['akibatenjo'].Begin(0,-5.5,-0.1,0,0,0,0,3,3.2,3.2,'akibatenjo');
 repeater['yuka1'].Begin(0,-4.25,0,0,0,0,0,3,0,1.75,'yuka1');
-repeater['akibatenjoB'].Begin(2,5.5,-0.1,0,0,180,0,3,3.2,3.2,'akibatenjo');
-repeater['yuka1B'].Begin(2,4.25,0,0,0,180,0,3,0,1.75,'yuka1');
+repeater['yuka1B'].Begin('5bansen',4.25,0,0,0,180,0,3,0,1.75,'yuka1');
 CabIlluminance.Set(0.8);
+10700-$a;
+repeater['akibatenjoB'].Begin('5bansen',5.5,-0.1,0,0,180,0,3,3.2,3.2,'akibatenjo1');
+repeater['akibatenjo'].Begin(0,-5.5,-0.3,0,0,0,0,3,3.2,3.2,'akibatenjo1');
 10693-$a;
 repeater['akibawall34'].Begin(0,-5.5,-0.3,0,0,0,0,1,3,3,'akibawall3','akibawall4');
-repeater['akibawall34B'].Begin(2,5.5,-0.3,0,0,180,0,1,3,3,'akibawall3','akibawall4');
+repeater['akibawall34B'].Begin('5bansen',5.5,-0.3,0,0,180,0,1,3,3,'akibawall3','akibawall4');
 10695-$a;
 repeater['form-hidari'].Begin(0,-4.25,0,0,0,0,0,3,0,1.65,'form-hidari');
-repeater['form-hidariB'].Begin(2,4.25,0,0,0,180,0,3,0,1.65,'form-hidari');
+repeater['form-hidariB'].Begin('5bansen',4.25,0,0,0,180,0,3,0,1.65,'form-hidari');
 10710-$a;
 repeater['akibawall34'].End();
 repeater['akibawall34B'].End();
 10707-$a;
-repeater['akibatenjo'].Begin(0,-5.5,-0.5,0,0,0,0,3,3.2,3.2,'akibatenjo');
 structure['akibaenter'].Put(0,-5.5,-0.5,0,0,0,0,1,0);
 10709-$a;
 repeater['akibatenjoB'].End();
-repeater['akibatenjoB2'].Begin(2,5.5,-0.5,0,0,180,0,3,3.2,3.2,'akibatenjo');
-structure['akibaenter'].Put(2,5.5,-0.5,0,0,0,0,1,0);
+repeater['akibatenjoB2'].Begin('5bansen',5.5,-0.3,0,0,180,0,3,3.2,3.2,'akibatenjo0');
+structure['akibaenter'].Put('5bansen',5.5,-0.5,0,0,0,0,1,0);
+repeater['akibatenjo'].Begin(0,-5.5,-0.3,0,0,0,0,3,3.2,3.2,'akibatenjo0');
 10715-$a;
 repeater['akibawall12'].Begin(0,-5.5,-0.55,0,0,0,0,3,0,2.45,'akibawall2','akibawall1','akibawall2');
-repeater['akibawall12B'].Begin(2,5.5,-0.55,0,0,180,0,3,0,2.45,'akibawall2','akibawall1','akibawall2');
-10823-$a;
+repeater['akibawall12B'].Begin('5bansen',5.5,-0.55,0,0,180,0,3,0,2.45,'akibawall2','akibawall1','akibawall2');
+10830-$a;
 repeater['akibatenjo'].End();
 10835-$a;
 repeater['akibatenjoB2'].End();
@@ -746,9 +900,9 @@ repeater['akibatenjoB2'].End();
 repeater['yuka1'].End();
 10825-$a;
 structure['akibaedge'].Put(0,-5.7,-0.5,0,0,0,0,3,0);
-Structure['akibawall6'].Put(0,-5.7,-0.5,0,0,0,0,3,0);
+//Structure['akibawall6'].Put(0,-5.7,-0.5,0,0,0,0,3,0);
 10826-$a;
-structure['akibaedge'].Put(2,6,-0.5,12,0,180,0,3,0);
+structure['akibaedge'].Put('5bansen',6,-0.5,12,0,180,0,3,0);
 10833-$a;
 repeater['form-hidari'].End();
 repeater['form-hidariB'].End();
@@ -758,19 +912,20 @@ repeater['akibawall12'].End();
 repeater['akibawall12B'].End();
 repeater['yuka1B'].End();
 ##repeater['wall'].Begin(0,0,0,0,0,0,0,3,5,5,'wall5','wall5','wall5','wall4');
-# # repeater['wallB'].Begin(2,1,0,0,0,0,0,3,5,5,'wall5-ura','wall5-ura','wall5-ura','wall4-ura');
+# # repeater['wallB'].Begin('5bansen',1,0,0,0,0,0,3,5,5,'wall5-ura','wall5-ura','wall5-ura','wall4-ura');
 10835-$a;
 Repeater['6bansen_ballast'].Begin('6bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
-Repeater['5bansen_ballast'].Begin(2, 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
+Repeater['5bansen_ballast'].Begin('5bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
 repeater['dike'].Begin(0,1.4,0, 0, 0, 0, 0, 1, 15, 15, '202_3');
 Repeater['wallA1'].Begin(0, -1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '103L');
 Repeater['tenjo105'].Begin(0, -1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '105L');
 Repeater['tenjo106'].Begin(0, -2, 0.01, 0, 0, 0, 0, 1, 15, 15, '106');
-Repeater['wallB1'].Begin(2, 1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '103R');
+Repeater['wallB1'].Begin('5bansen', 1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '103R');
+Track['5bansen'].Position(4.6,0);
 # repeater['slabA'].Begin0(0,3,5,5,'slab2');CabIlluminance.Set(0.1);
 #秋葉原の広告
 10718-$a;
-Structure['Jihanki'].Put(0,-5.5,-0.5,0,0,0,0,0,0);
+Structure['Jihanki'].Put(0,-5.5,-0.8,0,0,0,0,0,0);
 10727-$a;
 structure['TBC'].Put(0,-5.5,-0.5,0,0,0,0,0,0);
 10728.3 - $a;
@@ -780,12 +935,12 @@ Structure['kuon'].Put(0,-5.5,-0.5,0,0,0,0,0,0);
 10742-$a;
 Structure['Shitugaiki'].Put(0,-4,-0.5,0,0,-90,0,0,0);
 
-//5781;
-//Track[2].Position(4.5,0);
+
+
 
 #小伝馬町
 11415-$a;
-CabIlluminance.Set(0.1953125);
+CabIlluminance.Set(0.1);
 repeater['wallA1'].end();
 repeater['wallB1'].end();
 repeater['dike'].Begin(0,1.4,0, 0, 0, 0, 0, 1, 15, 15, '202_3');
@@ -796,27 +951,41 @@ CabIlluminance.Set(0.78125);
 # repeater['slabA'].Begin0(0,3,5,5,'slab');repeater['dike'].Begin0(0,3,25,25,'dike');
 ##repeater['wall'].End();
 # # repeater['wallB'].End();
-repeater['kodenmawallA'].Begin(0,-5,0,0,0,0,0,3,3,3,'kodenmawall1','kodenmawall2','kodenmawall2','kodenmawall2');
+repeater['kodenmawallA'].Begin(0,-5,0,0,0,0,0,3,3,3,'kodenmawall1','kodenmawall2','kodenmawall3','kodenmawall4');
 repeater['kodenmatenjoA'].Begin(0,-4.3,0,0,0,0,0,3,3,3,'kodenmatenjo');
 repeater['kodenmayukaA'].Begin(0,-4.5,0,0,0,0,0,3,3,3,'kodenmayuka');
 repeater['form-hidari'].Begin(0,-4.25,0.05,0,0,0,0,3,0,1.65,'form-hidari');
 repeater['kodenmalightA'].Begin(0,-5.9,0.3,0,0,0,0,3,5,5,'kodenmalight');
 repeater['kodenmahashiraA'].Begin(0,-3.2,0,0,0,120,0,3,10,10,'kodenmahashira');
 structure['shortstory1'].Put(0,-5.5,-0.5,0,0,0,0,0,0);
-repeater['kodenmawallB'].Begin(2,5,0,0,0,180,0,3,3,3,'kodenmawall1','kodenmawall2','kodenmawall2','kodenmawall2');
-repeater['kodenmatenjoB'].Begin(2,4.3,0,0,0,0,0,3,3,3,'kodenmatenjo');
-repeater['kodenmayukaB'].Begin(2,4.5,0,0,0,0,0,3,3,3,'kodenmayuka');
-repeater['form-hidariB'].Begin(2,4.25,0.05,0,0,180,0,3,0,1.65,'form-hidari');
-repeater['kodenmalightB'].Begin(2,6,0.3,0,0,180,0,3,5,5,'kodenmalight');
-repeater['kodenmahashiraB'].Begin(2,3.2,0,0,0,120,0,3,10,10,'kodenmahashira');
+repeater['kodenmawallB'].Begin('5bansen',5,0,0,0,180,0,3,3,3,'kodenmawall1','kodenmawall2','kodenmawall3','kodenmawall4');
+repeater['kodenmatenjoB'].Begin('5bansen',4.3,0,0,0,0,0,3,3,3,'kodenmatenjo');
+repeater['kodenmayukaB'].Begin('5bansen',4.5,0,0,0,0,0,3,3,3,'kodenmayuka');
+repeater['form-hidariB'].Begin('5bansen',4.25,0.05,0,0,180,0,3,0,1.65,'form-hidari');
+repeater['kodenmalightB'].Begin('5bansen',6,0.3,0,0,180,0,3,5,5,'kodenmalight');
+repeater['kodenmahashiraB'].Begin('5bansen',3.2,0,0,0,120,0,3,10,10,'kodenmahashira');
 11450-$a;
-repeater['kodenmawallA'].Begin(0,-6,0,0,0,0,0,3,3,3,'kodenmawall1','kodenmawall2','kodenmawall2','kodenmawall2');
-repeater['kodenmawallB'].Begin(2,6,0,0,0,180,0,3,3,3,'kodenmawall1','kodenmawall2','kodenmawall2','kodenmawall2');
+repeater['kodenmawallA'].Begin(0,-6,0,0,0,0,0,3,3,3,'kodenmawall1','kodenmawall2','kodenmawall3','kodenmawall4');
+repeater['kodenmawallB'].Begin('5bansen',6,0,0,0,180,0,3,3,3,'kodenmawall1','kodenmawall2','kodenmawall3','kodenmawall4');
+11492-$a;
+repeater['kodenmawallA'].Begin(0,-6,-0,0,0,0,0,3,3.2,3,'kodenmawall5','kodenmawall6','kodenmawall7');
+repeater['kodenmatenjoA2'].Begin(0,-6.5,0,0,0,0,0,3,3,3,'kodenmatenjo2');
+11520-$a;
+repeater['kodenmawallA'].End();
+Structure['kodenmakaisatu'].Put(0,-6,-0,12,0,0,0,0,0);
+11533.5-$a;
+repeater['kodenmawallA'].Begin(0,-6,-0,0,0,0,0,3,3.2,3,'kodenmawall5','kodenmawall6','kodenmawall7');
+11541-$a;
+repeater['kodenmatenjoA2'].End();
+repeater['kodenmawallA'].Begin(0,-6,0,0,0,0,0,3,3,3,'kodenmawall1','kodenmawall2','kodenmawall3','kodenmawall4');
+
 11565 -$a;
 repeater['kodenmalightB'].End();
 repeater['kodenmalightA'].End();
-11568-$a;
-CabIlluminance.Set(0.78125);
+11572 -$a;
+Structure['kodenmaedge'].Put(0,-6,-0,0,0,0,0,0,0);
+11567-$a;
+CabIlluminance.Set(0.8);
 11570-$a;
 repeater['kodenmawallA'].End();
 repeater['kodenmatenjoA'].End();
@@ -829,7 +998,7 @@ repeater['kodenmayukaB'].End();
 repeater['form-hidariB'].End();
 repeater['kodenmahashiraB'].End();
 ##repeater['wall'].Begin(0,0,0,0,0,0,0,3,5,5,'wall5','wall5','wall5','wall4');
-# # repeater['wallB'].Begin(2,1,0,0,0,0,0,3,5,5,'wall5-ura','wall5-ura','wall5-ura','wall4-ura');
+# # repeater['wallB'].Begin('5bansen',1,0,0,0,0,0,3,5,5,'wall5-ura','wall5-ura','wall5-ura','wall4-ura');
 Repeater['6bansen_ballast'].Begin('6bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
 Repeater['5bansen_ballast'].Begin('5bansen', 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Rail3_2','Rail3_3','Rail3_1');
 repeater['dike'].Begin(0,1.4,0, 0, 0, 0, 0, 1, 15, 15, '202_3');
@@ -838,12 +1007,11 @@ Repeater['tenjo105'].Begin(0, -1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '105L');
 Repeater['tenjo106'].Begin(0, -2, 0.01, 0, 0, 0, 0, 1, 15, 15, '106');
 Repeater['wallB1'].Begin('5bansen', 1.83, 0.01, 0, 0, 0, 0, 1, 15, 15, '103R');
 # repeater['slabA'].Begin0(0,3,5,5,'slab2');//人形町は別
-11573-$a;
-CabIlluminance.Set(0.1953125);
+
 #架線
 5000-$a; 
 //repeater['kasen'].Begin(0,0,0,0,0,0,0,3,25,25,'Tijoukasen');
-//repeater['kasen2'].Begin(2,0,0,0,0,0,0,3,25,25,'Tijoukasen');
+//repeater['kasen2'].Begin('5bansen',0,0,0,0,0,0,3,25,25,'Tijoukasen');
 #標識
 #三ノ輪～入谷
 7895-$a;

@@ -1,0 +1,18 @@
+BveTs Sound List 1.00
+
+;車内放送
+h21,housou\old\h21.wav
+h20,housou\old\h20.wav
+h19,housou\old\h19.wav
+h18,housou\old\h18.wav
+h17,housou\old\h17.wav
+h16,housou\old\h16.wav
+h15,housou\old\h15.wav
+h14,housou\old\h14.wav
+h13,housou\old\h13.wav
+ginza,housou\old\ginza.wav
+5door,housou\old\5door.wav
+left1,housou\old\left1.wav
+left2,housou\old\left2.wav
+right,housou\old\right.wav
+keikai,housou\old\keikai.wav

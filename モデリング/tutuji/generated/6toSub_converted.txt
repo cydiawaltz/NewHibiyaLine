@@ -1,0 +1,169 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 0.000000;
+
+# Track['6toSub'].X
+$P09_RP + 1672.975;
+Track['6toSub'].X.Interpolate(-286.773,0.000);
+$P09_RP + 1720.000;
+Track['6toSub'].X.Interpolate(-214.574,0.000);
+$P09_RP + 1748.476;
+Track['6toSub'].X.Interpolate(-170.855,65.589);
+$P09_RP + 1750.000;
+Track['6toSub'].X.Interpolate(-168.513,16.288);
+$P09_RP + 1750.728;
+Track['6toSub'].X.Interpolate(-167.394,-768.477);
+$P09_RP + 1770.000;
+Track['6toSub'].X.Interpolate(-129.610,-327.276);
+$P09_RP + 1772.982;
+Track['6toSub'].X.Interpolate(-124.212,-143.318);
+$P09_RP + 1780.000;
+Track['6toSub'].X.Interpolate(-112.949,-117.364);
+$P09_RP + 1788.645;
+Track['6toSub'].X.Interpolate(-100.663,0.000);
+$P09_RP + 1829.868;
+Track['6toSub'].X.Interpolate(-54.064,-163.601);
+$P09_RP + 1842.271;
+Track['6toSub'].X.Interpolate(-41.558,-525.213);
+$P09_RP + 1846.316;
+Track['6toSub'].X.Interpolate(-37.919,-118.668);
+$P09_RP + 1851.907;
+Track['6toSub'].X.Interpolate(-33.188,-106.983);
+$P09_RP + 1906.390;
+Track['6toSub'].X.Interpolate(-11.067,0.000);
+$P09_RP + 1912.999;
+Track['6toSub'].X.Interpolate(-10.380,0.000);
+$P09_RP + 1936.873;
+Track['6toSub'].X.Interpolate(-7.900,0.000);
+$P09_RP + 1945.000;
+Track['6toSub'].X.Interpolate(-7.056,-94.109);
+$P09_RP + 1945.192;
+Track['6toSub'].X.Interpolate(-7.036,-492.900);
+$P09_RP + 1948.753;
+Track['6toSub'].X.Interpolate(-6.676,-422.569);
+$P09_RP + 1967.000;
+Track['6toSub'].X.Interpolate(-5.312,-396.885);
+$P09_RP + 1980.279;
+Track['6toSub'].X.Interpolate(-4.823,-586.426);
+$P09_RP + 1984.371;
+Track['6toSub'].X.Interpolate(-4.758,0.000);
+$P09_RP + 2085.000;
+Track['6toSub'].X.Interpolate(-3.650,0.000);
+$P09_RP + 2092.000;
+Track['6toSub'].X.Interpolate(-3.572,0.000);
+$P09_RP + 2092.775;
+Track['6toSub'].X.Interpolate(-3.564,0.000);
+$P09_RP + 2101.775;
+Track['6toSub'].X.Interpolate(-3.465,0.000);
+$P09_RP + 2168.489;
+Track['6toSub'].X.Interpolate(-2.730,-486.114);
+$P09_RP + 2177.833;
+Track['6toSub'].X.Interpolate(-2.720,0.000);
+
+# Track['6toSub'].Y
+$P09_RP + 1672.975;
+Track['6toSub'].Y.Interpolate(-3.232,0.000);
+$P09_RP + 1720.000;
+Track['6toSub'].Y.Interpolate(-3.232,3273.342);
+$P09_RP + 1748.476;
+Track['6toSub'].Y.Interpolate(-3.110,0.000);
+$P09_RP + 1750.000;
+Track['6toSub'].Y.Interpolate(-3.097,0.000);
+$P09_RP + 1750.728;
+Track['6toSub'].Y.Interpolate(-3.090,0.000);
+$P09_RP + 1770.000;
+Track['6toSub'].Y.Interpolate(-2.917,-907.713);
+$P09_RP + 1772.982;
+Track['6toSub'].Y.Interpolate(-2.894,-1075.280);
+$P09_RP + 1780.000;
+Track['6toSub'].Y.Interpolate(-2.872,0.000);
+$P09_RP + 1788.645;
+Track['6toSub'].Y.Interpolate(-2.872,0.000);
+$P09_RP + 1829.868;
+Track['6toSub'].Y.Interpolate(-2.872,0.000);
+$P09_RP + 1842.271;
+Track['6toSub'].Y.Interpolate(-2.872,0.000);
+$P09_RP + 1846.316;
+Track['6toSub'].Y.Interpolate(-2.872,0.000);
+$P09_RP + 1851.907;
+Track['6toSub'].Y.Interpolate(-2.872,1331.825);
+$P09_RP + 1906.390;
+Track['6toSub'].Y.Interpolate(-1.672,1750.567);
+$P09_RP + 1912.999;
+Track['6toSub'].Y.Interpolate(-1.388,0.000);
+$P09_RP + 1936.873;
+Track['6toSub'].Y.Interpolate(-0.309,-267.870);
+$P09_RP + 1945.000;
+Track['6toSub'].Y.Interpolate(-0.067,-44.403);
+$P09_RP + 1945.192;
+Track['6toSub'].Y.Interpolate(-0.064,-358.972);
+$P09_RP + 1948.753;
+Track['6toSub'].Y.Interpolate(-0.043,-8456.843);
+$P09_RP + 1967.000;
+Track['6toSub'].Y.Interpolate(-0.095,3258.587);
+$P09_RP + 1980.279;
+Track['6toSub'].Y.Interpolate(-0.122,0.000);
+$P09_RP + 1984.371;
+Track['6toSub'].Y.Interpolate(-0.122,0.000);
+$P09_RP + 2085.000;
+Track['6toSub'].Y.Interpolate(-0.122,753.920);
+$P09_RP + 2092.000;
+Track['6toSub'].Y.Interpolate(-0.087,-2106.200);
+$P09_RP + 2092.775;
+Track['6toSub'].Y.Interpolate(-0.079,-940.565);
+$P09_RP + 2101.775;
+Track['6toSub'].Y.Interpolate(-0.029,0.000);
+$P09_RP + 2168.489;
+Track['6toSub'].Y.Interpolate(-0.029,0.000);
+$P09_RP + 2177.833;
+Track['6toSub'].Y.Interpolate(-0.029,0.000);
+
+# Track['6toSub'].Cant.Interpolate
+$P09_RP + 1672.975;
+Track['6toSub'].Cant.Interpolate(0.000);
+$P09_RP + 1748.476;
+Track['6toSub'].Cant.Interpolate(0.000);
+$P09_RP + 1772.450;
+Track['6toSub'].Cant.Interpolate(0.000);
+$P09_RP + 1772.982;
+Track['6toSub'].Cant.Interpolate(0.000);
+$P09_RP + 1779.272;
+Track['6toSub'].Cant.Interpolate(0.000);
+$P09_RP + 1829.868;
+Track['6toSub'].Cant.Interpolate(0.000);
+$P09_RP + 1842.271;
+Track['6toSub'].Cant.Interpolate(0.000);
+$P09_RP + 1846.316;
+Track['6toSub'].Cant.Interpolate(0.000);
+$P09_RP + 1906.390;
+Track['6toSub'].Cant.Interpolate(0.000);
+$P09_RP + 2177.833;
+Track['6toSub'].Cant.Interpolate(0.000);
+
+# Track['6toSub'].Cant.SetFunction
+$P09_RP + 1672.975;
+Track['6toSub'].Cant.SetFunction(1);
+$P09_RP + 1748.476;
+Track['6toSub'].Cant.SetFunction(1);
+$P09_RP + 1772.982;
+Track['6toSub'].Cant.SetFunction(1);
+$P09_RP + 1829.868;
+Track['6toSub'].Cant.SetFunction(1);
+$P09_RP + 1846.316;
+Track['6toSub'].Cant.SetFunction(1);
+$P09_RP + 2177.833;
+Track['6toSub'].Cant.SetFunction(1);
+
+# Track['6toSub'].Cant.SetCenter
+$P09_RP + 1672.975;
+Track['6toSub'].Cant.SetCenter(0.000);
+$P09_RP + 2177.833;
+Track['6toSub'].Cant.SetCenter(0.000);
+
+# Track['6toSub'].Cant.SetGauge
+$P09_RP + 1672.975;
+Track['6toSub'].Cant.SetGauge(1.067);
+$P09_RP + 2177.833;
+Track['6toSub'].Cant.SetGauge(1.067);
+

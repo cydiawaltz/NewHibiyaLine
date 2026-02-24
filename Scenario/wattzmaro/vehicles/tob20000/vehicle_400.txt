@@ -1,0 +1,14 @@
+Bvets Vehicle 0.03
+
+PerformanceCurve = notch\400\notch.txt
+MotorNoise = MotorNoise\gto\MotorNoise.txt
+Parameters = parameters_400.txt
+Sound = sound_400.txt
+Panel = panel_400.txt
+;Ats32 = device\Ats.dll
+;Ats64 = device\Ats.dll
+
+Ats = device\Ats.dll
+
+
+;ﾜﾝﾏﾝ

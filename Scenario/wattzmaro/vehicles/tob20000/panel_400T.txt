@@ -1,0 +1,295 @@
+Version 1.0
+
+[This]
+Resolution       = 1100
+Left             = 5
+Top              = 100
+Right            = 2000
+Bottom           = 1850
+Center           = 870,1050
+Origin           = 900,935
+DaytimeImage     = panel\400\panel_T.png
+NighttimeImage   = panel\400\panel_T.png
+
+[Pilotlamp]
+Subject          = door
+Location         = 735,1736
+DaytimeImage     = panel\400\DoorCls_400.png
+Layer            = 3
+
+[Needle]
+Subject = bc
+Location = 170, 1688
+DaytimeImage = panel\prs_up.bmp
+Color = #1E1E1E
+TransparentColor = #000000
+Origin = 64, 328
+Layer = 3
+Radius = 80
+InitialAngle = -130
+LastAngle = 135
+Minimum = 0
+Maximum = 1200
+NaturalFreq = 5
+
+[Needle]
+Subject = mr
+Location = 170, 1688
+DaytimeImage = panel\prs_up.bmp
+Color = #963228
+TransparentColor = #000000
+Origin = 64, 328
+Layer = 2
+Radius = 80
+InitialAngle = -120
+LastAngle = 135
+Minimum = 0
+Maximum = 1200
+NaturalFreq = 5
+
+[Needle]
+Subject = kmph
+Location = 513, 1561
+DaytimeImage = panel\speed.bmp
+Color = #1E1E1E
+TransparentColor = #000000
+Origin = 16, 256
+Layer = 2
+Radius = 82
+InitialAngle = -120
+LastAngle = 120
+Minimum = 2.5
+Maximum = 118
+NaturalFreq = 0
+
+[DigitalNumber]
+Subject = kmphd0 
+Location = 1307, 1439
+DaytimeImage = panel\400\speednumbl.png
+TransparentColor = #000000
+Layer = 3
+Interval = 20
+
+[DigitalNumber]
+Subject = kmphd1 
+Location = 1298, 1439
+DaytimeImage = panel\400\speednumbl.png
+TransparentColor = #000000
+Layer = 3
+Interval = 20
+
+[DigitalNumber]
+Subject = kmphd2
+Location = 1292, 1439
+DaytimeImage = panel\400\speednumbl.png
+Layer = 3
+Interval = 20
+
+[PilotLamp]
+Subject = true
+Location = 471, 1527
+DaytimeImage = panel\SpdCov.png
+Layer = 3
+
+
+;Doors
+[Pilotlamp]
+Subject          = doorr0
+Location         = 1056, 1524
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorr0
+Location         = 1069, 1524
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorr0
+Location         = 1082, 1524
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+
+[Pilotlamp]
+Subject          = doorr1
+Location         = 1098, 1524
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorr1
+Location         = 1111, 1524
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorr1
+Location         = 1124, 1524
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorr2
+Location         = 1146, 1524
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorr2
+Location         = 1159, 1524
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorr2
+Location         = 1172, 1524
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorr3
+Location         = 1191, 1524
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorr3
+Location         = 1204, 1524
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorr3
+Location         = 1217, 1524
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+;;;
+
+[Pilotlamp]
+Subject          = doorl0
+Location         = 1056, 1549
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorl0
+Location         = 1069, 1549
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorl0
+Location         = 1082, 1549
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorl1
+Location         = 1098, 1549
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorl1
+Location         = 1111, 1549
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorl1
+Location         = 1124, 1549
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorl2
+Location         = 1146, 1549
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorl2
+Location         = 1159, 1549
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorl2
+Location         = 1172, 1549
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorl3
+Location         = 1191, 1549
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorl3
+Location         = 1204, 1549
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = doorl3
+Location         = 1217, 1549
+DaytimeImage     = panel\400\Doorcls.png
+Layer            = 2
+
+
+;Ats Section
+[Pilotlamp]
+Subject          = ats44
+Location         = 420,1667
+DaytimeImage     = ats\ats_on.bmp
+Layer            = 6
+
+[DigitalNumber]
+Subject          = ats92
+Location         = 531,1666
+DaytimeImage     = ats\ats.bmp
+Layer            = 6
+Interval         = 39
+
+[DigitalNumber]
+Subject          = ats13
+Location         = 1248,1439
+DaytimeImage     = panel\400\speednumbl2.png
+Layer            = 12
+Interval         = 20
+
+[DigitalNumber]
+Subject          = ats14
+Location         = 1257,1439
+DaytimeImage     = panel\400\speednumbl.png
+Layer            = 12
+Interval         = 20
+
+[DigitalNumber]
+Subject          = ats15
+Location         = 1267,1439
+DaytimeImage     = panel\400\speednumbl.png
+Layer            = 12
+Interval         = 20
+
+[Pilotlamp]
+Subject          = ats42
+Location         = 371,1556
+DaytimeImage     = ats\15.bmp
+Layer            = 2
+
+[Pilotlamp]
+Subject          = ats43
+Location         = 497,1425
+DaytimeImage     = ats\60.bmp
+Layer            = 2
+
+[Pilotlamp]
+Subject = ats252
+Location = 1398, 1530
+DaytimeImage = panel\400\next.png
+Layer = 6

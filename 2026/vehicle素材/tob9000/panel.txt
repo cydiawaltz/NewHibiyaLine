@@ -1,0 +1,1020 @@
+Version 1.0
+
+[This]
+Resolution       = 1580
+Left             = 65
+Top              = 110
+Right            = 1988
+Bottom           = 1930
+Center           = 870, 1050
+Origin           = 900, 935
+
+[Pilotlamp]
+Subject          = true
+Location         = 0,0
+DaytimeImage     = d3d\panel.png
+NighttimeImage   = d3d\panel_n.png
+Layer            = 3
+
+[Pilotlamp]
+Subject          = true
+Location         = 1510,1431
+DaytimeImage     = d3d\ati_atomn.png
+Layer            = 4
+
+
+[Pilotlamp]
+Subject          = true
+Location         = 864,1438
+DaytimeImage     = d3d\smon.png
+NighttimeImage   = d3d\smon_n.png
+Layer            = 8
+
+[Pilotlamp]
+Subject          = true
+Location         = 255,1500
+DaytimeImage     = d3d\amon.png
+NighttimeImage   = d3d\amon_n.png
+Layer            = 8
+
+
+
+;ñ¢ê›íË
+
+;ÉnÉCÉrÅ[ÉÄ
+;ìåã}ATSä÷òA
+
+
+;åväÌ
+
+[Needle]
+Subject          = kmph
+Location         = 896,1471
+DaytimeImage     = d3d\smk.png
+NighttimeImage   = d3d\smk_n.png
+Origin           = 14, 227
+Layer            = 6
+Radius           = 67
+InitialAngle     = -122
+LastAngle        = 123
+Minimum          = 0
+Maximum          = 122
+NaturalFreq      = 6.3
+DampingRatio     = 0.5
+
+;ê‘êj
+[Needle]
+Subject          = ats135;45
+Location         = 896,1471
+DaytimeImage     = d3d\smr.png
+NighttimeImage   = d3d\smr_n.png
+Origin           = 14, 227
+Layer            = 5
+Radius           = 67
+InitialAngle     = -122
+LastAngle        = 123
+Minimum          = 0
+Maximum          = 1220
+NaturalFreq      = 4
+DampingRatio     = 0.5
+
+[Needle]
+Subject          = mr
+Location         = 290,1354
+DaytimeImage     = d3d\pgr.png
+NighttimeImage   = d3d\pgr_n.png
+Origin           = 31, 175
+Layer            = 5
+Radius           = 66
+InitialAngle     = -131
+LastAngle        = 131
+Minimum          = 0
+Maximum          = 1200
+NaturalFreq      = 0
+
+[Needle]
+Subject          = bc
+Location         = 290,1354
+DaytimeImage     = d3d\pgk.png
+NighttimeImage   = d3d\pgk_n.png
+Origin           = 31, 175
+Layer            = 6
+Radius           = 66
+InitialAngle     = -131
+LastAngle        = 131
+Minimum          = 0
+Maximum          = 1200
+NaturalFreq      = 5
+DampingRatio     = 0.9
+
+[Needle]
+Subject          = ats212
+Location         = 287,1533
+DaytimeImage     = d3d\smk.png
+NighttimeImage   = d3d\smk_n.png
+Origin           = 16, 225
+Layer            = 5
+Radius           = 56
+InitialAngle     = -117
+LastAngle        = 117
+Minimum          = 0
+Maximum          = 75
+NaturalFreq      = 1.8
+DampingRatio     = 0.9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+;â^ì]éÊàµã@äÌ
+
+[Pilotlamp]
+Subject          = door
+Location         = 803,1255
+DaytimeImage     = ats\dooron.png
+NighttimeImage   = ats\dooron_n.png
+Layer            = 4
+
+[DigitalNumber] 
+Subject          = ats92
+Location         = 951,1715
+DaytimeImage     = ats\key.png
+NighttimeImage   = ats\key_n.png
+Layer            = 4
+Interval         = 128
+
+[DigitalNumber] 
+Subject          = ats72
+Location         = 1289,1684
+DaytimeImage     = ats\atccgs.png
+NighttimeImage   = ats\atccgs_n.png
+Layer            = 4
+Interval         = 204
+
+[Needle]
+Subject          = ats157
+Location         = 1250, 1230
+DaytimeImage     = sub\Wiper1.png
+NighttimeImage   = sub\Wiper1_n.png
+Origin           = -65, 550
+Layer            = 2
+Radius           = 970
+InitialAngle     = 5
+LastAngle        = 100.8
+Minimum          = 0
+Maximum          = 1
+NaturalFreq      = 4
+DampingRatio     = 0.81
+
+[Needle]
+Subject          = ats157
+Location         = 1260, 1250
+DaytimeImage     = sub\Wiper2.png
+NighttimeImage   = sub\Wiper2_n.png
+Origin           = -5, 540
+Layer            = 1
+Radius           = 510
+InitialAngle     = 17
+LastAngle        = 110
+Minimum          = 0
+Maximum          = 1
+NaturalFreq      = 4
+DampingRatio     = 0.81
+
+
+
+;BL
+
+[Pilotlamp]
+Subject          = ats161
+Location         = 768,1342
+DaytimeImage     = sub\back1.png
+NighttimeImage   = sub\back1_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats161
+Location         = 146,1230
+DaytimeImage     = sub\back2.png
+NighttimeImage   = sub\back2_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats161
+Location         = 1209,1411
+DaytimeImage     = sub\back3.png
+NighttimeImage   = sub\back3_n.png
+Layer            = 4
+
+
+
+;PBï\é¶ìî
+
+;óÕçs
+[DigitalNumber] 
+Subject          = ats66
+Location         = 426,1440
+DaytimeImage     = sub\power.png
+NighttimeImage   = sub\power_n.png
+Layer            = 6
+Interval         = 92
+
+[DigitalNumber]
+Subject          = power
+Location         = 426,1440
+DaytimeImage     = sub\power.png
+NighttimeImage   = sub\power_n.png
+Layer            = 4
+Interval         = 92
+
+;êßìÆ
+[DigitalNumber] 
+Subject          = ats51
+Location         = 426,1280
+DaytimeImage     = sub\brake.png
+NighttimeImage   = sub\brake_n.png
+Layer            = 7
+Interval         = 180
+
+[DigitalNumber]
+Subject          = brake
+Location         = 426,1280
+DaytimeImage     = sub\brake.png
+NighttimeImage   = sub\brake_n.png
+Layer            = 5
+Interval         = 180
+
+
+
+;ç∂ë§ï\é¶ìî
+
+[DigitalNumber]
+Subject          = ats92
+Location         = 580,1352
+DaytimeImage     = ats\key2.png
+NighttimeImage   = ats\key2_n.png
+Layer            = 4
+Interval         = 100
+
+[Pilotlamp]
+Subject          = ats19
+Location         = 654,1320
+DaytimeImage     = ats\atc.png
+NighttimeImage   = ats\atc_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats21
+Location         = 654,1320
+DaytimeImage     = ats\atc.png
+NighttimeImage   = ats\atc_n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats27
+Location         = 654,1412
+DaytimeImage     = ats\hisetsu.png
+NighttimeImage   = ats\hisetsu_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats29
+Location         = 654,1412
+DaytimeImage     = ats\hisetsu.png
+NighttimeImage   = ats\hisetsu_n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats31
+Location         = 654,1353
+DaytimeImage     = ats\konai.png
+NighttimeImage   = ats\konai_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats32
+Location         = 654,1387
+DaytimeImage     = ats\irekae.png
+NighttimeImage   = ats\irekae_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats41
+Location         = 581,1294
+DaytimeImage     = ats\tats.png
+NighttimeImage   = ats\tats_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats176
+Location         = 580,1455
+DaytimeImage     = ats\snow.png
+NighttimeImage   = ats\snow_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = csc
+Location         = 581,1553
+DaytimeImage     = ats\teisoku.png
+NighttimeImage   = ats\teisoku_n.png
+Layer            = 4
+
+[DigitalNumber]
+Subject          = ats155
+Location         = 654,1464
+DaytimeImage     = ats\hdrlp.png
+NighttimeImage   = ats\hdrlp_n.png
+Layer            = 8
+Interval         = 64
+
+[DigitalNumber]
+Subject          = ats92
+Location         = 654,1464
+DaytimeImage     = ats\key_hdr.png
+NighttimeImage   = ats\key_hdr_n.png
+Layer            = 9
+Interval         = 64
+
+[DigitalNumber]
+Subject          = ats155
+Location         = 655,1552
+DaytimeImage     = ats\hdl_rlp.png
+NighttimeImage   = ats\hdl_rlp_n.png
+Layer            = 4
+Interval         = 32
+
+[DigitalNumber]
+Subject          = ats72
+Location         = 655,1552
+DaytimeImage     = ats\hdl_cgs.png
+NighttimeImage   = ats\hdl_cgs_n.png
+Layer            = 5
+Interval         = 32
+
+[DigitalNumber]
+Subject          = ats92
+Location         = 655,1552
+DaytimeImage     = ats\hdl_key.png
+NighttimeImage   = ats\hdl_key_n.png
+Layer            = 6
+Interval         = 32
+
+[Pilotlamp]
+Subject          = ats181
+Location         = 655,1552
+DaytimeImage     = ats\hdl.png
+NighttimeImage   = ats\hdln.png
+Layer            = 7
+
+[DigitalNumber]
+Subject          = ats193
+Location         = 655,1552
+DaytimeImage     = ats\hdl_cctv.png
+NighttimeImage   = ats\hdl_cctv_n.png
+Layer            = 8
+Interval         = 32
+
+
+
+;âEë§ï\é¶ìî
+
+[Pilotlamp]
+Subject          = ats22
+Location         = 1060,1325
+DaytimeImage     = ats\atceb.png
+NighttimeImage   = ats\atceb_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats23
+Location         = 1060,1295
+DaytimeImage     = ats\atcsb.png
+NighttimeImage   = ats\atcsb_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats294
+Location         = 1060,1522
+DaytimeImage     = ats\sta.png
+NighttimeImage   = ats\sta_n.png
+Layer            = 4
+
+;[Pilotlamp];èÄîı/ATO
+;Subject          = ats161
+;Location         = 1060,1395
+;DaytimeImage     = ats\ato.png
+;NighttimeImage   = ats\ato_n.png
+;Layer            = 4
+
+;[Pilotlamp];èÄîı/TASC
+;Subject          = ats161
+;Location         = 1060,1419
+;DaytimeImage     = ats\tasc.png
+;NighttimeImage   = ats\tasc_n.png
+;Layer            = 4
+
+;[Pilotlamp];èÄîı/TASCêßå‰
+;Subject          = ats161
+;Location         = 1060,1445
+;DaytimeImage     = ats\tascc.png
+;NighttimeImage   = ats\tascc_n.png
+;Layer            = 4
+
+[DigitalNumber]
+Subject          = ats155
+Location         = 1060,1552
+DaytimeImage     = ats\hdr_rlp.png
+NighttimeImage   = ats\hdr_rlp_n.png
+Layer            = 4
+Interval         = 32
+
+[DigitalNumber]
+Subject          = ats72
+Location         = 1060,1552
+DaytimeImage     = ats\hdr_cgs.png
+NighttimeImage   = ats\hdr_cgs_n.png
+Layer            = 5
+Interval         = 32
+
+[DigitalNumber]
+Subject          = ats92
+Location         = 1060,1552
+DaytimeImage     = ats\hdr_key.png
+NighttimeImage   = ats\hdr_key_n.png
+Layer            = 6
+Interval         = 32
+
+[Pilotlamp]
+Subject          = ats182
+Location         = 1060,1552
+DaytimeImage     = ats\hdr.png
+NighttimeImage   = ats\hdrn.png
+Layer            = 7
+
+[DigitalNumber]
+Subject          = ats193
+Location         = 1060,1552
+DaytimeImage     = ats\hdr_cctv.png
+NighttimeImage   = ats\hdr_cctv_n.png
+Layer            = 8
+Interval         = 32
+
+
+
+;CS
+
+[Pilotlamp]
+Subject          = ats101
+Location         = 878,1558
+DaytimeImage     = atc\s02.png
+NighttimeImage   = atc\s02n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats102
+Location         = 808,1507
+DaytimeImage     = atc\s01.png
+NighttimeImage   = atc\s01n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats104
+Location         = 800,1485
+DaytimeImage     = atc\s10.png
+NighttimeImage   = atc\s10n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats105
+Location         = 798,1466
+DaytimeImage     = atc\s15.png
+NighttimeImage   = atc\s15n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats106
+Location         = 798,1450
+DaytimeImage     = atc\s20.png
+NighttimeImage   = atc\s20n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats107
+Location         = 801,1434
+DaytimeImage     = atc\s25.png
+NighttimeImage   = atc\s25n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats108
+Location         = 807,1420
+DaytimeImage     = atc\s30.png
+NighttimeImage   = atc\s30n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats109
+Location         = 815,1406
+DaytimeImage     = atc\s35.png
+NighttimeImage   = atc\s35n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats110
+Location         = 827,1394
+DaytimeImage     = atc\s40.png
+NighttimeImage   = atc\s40n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats111
+Location         = 841,1384
+DaytimeImage     = atc\s45.png
+NighttimeImage   = atc\s45n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats112
+Location         = 854,1378
+DaytimeImage     = atc\s50.png
+NighttimeImage   = atc\s50n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats113
+Location         = 870,1375
+DaytimeImage     = atc\s55.png
+NighttimeImage   = atc\s55n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats114
+Location         = 886,1373
+DaytimeImage     = atc\s60.png
+NighttimeImage   = atc\s60n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats115
+Location         = 902,1374
+DaytimeImage     = atc\s65.png
+NighttimeImage   = atc\s65n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats116
+Location         = 917,1377
+DaytimeImage     = atc\s70.png
+NighttimeImage   = atc\s70n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats117
+Location         = 932,1382
+DaytimeImage     = atc\s75.png
+NighttimeImage   = atc\s75n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats118
+Location         = 945,1390
+DaytimeImage     = atc\s80.png
+NighttimeImage   = atc\s80n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats119
+Location         = 957,1402
+DaytimeImage     = atc\s85.png
+NighttimeImage   = atc\s85n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats120
+Location         = 965,1415
+DaytimeImage     = atc\s90.png
+NighttimeImage   = atc\s90n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats121
+Location         = 971,1430
+DaytimeImage     = atc\s95.png
+NighttimeImage   = atc\s95n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats122
+Location         = 976,1444
+DaytimeImage     = atc\s100.png
+NighttimeImage   = atc\s100n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats124
+Location         = 976,1479
+DaytimeImage     = atc\s110.png
+NighttimeImage   = atc\s110n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats133
+Location         = 919,1551
+DaytimeImage     = atc\syk.png
+NighttimeImage   = atc\sykn.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats134
+Location         = 845,1555
+DaytimeImage     = atc\sp.png
+NighttimeImage   = atc\spn.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats131
+Location         = 840,1347
+DaytimeImage     = atc\srs.png
+NighttimeImage   = atc\srsn.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats132
+Location         = 916,1347
+DaytimeImage     = atc\sgs.png
+NighttimeImage   = atc\sgsn.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats43
+Location         = 886,1373
+DaytimeImage     = atc\ats60.png
+NighttimeImage   = atc\ats60n.png
+Layer            = 6
+
+[Pilotlamp]
+Subject          = ats42
+Location         = 798,1466
+DaytimeImage     = atc\ats15.png
+NighttimeImage   = atc\ats15n.png
+Layer            = 6
+
+[Pilotlamp]
+Subject          = ats44
+Location         = 810,1542
+DaytimeImage     = atc\atseb.png
+NighttimeImage   = atc\atsebn.png
+Layer            = 6
+
+
+
+;é‘è„CCTV
+
+[DigitalNumber] 
+Subject          = ats193
+Location         = 314,296
+DaytimeImage     = sub\cctv\cctv1a.png
+Layer            = 4
+Interval         = 91
+
+[DigitalNumber] 
+Subject          = ats193
+Location         = 314,387
+DaytimeImage     = sub\cctv\cctv1b.png
+Layer            = 4
+Interval         = 91
+
+[DigitalNumber] 
+Subject          = ats193
+Location         = 613,296
+DaytimeImage     = sub\cctv\cctv2a.png
+Layer            = 4
+Interval         = 91
+
+[DigitalNumber] 
+Subject          = ats193
+Location         = 613,387
+DaytimeImage     = sub\cctv\cctv2b.png
+Layer            = 4
+Interval         = 91
+
+[DigitalNumber] 
+Subject          = ats193
+Location         = 912,296
+DaytimeImage     = sub\cctv\cctv3a.png
+Layer            = 4
+Interval         = 91
+
+[DigitalNumber] 
+Subject          = ats193
+Location         = 912,387
+DaytimeImage     = sub\cctv\cctv3b.png
+Layer            = 4
+Interval         = 91
+
+[DigitalNumber] 
+Subject          = ats193
+Location         = 1211,296
+DaytimeImage     = sub\cctv\cctv4a.png
+Layer            = 4
+Interval         = 91
+
+[DigitalNumber] 
+Subject          = ats193
+Location         = 1211,387
+DaytimeImage     = sub\cctv\cctv4b.png
+Layer            = 4
+Interval         = 91
+
+[DigitalNumber] 
+Subject          = ats193
+Location         = 253,448
+DaytimeImage     = sub\cctv\cctvpwp.png
+NighttimeImage   = sub\cctv\cctvpwp_n.png
+Layer            = 4
+Interval         = 32
+
+
+
+;ATIÉÇÉjÉ^
+
+[DigitalNumber]
+Subject          = ats92
+Location         = 1545,1381
+DaytimeImage     = sub\key_hed.png
+Layer            = 4
+Interval         = 16
+
+[Pilotlamp]
+Subject          = doorr0
+Location         = 1533,1360
+DaytimeImage     = sub\door0a.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = doorr1
+Location         = 1585,1364
+DaytimeImage     = sub\door1a.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = doorr2
+Location         = 1620,1364
+DaytimeImage     = sub\door1a.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = doorr0
+Location         = 1655,1364
+DaytimeImage     = sub\door1a.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = doorr1
+Location         = 1690,1364
+DaytimeImage     = sub\door1a.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = doorr1
+Location         = 1724,1364
+DaytimeImage     = sub\door2a.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = doorl0
+Location         = 1533,1404
+DaytimeImage     = sub\door0b.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = doorl1
+Location         = 1585,1400
+DaytimeImage     = sub\door1b.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = doorl2
+Location         = 1620,1400
+DaytimeImage     = sub\door1b.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = doorl2
+Location         = 1655,1400
+DaytimeImage     = sub\door1b.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = doorl1
+Location         = 1690,1400
+DaytimeImage     = sub\door1b.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = doorl2
+Location         = 1724,1400
+DaytimeImage     = sub\door2b.png
+Layer            = 4
+
+
+
+;PBï\é¶
+
+;óÕçs
+[DigitalNumber] 
+Subject          = ats66
+Location         = 1776,1442
+DaytimeImage     = sub\ati_power.png
+Layer            = 7
+Interval         = 16
+
+[DigitalNumber]
+Subject          = power
+Location         = 1776,1442
+DaytimeImage     = sub\ati_power.png
+Layer            = 5
+Interval         = 16
+
+;êßìÆ
+[DigitalNumber] 
+Subject          = ats51
+Location         = 1776,1442
+DaytimeImage     = sub\ati_brake.png
+Layer            = 6
+Interval         = 16
+
+[DigitalNumber]
+Subject          = brake
+Location         = 1776,1442
+DaytimeImage     = sub\ati_brake.png
+Layer            = 4
+Interval         = 16
+
+[DigitalNumber];â^î‘10 
+Subject          = ats153
+Location         = 1584,1300
+DaytimeImage     = sub\ati_r3.png
+Layer            = 8
+Interval         = 16
+
+[DigitalNumber];â^î‘1
+Subject          = ats154
+Location         = 1614,1300
+DaytimeImage     = sub\ati_r2.png
+Layer            = 9
+Interval         = 16
+
+[DigitalNumber];óÒî‘1000
+Subject          = ats62
+Location         = 1596,1300
+DaytimeImage     = sub\ati_r1.png
+Layer            = 4
+Interval         = 16
+
+[DigitalNumber];óÒî‘100
+Subject          = ats63
+Location         = 1602,1300
+DaytimeImage     = sub\ati_r1.png
+Layer            = 5
+Interval         = 16
+
+[DigitalNumber];óÒî‘10
+Subject          = ats64
+Location         = 1608,1300
+DaytimeImage     = sub\ati_r1.png
+Layer            = 6
+Interval         = 16
+
+[DigitalNumber];óÒî‘1
+Subject          = ats65
+Location         = 1614,1300
+DaytimeImage     = sub\ati_r1.png
+Layer            = 7
+Interval         = 16
+
+[DigitalNumber];éÌï ï\é¶ 
+Subject          = ats152
+Location         = 1594,1314
+DaytimeImage     = sub\shubetsu.png
+Layer            = 4
+Interval         = 16
+
+[DigitalNumber];çsêÊï\é¶
+Subject          = ats172
+Location         = 1696,1314
+DaytimeImage     = sub\ikisaki.png
+Layer            = 4
+Interval         = 16
+
+;[DigitalNumber];èIì_ï˚å¸ï\é¶
+;Subject          = 
+;Location         = 1490,1381
+;DaytimeImage     = 
+;Layer            = 4
+;Interval         = 16
+
+[DigitalNumber];âwñºï\é¶/ìåïê/í‚é‘î≠âw
+Subject          = ats236
+Location         = 1594,1327
+DaytimeImage     = sub\sta_tob.png
+Layer            = 5
+Interval         = 16
+
+;[DigitalNumber];âwñºï\é¶/ìåïê/í‚é‘íÖâw
+;Subject          = ats236
+;Location         = 1670,1327
+;DaytimeImage     = sub\sta_tob2.png
+;Layer            = 5
+;Interval         = 16
+
+[DigitalNumber];âwñºï\é¶/ìåïê/âwä‘î≠âw
+Subject          = ats237
+Location         = 1594,1327
+DaytimeImage     = sub\sta_tob.png
+Layer            = 5
+Interval         = 16
+
+[DigitalNumber];âwñºï\é¶/ìåïê/âwä‘íÖâw
+Subject          = ats238
+Location         = 1670,1327
+DaytimeImage     = sub\sta_tob.png
+Layer            = 5
+Interval         = 16
+
+[DigitalNumber];âwñºï\é¶/ìåã}/í‚é‘î≠âw
+Subject          = ats245
+Location         = 1594,1327
+DaytimeImage     = sub\sta_tkk.png
+Layer            = 5
+Interval         = 16
+
+;[DigitalNumber];âwñºï\é¶/ìåã}/í‚é‘íÖâw
+;Subject          = ats245
+;Location         = 1670,1327
+;DaytimeImage     = sub\sta_tkk2.png
+;Layer            = 5
+;Interval         = 16
+
+[DigitalNumber];âwñºï\é¶/ìåã}/âwä‘î≠âw
+Subject          = ats246
+Location         = 1594,1327
+DaytimeImage     = sub\sta_tkk.png
+Layer            = 5
+Interval         = 16
+
+[DigitalNumber];âwñºï\é¶/ìåã}/âwä‘íÖâw
+Subject          = ats247
+Location         = 1670,1327
+DaytimeImage     = sub\sta_tkk.png
+Layer            = 5
+Interval         = 16
+
+[DigitalNumber];âwñºï\é¶/âcíc/í‚é‘î≠âw
+Subject          = ats248
+Location         = 1594,1327
+DaytimeImage     = sub\sta_trta.png
+Layer            = 5
+Interval         = 16
+
+;[DigitalNumber];âwñºï\é¶/âcíc/í‚é‘íÖâw
+;Subject          = ats248
+;Location         = 1670,1327
+;DaytimeImage     = sub\sta_trta2.png
+;Layer            = 5
+;Interval         = 16
+
+[DigitalNumber];âwñºï\é¶/âcíc/âwä‘î≠âw
+Subject          = ats249
+Location         = 1594,1327
+DaytimeImage     = sub\sta_trta.png
+Layer            = 5
+Interval         = 16
+
+[DigitalNumber];âwñºï\é¶/âcíc/âwä‘íÖâw
+Subject          = ats250
+Location         = 1670,1327
+DaytimeImage     = sub\sta_trta.png
+Layer            = 5
+Interval         = 16
+
+
+
+

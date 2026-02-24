@@ -78,7 +78,7 @@ Mesh {
    1.000000;1.000000;1.000000;;
 
    TextureFilename {
-    "DSC00283p-0.png";
+    "PrepareTemp-43p-0.png";
    }
   }
 

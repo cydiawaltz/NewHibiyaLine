@@ -1,0 +1,49 @@
+BveTs Train 1.01
+
+[structure]
+key = 20050Tc_n
+distance = 0.3
+span = 14
+z = 9
+
+[structure]
+key = 20050M_n
+distance = 9.3
+span = 14
+z = 9
+
+[structure]
+key = 20000T_n
+distance = 27.3
+span = 14
+z = 9
+
+[structure]
+key = 20000M_n
+distance = 45.3
+span = 14
+z = 9
+
+[structure]
+key = 20000T_n
+distance = 62.3
+span = 14
+z = 9
+
+[structure]
+key = 20000M_n
+distance = 80.3
+span = 14
+z = 9
+
+[structure]
+key = 20050T_n
+distance = 98.3
+span = 14
+z = 9
+
+[structure]
+key = 20050TcB_n
+distance = 116.3
+span = 14
+z = 9

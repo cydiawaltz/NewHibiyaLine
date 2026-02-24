@@ -1,0 +1,121 @@
+Version 1.0
+
+[Flange]
+0 = sound\Flange0.wav
+
+[Run]
+0 = sound\Run0.wav
+1 = sound\Run1.wav
+2 = sound\Run2.wav
+3 = sound\Run3.wav
+4 = sound\Run4.wav
+5 = sound\Run5.wav
+
+7 = sound\Run7.wav
+
+
+[Motor]
+0 = sound\Motor0.wav
+1 = sound\Motor1.wav
+2 = sound\Motor2.wav
+3 = sound\Motor3.wav
+4 = sound\Motor4.wav
+5 = sound\Motor5.wav
+6 = sound\Motor6.wav
+7 = sound\Motor7.wav
+8 = sound\Motor8.wav
+9 = sound\Motor9.wav
+10 = sound\Motor10.wav
+20 = sound\Motor20.wav
+21 = sound\Motor21.wav
+
+
+[Switch]
+0 = sound\Point.wav
+
+[Buzzer]
+Correct = sound\Adjust.wav
+
+[Brake]
+;BC Release High = sound\Airhigh.wav ; Ç‰ÇÈÇﬂ (çÇà≥)
+BC Release = sound\Air.wav ; Ç‰ÇÈÇﬂ
+BC Release Full = sound\AirZero.wav ; ëSÇ‰ÇÈÇﬂ
+
+[Brake Handle]
+Max = sound\b_eb.wav
+Min = sound\b_off.wav
+Release = sound\b_up.wav
+Apply = sound\b_dn.wav
+
+[Master Controller]
+Max = sound\mc_end.wav
+Min = sound\mc_off.wav
+Up =  sound\mc_up.wav
+Down = sound\mc_dn.wav
+
+[Reverser]
+On = sound\re_on.wav
+Off = sound\re_off.wav
+
+[Compressor]
+Release = sound\CpEnd.wav
+Loop = sound\CpLoop.wav
+Attack = sound\CpStart.wav
+
+[Door]
+Open Left = sound\DoorOpn.wav
+Open Right = sound\DoorOpn.wav
+Close Left = sound\DoorCls.wav
+Close Right = sound\DoorCls.wav
+
+[Horn]
+Primary = sound\Klaxon0.wav
+Secondary = sound\Klaxon1.wav
+music = sound\js1.wav
+
+[Suspension]
+Left = sound\SpringL.wav
+Right = sound\SpringR.wav
+
+[Breaker]
+
+[Others]
+Noise = sound\Loop.wav
+
+[Pilot Lamp]
+On = sound\Leave.wav
+
+[Ats]
+0 = sound\atscnt.wav
+1 = sound\tkkats_bell.wav
+2 = sound\atcding.wav
+3 = sound\tkkorp.wav
+
+7 = sound\lb2.wav
+
+10 = sound\key.wav
+11 = sound\key2.wav
+12 = sound\sw_on.wav
+13 = sound\sw_off.wav
+14 = sound\sw_on.wav
+15 = sound\sw_off.wav
+16 = sound\sw_on.wav
+17 = sound\sw_off.wav
+18 = sound\sw_on.wav
+
+20 = sound\fbsw.wav
+22 = sound\atcsw.wav
+24 = sound\sw_off.wav
+
+27 = sound\emb.wav
+
+29 = sound\Airhigh.wav
+
+30 = sound\tobz.wav
+34 = sound\jsc.wav
+
+41 = sound\lb2.wav
+42 = sound\lb2_2.wav
+43 = sound\lb2_2.wav
+
+

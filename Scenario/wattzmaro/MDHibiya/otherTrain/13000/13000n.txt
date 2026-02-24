@@ -1,0 +1,43 @@
+BveTs Train 1.01
+
+[structure]
+key = 13000Tc_n
+distance = 0
+span = 18
+z = 10
+
+[structure]
+key = 13000M1_n
+distance = 17.7
+span = 18
+z = 10
+
+[structure]
+key = 13000T_n
+distance = 36.3
+span = 18
+z = 10
+
+[structure]
+key = 13000M2_n
+distance = 55
+span = 18
+z = 10
+
+[structure]
+key = 13000T_n
+distance = 73.6
+span = 18
+z = 10
+
+[structure]
+key = 13000M1_n
+distance = 92.2
+span = 18
+z = 10
+
+[structure]
+key = 13000TcB_n
+distance = 110.6
+span = 18
+z = 10

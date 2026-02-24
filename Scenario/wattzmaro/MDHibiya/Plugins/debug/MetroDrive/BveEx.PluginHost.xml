@@ -478,9 +478,6 @@
             アセンブリ (.dll) 形式の BveEX プラグインを表します。
             </summary>
         </member>
-        <member name="P:BveEx.PluginHost.Plugins.AssemblyPluginBase.Location">
-            <inheritdoc/>
-        </member>
         <member name="P:BveEx.PluginHost.Plugins.AssemblyPluginBase.Name">
             <inheritdoc/>
         </member>

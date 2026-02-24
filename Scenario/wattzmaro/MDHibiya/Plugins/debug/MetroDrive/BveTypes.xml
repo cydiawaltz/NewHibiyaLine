@@ -1132,6 +1132,68 @@
             <see cref="T:BveTypes.ClassWrappers.MapGrammar"/> クラスの新しいインスタンスを初期化します。
             </summary>
         </member>
+        <member name="T:BveTypes.ClassWrappers.MapLight">
+            <summary>
+            マップ上のストラクチャーの描画に対して作用する光を表します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.MapLight.#ctor(System.Object)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.MapLight"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.MapLight.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.MapLight"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.MapLight.#ctor">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.MapLight"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.MapLight.Ambient">
+            <summary>
+            環境光の色を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.MapLight.Diffuse">
+            <summary>
+            平行光の色を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.MapLight.IsFixedToGround">
+            <summary>
+            線形に合わせて方向を動かすかどうかを取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.MapLight.Transform">
+            <summary>
+            距離程 0 において、単位方向ベクトル (0,0,1) を平行光が指す方向へ回転する変換行列を取得・設定します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.MapLight.SetDirection(System.Double,System.Double)">
+            <summary>
+            距離程 0 において平行光が指す方向を設定します。
+            </summary>
+            <param name="pitch">ピッチ (X) 成分。</param>
+            <param name="yaw">ヨー (Y) 成分。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.MapLight.UpdateTransform">
+            <summary>
+            平行光が指す方向の設定値を基に、<see cref="P:BveTypes.ClassWrappers.MapLight.Transform"/> プロパティの値を更新します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.MapLight.Apply(SlimDX.Direct3D9.Device,SlimDX.Matrix)">
+            <summary>
+            指定した Direct3D9 デバイスに光の設定を適用します。
+            </summary>
+            <param name="device">光の設定を適用するデバイス。</param>
+            <param name="world">ワールド変換行列。</param>
+        </member>
         <member name="T:BveTypes.ClassWrappers.MapLoader">
             <summary>
             マップを読み込むための機能を提供します。
@@ -1553,6 +1615,46 @@
             針の可動範囲を <see cref="P:BveTypes.ClassWrappers.CircularGauge.Min"/> と <see cref="P:BveTypes.ClassWrappers.CircularGauge.Max"/> の間に制限するかどうかを取得・設定します。
             </summary>
         </member>
+        <member name="T:BveTypes.ClassWrappers.OtherTrack">
+            <summary>
+            他軌道を表します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.OtherTrack.#ctor(System.Object)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.OtherTrack"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.OtherTrack.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.OtherTrack"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.OtherTrack.X">
+            <summary>
+            自軌道に対する X 方向の相対位置を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.OtherTrack.Y">
+            <summary>
+            自軌道に対する Y 方向の相対位置を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.OtherTrack.Cants">
+            <summary>
+            カントの一覧を取得・設定します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.OtherTrack.GetPosition(System.Double)">
+            <summary>
+            指定した距離程における、自軌道を基準としたこの他軌道の位置ベクトルを計算します。
+            </summary>
+            <param name="location">距離程 [m]。</param>
+            <returns>距離程 <paramref name="location"/> における、この他軌道の位置ベクトル。</returns>
+        </member>
         <member name="T:BveTypes.ClassWrappers.PilotLamp">
             <summary>
             自列車の運転台の表示灯計器要素を表します。
@@ -1773,6 +1875,126 @@
             </remarks>
             <param name="elapsed">前フレームからの経過時間。</param>
             <seealso cref="M:BveTypes.ClassWrappers.TimeDelayedHandleSet.Tick(System.Double)"/>
+        </member>
+        <member name="T:BveTypes.ClassWrappers.TrackPosition">
+            <summary>
+            他軌道の位置を表します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TrackPosition.#ctor(System.Object)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.TrackPosition"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TrackPosition.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.TrackPosition"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TrackPosition.#ctor(System.Double,System.Double,System.Double)">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.TrackPosition"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="location">設置する距離程 [m]。</param>
+            <param name="displacement">自軌道からの変位 [m]。</param>
+            <param name="radius">自軌道に対する曲線相対半径 [m]。</param>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.TrackPosition.Displacement">
+            <summary>
+            自軌道からの変位 [m] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.TrackPosition.Radius">
+            <summary>
+            自軌道に対する曲線相対半径 [m] を取得・設定します。
+            </summary>
+        </member>
+        <member name="T:BveTypes.ClassWrappers.TrackPositionList">
+            <summary>
+            他軌道の位置を定義する <see cref="T:BveTypes.ClassWrappers.TrackPosition"/> オブジェクトのリストを表します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TrackPositionList.#ctor(System.Collections.IList)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.TrackPositionList"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TrackPositionList.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.TrackPositionList"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TrackPositionList.GetValueAt(System.Double)">
+            <summary>
+            指定した距離程における補間値を取得します。
+            </summary>
+            <param name="location">距離程 [m]。</param>
+        </member>
+        <member name="T:BveTypes.ClassWrappers.TractionMotor">
+            <summary>
+            主電動機を表します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TractionMotor.#ctor(System.Object)">
+            <summary>
+            オリジナル オブジェクトから <see cref="T:BveTypes.ClassWrappers.TractionMotor"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TractionMotor.FromSource(System.Object)">
+            <summary>
+            オリジナル オブジェクトからラッパーのインスタンスを生成します。
+            </summary>
+            <param name="src">ラップするオリジナル オブジェクト。</param>
+            <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.TractionMotor"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.TractionMotor.#ctor(BveTypes.ClassWrappers.Tachogenerator,BveTypes.ClassWrappers.VehiclePerformance)">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.TractionMotor"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="motorCarTachogenerator">電動車の車輪に取り付けられた速度発電機。</param>
+            <param name="performance">車両性能。</param>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.TractionMotor.Performance">
+            <summary>
+            車両性能を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.TractionMotor.MotorCarTachogenerator">
+            <summary>
+            電動車の車輪に取り付けられた速度発電機を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.TractionMotor.ForceEmpty">
+            <summary>
+            空車時の 1 両当たりの引張力 [N] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.TractionMotor.ForceFull">
+            <summary>
+            満車時の 1 両当たりの引張力 [N] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.TractionMotor.CurrentEmpty">
+            <summary>
+            空車時の電流 [A] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.TractionMotor.CurrentFull">
+            <summary>
+            満車時の電流 [A] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.TractionMotor.NoLoadCurrent">
+            <summary>
+            無負荷電流 [A] を取得・設定します。
+            </summary>
         </member>
         <member name="T:BveTypes.ClassWrappers.TrainSchedule">
             <summary>
@@ -2327,6 +2549,9 @@
             表示するテキストを取得・設定します。
             </summary>
         </member>
+        <member name="M:BveTypes.ClassWrappers.AssistantText.Dispose">
+            <inheritdoc/>
+        </member>
         <member name="T:BveTypes.ClassWrappers.AssistantBase">
             <summary>
             すべての補助表示の基本クラスを表します。
@@ -2362,6 +2587,9 @@
             <inheritdoc/>
         </member>
         <member name="M:BveTypes.ClassWrappers.AssistantBase.OnDeviceReset">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.AssistantBase.Dispose">
             <inheritdoc/>
         </member>
         <member name="T:BveTypes.ClassWrappers.AssistantSet">
@@ -2751,7 +2979,27 @@
         </member>
         <member name="P:BveTypes.ClassWrappers.CabBase.Handles">
             <summary>
-            操作可能なハンドルのセットを表す <see cref="T:BveTypes.ClassWrappers.HandleSet"/> を取得します。
+            操作可能なハンドルのセットを取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.CabBase.ReverserTexts">
+            <summary>
+            逆転器の表示文字列の配列を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.CabBase.PowerTexts">
+            <summary>
+            力行ノッチの表示文字列の配列を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.CabBase.BrakeTexts">
+            <summary>
+            ブレーキノッチの表示文字列の配列を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.CabBase.HoldingSpeedTexts">
+            <summary>
+            抑速ノッチの表示文字列の配列を取得・設定します。
             </summary>
         </member>
         <member name="M:BveTypes.ClassWrappers.CabBase.GetDescriptionText">
@@ -2864,6 +3112,16 @@
         <member name="P:BveTypes.ClassWrappers.CantList.X">
             <summary>
             最後に <see cref="M:BveTypes.ClassWrappers.MapObjectList.GoTo(System.Double)"/> メソッドで設定された距離程における、カントの回転中心の X 座標 [m] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.CantList.Translation">
+            <summary>
+            平行移動成分の行列を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.CantList.Rotation">
+            <summary>
+            回転成分の行列を取得・設定します。
             </summary>
         </member>
         <member name="T:BveTypes.ClassWrappers.CarInfo">
@@ -3459,6 +3717,11 @@
         <member name="P:BveTypes.ClassWrappers.JerkRegulator.CurrentDecrease">
             <summary>
             電流減少速度 [A/s] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.JerkRegulator.TractionMotor">
+            <summary>
+            主電動機を取得・設定します。
             </summary>
         </member>
         <member name="M:BveTypes.ClassWrappers.JerkRegulator.Initialize">
@@ -4457,6 +4720,16 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.VehicleBogieWheel"/> クラスのインスタンス。</returns>
         </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleBogieWheel.VehicleLocation">
+            <summary>
+            自列車の位置情報を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleBogieWheel.MyTrack">
+            <summary>
+            自軌道を取得・設定します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.VehicleBogieWheel.LocationInCar">
             <summary>
             自列車の進行方向を Z 軸正方向とした左手系における、この車輪の Z 座標 [m] を取得・設定します。
@@ -4545,6 +4818,11 @@
         <member name="P:BveTypes.ClassWrappers.VehicleElectricity.SlipVelocityCoefficient">
             <summary>
             インバーター制御におけるトルク分電流とすべり速度の比を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleElectricity.TractionMotor">
+            <summary>
+            主電動機を取得・設定します。
             </summary>
         </member>
         <member name="M:BveTypes.ClassWrappers.VehicleElectricity.Initialize">
@@ -4774,6 +5052,11 @@
             </summary>
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.ScenarioSelectionForm"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.ScenarioSelectionForm.SaveSettings">
+            <summary>
+            <see cref="P:BveTypes.ClassWrappers.MainForm.Preferences"/> に設定を保存します。
+            </summary>
         </member>
         <member name="T:BveTypes.ClassWrappers.TimePosForm">
             <summary>
@@ -5282,13 +5565,15 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.MapObjectList"/> クラスのインスタンス。</returns>
         </member>
+        <member name="M:BveTypes.ClassWrappers.MapObjectList.#ctor">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.MapObjectList"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.MapObjectList.CurrentIndex">
             <summary>
-            この <see cref="T:BveTypes.ClassWrappers.MapObjectList"/> に関連付けられた現在のインデックスを取得・設定します。
+            現在の距離程に対応するコレクションの要素のインデックスを取得・設定します。
             </summary>
-            <remarks>
-            通常、この <see cref="T:BveTypes.ClassWrappers.MapObjectList"/> において自列車の距離程に対応する値を示します。
-            </remarks>
         </member>
         <member name="E:BveTypes.ClassWrappers.MapObjectList.ObjectPassed">
             <summary>
@@ -5300,6 +5585,22 @@
             <see cref="E:BveTypes.ClassWrappers.MapObjectList.ObjectPassed"/> イベントを実行します。
             </summary>
             <param name="args">自列車が通過したマップ オブジェクト。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.MapObjectList.GetNext">
+            <summary>
+            現在の距離程に対応するコレクションの要素の次を取得します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.MapObjectList.GoToAndGetNext(System.Int32)">
+            <summary>
+            指定した距離程へ移動し、その距離程に対応するコレクションの要素の次を取得します。
+            </summary>
+            <param name="location">移動先の距離程 [m]。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.MapObjectList.GetCurrent">
+            <summary>
+            現在の距離程に対応するコレクションの要素を取得します。
+            </summary>
         </member>
         <member name="M:BveTypes.ClassWrappers.MapObjectList.GoToAndGetCurrent(System.Double)">
             <summary>
@@ -5538,26 +5839,68 @@
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.ObjectDrawer"/> クラスのインスタンス。</returns>
         </member>
+        <member name="P:BveTypes.ClassWrappers.ObjectDrawer.VehicleLocation">
+            <summary>
+            自列車の位置情報を取得・設定します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.ObjectDrawer.StructureDrawer">
             <summary>
-            ストラクチャーを描画するための機能を提供する <see cref="T:BveTypes.ClassWrappers.StructureDrawer"/> を取得します。
+            ストラクチャーを描画するための機能を提供する <see cref="T:BveTypes.ClassWrappers.StructureDrawer"/> を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ObjectDrawer.Background">
+            <summary>
+            背景モデルを取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ObjectDrawer.CameraLocation">
+            <summary>
+            カメラの位置情報を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ObjectDrawer.Trains">
+            <summary>
+            他列車の一覧を取得・設定します。
+            </summary>
+            <remarks>キーはマップファイル内で定義した他列車名、値は他列車を表す <see cref="T:BveTypes.ClassWrappers.Train"/> です。</remarks>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.ObjectDrawer.Map">
+            <summary>
+            路線データを取得・設定します。
             </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.ObjectDrawer.DrawDistanceManager">
             <summary>
-            ストラクチャーの描画範囲を算出するための機能を提供する <see cref="T:BveTypes.ClassWrappers.DrawDistanceManager"/> を取得します。
+            ストラクチャーの描画範囲を算出するための機能を提供する <see cref="T:BveTypes.ClassWrappers.DrawDistanceManager"/> を取得・設定します。
             </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.ObjectDrawer.Build(BveTypes.ClassWrappers.Map)">
+            <summary>
+            風景を構築します。
+            </summary>
+            <param name="map">路線データ。</param>
         </member>
         <member name="M:BveTypes.ClassWrappers.ObjectDrawer.SetMap(BveTypes.ClassWrappers.Map)">
             <summary>
-            処理対象となるマップを登録します。
+            互換性のために残されている古いメソッドです。<see cref="M:BveTypes.ClassWrappers.ObjectDrawer.Build(BveTypes.ClassWrappers.Map)"/> メソッドを使用してください。
             </summary>
             <param name="map">処理対象となるマップ。</param>
+            <seealso cref="M:BveTypes.ClassWrappers.ObjectDrawer.Build(BveTypes.ClassWrappers.Map)"/>
         </member>
         <member name="M:BveTypes.ClassWrappers.ObjectDrawer.Draw">
             <summary>
             3D モデル群を描画します。
             </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.ObjectDrawer.OnDeviceLost">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.ObjectDrawer.OnDeviceReset">
+            <inheritdoc/>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.ObjectDrawer.Dispose">
+            <inheritdoc/>
         </member>
         <member name="T:BveTypes.ClassWrappers.ObjectPassedEventArgs">
             <summary>
@@ -6008,6 +6351,11 @@
             自軌道に関する情報を取得します。
             </summary>
         </member>
+        <member name="P:BveTypes.ClassWrappers.Map.OtherTracks">
+            <summary>
+            他軌道のリストを取得します。
+            </summary>
+        </member>
         <member name="P:BveTypes.ClassWrappers.Map.Structures">
             <summary>
             Structure マップ要素、Repeater マップ要素で設置されたストラクチャーを取得します。
@@ -6128,6 +6476,15 @@
             <summary>
             DrawDistance.Change ステートメントにより設置された、最長描画距離を指定するためのオブジェクトのリストを取得します。
             </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.Map.GetPosition(BveTypes.ClassWrappers.LocatableMapObject,System.Double,System.Double)">
+            <summary>
+            自軌道を基準とした座標系における、任意軌道上の相対座標を表す位置ベクトルを計算します。
+            </summary>
+            <param name="mapObject">計算対象とする軌道、およびその軌道上における相対座標を指定するためのマップ オブジェクト。</param>
+            <param name="location">計算対象とする距離程 [m]。</param>
+            <param name="baseLocation">基準点とする自軌道の距離程 [m]。</param>
+            <returns>距離程 <paramref name="baseLocation"/> の自軌道を基準点とした座標系における、<paramref name="mapObject"/>、<paramref name="location"/> が表す位置ベクトル。</returns>
         </member>
         <member name="M:BveTypes.ClassWrappers.Map.GetTrackMatrix(BveTypes.ClassWrappers.LocatableMapObject,System.Double,System.Double)">
             <summary>
@@ -6821,6 +7178,19 @@
             <param name="direct3DProvider">描画に使用する <see cref="T:BveTypes.ClassWrappers.Direct3DProvider"/>。</param>
             <param name="view">ビュー変換行列。</param>
         </member>
+        <member name="M:BveTypes.ClassWrappers.StructureDrawer.BuildBlocks(BveTypes.ClassWrappers.Map)">
+            <summary>
+            読み込んだ路線データを基に、全てのストラクチャーブロックを構築します。
+            </summary>
+            <param name="map">路線データ。</param>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.StructureDrawer.BuildBlock(System.Int32,BveTypes.ClassWrappers.Map)">
+            <summary>
+            指定したインデックスのストラクチャーブロックを構築します。
+            </summary>
+            <param name="blockIndex">構築するストラクチャーブロックのインデックス。</param>
+            <param name="map">路線データ。</param>
+        </member>
         <member name="T:BveTypes.ClassWrappers.ValueNode`1">
             <summary>
             <typeparamref name="T"/> 型のデータが一つ記憶可能な <see cref="T:BveTypes.ClassWrappers.MapObjectBase"/> を表します。
@@ -7395,23 +7765,58 @@
             <see cref="T:BveTypes.ClassWrappers.VehicleLocation"/> クラスの新しいインスタンスを初期化します。
             </summary>
         </member>
-        <member name="P:BveTypes.ClassWrappers.VehicleLocation.Location">
-            <summary>
-            自車両の位置を取得します。
-            </summary>
-            <remarks>
-            自車両の位置を設定するには <see cref="M:BveTypes.ClassWrappers.VehicleLocation.SetLocation(System.Double,System.Boolean)"/> メソッドを使用してください。
-            </remarks>
-            <seealso cref="M:BveTypes.ClassWrappers.VehicleLocation.SetLocation(System.Double,System.Boolean)"/>
-        </member>
         <member name="P:BveTypes.ClassWrappers.VehicleLocation.BlockIndex">
             <summary>
-            現在の自車両の位置が含まれるストラクチャー描画ブロックのインデックスを取得します。
+            現在走行しているストラクチャーブロックのインデックスを取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleLocation.LocationInBlock">
+            <summary>
+            現在走行しているストラクチャーブロックの原点を基準とした走行位置 [m] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleLocation.LimitLocation">
+            <summary>
+            ストラクチャーが設置される限界の距離程 [m] を取得・設定します。通常は最後の駅の 10km 先の位置になります。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleLocation.Location">
+            <summary>
+            現在の距離程 [m] を取得・設定します。
             </summary>
             <remarks>
-            25m 毎に 1 つの描画ブロックが定義されており、全てのストラクチャーは設置された距離程が含まれるブロックに登録されます。<br/>
-            各ストラクチャーが描画距離内に入っているかどうかを描画ブロック単位で判定することで、ストラクチャーの描画処理を高速化しています。
+            このプロパティに値を直接設定すると、テレポート時の処理が行われません。通常は <see cref="M:BveTypes.ClassWrappers.VehicleLocation.SetLocation(System.Double,System.Boolean)"/> メソッドを使用してください。
             </remarks>
+        </member>
+        <member name="E:BveTypes.ClassWrappers.VehicleLocation.BlockChanged">
+            <summary>
+            走行しているストラクチャーブロックが変わったときに発生します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleLocation.BlockChanged_Invoke(BveTypes.ClassWrappers.ValueEventArgs{System.Int32})">
+            <summary>
+            <see cref="E:BveTypes.ClassWrappers.VehicleLocation.BlockChanged"/> イベントを実行します。
+            </summary>
+        </member>
+        <member name="E:BveTypes.ClassWrappers.VehicleLocation.LocationChanged">
+            <summary>
+            走行している距離程が変わったときに発生します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleLocation.LocationChanged_Invoke(BveTypes.ClassWrappers.ValueEventArgs{System.Double})">
+            <summary>
+            <see cref="E:BveTypes.ClassWrappers.VehicleLocation.LocationChanged"/> イベントを実行します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleLocation.OnBlockChanged(System.Int32)">
+            <summary>
+            走行しているストラクチャーブロックが変わったことを通知します。
+            </summary>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.VehicleLocation.OnLocationChanged(System.Double)">
+            <summary>
+            走行している距離程が変わったことを通知します。
+            </summary>
         </member>
         <member name="M:BveTypes.ClassWrappers.VehicleLocation.Tick(System.Double,System.Double,System.Double,System.Double)">
             <summary>
@@ -7451,6 +7856,12 @@
             </summary>
             <param name="src">ラップするオリジナル オブジェクト。</param>
             <returns>オリジナル オブジェクトをラップした <see cref="T:BveTypes.ClassWrappers.ValueEventArgs`1"/> クラスのインスタンス。</returns>
+        </member>
+        <member name="M:BveTypes.ClassWrappers.ValueEventArgs`1.#ctor(`0)">
+            <summary>
+            <see cref="T:BveTypes.ClassWrappers.ValueEventArgs`1"/> クラスの新しいインスタンスを初期化します。
+            </summary>
+            <param name="value"></param>
         </member>
         <member name="P:BveTypes.ClassWrappers.ValueEventArgs`1.Value">
             <summary>
@@ -8078,14 +8489,14 @@
             台車中心間距離 [m] の半分を取得・設定します。
             </summary>
         </member>
-        <member name="P:BveTypes.ClassWrappers.VehiclePositioner.BlockToCarCenterTransform">
-            <summary>
-            ワールド座標系を車両中心原点・車両前方を基準とした座標系に変換する行列を格納している <see cref="T:BveTypes.ClassWrappers.Transform"/> を取得します。
-            </summary>
-        </member>
         <member name="P:BveTypes.ClassWrappers.VehiclePositioner.PositionInBlock">
             <summary>
             現在自列車が走行しているマップ ブロックの原点に対する、車両中心の位置ベクトル [m] を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehiclePositioner.BlockToCarCenterTransform">
+            <summary>
+            ワールド座標系を車両中心原点・車両前方を基準とした座標系に変換する行列を格納している <see cref="T:BveTypes.ClassWrappers.Transform"/> を取得・設定します。
             </summary>
         </member>
         <member name="M:BveTypes.ClassWrappers.VehiclePositioner.OnLocationChanged(BveTypes.ClassWrappers.VehiclePositioner,BveTypes.ClassWrappers.ValueEventArgs{System.Double})">
@@ -8370,6 +8781,16 @@
         <member name="P:BveTypes.ClassWrappers.VehicleVibration.Positioner">
             <summary>
             自列車をマップ上に配置するための機能を提供する <see cref="T:BveTypes.ClassWrappers.VehiclePositioner"/> を取得します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleVibration.HalfOfCarLength">
+            <summary>
+            車両長 [m] の半分、すなわち車両の先頭から中心までの距離を取得・設定します。
+            </summary>
+        </member>
+        <member name="P:BveTypes.ClassWrappers.VehicleVibration.HalfOfBogieDistance">
+            <summary>
+            台車中心間距離 [m] の半分を取得・設定します。
             </summary>
         </member>
         <member name="P:BveTypes.ClassWrappers.VehicleVibration.SpringHeight">

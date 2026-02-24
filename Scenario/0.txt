@@ -1,0 +1,9 @@
+BveTs Scenario 2.00
+Title = 0
+Author = Wattz麻呂
+Image =
+Route = wattzmaro\MDHibiya\Diagram\0.txt
+RouteTitle = 本番
+Vehicle = wattzmaro\vehicles\trta03_chh\vehicle.txt
+VehicleTitle = Series03-108F
+Comment = 本番用0

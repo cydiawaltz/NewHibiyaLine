@@ -1,7 +1,7 @@
 info:  Game: BveTs.exe
-info:  DXVK: v2.7
+info:  DXVK: v2.7.1
 info:  Build: x86_64 gcc 15.1.0
-info:  Vulkan: Found vkGetInstanceProcAddr in vulkan-1.dll @ 0x7ffa8296eb80
+info:  Vulkan: Found vkGetInstanceProcAddr in vulkan-1.dll @ 0x7ff96d6bedc0
 info:  Extension providers:
 info:    Platform WSI
 info:    OpenVR
@@ -12,7 +12,7 @@ info:  Enabled instance extensions:
 info:    VK_KHR_get_surface_capabilities2
 info:    VK_KHR_surface
 info:    VK_KHR_win32_surface
-info:  Found device: Intel(R) Iris(R) Xe Graphics (Intel Corporation 101.6737.0)
+info:  Found device: Intel(R) Iris(R) Xe Graphics (Intel Corporation 101.6987.0)
 info:  Found device: Microsoft Direct3D12 (Intel(R) Iris(R) Xe Graphics) ( 0.0.0)
 info:    Skipping: Device does not support Vulkan 1.3
 info:  Found device: Microsoft Direct3D12 (Microsoft Basic Render Driver) ( 0.0.0)
@@ -25,7 +25,7 @@ info:  D3D9: VK_FORMAT_D16_UNORM_S8_UINT -> VK_FORMAT_D24_UNORM_S8_UINT
 info:  Process set as DPI aware
 info:  Creating device:
 info:  Intel(R) Iris(R) Xe Graphics:
-info:    Driver   : Intel Corporation 101.6737.0
+info:    Driver   : Intel Corporation 101.6987.0
 info:  Queues:
 info:    Graphics : (0, 0)
 info:    Transfer : (0, 0)
@@ -245,6 +245,6 @@ info:  Presenter: Actual swapchain properties:
 info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
 info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
 info:    Present mode: VK_PRESENT_MODE_FIFO_KHR (dynamic: no)
-info:    Buffer size:  1440x810
+info:    Buffer size:  1507x941
 info:    Image count:  3
 info:  DXVK: Using 12 compiler threads

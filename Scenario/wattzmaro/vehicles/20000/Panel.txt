@@ -1,0 +1,211 @@
+Version 1.0
+
+
+[This]
+Resolution       = 2048
+Top              = 100
+Bottom           = 2000
+Right            = 2228
+Left             = 200
+Center           = 1000,1300
+Origin           = 1200,1200
+;origin = 1000,1300
+;center = 1000,1380
+;Top              = 100
+;Bottom           = 2088
+;Right            = 2228
+;Left             = 200
+
+;運転台
+[Pilotlamp]
+Subject          = true
+Location         = 190,70
+DaytimeImage     = panel\panel_day.png
+NighttimeImage   = panel\panel_night.png
+Layer            = 3
+
+
+
+;速度計
+[Needle]
+Subject          = kmph
+Location         = 852,1749
+DaytimeImage     = d3d\sm.png
+Origin           = 8, 80
+Layer            = 11
+Radius           = 75
+InitialAngle     = -120
+LastAngle        = 120
+Minimum          = 0
+Maximum          = 120
+NaturalFreq      = 45
+DampingRatio     = 1
+
+;ワイパー
+[Needle]
+Subject          = ats157
+Location         = 1470,2100
+DaytimeImage     = d3d\wiper_d.png
+NighttimeImage   = d3d\wiper_n.png
+Origin           = 8, 300
+Layer            = 1
+Radius           = 954
+InitialAngle     = 36
+LastAngle        = 115
+Minimum          = 0
+Maximum          = 1
+NaturalFreq      = 6
+DampingRatio     = 1
+
+[Needle]
+Subject          = ats157
+Location         = 1670, 7696
+DaytimeImage     = d3d\wiper_sub_d.png
+NighttimeImage   = d3d\wiper_sub_n.png
+Origin           = 8, 4500
+Layer            = 0
+Radius           = 6850
+InitialAngle     = 3.5
+LastAngle        = 14.5
+Minimum          = 0
+Maximum          = 1
+NaturalFreq      = 6
+DampingRatio     = 1
+
+
+;atc矢印
+
+[PilotLamp];信号0 102
+Subject = ats102
+Location = 765, 1785
+DaytimeImage = atc\0.png
+NighttimeImage = atc\0.png
+Layer = 14
+
+[PilotLamp];信号10 104
+Subject = ats104
+Location = 761, 1765
+DaytimeImage = atc\10.png
+NighttimeImage = atc\10.png
+Layer = 14
+
+[PilotLamp];信号15 105
+Subject = ats105
+Location = 755, 1745
+DaytimeImage = atc\15.png
+NighttimeImage = atc\15.png
+Layer = 14
+
+[PilotLamp];信号30 108
+Subject = ats108
+Location = 770, 1700
+DaytimeImage = atc\30.png
+NighttimeImage = atc\30.png
+Layer = 14
+
+[PilotLamp];信号35 109
+Subject = ats109
+Location = 775, 1687
+DaytimeImage = atc\35.png
+NighttimeImage = atc\35.png
+Layer = 14
+
+[PilotLamp];信号40 110
+Subject = ats110
+Location = 784, 1676
+DaytimeImage = atc\40.png
+NighttimeImage = atc\40.png
+Layer = 14
+
+[PilotLamp];信号45 111
+Subject = ats111
+Location = 801, 1667
+DaytimeImage = atc\45.png
+NighttimeImage = atc\45.png
+Layer = 14
+
+
+[PilotLamp];信号55 113
+Subject = ats113
+Location = 825, 1660
+DaytimeImage = atc\55.png
+NighttimeImage = atc\55.png
+Layer = 14
+
+[PilotLamp];信号60 114
+Subject = ats114
+Location = 842, 1655
+DaytimeImage = atc\60.png
+NighttimeImage = atc\60.png
+Layer = 14
+
+[PilotLamp];信号65 115
+Subject = ats115
+Location = 857, 1658
+DaytimeImage = atc\65.png
+NighttimeImage = atc\65.png
+Layer = 14
+
+
+[PilotLamp];信号70 116
+Subject = ats116
+Location = 873, 1660
+DaytimeImage = atc\70.png
+NighttimeImage = atc\70.png
+Layer = 14
+
+[PilotLamp];信号75 117
+Subject = ats117
+Location = 888, 1668
+DaytimeImage = atc\75.png
+NighttimeImage = atc\75.png
+Layer = 14
+
+[PilotLamp];信号80 118
+Subject = ats118
+Location = 898, 1675
+DaytimeImage = atc\80.png
+NighttimeImage = atc\80.png
+Layer = 14
+
+[PilotLamp];信号110 124
+Subject = ats124
+Location = 930, 1760
+DaytimeImage = atc\110.png
+NighttimeImage = atc\110.png
+Layer = 14
+
+[PilotLamp];バツ印 101
+Subject = ats101
+Location = 838, 1837
+DaytimeImage = atc\batu.png
+NighttimeImage = atc\batu.png
+Layer = 14
+
+[PilotLamp];青信号 132
+Subject = ats132
+Location = 870, 1635
+DaytimeImage = atc\go.png
+NighttimeImage = atc\go.png
+Layer = 14
+
+[PilotLamp];赤信号 131
+Subject = ats131
+Location = 800, 1635
+DaytimeImage = atc\Stop.png
+NighttimeImage = atc\Stop.png
+Layer = 14
+
+[PilotLamp];前方予告 133 200減らして20増やす x
+Subject = ats133
+Location = 900, 1810
+DaytimeImage = atc\yokoku.png
+NighttimeImage = atc\yokoku.png
+Layer = 14
+
+[PilotLamp];知らせ灯door
+Subject          = door
+Location         = 1045,1838
+DaytimeImage     = d3d\tojime_d.png
+NighttimeImage   = d3d\tojime_n.png
+Layer            = 7

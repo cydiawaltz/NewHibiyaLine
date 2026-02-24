@@ -1,0 +1,43 @@
+BveTs Train 1.01
+
+[structure]
+key = 70090Tc
+distance = -0.5
+span = 18
+z = 10
+
+[structure]
+key = 70090M1
+distance = 17.7
+span = 18
+z = 10
+
+[structure]
+key = 70090T
+distance = 36.3
+span = 18
+z = 10
+
+[structure]
+key = 70090M2
+distance = 55
+span = 18
+z = 10
+
+[structure]
+key = 70090T
+distance = 73.6
+span = 18
+z = 10
+
+[structure]
+key = 70090M1
+distance = 92.2
+span = 18
+z = 10
+
+[structure]
+key = 70090TcB
+distance = 110.6
+span = 18
+z = 10

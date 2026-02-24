@@ -1,0 +1,4 @@
+東洋GTO-VVVF
+
+この場所にお好きなﾓｰﾀｰ音MotorNoise.txtなど)を入れて、
+vehicle.txtにて参照してください。

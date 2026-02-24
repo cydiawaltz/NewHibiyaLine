@@ -1,0 +1,180 @@
+Version 1.0
+
+[This]
+Resolution       = 2048
+Top              = 100
+Bottom           = 2088
+Right            = 2228
+Left             = 200
+Center           = 1000,1400
+Origin           = 1200,1200
+;origin = 1000,1300
+;center = 1000,1380
+;Top              = 100
+;Bottom           = 2088
+;Right            = 2228
+;Left             = 200
+
+;運転台
+[Pilotlamp]
+Subject          = true
+Location         = 190,70
+DaytimeImage     = panel\panel-d.png
+NighttimeImage   = panel\panel-n.png
+Layer            = 3
+
+
+
+;速度計 771,1808 171
+[Needle]
+Subject          = ats171
+Location         = 771,1810
+DaytimeImage     = d3d\sm.png
+Origin           = 16, 128
+Layer            = 11
+Radius           = 94
+InitialAngle     = -115
+LastAngle        = 115
+Minimum          = 0
+Maximum          = 120
+NaturalFreq      = 45
+DampingRatio     = 1
+
+;数字表示
+;SM
+[DigitalNumber];SM1
+Subject          = kmphd0
+Location         = 760,1840
+DaytimeImage     = d3d\sm0.png
+Layer            = 14
+Interval         = 32
+
+[DigitalNumber];SM10
+Subject          = kmphd1
+Location         = 740,1840
+DaytimeImage     = d3d\sm0.png
+Layer            = 14
+Interval         = 32
+
+;atc矢印
+
+[PilotLamp];信号0 102
+Subject = ats102
+Location = 666, 1857
+DaytimeImage = atc\0.png
+NighttimeImage = atc\0.png
+Layer = 14
+
+[PilotLamp];信号30 108
+Subject = ats108
+Location = 660, 1740
+DaytimeImage = atc\30.png
+NighttimeImage = atc\30.png
+Layer = 14
+
+[PilotLamp];信号35
+Subject = ats109
+Location = 675, 1727
+DaytimeImage = atc\35.png
+NighttimeImage = atc\35.png
+Layer = 14
+
+[PilotLamp];信号40
+Subject = ats110
+Location = 687, 1711
+DaytimeImage = atc\40.png
+NighttimeImage = atc\40.png
+Layer = 14
+
+[PilotLamp];信号45
+Subject = ats111
+Location = 705, 1701
+DaytimeImage = atc\45.png
+NighttimeImage = atc\45.png
+Layer = 14
+
+[PilotLamp];信号50
+Subject = ats112
+Location = 723, 1695
+DaytimeImage = atc\50.png
+NighttimeImage = atc\50.png
+Layer = 14
+
+[PilotLamp];信号55
+Subject = ats113
+Location = 740, 1690
+DaytimeImage = atc\55.png
+NighttimeImage = atc\55.png
+Layer = 14
+
+[PilotLamp];信号60
+Subject = ats114
+Location = 762, 1688
+DaytimeImage = atc\60.png
+NighttimeImage = atc\60.png
+Layer = 14
+
+[PilotLamp];信号65
+Subject = ats115
+Location = 780, 1690
+DaytimeImage = atc\65.png
+NighttimeImage = atc\65.png
+Layer = 14
+
+
+[PilotLamp];信号70
+Subject = ats116
+Location = 800, 1695
+DaytimeImage = atc\70.png
+NighttimeImage = atc\70.png
+Layer = 14
+
+[PilotLamp];信号75
+Subject = ats117
+Location = 821, 1704
+DaytimeImage = atc\75.png
+NighttimeImage = atc\75.png
+Layer = 14
+
+[PilotLamp];信号80 118
+Subject = ats118
+Location = 836, 1714
+DaytimeImage = atc\80.png
+NighttimeImage = atc\80.png
+Layer = 14
+
+[PilotLamp];バツ印 101
+Subject = ats101
+Location = 751, 1881
+DaytimeImage = atc\Batu.png
+NighttimeImage = atc\Batu.png
+Layer = 14
+
+[PilotLamp];青信号 132
+Subject = ats132
+Location = 725, 1649
+DaytimeImage = atc\GO.png
+NighttimeImage = atc\GO.png
+Layer = 14
+
+[PilotLamp];赤信号 131
+Subject = ats131
+Location = 773, 1649
+DaytimeImage = atc\Stop.png
+NighttimeImage = atc\Stop.png
+Layer = 14
+
+[PilotLamp];前方予告 133
+Subject = ats133
+Location = 788, 1884
+DaytimeImage = atc\Syk.png
+NighttimeImage = atc\syk.png
+Layer = 14
+
+[PilotLamp];知らせ灯door
+Subject          = door
+Location         = 1020,1805
+DaytimeImage     = atc\dooron.png
+NighttimeImage   = atc\dooron_n.png
+Layer            = 7
+

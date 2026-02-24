@@ -1,0 +1,607 @@
+Version 1.0
+
+[This]
+Resolution       = 1700
+Top              = 100
+Bottom           = 2088
+Right            = 2228
+Left             = 200
+Center           = 950,1200
+Origin           = 1000,1000
+
+;â^ì]ë‰
+[Pilotlamp]
+Subject          = true
+Location         = 190,70
+DaytimeImage     = d3d\Panel_off5.png
+NighttimeImage   = d3d\Panel_off5_n.png
+Layer            = 3
+
+
+
+;åväÌ
+
+[Needle]
+Subject          = kmph
+Location         = 1004,1524
+DaytimeImage     = d3d\smk.png
+NighttimeImage   = d3d\smk_n.png
+Origin           = 14, 227
+Layer            = 6
+Radius           = 66
+InitialAngle     = -116
+LastAngle        = 114
+Minimum          = 0
+Maximum          = 120
+NaturalFreq      = 6.3
+DampingRatio     = 0.5
+
+;ê‘êj
+[Needle]
+Subject          = ats135;45
+Location         = 1004,1524
+DaytimeImage     = d3d\smr.png
+NighttimeImage   = d3d\smr_n.png
+Origin           = 14, 227
+Layer            = 5
+Radius           = 66
+InitialAngle     = -115
+LastAngle        = 114
+Minimum          = 0
+Maximum          = 1220
+NaturalFreq      = 4
+DampingRatio     = 0.5
+
+[Needle]
+Subject          = mr
+Location         = 1291,1517
+DaytimeImage     = d3d\pgr.png
+NighttimeImage   = d3d\pgr_n.png
+Origin           = 31, 175
+Layer            = 5
+Radius           = 61
+InitialAngle     = -135
+LastAngle        = 135
+Minimum          = 0
+Maximum          = 1000
+NaturalFreq      = 0
+
+[Needle]
+Subject          = bc
+Location         = 1291,1517
+DaytimeImage     = d3d\pgw.png
+NighttimeImage   = d3d\pgw_n.png
+Origin           = 31, 175
+Layer            = 6
+Radius           = 61
+InitialAngle     = -135
+LastAngle        = 135
+Minimum          = 0
+Maximum          = 1000
+NaturalFreq      = 5
+DampingRatio     = 0.9
+
+[Needle]
+Subject          = ats55
+Location         = 1504,1514
+DaytimeImage     = d3d\smw.png
+NighttimeImage   = d3d\smw_n.png
+Origin           = 16, 225
+Layer            = 5
+Radius           = 68
+InitialAngle     = -99
+LastAngle        = 43
+Minimum          = 0
+Maximum          = 10
+NaturalFreq      = 4
+DampingRatio     = 0.9
+
+[Needle]
+Subject          = ats211
+Location         = 555,1517
+DaytimeImage     = d3d\smw.png
+NighttimeImage   = d3d\smw_n.png
+Origin           = 16, 225
+Layer            = 5
+Radius           = 68
+InitialAngle     = -120
+LastAngle        = 120
+Minimum          = 0
+Maximum          = 110
+NaturalFreq      = 1.8
+DampingRatio     = 0.9
+
+
+[Pilotlamp]
+Subject          = true
+Location         = 972,1489
+DaytimeImage     = d3d\smon.png
+NighttimeImage   = d3d\smon_n.png
+Layer            = 6
+
+[Pilotlamp]
+Subject          = true
+Location         = 522,1479
+DaytimeImage     = d3d\amon.png
+NighttimeImage   = d3d\amon_n.png
+Layer            = 6
+
+[Pilotlamp]
+Subject          = true
+Location         = 1474,1479
+DaytimeImage     = d3d\amon.png
+NighttimeImage   = d3d\amon_n.png
+Layer            = 6
+
+
+;â^ì]éÊàµã@äÌ
+
+[Pilotlamp]
+Subject          = door
+Location         = 696,1556
+DaytimeImage     = ats\dooron.png
+NighttimeImage   = ats\dooron_n.png
+Layer            = 4
+
+[DigitalNumber] 
+Subject          = ats92
+Location         = 513,1825
+DaytimeImage     = ats\key.png
+NighttimeImage   = ats\key_n.png
+Layer            = 4
+Interval         = 128
+
+[DigitalNumber] 
+Subject          = ats72
+Location         = 1666,1767
+DaytimeImage     = ats\atccgs.png
+NighttimeImage   = ats\atccgs_n.png
+Layer            = 5
+Interval         = 100
+
+[DigitalNumber] 
+Subject          = ats160
+Location         = 1666,1767
+DaytimeImage     = ats\rch2.png
+NighttimeImage   = ats\rch2_n.png
+Layer            = 4
+Interval         = 100
+
+
+;BL
+
+[Pilotlamp]
+Subject          = ats161
+Location         = 879,1393
+DaytimeImage     = sub\back1.png
+NighttimeImage   = sub\back1_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats161
+Location         = 1143,1382
+DaytimeImage     = sub\back2.png
+NighttimeImage   = sub\back2_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats161
+Location         = 405,1353
+DaytimeImage     = sub\back3.png
+NighttimeImage   = sub\back3_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats161
+Location         = 190,1032
+DaytimeImage     = sub\back4.png
+NighttimeImage   = sub\back4_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats161
+Location         = 972,1489
+DaytimeImage     = sub\back5.png
+NighttimeImage   = sub\back5_n.png
+Layer            = 7
+
+
+
+
+;ìåïêçsòHï\/ats164
+
+
+
+
+;è„ïî10ì_ï\é¶ìî
+
+[DigitalNumber];òHê¸êÿä∑
+Subject          = ats160
+Location         = 1800,1258
+DaytimeImage     = ats\rch.png
+NighttimeImage   = ats\rch_n.png
+Layer            = 4
+Interval         = 64
+
+[Pilotlamp];TRT-CS
+Subject          = ats19
+Location         = 1889,1258
+DaytimeImage     = ats\atc.png
+NighttimeImage   = ats\atc_n.png
+Layer            = 4
+
+[Pilotlamp];TKK-CS
+Subject          = ats21
+Location         = 1889,1258
+DaytimeImage     = ats\atc.png
+NighttimeImage   = ats\atc_n.png
+Layer            = 4
+
+[Pilotlamp];WS
+Subject          = ats34
+Location         = 1889,1258
+DaytimeImage     = ats\atc.png
+NighttimeImage   = ats\atc_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats31
+Location         = 1910,1258
+DaytimeImage     = ats\konai.png
+NighttimeImage   = ats\konai_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats32
+Location         = 1933,1258
+DaytimeImage     = ats\irekae.png
+NighttimeImage   = ats\irekae_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats254
+Location         = 1955,1258
+DaytimeImage     = ats\sta.png
+NighttimeImage   = ats\sta_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats41
+Location         = 1998,1258
+DaytimeImage     = ats\tats.png
+NighttimeImage   = ats\tats_n.png
+Layer            = 4
+
+
+;êÅäÒïî10ì_ï\é¶ìî
+
+;[Pilotlamp]
+;Subject          = 
+;Location         = 1968,1801
+;DaytimeImage     = ats\rbco.png
+;NighttimeImage   = ats\rbco_n.png
+;Layer            = 4
+
+[Pilotlamp]
+Subject          = ats176
+Location         = 1968,1848
+DaytimeImage     = ats\snow.png
+NighttimeImage   = ats\snow_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats23
+Location         = 2080,1754
+DaytimeImage     = ats\atcsb.png
+NighttimeImage   = ats\atcsb_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats22
+Location         = 2080,1801
+DaytimeImage     = ats\atceb.png
+NighttimeImage   = ats\atceb_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats27
+Location         = 2080,1893
+DaytimeImage     = ats\khisetsu.png
+NighttimeImage   = ats\khisetsu_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats28
+Location         = 2080,1893
+DaytimeImage     = ats\khisetsu.png
+NighttimeImage   = ats\khisetsu_n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats29
+Location         = 2080,1893
+DaytimeImage     = ats\khisetsu.png
+NighttimeImage   = ats\khisetsu_n.png
+Layer            = 4
+
+
+
+;ìåã}ATSåxïÒäÌî†
+
+[Pilotlamp]
+Subject          = ats16
+Location         = 2131,827
+DaytimeImage     = ats\ats2.png
+NighttimeImage   = ats\ats2n.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats17
+Location         = 2089,893
+DaytimeImage     = ats\ats3a.png
+NighttimeImage   = ats\ats3an.png
+Layer            = 4
+
+[Pilotlamp]
+Subject          = ats12
+Location         = 2089,893
+DaytimeImage     = ats\ats3b.png
+NighttimeImage   = ats\ats3bn.png
+Layer            = 5
+
+
+;CS
+
+[Pilotlamp]
+Subject          = ats101
+Location         = 990,1608
+DaytimeImage     = atc\s02.png
+NighttimeImage   = atc\s02n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats102
+Location         = 918,1552
+DaytimeImage     = atc\s01.png
+NighttimeImage   = atc\s01n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats104
+Location         = 912,1525
+DaytimeImage     = atc\s10.png
+NighttimeImage   = atc\s10n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats105
+Location         = 912,1509
+DaytimeImage     = atc\s15.png
+NighttimeImage   = atc\s15n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats106
+Location         = 913,1494
+DaytimeImage     = atc\s20.png
+NighttimeImage   = atc\s20n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats107
+Location         = 917,1480
+DaytimeImage     = atc\s25.png
+NighttimeImage   = atc\s25n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats108
+Location         = 922,1468
+DaytimeImage     = atc\s30.png
+NighttimeImage   = atc\s30n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats109
+Location         = 931,1457
+DaytimeImage     = atc\s35.png
+NighttimeImage   = atc\s35n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats110
+Location         = 933,1439
+DaytimeImage     = atc\s40.png
+NighttimeImage   = atc\s40n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats111
+Location         = 945,1433
+DaytimeImage     = atc\s45.png
+NighttimeImage   = atc\s45n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats112
+Location         = 957,1426
+DaytimeImage     = atc\s50.png
+NighttimeImage   = atc\s50n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats113
+Location         = 980,1423
+DaytimeImage     = atc\s55.png
+NighttimeImage   = atc\s55n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats114
+Location         = 996,1423
+DaytimeImage     = atc\s60.png
+NighttimeImage   = atc\s60n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats115
+Location         = 1013,1423
+DaytimeImage     = atc\s65.png
+NighttimeImage   = atc\s65n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats116
+Location         = 1027,1426
+DaytimeImage     = atc\s70.png
+NighttimeImage   = atc\s70n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats117
+Location         = 1040,1436
+DaytimeImage     = atc\s75.png
+NighttimeImage   = atc\s75n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats118
+Location         = 1052,1443
+DaytimeImage     = atc\s80.png
+NighttimeImage   = atc\s80n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats119
+Location         = 1061,1451
+DaytimeImage     = atc\s85.png
+NighttimeImage   = atc\s85n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats120
+Location         = 1070,1468
+DaytimeImage     = atc\s90.png
+NighttimeImage   = atc\s90n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats121
+Location         = 1075,1481
+DaytimeImage     = atc\s95.png
+NighttimeImage   = atc\s95n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats122
+Location         = 1080,1495
+DaytimeImage     = atc\s100.png
+NighttimeImage   = atc\s100n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats124
+Location         = 1081,1524
+DaytimeImage     = atc\s110.png
+NighttimeImage   = atc\s110n.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats133
+Location         = 1035,1604
+DaytimeImage     = atc\syk.png
+NighttimeImage   = atc\sykn.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats134
+Location         = 954,1601
+DaytimeImage     = atc\sp.png
+NighttimeImage   = atc\spn.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats131
+Location         = 953,1399
+DaytimeImage     = atc\srs.png
+NighttimeImage   = atc\srsn.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats132
+Location         = 1022,1399
+DaytimeImage     = atc\sgs.png
+NighttimeImage   = atc\sgsn.png
+Layer            = 5
+
+[Pilotlamp]
+Subject          = ats43
+Location         = 988,1396
+DaytimeImage     = atc\ats60.png
+NighttimeImage   = atc\ats60n.png
+Layer            = 6
+
+[Pilotlamp]
+Subject          = ats42
+Location         = 879,1503
+DaytimeImage     = atc\ats15.png
+NighttimeImage   = atc\ats15n.png
+Layer            = 6
+
+[Pilotlamp]
+Subject          = ats44
+Location         = 911,1569
+DaytimeImage     = atc\atseb.png
+NighttimeImage   = atc\atsebn.png
+Layer            = 6
+
+
+;ÉèÉCÉp
+
+[Needle]
+Subject          = ats157
+Location         = 1310, 7496
+DaytimeImage     = sub\Wiper1.bmp
+NighttimeImage   = sub\Wiper1_n.bmp
+TransparentColor = #0000ff
+Origin           = 8, 4500
+Layer            = 0
+Radius           = 6850
+InitialAngle     = 3.5
+LastAngle        = 14.5
+Minimum          = 0
+Maximum          = 1
+NaturalFreq      = 6
+DampingRatio     = 1
+
+[Needle]
+Subject          = ats157
+Location         = 1090,1900
+DaytimeImage     = sub\Wiper2a.bmp
+NighttimeImage   = sub\Wiper2a_n.bmp
+TransparentColor = #0000ff
+Origin           = 8, 300
+Layer            = 1
+Radius           = 954
+InitialAngle     = 36
+LastAngle        = 115
+Minimum          = 0
+Maximum          = 1
+NaturalFreq      = 6
+DampingRatio     = 1
+
+[Needle]
+Subject          = ats157
+Location         = 1135,1900
+DaytimeImage     = sub\Wiper2.bmp
+NighttimeImage   = sub\Wiper2_n.bmp
+TransparentColor = #0000ff
+Origin           = 8, 300
+Layer            = 1
+Radius           = 954
+InitialAngle     = 36
+LastAngle        = 115
+Minimum          = 0
+Maximum          = 1
+NaturalFreq      = 6
+DampingRatio     = 1

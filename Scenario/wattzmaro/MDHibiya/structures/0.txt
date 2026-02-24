@@ -1,0 +1,99 @@
+BveTs Structure List 1.00
+
+#シナリオ: TEST05
+#年代: N/A
+#区間: 北千住引込~茅場町 
+#車両: 03-5chp
+#注釈: この車両strリストはテストに尽きすべての車両strが表示されています。本番運用ファイルは「(scenario順序の数字).txt」で、これと同じ階層にあるモノとします。
+#　　  本番運用では一部セクションを消して対応してください。
+
+
+#車両
+
+#03系（01F ~ 25fまで共通）
+03T_chp,trains\03\03T_chp.x
+03M_chp,trains\03\03M_chp.x
+03nT_chp,trains\03\night\03T_chp.x
+03nM_chp,trains\03\night\03M_chp.x
+
+#03系（3扉幕式）　01 ~ 08
+03Tc_3chp,trains\03\03Tc_3chp.x
+03TcB_3chp,trains\03\03TcB_3chp.x
+
+03nTc_3chp,trains\03\night\03Tc_3chp.x
+03nTcB_3chp,trains\03\night\03TcB_3chp.x
+
+#03系（5扉車）09 ~ 25
+03M_5,trains\03\03M_5.x
+03M_v,trains\03\03M_v.x
+03T_5,trains\03\03T_5.x
+03Tc_5,trains\03\03Tc_5.x
+03TcB_5,trains\03\03TcB_5.x
+
+03nM_5,trains\03\night\03M_5.x
+03nT_5,trains\03\night\03T_5.x
+03nTc_5,trains\03\night\03Tc_5.x
+03nTcB_5,trains\03\night\03TcB_5.x
+
+
+#20050系
+20050Tc,trains\20000\20050Tc.x
+20050T,trains\20000\20050T.x
+20050M,trains\20000\20050M.x
+20050TcB,trains\20000\20050TcB.x
+
+20050Tc_n,trains\20000\night\20050Tc.x
+20050T_n,trains\20000\night\20050T.x
+20050M_n,trains\20000\night\20050M.x
+20050TcB_n,trains\20000\night\20050TcB.x
+
+#TX
+TX1000-1,trains\TX\1000_Tc.x
+TX1000-2,trains\TX\1000_T.x
+TX1000-3,trains\TX\1000_M.x
+TX1000-4,trains\TX\1000_back.x
+TX1000-1b,trains\TX\1000_TcBack.x
+TX2000-1,trains\TX\2000_Tc.x
+TX2000-2,trains\TX\2000_T.x
+TX2000-3,trains\TX\2000_M.x
+TX2000-4,trains\TX\2000_back.x
+TX2000-1b,trains\TX\2000_TcBack.x
+
+#しの様制作
+#657系
+Tc'E656-0,trains\Shino's_Str\series_E657_Normal\Tc'E656-0.x
+ME657-0,trains\Shino's_Str\series_E657_Normal\ME657-0.x
+ME656-0,trains\Shino's_Str\series_E657_Normal\ME656-0.x
+TE657-0,trains\Shino's_Str\series_E657_Normal\TE657-0.x
+TsE657-0,trains\Shino's_Str\series_E657_Normal\TsE657-0.x
+TcE657-0,trains\Shino's_Str\series_E657_Normal\TcE657-0.x
+
+#531系
+Tc'E530-0,trains\Shino's_Str\series_E531-0\Tc'E530-0.x
+Tc'E530-0b,trains\Shino's_Str\series_E531-0\Tc'E530-0b.x
+M'E530-0,trains\Shino's_Str\series_E531-0\M'E530-0.x
+ME531-1000,trains\Shino's_Str\series_E531-0\ME531-1000.x
+Ts'E530-0,trains\Shino's_Str\series_E531-0\Ts'E530-0.x
+TsE531-0,trains\Shino's_Str\series_E531-0\TsE531-0.x
+T'E530-2000,trains\Shino's_Str\series_E531-0\T'E530-2000.x
+TcE531-0,trains\Shino's_Str\series_E531-0\TcE531-0.x
+Tc'E530-2000,trains\Shino's_Str\series_E531-0\Tc'E530-2000.x
+M'E530-1000,trains\Shino's_Str\series_E531-0\M'E530-1000.x
+ME531-0,trains\Shino's_Str\series_E531-0\ME531-0.x
+TE531-0,trains\Shino's_Str\series_E531-0\TE531-0.x
+TcE531-1000,trains\Shino's_Str\series_E531-0\TcE531-1000.x
+TcE531-1000b,trains\Shino's_Str\series_E531-0\TcE531-1000b.x
+
+
+#幕その他
+#03
+m03108,trains\maku\03\03-108.x
+m03124,trains\maku\03\03-124.x
+m03112,trains\maku\03\03-112.x
+m03136,trains\maku\03\03-136.x
+#20000
+m2002t,trains\maku\20000\02t.x
+m2025t,trains\maku\20000\25t.x
+#20050
+m2513t,trains\maku\20000\13t.x
+m2537t,trains\maku\20000\37t.x

@@ -1,0 +1,8 @@
+Bvets Vehicle 2.00
+PerformanceCurve = notch\notch.txt
+Parameters = parameters.txt
+Panel = panel\panel.txt
+Sound = sound.txt
+Ats32 = files\ats.dll
+Ats64 = files\ats_.dll
+MotorNoise = motornoise\motornoise.txt

@@ -1,0 +1,9 @@
+BveTs Scenario 2.00
+Title = 7
+Author = Wattz麻呂
+Image =
+Route = wattzmaro\MDHibiya\Diagram\7.txt
+RouteTitle = 本番
+Vehicle = wattzmaro\vehicles\13000\vehicle.txt
+VehicleTitle = Series03-136F
+Comment = 本番用5
