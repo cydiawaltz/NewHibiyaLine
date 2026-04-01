@@ -1,0 +1,9 @@
+BveTs Scenario 2.00
+Title = 北千住→三ノ輪
+Author = Wattz麻呂
+Image = wattzmaro\MDHibiya\030.png
+Route = wattzmaro\MDHibiya\Diagram\0.txt
+RouteTitle = 日比谷線(北千住~茅場町)
+Vehicle = 
+VehicleTitle = Series03-108F
+Comment = Vehicleはお好きなものを指定してください。オススメはvertah様の05系

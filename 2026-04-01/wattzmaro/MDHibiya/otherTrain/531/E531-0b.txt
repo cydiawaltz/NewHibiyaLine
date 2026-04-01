@@ -1,0 +1,92 @@
+BveTs Train 1.01
+
+[structure]
+key = Tc'E530-0b
+distance = 20
+span = 14
+z = 7
+
+[structure]
+key = M'E530-0
+distance = 40
+span = 14
+z = 7
+
+[structure]
+key = ME531-1000
+distance = 60
+span = 14
+z = 7
+
+
+[structure]
+key = Ts'E530-0
+distance = 80
+span = 14
+z = 7
+
+[structure]
+key = TsE531-0
+distance = 100
+span = 14
+z = 7
+
+[structure]
+key = T'E530-2000
+distance = 120
+span = 14
+z = 7
+
+[structure]
+key = T'E530-2000
+distance = 140
+span = 14
+z = 7
+
+[structure]
+key = ME531-1000
+distance = 160
+span = 14
+z = 7
+
+[structure]
+key = M'E530-0
+distance = 180
+span = 14
+z = 7
+
+[structure]
+key = TcE531-0
+distance = 200
+span = 14
+z = 7
+
+[structure]
+key = Tc'E530-2000
+distance = 220
+span = 14
+z = 7
+
+[structure]
+key = M'E530-1000
+distance = 240
+span = 14
+z = 7
+
+[structure]
+key = ME531-0
+distance = 260
+span = 14
+z = 7
+
+[structure]
+key = TE531-0
+distance = 280
+span = 14
+z = 7
+
+[structure]
+key = TcE531-1000b
+distance = 300
+span = 14
+z = 7

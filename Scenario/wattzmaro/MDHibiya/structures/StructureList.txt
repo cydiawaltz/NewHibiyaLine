@@ -230,6 +230,7 @@ kouji,builds\H16\kouji.x
 nakaokakabe3,builds\H16\nakaokaexit.x
 nakaokakabe2,builds\H16\nakaokakabe2.x
 nakaokacenter,builds\H16\center.x
+nakaokakanban,builds\H16\nakaokakanban.x
 #秋葉原
 #akibatenjo,builds\H15\akibatenjo.x
 akibatenjo0,builds\H15\akibatenjo0.x

@@ -1,0 +1,7 @@
+BveTs Structure List 1.00
+
+TcE531-4000,Shino's_Str\series_E531-3000\TcE531-4000.x
+TE531-3000,Shino's_Str\series_E531-3000\TE531-3000.x
+ME531-3000,Shino's_Str\series_E531-3000\ME531-3000.x
+ME530-4000,Shino's_Str\series_E531-3000\ME530-4000.x
+Tc'E530-5000,Shino's_Str\series_E531-3000\Tc'E530-5000.x

@@ -1,0 +1,180 @@
+﻿menu.open	Open scenario...
+menu.reset	Reset scenario
+menu.goto	Go to
+menu.close	Close scenario
+menu.timetable	Timetable
+menu.camera	Change view point
+menu.toolwin	Tool window
+menu.timepos	Time and position
+menu.chart	Vehicle physical quantities
+menu.config	Preferences...
+menu.about	About {0}...
+menu.exit	Exit {0}
+assist.sta.dist	{0} in {1}
+assist.sta.passtime	Next "{0}", Pass at {1}
+assist.sta.pass	Next "{0}", Pass
+assist.sta.stoptime	Next "{0}", Stop at {1}
+assist.sta.stop	Next "{0}", Stop
+assist.sta.departtime	"{0}", Depart at {1}
+assist.sta.depart	"{0}"
+assist.spdlim.sig	Signal {0} km/h
+assist.spdlim.fix	Speed Limit {0} km/h
+assist.inst.pause	Paused (Press "{0}" to resume)
+assist.inst.sigexceed	Slow down immediately (press "{0}")! The train is exceeding the permissible speed of the signal.
+assist.inst.sig0pass	Stop immediately (press "{0}")! The train ignored the stop signal.
+assist.inst.limexceed	Slow down immediately (press "{0}")! The train is exceeding the speed limit.
+assist.inst.stapass	Stop immediately (press "{0}")! The train passed the stop position.
+assist.inst.moving	Stop immediately (press "{0}")! The train is moving with doors opened.
+assist.inst.dontback	Stop immediately (press "{0}")! Move the train forward.
+assist.inst.release	Release the brake (press "{0}") before powering.
+assist.inst.poweroff	Return the power lever to the off (press "{0}") before braking.
+assist.inst.dontdepart	Return the power lever to the off (press "{0}"). Cannot depart yet.
+assist.inst.keepbrake	Continue to apply the brake (press "{0}").
+assist.inst.backward	Switch the reverser to the backward (press "{0}"). The stop position is in backward.
+assist.inst.goback	Move the train backward. The stop position is in backward.
+assist.inst.goahead	Move the train forward. The stop position is in forward.
+assist.inst.forward	Switch the reverser to the forward (press "{0}").
+assist.inst.releaseemg	Release the emergency brake (press "{0}").
+assist.inst.depart	Release the brake (press "{0}") and start powering (press "{1}") to depart.
+assist.inst.coast	End the accelerating (press "{0}") when reached the appropriate speed.
+assist.inst.limnear	Slow down (press "{0}"). The speed limit ahead is {1} km/h.
+assist.inst.signear	Slow down (press "{0}"). The signal ahead indicates {1} km/h.
+assist.inst.sig0near	Stop the train (press "{0}"). The signal ahead indicates stop.
+assist.inst.stanear	Apply the brake (press "{0}"). It is approaching the next stop.
+assist.inst.regulate	Regulate the brake (press "{0}" or "{1}") to stop at the stop position.
+assist.inst.arrived	The train arrived at the station.
+config	Preferences
+config.graphics	Graphics
+config.screen	Screen mode
+config.winmode	Windowed mode
+config.fullscr	Full screen mode
+config.winsize	Window size
+config.resolution	Resolution
+config.desktop	Identical with desktop
+config.restart	This change will take effect on the next launch.
+config.drawdist	Drawing distance
+config.dist	Distance: {0} m
+config.short	Short
+config.long	Long
+config.fast	Fast
+config.slow	Slow
+config.coarse	Coarse
+config.fine	Fine
+config.filter	Texture filter
+config.anisotropy	Anisotropy filtering: {0}
+config.assist	Assistants
+config.assist.lever	Lever positions
+config.assist.clock	Speed and time
+config.assist.sta	Next station
+config.assist.stop	Stop position
+config.assist.limit	Speed limit
+config.assist.warn	Warning message
+config.assist.inst	Instruction message
+config.assist.sway	Sway of passengers
+config.assist.geom	Track geometry
+config.assist.detail	Internal values
+config.pos	Positions
+config.resetpos	Restore default
+config.font	Font
+config.sysfont	(Default)
+config.bold	Bold
+config.size	Size: {0}
+config.sim	Simulation
+config.headmove	Motion of driver's head
+config.amp	Amplitude: {0}
+config.input	Input device
+config.key	Keyboard
+config.assign	Key assignments...
+config.extinput	Additional input device
+config.interfname	Interface name
+config.ver	Version
+config.author	Provider
+config.file	File
+config.prop	Properties...
+config.advance	Advanced settings
+config.develop	Enable functions for development
+open	Select scenario
+open.view	Views
+open.sort	Sort by
+open.start	Start
+open.icon	Icons
+open.detail	Details
+open.tile	Tiles
+open.title	Title
+open.author	Author
+open.route	Route
+open.vehicle	Vehicle
+open.date	Date played
+open.file	File
+button.ok	OK
+button.cancel	Cancel
+button.ignore	Continue
+button.abort	Abort
+load.load	Loading scenario...
+load.error	Errors occurred while loading the scenario.
+load.warn	If you continue, the app may not work properly.
+load.desc	Description
+load.file	File
+load.line	Line
+load.column	Column
+load.copy	Copy
+timetable.sta	STATION
+timetable.arrive	ARR
+timetable.depart	DEP
+timetable.pass	↓
+timetable.end	=
+assign	Key assignments
+assign.preset	Preset:
+assign.axis	Levers
+assign.switch	Switches
+assign.up	Step up
+assign.down	Step down
+assign.return	Step to neutral
+assign.min	Minimum
+assign.zero	Neutral
+assign.max	Maximum
+assign.custom	(Custom)
+assign.default	Default
+assign.axis0	Reverser
+assign.axis1	Power
+assign.axis2	Brake
+assign.axis3	Power & brake
+assign.pause	Pause
+assign.wait	Press the key you want to assign.
+assign.push	On/off
+assign.horn0	Horn 1
+assign.horn1	Horn 2
+assign.hornm	Music horn
+assign.constspeed	Constant speed control
+assign.ats0	ATS 0 (S)
+assign.ats1	ATS 1 (A1)
+assign.ats2	ATS 2 (A2)
+assign.ats3	ATS 3 (B1)
+assign.ats4	ATS 4 (B2)
+assign.ats5	ATS 5 (C1)
+assign.ats6	ATS 6 (C2)
+assign.ats7	ATS 7 (D)
+assign.ats8	ATS 8 (E)
+assign.ats9	ATS 9 (F)
+assign.ats10	ATS 10 (G)
+assign.ats11	ATS 11 (H)
+assign.ats12	ATS 12 (I)
+assign.ats13	ATS 13 (J)
+assign.ats14	ATS 14 (K)
+assign.ats15	ATS 15 (L)
+assign.viewup	Move view to upside
+assign.viewdown	Move view to downside
+assign.viewleft	Move view left
+assign.viewright	Move view right
+assign.viewreturn	Return view
+assign.viewtele	Zoom in
+assign.viewwide	Zoom out
+assign.viewswitch	Switch viewpoint
+assign.timetable	Show/hide timetable
+assign.speedchange	Change train speed
+assign.fastforward	Fast-forward
+assign.reload	Reload scenario
+timepos	Time and position
+timepos.meter	m
+timepos.kph	km/h
+chart	Vehicle physical quantities

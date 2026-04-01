@@ -1,0 +1,129 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 5600.000000;
+
+# Track['@OT_TXA@_1'].X
+$P09_RP + 239.647;
+Track['@OT_TXA@_1'].X.Interpolate(24.063,-6252.463);
+$P09_RP + 258.000;
+Track['@OT_TXA@_1'].X.Interpolate(21.853,681.318);
+$P09_RP + 274.633;
+Track['@OT_TXA@_1'].X.Interpolate(19.997,1517.516);
+$P09_RP + 348.000;
+Track['@OT_TXA@_1'].X.Interpolate(14.530,1514.284);
+$P09_RP + 398.000;
+Track['@OT_TXA@_1'].X.Interpolate(12.853,1403.097);
+$P09_RP + 408.876;
+Track['@OT_TXA@_1'].X.Interpolate(12.707,730.903);
+$P09_RP + 421.000;
+Track['@OT_TXA@_1'].X.Interpolate(12.695,0.000);
+$P09_RP + 470.648;
+Track['@OT_TXA@_1'].X.Interpolate(13.076,0.000);
+$P09_RP + 568.000;
+Track['@OT_TXA@_1'].X.Interpolate(13.822,0.000);
+$P09_RP + 626.644;
+Track['@OT_TXA@_1'].X.Interpolate(14.272,0.000);
+$P09_RP + 650.643;
+Track['@OT_TXA@_1'].X.Interpolate(14.456,0.000);
+$P09_RP + 658.000;
+Track['@OT_TXA@_1'].X.Interpolate(14.512,0.000);
+$P09_RP + 708.000;
+Track['@OT_TXA@_1'].X.Interpolate(14.896,-1597.338);
+$P09_RP + 718.000;
+Track['@OT_TXA@_1'].X.Interpolate(14.939,0.000);
+$P09_RP + 811.000;
+Track['@OT_TXA@_1'].X.Interpolate(15.032,0.000);
+$P09_RP + 906.740;
+Track['@OT_TXA@_1'].X.Interpolate(15.128,1049.418);
+$P09_RP + 921.680;
+Track['@OT_TXA@_1'].X.Interpolate(15.255,0.000);
+$P09_RP + 923.000;
+Track['@OT_TXA@_1'].X.Interpolate(15.276,0.000);
+$P09_RP + 1008.000;
+Track['@OT_TXA@_1'].X.Interpolate(16.636,9746.146);
+$P09_RP + 1021.635;
+Track['@OT_TXA@_1'].X.Interpolate(16.863,-2636.905);
+$P09_RP + 1053.000;
+Track['@OT_TXA@_1'].X.Interpolate(17.180,0.000);
+$P09_RP + 1065.715;
+Track['@OT_TXA@_1'].X.Interpolate(17.245,1088.440);
+$P09_RP + 1128.000;
+Track['@OT_TXA@_1'].X.Interpolate(19.338,0.000);
+$P09_RP + 1258.000;
+Track['@OT_TXA@_1'].X.Interpolate(27.424,-1438.381);
+$P09_RP + 1288.000;
+Track['@OT_TXA@_1'].X.Interpolate(29.074,-824.119);
+$P09_RP + 1348.000;
+Track['@OT_TXA@_1'].X.Interpolate(29.414,0.000);
+$P09_RP + 1458.000;
+Track['@OT_TXA@_1'].X.Interpolate(25.933,0.000);
+$P09_RP + 1477.570;
+Track['@OT_TXA@_1'].X.Interpolate(25.314,0.000);
+
+# Track['@OT_TXA@_1'].Y
+$P09_RP + 239.647;
+Track['@OT_TXA@_1'].Y.Interpolate(5.579,0.000);
+$P09_RP + 258.000;
+Track['@OT_TXA@_1'].Y.Interpolate(6.184,0.000);
+$P09_RP + 274.633;
+Track['@OT_TXA@_1'].Y.Interpolate(6.732,0.000);
+$P09_RP + 348.000;
+Track['@OT_TXA@_1'].Y.Interpolate(9.152,-1926.317);
+$P09_RP + 398.000;
+Track['@OT_TXA@_1'].Y.Interpolate(10.801,0.000);
+$P09_RP + 408.876;
+Track['@OT_TXA@_1'].Y.Interpolate(10.877,0.000);
+$P09_RP + 421.000;
+Track['@OT_TXA@_1'].Y.Interpolate(10.962,-2091.670);
+$P09_RP + 470.648;
+Track['@OT_TXA@_1'].Y.Interpolate(11.213,0.000);
+$P09_RP + 568.000;
+Track['@OT_TXA@_1'].Y.Interpolate(9.236,2933.920);
+$P09_RP + 626.644;
+Track['@OT_TXA@_1'].Y.Interpolate(7.833,0.000);
+$P09_RP + 650.643;
+Track['@OT_TXA@_1'].Y.Interpolate(7.733,0.000);
+$P09_RP + 658.000;
+Track['@OT_TXA@_1'].Y.Interpolate(7.703,2806.273);
+$P09_RP + 708.000;
+Track['@OT_TXA@_1'].Y.Interpolate(7.953,0.000);
+$P09_RP + 718.000;
+Track['@OT_TXA@_1'].Y.Interpolate(8.093,-2461.666);
+$P09_RP + 811.000;
+Track['@OT_TXA@_1'].Y.Interpolate(7.629,0.000);
+$P09_RP + 906.740;
+Track['@OT_TXA@_1'].Y.Interpolate(5.332,0.000);
+$P09_RP + 921.680;
+Track['@OT_TXA@_1'].Y.Interpolate(4.973,82.596);
+$P09_RP + 923.000;
+Track['@OT_TXA@_1'].Y.Interpolate(4.941,0.000);
+$P09_RP + 1008.000;
+Track['@OT_TXA@_1'].Y.Interpolate(4.261,0.000);
+$P09_RP + 1021.635;
+Track['@OT_TXA@_1'].Y.Interpolate(4.152,0.000);
+$P09_RP + 1053.000;
+Track['@OT_TXA@_1'].Y.Interpolate(3.901,0.000);
+$P09_RP + 1065.715;
+Track['@OT_TXA@_1'].Y.Interpolate(3.800,7786.306);
+$P09_RP + 1128.000;
+Track['@OT_TXA@_1'].Y.Interpolate(3.301,0.000);
+$P09_RP + 1258.000;
+Track['@OT_TXA@_1'].Y.Interpolate(3.301,3333.558);
+$P09_RP + 1288.000;
+Track['@OT_TXA@_1'].Y.Interpolate(3.301,-6667.387);
+$P09_RP + 1348.000;
+Track['@OT_TXA@_1'].Y.Interpolate(3.841,0.000);
+$P09_RP + 1458.000;
+Track['@OT_TXA@_1'].Y.Interpolate(3.841,-4892.795);
+$P09_RP + 1477.570;
+Track['@OT_TXA@_1'].Y.Interpolate(3.803,0.000);
+
+# Track['@OT_TXA@_1'].Cant.Interpolate
+
+# Track['@OT_TXA@_1'].Cant.SetFunction
+
+# Track['@OT_TXA@_1'].Cant.SetCenter
+
+# Track['@OT_TXA@_1'].Cant.SetGauge
+

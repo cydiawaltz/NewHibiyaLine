@@ -1,0 +1,37 @@
+BveTs Train 1.01
+
+[structure]
+key = TX2000-1b
+distance = 19
+span = 14
+z = 7
+
+[structure]
+key = TX2000-3
+distance = 38
+span = 14
+z = 7
+
+[structure]
+key = TX2000-2
+distance = 57
+span = 14
+z = 7
+
+[structure]
+key = TX2000-3
+distance = 76
+span = 14
+z = 7
+
+[structure]
+key = TX2000-2
+distance = 95
+span = 14
+z = 7
+
+[structure]
+key = TX2000-4
+distance = 114
+span = 14
+z = 7

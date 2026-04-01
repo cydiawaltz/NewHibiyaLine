@@ -1,0 +1,61 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 0.000000;
+
+# Track['@OT_keisei@_1'].X
+$P09_RP + 1167.969;
+Track['@OT_keisei@_1'].X.Interpolate(-156.053,-1076.898);
+$P09_RP + 1169.415;
+Track['@OT_keisei@_1'].X.Interpolate(-151.267,-1283.981);
+$P09_RP + 1171.000;
+Track['@OT_keisei@_1'].X.Interpolate(-146.083,-756.910);
+$P09_RP + 1194.445;
+Track['@OT_keisei@_1'].X.Interpolate(-80.528,-417.755);
+$P09_RP + 1221.000;
+Track['@OT_keisei@_1'].X.Interpolate(-27.438,-297.568);
+$P09_RP + 1231.000;
+Track['@OT_keisei@_1'].X.Interpolate(-11.600,-359.470);
+$P09_RP + 1238.469;
+Track['@OT_keisei@_1'].X.Interpolate(-0.998,-411.545);
+$P09_RP + 1251.916;
+Track['@OT_keisei@_1'].X.Interpolate(16.354,0.000);
+$P09_RP + 1256.833;
+Track['@OT_keisei@_1'].X.Interpolate(22.330,0.000);
+
+# Track['@OT_keisei@_1'].Y
+$P09_RP + 1167.969;
+Track['@OT_keisei@_1'].Y.Interpolate(0.889,29.503);
+$P09_RP + 1169.415;
+Track['@OT_keisei@_1'].Y.Interpolate(0.964,-1425.873);
+$P09_RP + 1171.000;
+Track['@OT_keisei@_1'].Y.Interpolate(1.103,-1991.468);
+$P09_RP + 1194.445;
+Track['@OT_keisei@_1'].Y.Interpolate(2.979,-3403.686);
+$P09_RP + 1221.000;
+Track['@OT_keisei@_1'].Y.Interpolate(4.812,-1859.769);
+$P09_RP + 1231.000;
+Track['@OT_keisei@_1'].Y.Interpolate(5.455,-147.648);
+$P09_RP + 1238.469;
+Track['@OT_keisei@_1'].Y.Interpolate(5.893,-2532.231);
+$P09_RP + 1251.916;
+Track['@OT_keisei@_1'].Y.Interpolate(6.005,-174.051);
+$P09_RP + 1256.833;
+Track['@OT_keisei@_1'].Y.Interpolate(6.026,0.000);
+
+# Track['@OT_keisei@_1'].Cant.Interpolate
+$P09_RP + 1167.969;
+Track['@OT_keisei@_1'].Cant.Interpolate(0.000);
+
+# Track['@OT_keisei@_1'].Cant.SetFunction
+$P09_RP + 1167.969;
+Track['@OT_keisei@_1'].Cant.SetFunction(1);
+
+# Track['@OT_keisei@_1'].Cant.SetCenter
+$P09_RP + 1167.969;
+Track['@OT_keisei@_1'].Cant.SetCenter(0.000);
+
+# Track['@OT_keisei@_1'].Cant.SetGauge
+$P09_RP + 1167.969;
+Track['@OT_keisei@_1'].Cant.SetGauge(0.000);
+

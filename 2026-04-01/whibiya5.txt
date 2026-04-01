@@ -1,0 +1,9 @@
+BveTs Scenario 2.00
+Title = 北千住→人形町②
+Author = Wattz麻呂
+Image = wattzmaro\MDHibiya\20050.png
+Route = wattzmaro\MDHibiya\Diagram\5.txt
+RouteTitle = 日比谷線(北千住~茅場町)
+Vehicle = 
+VehicleTitle = Series20050
+Comment = 

@@ -1,0 +1,35 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$P09_RP = 0.000000;
+
+# Track['mainto5'].X
+$P09_RP + 60.000;
+Track['mainto5'].X.Interpolate(0.000,0.000);
+$P09_RP + 110.000;
+Track['mainto5'].X.Interpolate(0.000,0.000);
+$P09_RP + 220.000;
+Track['mainto5'].X.Interpolate(0.000,0.000);
+
+# Track['mainto5'].Y
+$P09_RP + 60.000;
+Track['mainto5'].Y.Interpolate(0.000,0.000);
+$P09_RP + 110.000;
+Track['mainto5'].Y.Interpolate(0.000,0.000);
+$P09_RP + 220.000;
+Track['mainto5'].Y.Interpolate(0.000,0.000);
+
+# Track['mainto5'].Cant.Interpolate
+$P09_RP + 60.000;
+Track['mainto5'].Cant.Interpolate(0.000);
+$P09_RP + 110.000;
+Track['mainto5'].Cant.Interpolate(0.000);
+$P09_RP + 220.000;
+Track['mainto5'].Cant.Interpolate(0.000);
+
+# Track['mainto5'].Cant.SetFunction
+
+# Track['mainto5'].Cant.SetCenter
+
+# Track['mainto5'].Cant.SetGauge
+

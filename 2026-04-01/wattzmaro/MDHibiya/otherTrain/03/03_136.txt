@@ -1,0 +1,49 @@
+BveTs Train 1.01
+
+[structure]
+key = 03Tc_v
+distance = 18
+span = 14
+z = 7
+
+[structure]
+key = 03T_v
+distance = 35.4
+span = 14
+z = 7
+
+[structure]
+key = 03M_v
+distance = 52.6
+span = 14
+z = 7
+
+[structure]
+key = 03T_v
+distance = 69.8
+span = 14
+z = 7
+
+[structure]
+key = 03T_v
+distance = 88
+span = 14
+z = 7
+
+[structure]
+key = 03T_v
+distance = 105.2
+span = 14
+z = 7
+
+[structure]
+key = 03M_v
+distance = 122.4
+span = 14
+z = 7
+
+[structure]
+key = 03TcB_v
+distance = 139.6
+span = 14
+z = 7

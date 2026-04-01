@@ -1,0 +1,439 @@
+BveTs Structure List 1.00
+
+線路系
+RailL0, rails\RailL0.x
+RailL1, rails\RailL1.x
+RailL2, rails\RailL2.x
+RailL3, rails\RailL3.x
+RailL4, rails\RailL4.x
+RailR0, rails\RailR0.x
+RailR1, rails\RailR1.x
+RailR2, rails\RailR2.x
+RailR3, rails\RailR3.x
+RailR4, rails\RailR4.x
+
+ballast1,rails\Tr_Bal1.x
+ballast2,rails\Tr_Bal2.x
+ballast3,rails\Tr_Bal3.x
+ballast4,rails\Tr_Bal4.x
+ballast5,rails\Tr_Bal5.x
+ballast_LQ,rails\Tr_Bal_EQ.x
+ballast_5m,rails\Tr_Bal5m.x
+cross_5m,rails\cross_5m.x
+cross,rails\cross.x
+kasen_G,rails\SimpleCatenary25.x
+
+#temp
+down,builds\temp\down.x
+side,builds\temp\side.x
+side2,builds\temp\side2.x
+river,buils\temp\river.x
+sumidatruss,rails\truss.x
+
+
+jobanwall,rails\jobanwall.x
+
+TX_kouka,rails\TX_kouka.x
+TX_kouka2,rails\TX_kouka2.x
+TX_Pole,rails\TXPole.x
+jari,rails\jari.x
+
+Hibiyawall,rails\HibiyaWall.x
+HibiyaPole_9,rails\HibiyaPole_9.x
+HibiyaPole_L,rails\HibiyaPole_L.x
+HibiyaPole_R,rails\HibiyaPole_R.x
+HibiyaPole_C1,rails\HibiyaPole_C1.x
+HibiyaPole_C2,rails\HibiyaPole_C2.x
+HibiyaPolen,rails\HibiyaPole_n.x
+saku,rails\saku2.x
+TX_down,rails\TX_down.x
+TX_downwall,rails\TX_downwall.x
+
+#建物TEST
+minami2,builds\minami2\minami2.x
+minami5,builds\minami5\minami5.x
+minami7,builds\minami7\minami7.x
+sekiya,builds\sekiya\sekiya.x
+bokutei,builds\bokutei\bokutei.x
+azuma,builds\azuma\azuma_new.x
+naka,builds\nakacho\naka.x
+oofumikiri,builds\oofumikiri\oofumikiri.x
+ekimae,builds\ekimae\ekimae.x
+hikikomi,builds\hikikomi\hikikomi.x
+#jogi,TEST\軌道作成専用\jogi.x
+
+#北千住~三ノ輪
+#駅前
+
+#大踏切(千住東北+旭町南部)
+oofumikiri0,builds\oofumikiri\0.x
+oofumikiri1,builds\oofumikiri\1.x
+oofumikiri2,builds\oofumikiri\2.x
+oofumikiri3,builds\oofumikiri\3.x
+oofumikiri4,builds\oofumikiri\4.x
+oofumikiri5,builds\oofumikiri\5.x
+oofumikiri6,builds\oofumikiri\6.x
+oofumikiri7,builds\oofumikiri\7.x
+#oofumikiri8,builds\oofumikiri\8.x
+oofumikiri9,builds\oofumikiri\9.x
+oofumikiri10,builds\oofumikiri\10.x
+oofumikiri11,builds\oofumikiri\11.x
+of_ground,builds\oofumikiri\ground.x
+
+#千住東中央
+azuma0,builds\azuma\0.x
+azuma1,builds\azuma\1.x
+azuma2,builds\azuma\2.x
+azuma3,builds\azuma\3.x
+azuma4,builds\azuma\4.x
+azuma5,builds\azuma\5.x
+azuma6,builds\azuma\6.x
+azuma7,builds\azuma\7.x
+azuma8,builds\azuma\8.x
+azuma9,builds\azuma\9.x
+azuma10,builds\azuma\10.x
+azuma11,builds\azuma\11.x
+azuma12,builds\azuma\12.x
+azuma13,builds\azuma\13.x
+az_ground,builds\azuma\ground.x
+
+#墨堤通り前
+bokutei1,builds\bokutei\1.x
+bokutei2,builds\bokutei\2.x
+bokutei3,builds\bokutei\3.x
+bokutei4,builds\bokutei\4.x
+bokutei5,builds\bokutei\5.x
+bokutei6,builds\bokutei\6.x
+
+
+
+#千住関屋・橋戸町
+sekiya0L,builds\sekiya\0L.x
+sekiya1L,builds\sekiya\1L.x
+sekiya2L,builds\sekiya\2L.x
+sekiya3L,builds\sekiya\3L.x
+sekiya4L,builds\sekiya\4L.x
+sekiya5L,builds\sekiya\5L.x
+sekiya6L,builds\sekiya\6L.x
+sekiya7L,builds\sekiya\7L.x
+
+sekiya0R,builds\sekiya\0R.x
+sekiya1R,builds\sekiya\1R.x
+sekiya2R,builds\sekiya\2R.x
+sekiya3R,builds\sekiya\3R.x
+sekiya4R,builds\sekiya\4R.x
+sekiya5R,builds\sekiya\5R.x
+
+#仲町・千住一丁目
+naka0,builds\nakacho\0.x
+naka1,builds\nakacho\1.x
+naka2,builds\nakacho\2.x
+naka3,builds\nakacho\3.x
+naka4,builds\nakacho\4.x
+naka5,builds\nakacho\5.x
+naka6,builds\nakacho\6.x
+naka7,builds\nakacho\7.x
+naka8,builds\nakacho\8.x
+naka9,builds\nakacho\9.x
+
+#南千住7丁目
+#minami7_road,builds\minami7\road.x
+minami7_0c,builds\minami7\0c.x
+minami7_0L,builds\minami7\0L.x
+minami7_0R,builds\minami7\0R.x
+minami7_1c,builds\minami7\1c.x
+minami7_1L,builds\minami7\1L.x
+minami7_1R,builds\minami7\1R.x
+minami7_2L,builds\minami7\2L.x
+minami7_3L,builds\minami7\3L.x
+minami7_4L,builds\minami7\4L.x
+minami7_5L,builds\minami7\5L.x
+minami7_5R,builds\minami7\5R.x
+minami7_6L,builds\minami7\6L.x
+minami7_ground,builds\minami7\ground.x
+
+#南千住5丁目
+minami5_R,builds\minami5\buildings1.x
+
+#南千住2丁目
+mina2_0,builds\minami2\0.x
+mina2_1,builds\minami2\1.x
+mina2_2,builds\minami2\2.x
+mina2_3,builds\minami2\3.x
+mina2_4,builds\minami2\4.x
+mina2_5,builds\minami2\5.x
+mina2_6,builds\minami2\6.x
+mina2_7,builds\minami2\7.x
+mina2_8,builds\minami2\8.x
+mina2_9,builds\minami2\9.x
+mina2_10,builds\minami2\10.x
+mina2_11,builds\minami2\11.x
+mina2_12,builds\minami2\12.x
+mina2_13,builds\minami2\13.x
+mina2_14,builds\minami2\14.x
+mina2_15,builds\minami2\15.x
+mina2_16,builds\minami2\16.x
+mina2_17,builds\minami2\17.x
+
+#駅とか
+#常磐線
+#南千住
+jobanhome,builds\joban\form-hidari.x
+jobankabe2,builds\joban\minakabe.x
+jobankabe1,builds\joban\jobankabe1.x
+
+minahome1,builds\H20\minahome1.x
+minahome2,builds\H20\minahome2.x
+minahome3,builds\H20\minahome3.x
+
+#三ノ輪
+minowa1,builds\H19\minowa1.x
+minowa2,builds\H19\minowa2.x
+minowa3,builds\H19\minowa3.x
+minoend,builds\H19\minoend.x
+minodeko1,builds\H19\minodeko1.x
+minodeko2,builds\H19\minodeko2.x
+minopole,builds\H19\minopole.x
+#入谷
+iriyakabe,builds\H18\iriyakabe.x
+iriyakabe2,builds\H18\iriyakabe2.x
+iriyakabe3,builds\H18\iriyakabe3.x
+iriyakabe4,builds\H18\iriyakabe4.x
+iriyaexit,builds\H18\iriyaexit.x
+#上野
+uenoyuka,builds\H17\uenoyuka.x
+uenokabe,builds\H17\uenokabe.x
+uenohashira,builds\H17\uenohashira.x
+uenokabe3,builds\H17\uenokabe3.x
+uenotenjo,builds\H17\uenotenjo.x
+uenoobj0,builds\H17\object0.x
+uenoobj1,builds\H17\object1.x
+uenoobj2,builds\H17\object2.x
+uenoobj3,builds\H17\object3.x
+uenoside,builds\H17\uenoside.x
+uenoad0,builds\H17\uenoad0.x
+uenoad1,builds\H17\uenoad1.x
+uenoad2,builds\H17\uenoad2.x
+uenoad3,builds\H17\uenoad3.x
+uenoad4,builds\H17\uenoad4.x
+uenoad5,builds\H17\uenoad5.x
+uenoexit0,builds\H17\uenoexit0.x
+uenoexit1,builds\H17\uenoexit1.x
+#仲御徒町
+nakaokawall,builds\H16\nakaokawall1.x
+nakaokawall2,builds\H16\nakaokawall2.x
+nakaokayuka,builds\H16\nakaokayuka.x
+hashira1,builds\H16\hashira1.x
+hashira2,builds\H16\hashira2.x
+nakaokatenjou,builds\H16\tenjou.x
+kouji,builds\H16\kouji.x
+nakaokakabe3,builds\H16\nakaokaexit.x
+nakaokakabe2,builds\H16\nakaokakabe2.x
+nakaokacenter,builds\H16\center.x
+nakaokakanban,builds\H16\nakaokakanban.x
+#秋葉原
+#akibatenjo,builds\H15\akibatenjo.x
+akibatenjo0,builds\H15\akibatenjo0.x
+akibatenjo1,builds\H15\akibatenjo1.x
+akibawall1,builds\H15\akibawall1.x
+akibawall2,builds\H15\akibawall2.x
+akibaedge,builds\H15\akibaedge.x
+akibawall6,builds\H15\akibawall6.x
+akibawall3,builds\H15\akibawall3.x
+akibawall4,builds\H15\akibawall4.x
+akibaenter,builds\H15\akibaenter.x
+#小伝馬町
+kodenmawall1,builds\H14\kodenmawall1.x
+kodenmawall2,builds\H14\kodenmawall2.x
+kodenmawall3,builds\H14\kodenmawall3.x
+kodenmawall4,builds\H14\kodenmawall4.x
+kodenmawall5,builds\H14\kodenmawall5.x
+kodenmawall6,builds\H14\kodenmawall6.x
+kodenmawall7,builds\H14\kodenmawall7.x
+kodenmatenjo,builds\H14\kodenmatenjo.x
+kodenmatenjo2,builds\H14\kodenmatenjo2.x
+kodenmayuka,builds\H14\kodenmayuka.x
+kodenmalight,builds\H14\kodenmalight.x
+kodenmahashira,builds\H14\kodenmahashira.x
+kodenmakaisatu,builds\H14\kodenmakaisatu.x
+kodenmaedge,builds\H14\kodenmaedge.x
+#人形町
+ningyowall1,builds\H13\ningyowall1.x
+ningyowall2,builds\H13\ningyowall2.x
+ningyotenjo,builds\H13\ningyotenjo.x
+ningyotenjo2,builds\H13\ningyotenjo2.x
+light,builds\H13\light.x
+ningyoyuka,builds\H13\NingyoYuka.x
+kaidan1,builds\H13\kaidan1.x
+kaidanwall1,builds\H13\kaidanwall1.x
+cakeshop,builds\H13\cakeshop.x
+ningyoexit,builds\H13\ningyoexit.x
+ningyoexitB,builds\H13\ningyoexitB.x
+NingyoPole,builds\H13\NingyoPole.x
+#茅場町
+kayabawall,builds\H12\kayabawall.x
+kayabayuka,builds\H12\kayabayuka.x
+kayabatenjo,builds\H12\kayabatenjo.x
+kayabapole,builds\H12\kayabapole.x
+h12kanban,builds\H12\h12kanban.x
+kenbaiki,builds\H12\kenbaiki.x
+kayabaexit,builds\H12\kayabaexit.x
+
+#広告とか
+#situgaiki,komono\situgaiki.x
+jihanki,komono\Jihanki.x
+ikisaki,komono\ikisaki.x
+
+EN,komono\EN.x
+
+sumaho,komono\Sumaho.x
+Flashback,komono\Flashbackto2019life.x
+
+
+
+#汎用シリーズ
+form-hidari,builds\general\form-hidari.x
+form-migi,builds\general\form-migi.x
+yuka1,builds\general\yuka1.x
+tenjou,builds\general\tenjou.x
+chair,builds\general\chair.x
+syokaki,builds\general\syokaki.x
+situgaiki,builds\general\situgaiki.x
+
+
+#車両は別で
+
+#くーせみ様提供
+103L,collaborator\kuusemi\wayobj\103L.x
+104L,collaborator\kuusemi\wayobj\104L.x
+103R,collaborator\kuusemi\wayobj\103R.x
+104R,collaborator\kuusemi\wayobj\104R.x
+105L,collaborator\kuusemi\wayobj\105L.x
+106,collaborator\kuusemi\wayobj\106.x
+202_3,collaborator\kuusemi\wayobj\202_3.x
+
+#wattzmaro改造
+205,collaborator\kuusemi\wayobj\205.x
+
+#BVE_i_様提供
+Rail3_1,collaborator\BVE_i_\Rail\3_1.x
+Rail3_2,collaborator\BVE_i_\Rail\3_2.x
+Rail3_3,collaborator\BVE_i_\Rail\3_3.x
+Rail2,collaborator\BVE_i_\Rail\2.x
+
+#通過します様提供（フリー）
+L11L,rails\tuuka_simasu\L11L.x
+
+#TEST
+#03test,TEST\03\TEST.x
+#20000test,TEST\20000\20000-1.x
+bg0,BackGround\Bg.x
+skyBG,BackGround\sky.x
+
+#plateau,TEST\軌道作成専用\test.x
+#plateau2,TEST\軌道作成専用\test2.x
+
+#iida_hosenku様提供（一部テクスチャ改変済）
+people000, collaborator\iida_hosenku\structures\people\people\000.x #人物
+people001, collaborator\iida_hosenku\structures\people\people\001.x
+people002, collaborator\iida_hosenku\structures\people\people\002.x
+people003, collaborator\iida_hosenku\structures\people\people\003.x
+people004, collaborator\iida_hosenku\structures\people\people\004.x
+people005, collaborator\iida_hosenku\structures\people\people\005.x
+people006, collaborator\iida_hosenku\structures\people\people\006.x
+people007, collaborator\iida_hosenku\structures\people\people\007.x
+people008, collaborator\iida_hosenku\structures\people\people\008.x
+people009, collaborator\iida_hosenku\structures\people\people\009.x
+people010, collaborator\iida_hosenku\structures\people\people\010.x
+people011, collaborator\iida_hosenku\structures\people\people\011.x
+people012, collaborator\iida_hosenku\structures\people\people\012.x
+people013, collaborator\iida_hosenku\structures\people\people\013.x
+people014, collaborator\iida_hosenku\structures\people\people\014.x
+people015, collaborator\iida_hosenku\structures\people\people\015.x
+people016, collaborator\iida_hosenku\structures\people\people\016.x
+people017, collaborator\iida_hosenku\structures\people\people\017.x
+people018, collaborator\iida_hosenku\structures\people\people\018.x
+people019, collaborator\iida_hosenku\structures\people\people\019.x
+people020, collaborator\iida_hosenku\structures\people\people\020.x
+people021, collaborator\iida_hosenku\structures\people\people\021.x
+people022, collaborator\iida_hosenku\structures\people\people\022.x
+people023, collaborator\iida_hosenku\structures\people\people\023.x
+people024, collaborator\iida_hosenku\structures\people\people\024.x
+people025, collaborator\iida_hosenku\structures\people\people\025.x
+people026, collaborator\iida_hosenku\structures\people\people\026.x
+people027, collaborator\iida_hosenku\structures\people\people\027.x
+people028, collaborator\iida_hosenku\structures\people\people\028.x
+people029, collaborator\iida_hosenku\structures\people\people\029.x
+people030, collaborator\iida_hosenku\structures\people\people\030.x
+people031, collaborator\iida_hosenku\structures\people\people\031.x
+people032, collaborator\iida_hosenku\structures\people\people\032.x
+people033, collaborator\iida_hosenku\structures\people\people\033.x
+people034, collaborator\iida_hosenku\structures\people\people\034.x
+people035, collaborator\iida_hosenku\structures\people\people\035.x
+people036, collaborator\iida_hosenku\structures\people\people\036.x
+people037, collaborator\iida_hosenku\structures\people\people\037.x
+people038, collaborator\iida_hosenku\structures\people\people\038.x
+people039, collaborator\iida_hosenku\structures\people\people\039.x
+people040, collaborator\iida_hosenku\structures\people\people\040.x
+people041, collaborator\iida_hosenku\structures\people\people\041.x
+people042, collaborator\iida_hosenku\structures\people\people\042.x
+people043, collaborator\iida_hosenku\structures\people\people\043.x
+people044, collaborator\iida_hosenku\structures\people\people\044.x
+people045, collaborator\iida_hosenku\structures\people\people\045.x
+people046, collaborator\iida_hosenku\structures\people\people\046.x
+people047, collaborator\iida_hosenku\structures\people\people\047.x
+people048, collaborator\iida_hosenku\structures\people\people\048.x
+people049, collaborator\iida_hosenku\structures\people\people\049.x
+people050, collaborator\iida_hosenku\structures\people\people\050.x
+
+people000d, collaborator\iida_hosenku\structures\people\people_d\000.x #人物(暗所・夜間照明下対応)
+people001d, collaborator\iida_hosenku\structures\people\people_d\001.x
+people002d, collaborator\iida_hosenku\structures\people\people_d\002.x
+people003d, collaborator\iida_hosenku\structures\people\people_d\003.x
+people004d, collaborator\iida_hosenku\structures\people\people_d\004.x
+people005d, collaborator\iida_hosenku\structures\people\people_d\005.x
+people006d, collaborator\iida_hosenku\structures\people\people_d\006.x
+people007d, collaborator\iida_hosenku\structures\people\people_d\007.x
+people008d, collaborator\iida_hosenku\structures\people\people_d\008.x
+people009d, collaborator\iida_hosenku\structures\people\people_d\009.x
+people010d, collaborator\iida_hosenku\structures\people\people_d\010.x
+people011d, collaborator\iida_hosenku\structures\people\people_d\011.x
+people012d, collaborator\iida_hosenku\structures\people\people_d\012.x
+people013d, collaborator\iida_hosenku\structures\people\people_d\013.x
+people014d, collaborator\iida_hosenku\structures\people\people_d\014.x
+people015d, collaborator\iida_hosenku\structures\people\people_d\015.x
+people016d, collaborator\iida_hosenku\structures\people\people_d\016.x
+people017d, collaborator\iida_hosenku\structures\people\people_d\017.x
+people018d, collaborator\iida_hosenku\structures\people\people_d\018.x
+people019d, collaborator\iida_hosenku\structures\people\people_d\019.x
+people020d, collaborator\iida_hosenku\structures\people\people_d\020.x
+people021d, collaborator\iida_hosenku\structures\people\people_d\021.x
+people022d, collaborator\iida_hosenku\structures\people\people_d\022.x
+people023d, collaborator\iida_hosenku\structures\people\people_d\023.x
+people024d, collaborator\iida_hosenku\structures\people\people_d\024.x
+people025d, collaborator\iida_hosenku\structures\people\people_d\025.x
+people026d, collaborator\iida_hosenku\structures\people\people_d\026.x
+people027d, collaborator\iida_hosenku\structures\people\people_d\027.x
+people028d, collaborator\iida_hosenku\structures\people\people_d\028.x
+people029d, collaborator\iida_hosenku\structures\people\people_d\029.x
+people030d, collaborator\iida_hosenku\structures\people\people_d\030.x
+people031d, collaborator\iida_hosenku\structures\people\people_d\031.x
+people032d, collaborator\iida_hosenku\structures\people\people_d\032.x
+people033d, collaborator\iida_hosenku\structures\people\people_d\033.x
+people034d, collaborator\iida_hosenku\structures\people\people_d\034.x
+people035d, collaborator\iida_hosenku\structures\people\people_d\035.x
+people036d, collaborator\iida_hosenku\structures\people\people_d\036.x
+people037d, collaborator\iida_hosenku\structures\people\people_d\037.x
+people038d, collaborator\iida_hosenku\structures\people\people_d\038.x
+people039d, collaborator\iida_hosenku\structures\people\people_d\039.x
+people040d, collaborator\iida_hosenku\structures\people\people_d\040.x
+people041d, collaborator\iida_hosenku\structures\people\people_d\041.x
+people042d, collaborator\iida_hosenku\structures\people\people_d\042.x
+people043d, collaborator\iida_hosenku\structures\people\people_d\043.x
+people044d, collaborator\iida_hosenku\structures\people\people_d\044.x
+people045d, collaborator\iida_hosenku\structures\people\people_d\045.x
+people046d, collaborator\iida_hosenku\structures\people\people_d\046.x
+people047d, collaborator\iida_hosenku\structures\people\people_d\047.x
+people048d, collaborator\iida_hosenku\structures\people\people_d\048.x
+people049d, collaborator\iida_hosenku\structures\people\people_d\049.x
+people050d, collaborator\iida_hosenku\structures\people\people_d\050.x

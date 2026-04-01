@@ -1,0 +1,222 @@
+BveTs Map 2.02
+//本シナリオの実行にはAtsEX(2.0)を必要とします。
+//BveEx.MapPlugin.LoadAssembly('..\Plugins\debug\MetroDrive\MetroDriveEX.dll');
+//    -------------
+//   //￣|￣| 中 野\\  /￣￣￣￣￣￣
+//   ||  |  |      || /　05系???
+//   ||__|__|_____ || \___________
+//   |=■□|==|====□■=|
+//   |￣ |￣ |￣￣￣ |
+include '[[BveEx::NOMPI]] CydiaWattz MetroDrive2_TEST05';
+include '[[BveEx::NOMPI]] 引き込み線 => 7番線 (三ノ輪まで)';
+//BveEx.MapPlugin.LoadAssembly('..\Plugins\debug\MetroDrive\MetroDriveEX.dll');
+Structure.Load('../structures/StructureList.txt');
+//他列車strファイル
+Structure.Load('../structures/1.txt');
+//Background.Change('Bg');
+//Sound.Load('soundNew.txt');
+Station.Load('../BaseMap/stations/7.csv');
+#このダイヤでは、6番線から発車し、そのまま中目黒へと向かうダイヤである
+#現在は三ノ輪〜人形町を暫定開業とする
+#ATC指示など
+//include 'Maps\TESt\beacon.txt';
+include 'Maps\TEST\debug.txt';
+#カーブ 
+include '../BaseMap/curve.txt';
+#勾配
+include '../BaseMap/Gradient.txt';
+#Structureと運転台明るさ
+//include '../BaseMap/Structure.txt';
+//include 'Maps\nakaoka\2_converted.txt';
+//include 'Maps\KitaMino.txt';
+//include '../BaseMap/H21~H20.txt';
+include '../BaseMap/Chijo6.txt';
+include '../BaseMap/Structure.txt';
+include '../BaseMap/nakaoka.txt';
+include '../BaseMap/watari.txt';
+include '../BaseMap/komono.txt';
+include '../BaseMap/OtherTrainTrack.txt';
+#人形町とか
+#include 'Maps\NingyoNormal.txt';
+include '../BaseMap/NingyoNormal.txt';
+//Train['test'].Load('../otherTrain/TESTs/03.txt',2,-1);
+//train.Add('test','../otherTrain/TESTs/03.txt',2,-1);
+7700;
+//train['test'].Enable('16:02:00');
+7700;
+//train['test'].Stop(-3,30,3,30);
+
+//train.Add('test2','../otherTrain/TESTs/03.txt',0,-1);
+5000;
+//train['test2'].Enable('8:55:00');
+7700;
+//train['test2'].Stop(-3,30,3,120);
+5630;
+//Structure['plateau'].Put(0,0,-10,0,0,0,0,3,100);
+
+700;
+//structure['70000-1'].Put('5bansen',0,0,0,0,0,0,3,20);
+750;
+//structure['70000-2'].Put('5bansen',0,0,0,0,0,0,3,20);
+
+900;
+#structure['13000Tc'].Put('5bansen',0,0,0,0,0,0,3,20);
+5919;
+//structure['70090-2'].Put('2',0,0,0,0,0,0,3,20);
+940;
+//structure['70090-1_TH'].Put('6bansen',0,0,0,0,0,0,3,20);
+959;
+//structure['70090-2_TH'].Put('6bansen',0,0,0,0,0,0,3,20);
+5978;
+//structure['70090-2_TH'].Put('2',0,0,0,0,0,0,3,20);
+950;
+#structure['TX1000-1'].Put('TXA',0,0,0,0,0,0,3,20);
+970;
+##structure['TX1000-2'].Put('TXA',0,0,0,0,0,0,3,20);
+1002;
+#structure['TX1000-3'].Put('TXA',0,0,0,0,0,0,3,20);
+
+
+0;
+train.Add('657','../otherTrain/657/Formation.txt','joban2',-1);
+train.Add('531','../otherTrain/531/E531-0b.txt','joban1',1);
+train.Add('tx1000','../otherTrain/TX/1000b.txt','TXA',1);
+train.Add('tx2000','../otherTrain/TX/2000.txt','TXB',-1);
+train.Add('03-112','../otherTrain/03/03_112.txt','5bansen',-1);
+train.Add('03-108','../otherTrain/03/03_108.txt','5bansen_d',-1);
+train.Add('03-108n','../otherTrain/03/03_108n.txt','5bansen_n',-1);
+428;
+train['TX1000'].Enable('8:57:00');
+train['TX2000'].Enable('8:57:00');
+train['657'].Enable('8:57:00');
+train['531'].Enable('8:57:00');
+train['03-112'].Enable('8:57:00');
+2740;
+train['03-108'].Enable('8:57:00');
+train['03-108n'].Enable('8:57:00');
+
+200;
+train['03-112'].Stop(-3,30,3,120);
+1200;
+train['03-112'].stop(0,0,3,70);
+
+2500;
+train['03-108'].Stop(-3,30,3,120);
+train['03-108n'].Stop(-3,30,3,120);
+3241;
+train['03-108'].stop(0,0,3,70);
+train['03-108n'].stop(0,0,3,70);
+
+200;
+train['tx1000'].stop(0,0,3,80);
+train['TX2000'].Stop(-3,30,3,120);
+2000;
+train['TX1000'].Stop(-3,30,3,120);
+train['tx2000'].stop(0,0,3,80);
+
+
+0;
+train['657'].Stop(-3,30,3,120);
+train['531'].Stop(0,0,3,90);
+5000;
+train['657'].Stop(0,0,3,120);
+train['531'].Stop(-3,30,3,120);
+
+
+600;
+#structure['8000tcb'].Put('6bansen',0,0,0,0,0,0,3,20);
+
+
+//5630;
+
+//5630;
+426;
+Station['H22'].Put(-1,-50,50);#北千住
+//7650;
+2460;
+Station['H21'].Put(-1,-50,50);#南千住
+//8400;
+3241;
+Station['H20'].Put(-1,-50,50);#三ノ輪
+//8984;
+3764;
+Station['H19'].Put(-1,-50,50);#入谷
+//9633;
+4413;
+Station['H18'].Put(-1,-50,50);#上野
+//10197;
+4978;
+Station['H17'].Put(1,-50,50);#仲御徒町
+//10825;
+5605;
+Station['H16'].Put(-1,-50,50);#秋葉原
+//11560;
+
+//茅場
+
+
+#ATC
+400;
+Section.Begin(18);
+PreTrain.Pass('00:00:00');
+Beacon.Put(801,0,2);
+777;
+Section.Begin(26);
+PreTrain.Pass('00:00:00');
+Beacon.Put(802,0,2);
+1000;
+Beacon.Put(804,0,2);
+1786;
+Section.Begin(22);
+PreTrain.Pass('00:00:00');
+2084;
+Section.Begin(19);
+PreTrain.Pass('00:00:00');
+
+Beacon.Put(803,0,2);
+#南千住
+2550;
+Section.Begin(18);
+PreTrain.Pass('00:00:00');
+Beacon.Put(801,0,2);
+#三ノ輪
+
+3260;
+Section.Begin(23);
+PreTrain.Pass('00:00:00');
+
+3560;
+Section.Begin(24);
+PreTrain.Pass('00:00:00');
+
+3860;
+Section.Begin(19);
+PreTrain.Pass('00:00:00');
+
+4545;
+Section.Begin(22);
+PreTrain.Pass('00:00:00');
+
+5030;
+Section.Begin(24);
+PreTrain.Pass('00:00:00');
+
+5614;
+Section.Begin(20);
+PreTrain.Pass('00:00:00');
+
+5773;
+Section.Begin(23);
+PreTrain.Pass('00:00:00');
+
+6030;
+Section.Begin(25);
+PreTrain.Pass('00:00:00');
+
+6500;
+Section.Begin(22);
+PreTrain.Pass('00:00:00');
+
+6832;
+Section.Begin(18);
+PreTrain.Pass('00:00:00');

@@ -1,0 +1,9 @@
+BveTs Scenario 2.00
+Title = THライナー 北千住→茅場町
+Author = Wattz麻呂
+Image = wattzmaro\MDHibiya\70090th.png
+Route = wattzmaro\MDHibiya\Diagram\6.txt
+RouteTitle = 日比谷線(北千住~茅場町)
+Vehicle = 
+VehicleTitle = Series70090
+Comment = 

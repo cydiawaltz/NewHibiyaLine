@@ -1,0 +1,130 @@
+BveTs Map 2.02
+
+//  /================\
+//  |_03-124__中目黒__|
+//   ||  |  |       || 
+//   ||__|__|v______|| 
+//   | ■□|S |￣￣￣□■|
+//   |￣ |￣ |￣￣￣￣|
+//本シナリオの実行にはAtsEX(2.0)を必要とします。
+//BveEx.MapPlugin.LoadAssembly('..\Plugins\debug\MetroDrive\MetroDriveEX.dll');
+Structure.Load('../structures/StructureList.txt');
+//Background.Change('Bg');
+Structure.Load('../structures/0.txt');
+Sound.Load('../sound/soundNew.txt');
+Station.Load('../BaseMap/stations/0.csv');
+#このダイヤでは、6番線から発車し、そのまま中目黒へと向かうダイヤである
+#現在は三ノ輪〜人形町を暫定開業とする
+#ATC指示など
+//include 'Maps\TESt\beacon.txt';
+//include 'Maps\TEST\debug.txt';
+#カーブ 
+include '../BaseMap/curve.txt';
+#勾配
+include '../BaseMap/Gradient.txt';
+#Structureと運転台明るさ
+//include '../BaseMap/Structure.txt';
+//include 'Maps\nakaoka\2_converted.txt';
+//include 'Maps\KitaMino.txt';
+//include '../BaseMap/H21~H20.txt';
+include '../BaseMap/Chijo6.txt';
+include '../BaseMap/Structure.txt';
+#人形町とか
+#include 'Maps\NingyoNormal.txt';
+//Train['test'].Load('../otherTrain/TESTs/03.txt',2,-1);
+//train.Add('test','../otherTrain/TESTs/03.txt',2,-1);
+
+0;
+train.Add('657','../otherTrain/657/Formation.txt','joban2',-1);
+train.Add('531','../otherTrain/531/E531-0b.txt','joban1',1);
+train.Add('tx1000','../otherTrain/TX/1000b.txt','TXA',1);
+train.Add('tx2000','../otherTrain/TX/2000.txt','TXB',-1);
+train.Add('03-112','../otherTrain/03/03_112.txt','5bansen',-1);
+train.Add('03-108','../otherTrain/03/03_108.txt','5bansen_d',-1);
+train.Add('03-108n','../otherTrain/03/03_108n.txt','5bansen_n',-1);
+428;
+train['TX1000'].Enable('8:57:00');
+train['TX2000'].Enable('8:57:00');
+train['657'].Enable('8:57:00');
+train['531'].Enable('8:57:00');
+train['03-112'].Enable('8:57:00');
+2400;
+train['03-108'].Enable('8:57:00');
+train['03-108n'].Enable('8:57:00');
+
+200;
+train['03-112'].Stop(-3,30,3,120);
+1200;
+train['03-112'].stop(0,0,3,70);
+
+0;
+train['03-108'].Stop(-3,30,3,120);
+train['03-108n'].Stop(-3,30,3,120);
+2460;
+train['03-108'].stop(0,0,3,70);
+train['03-108n'].stop(0,0,3,70);
+
+200;
+train['tx1000'].stop(0,0,3,80);
+train['TX2000'].Stop(-3,30,3,120);
+2000;
+train['TX1000'].Stop(-3,30,3,120);
+train['tx2000'].stop(0,0,3,80);
+
+
+0;
+train['657'].Stop(-3,30,3,120);
+train['531'].Stop(0,0,3,90);
+5000;
+train['657'].Stop(0,0,3,120);
+train['531'].Stop(-3,30,3,120);
+
+
+
+426;
+Station['H22'].Put(-1,-50,50);#北千住
+
+435;
+Sound['h21'].Play();
+
+2400;
+Sound['left2'].Play();
+//7650;
+2460;
+Station['H21'].Put(-1,-50,50);#南千住
+
+2490;
+Sound['h20'].Play();
+3150;
+Sound['left1'].Play();
+//8400;
+3240;
+Station['H20'].Put(-1,-50,50);#三ノ輪
+
+//茅場]
+
+#ATC
+400;
+Section.Begin(18);
+PreTrain.Pass('00:00:00');
+Beacon.Put(801,0,2);
+777;
+Section.Begin(26);
+PreTrain.Pass('00:00:00');
+Beacon.Put(802,0,2);
+1000;
+Beacon.Put(804,0,2);
+1786;
+Section.Begin(22);
+PreTrain.Pass('00:00:00');
+2084;
+Section.Begin(19);
+PreTrain.Pass('00:00:00');
+
+Beacon.Put(803,0,2);
+#南千住
+2550;
+Section.Begin(18);
+PreTrain.Pass('00:00:00');
+Beacon.Put(801,0,2);
+#三ノ輪

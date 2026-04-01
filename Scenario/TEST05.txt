@@ -1,7 +1,7 @@
 BveTs Scenario 2.00
 Title = TEST_05
 Author = Wattz麻呂
-Image =
+Image =　wattzmaro\MDHibiya\030.png
 Route = wattzmaro\MDHibiya\Diagram\TESTDiagram_05.txt
 RouteTitle = 試験用05-TOZAI
 Vehicle = wattzmaro\vehicles\trta03_chh_ultimated\vehicle.txt

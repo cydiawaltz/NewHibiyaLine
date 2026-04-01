@@ -1,7 +1,7 @@
 info:  Game: BveTs.exe
 info:  DXVK: v2.7.1
 info:  Build: x86_64 gcc 15.1.0
-info:  Vulkan: Found vkGetInstanceProcAddr in vulkan-1.dll @ 0x7ff96d6bedc0
+info:  Vulkan: Found vkGetInstanceProcAddr in vulkan-1.dll @ 0x7ff8ec1fedc0
 info:  Extension providers:
 info:    Platform WSI
 info:    OpenVR
@@ -248,3 +248,70 @@ info:    Present mode: VK_PRESENT_MODE_FIFO_KHR (dynamic: no)
 info:    Buffer size:  1507x941
 info:    Image count:  3
 info:  DXVK: Using 12 compiler threads
+info:  Device reset
+info:  D3D9DeviceEx::ResetSwapChain:
+info:    Requested Presentation Parameters
+info:      - Width:              0
+info:      - Height:             0
+info:      - Format:             D3D9Format::X8R8G8B8
+info:      - Auto Depth Stencil: true
+info:                  ^ Format: D3D9Format::D24S8
+info:      - Windowed:           true
+info:      - Swap effect:        1
+info:  Presenter: Actual swapchain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_FIFO_KHR (dynamic: no)
+info:    Buffer size:  1920x1121
+info:    Image count:  3
+info:  Presenter: Surface does not allow swapchain creation.
+info:  Device reset
+info:  D3D9DeviceEx::ResetSwapChain:
+info:    Requested Presentation Parameters
+info:      - Width:              0
+info:      - Height:             0
+info:      - Format:             D3D9Format::X8R8G8B8
+info:      - Auto Depth Stencil: true
+info:                  ^ Format: D3D9Format::D24S8
+info:      - Windowed:           true
+info:      - Swap effect:        1
+info:  Presenter: Actual swapchain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_FIFO_KHR (dynamic: no)
+info:    Buffer size:  1920x1121
+info:    Image count:  3
+info:  Presenter: Surface does not allow swapchain creation.
+info:  Device reset
+info:  D3D9DeviceEx::ResetSwapChain:
+info:    Requested Presentation Parameters
+info:      - Width:              0
+info:      - Height:             0
+info:      - Format:             D3D9Format::X8R8G8B8
+info:      - Auto Depth Stencil: true
+info:                  ^ Format: D3D9Format::D24S8
+info:      - Windowed:           true
+info:      - Swap effect:        1
+info:  Presenter: Actual swapchain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_FIFO_KHR (dynamic: no)
+info:    Buffer size:  1920x1121
+info:    Image count:  3
+info:  Presenter: Surface does not allow swapchain creation.
+info:  Device reset
+info:  D3D9DeviceEx::ResetSwapChain:
+info:    Requested Presentation Parameters
+info:      - Width:              0
+info:      - Height:             0
+info:      - Format:             D3D9Format::X8R8G8B8
+info:      - Auto Depth Stencil: true
+info:                  ^ Format: D3D9Format::D24S8
+info:      - Windowed:           true
+info:      - Swap effect:        1
+info:  Presenter: Actual swapchain properties:
+info:    Format:       VK_FORMAT_B8G8R8A8_UNORM
+info:    Color space:  VK_COLOR_SPACE_SRGB_NONLINEAR_KHR
+info:    Present mode: VK_PRESENT_MODE_FIFO_KHR (dynamic: no)
+info:    Buffer size:  1920x1121
+info:    Image count:  3
