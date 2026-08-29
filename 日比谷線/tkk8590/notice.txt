@@ -1,0 +1,20 @@
+--------------------------
+東急8590系
+Ver 2.0(2019/04/02)
+
+公開：vertah's warehouse
+http://vertah.sakura.ne.jp/
+管理人：vertah（ば～た～）
+--------------------------
+
+
+
+Vehicle.txt対照表
+
+Vehicle.txt		田園都市線現行仕様
+Vehicle_dt97.txt	田玉線97年仕様
+Vehicle_om.txt		大井町線現行仕様
+Vehicle_om05.txt	大井町線転属初期（91）
+Vehicle_ty.txt		東横線現行仕様
+Vehicle_ty03.txt	東横線復帰仕様（94,95）
+Vehicle_ty88.txt	営業運転開始時仕様

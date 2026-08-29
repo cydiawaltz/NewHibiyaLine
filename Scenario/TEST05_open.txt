@@ -1,0 +1,13 @@
+BveTs Scenario 1.00
+Title = TEST_05
+Author = Wattz麻呂
+Image =　wattzmaro\MDHibiya\030.png
+Route = wattzmaro\MDHibiya\Diagram\TESTDiagram_05.txt
+RouteTitle = 試験用05-TOZAI
+Vehicle = wattzmaro\vehicles\trta03_chh_ultimated\vehicle.txt
+#Vehicle = wattzmaro\vehicles\tob20000\vehicle.txt
+#Vehicle = wattzmaro\vehicles\70000\vehicle.txt
+#Vehicle = wattzmaro\vehicles\tob20000\vehicle.txt
+#Vehicle = wattzmaro\vehicles\03_syoki3\vehicle.txt
+VehicleTitle = Series03-124F_ultimated
+Comment = Map試験(北千住~三ノ輪),6番発車

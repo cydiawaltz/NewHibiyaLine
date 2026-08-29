@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InstallationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Bve6Path>C:\Program Files\mackoy\BveTs6\BveTs.exe</Bve6Path>
+  <ScenarioDirectory>C:\Users\wattz\Documents\BVE\運転用\Scenarios</ScenarioDirectory>
+</InstallationSettings>

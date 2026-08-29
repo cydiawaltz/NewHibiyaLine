@@ -1,0 +1,7 @@
+bvets train 0.01
+
+[structure]
+key=03_1
+distance=-18.5
+z=8
+span=16

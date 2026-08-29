@@ -1,0 +1,36 @@
+BveTs Map 2.02
+AtsEx.MapPlugin.LoadAssembly('C:\Users\wattz\Documents\BVE\MetoroDrive\MapPlugin\bin\Debug\net48\MapPlugin.dll');
+#Train['test'].Load('TestTrain.txt', '1', 1);
+
+AtsEx.Users.Wattz.MetroDrive.Level('Easy');
+AtsEx.Users.Wattz.MetroDrive.isBonus('true');
+AtsEx.Users.Wattz.MetroDrive.isTaiken('true');
+
+
+#Structure.Load('Structures\List.txt');
+//Background.Change('Bg');
+sound.Load('sound.txt');
+Station.Load('test.csv');
+#Sound.Load('');
+#このダイヤでは、6番線から発車し、そのまま中目黒へと向かうダイヤである
+#現在は三ノ輪〜人形町を暫定開業とする
+#ATC指示など
+//include 'Maps\TESt\beacon.txt';
+include 'Maps\TEST\debug.txt';
+#カーブ 
+include 'Maps\curve.txt';
+#勾配
+include 'Maps\Gradient.txt';
+#Structureと運転台明るさ
+include 'Maps\Structuretest.txt';
+include 'Maps\nakaoka\2_converted.txt';
+//include 'Maps\KitaMino.txt';
+//include 'Maps\H21~H20.txt';
+#人形町とか
+#include 'Maps\NingyoNormal.txt';
+9633;
+Station['H18'].Put(-1,-50,50);#上野
+10197;
+Station['H17'].Put(1,-50,50);#仲御徒町
+10825;
+Station['H16'].Put(-1,-50,50);#秋葉原

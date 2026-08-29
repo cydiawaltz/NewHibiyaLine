@@ -1,0 +1,12 @@
+BveTs Map 2.02
+
+6005;
+JointNoise.Play(0);
+6130;
+RollingNoise.Change(3);
+FlangeNoise.Change(0);
+6355;
+RollingNoise.Change(0);
+FlangeNoise.Change(0);
+7440;
+JointNoise.Play(0);

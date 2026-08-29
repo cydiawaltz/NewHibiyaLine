@@ -1,0 +1,13 @@
+BveTs Scenario 2.00
+Title = 03
+Author = CydiaXVM
+Image =
+Route = hibiyaline\3.txt
+RouteTitle = 本番
+Vehicle = trta03_chh\vehicle.txt
+#Vehicle = パネル政策\13000\13000\vehicle.txt
+#Vehicle = パネル政策\完成\13000\vehicle.txt
+#Vehicle = パネル政策\70000\70000\vehicle.txt
+#trta03_chh_edited\files\key.cfg内の値を12から-1（営団固定）に変更
+VehicleTitle = Series03-112F
+Comment = 本番

@@ -40,6 +40,7 @@ Minimum          = 0
 Maximum          = 120
 NaturalFreq      = 45
 DampingRatio     = 1
+Tilt = 0,0
 
 ;ワイパー
 [Needle]

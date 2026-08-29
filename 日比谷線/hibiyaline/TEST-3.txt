@@ -1,0 +1,46 @@
+BveTs Map 2.02
+include '[[AtsEx::NOMPI]] このマップでは AtsEX マッププラグインを使用しています。正常動作には AtsEX のインストールが必要です。詳細は https://automatic9045.github.io をご覧ください。';
+include '[[AtsEx::NOMPI]] This map requires to install AtsEX to execute map plugins. For more information, visit https://automatic9045.github.io';
+include '<AtsEx::USEATSEX>';
+include '<AtsEx::READDEPTH>1';
+include '<AtsEx::MetroDrive>Normal';
+
+include '<AtsEx::MapPluginUsing>MapPluginUsingTEST.xml';
+Train['test'].Load('TestTrain.txt', '1', 1);
+
+#Structure.Load('Structures\List.txt');
+//Background.Change('Bg');
+Station.Load('THtest.csv');
+#Sound.Load('');
+#このダイヤでは、6番線から発車し、そのまま中目黒へと向かうダイヤである
+#現在は三ノ輪〜人形町を暫定開業とする
+#ATC指示など
+//include 'Maps\TESt\beacon.txt';
+include 'Maps\TEST\debug.txt';
+#カーブ 
+include 'Maps\curve.txt';
+#勾配
+include 'Maps\Gradient.txt';
+#Structureと運転台明るさ
+include 'Maps\Structure.txt';
+include 'Maps\nakaoka\2_converted.txt';
+//include 'Maps\KitaMino.txt';
+include 'Maps\H22~H21.txt';
+5780;
+Station['H22'].Put(-1,-50,50);#北千住
+7630;
+Station['H21'].Put(-1,-50,50);#南千住
+8400;
+Station['H20'].Put(-1,-50,50);#三ノ輪
+8984;
+Station['H19'].Put(-1,-50,50);#入谷
+9633;
+Station['H18'].Put(-1,-50,50);#上野
+10197;
+Station['H17'].Put(1,-50,50);#仲御徒町
+10825;
+Station['H16'].Put(-1,-50,50);#秋葉原
+11560;
+Station['H15'].Put(-1,-50,50);#小伝馬町
+11975;
+Station['H14'].Put(-1,-50,50);#人形町

@@ -1,0 +1,19 @@
+BveTs Scenario 2.00
+Title = AtsEXtest
+Author = CydiaXVM
+Image =
+Route = hibiyaline\TEST-4.txt
+RouteTitle = AtsExPluginTest
+#Vehicle = trta03\vehicle.txt
+#Vehicle = tob20000\vehicle.txt
+#Vehicle = trta05_ch2\Vehicle.txt
+#Vehicle = trta05_chT\VehicleT.txt
+#Vehicle = tkk8590\Vehicle.txt
+#Vehicle = trta03_v30\vehicle.txt
+Vehicle = trta03_chh\vehicle.txt
+#Vehicle = パネル政策\13000\13000\vehicle.txt
+#Vehicle = パネル政策\70000\70000\vehicle.txt
+#Vehicle = パネル政策\20000\20000\vehicle.txt
+#trta03_chh_edited\files\key.cfg内の値を12から-1（営団固定）に変更
+VehicleTitle = Series03-124
+Comment = テスト用路線

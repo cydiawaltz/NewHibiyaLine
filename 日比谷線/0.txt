@@ -1,0 +1,9 @@
+BveTs Scenario 2.00
+Title = 00(デモ用シナリオ)
+Author = CydiaXVM
+Image =
+Route = hibiyaline\0.txt
+RouteTitle = 本番
+Vehicle = trta03_chh\vehicle.txt
+VehicleTitle = Series03-124
+Comment = 本番

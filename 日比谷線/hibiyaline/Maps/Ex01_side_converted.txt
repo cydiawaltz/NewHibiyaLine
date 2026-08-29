@@ -1,0 +1,53 @@
+BveTs Map 2.02:utf-8
+
+# offset
+$Ex01_ReferencePoint = 0.000000;
+
+# Track['0'].X
+$Ex01_ReferencePoint + 0.00;
+Track['0'].X.Interpolate(0.00,0.00);
+$Ex01_ReferencePoint + 10.00;
+Track['0'].X.Interpolate(0.00,440.06);
+$Ex01_ReferencePoint + 17.00;
+Track['0'].X.Interpolate(0.03,253.81);
+$Ex01_ReferencePoint + 47.00;
+Track['0'].X.Interpolate(2.27,-925.80);
+$Ex01_ReferencePoint + 49.82;
+Track['0'].X.Interpolate(2.65,0.00);
+
+# Track['0'].Y
+$Ex01_ReferencePoint + 0.00;
+Track['0'].Y.Interpolate(0.00,0.00);
+$Ex01_ReferencePoint + 10.00;
+Track['0'].Y.Interpolate(0.00,0.00);
+$Ex01_ReferencePoint + 17.00;
+Track['0'].Y.Interpolate(0.00,0.00);
+$Ex01_ReferencePoint + 47.00;
+Track['0'].Y.Interpolate(0.00,0.00);
+$Ex01_ReferencePoint + 49.82;
+Track['0'].Y.Interpolate(0.00,0.00);
+
+# Track['0'].Cant.Interpolate
+$Ex01_ReferencePoint + 0.00;
+Track['0'].Cant.Interpolate(0.000);
+$Ex01_ReferencePoint + 10.00;
+Track['0'].Cant.Interpolate(0.000);
+$Ex01_ReferencePoint + 17.00;
+Track['0'].Cant.Interpolate(0.000);
+$Ex01_ReferencePoint + 46.85;
+Track['0'].Cant.Interpolate(0.000);
+$Ex01_ReferencePoint + 49.82;
+Track['0'].Cant.Interpolate(0.000);
+
+# Track['0'].Cant.SetFunction
+$Ex01_ReferencePoint + 0.00;
+Track['0'].Cant.SetFunction(1);
+
+# Track['0'].Cant.SetCenter
+$Ex01_ReferencePoint + 0.00;
+Track['0'].Cant.SetCenter(1.067);
+
+# Track['0'].Cant.SetGauge
+$Ex01_ReferencePoint + 0.00;
+Track['0'].Cant.SetGauge(1.067);
+

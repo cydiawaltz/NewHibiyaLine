@@ -1,0 +1,702 @@
+BveTs Instrument Panel 2.00
+
+[This]
+Resolution = 1600
+Left = 20
+Top = 10
+Right = 2028
+Bottom = 2038
+DaytimeImage = d3d\p_om05.png
+NighttimeImage = d3d\p_om05n.png
+Center = 993, 962
+Origin = 993, 762
+ 
+;種別表示機20コマ方式
+[DigitalNumber]
+Subject = ats152
+Location = 1499, 1348
+DaytimeImage = d3d\op1.png
+NighttimeImage = d3d\op1n.png
+Layer = 9
+Interval = 82
+
+[DigitalNumber]
+Subject = ats152
+Location = 1499, 1430
+DaytimeImage = d3d\op2.png
+NighttimeImage = d3d\op2n.png
+Layer = 9
+Interval = 82
+
+[DigitalNumber]
+Subject = ats152
+Location = 1443, 1412
+DaytimeImage = d3d\4.png
+NighttimeImage = d3d\4n.png
+Layer = 9
+Interval = 32
+
+
+;速度計カバー
+[PilotLamp]
+Subject = true
+Location = 941, 1414
+DaytimeImage = d3d\scd.png
+NighttimeImage = d3d\scn.png
+Layer = 9
+
+[PilotLamp]
+Subject = ats161
+Location = 941, 1414
+DaytimeImage = d3d\scdl.png
+NighttimeImage = d3d\scnl.png
+Layer = 10
+
+;電流計カバー
+[PilotLamp]
+Subject = true
+Location = 192, 617
+DaytimeImage = d3d\acd.png
+NighttimeImage = d3d\acn.png
+Layer = 9
+
+;ブレーキ指示カバー
+[PilotLamp]
+Subject = true
+Location = 299, 1355
+DaytimeImage = d3d\bcd.png
+NighttimeImage = d3d\bcn.png
+Layer = 9
+
+[PilotLamp]
+Subject = ats161
+Location = 299, 1355
+DaytimeImage = d3d\bcdl.png
+NighttimeImage = d3d\bcnl.png
+Layer = 10
+
+;圧力計カバー
+[PilotLamp]
+Subject = true
+Location = 322, 1630
+DaytimeImage = d3d\pcd.png
+NighttimeImage = d3d\pcn.png
+Layer = 9
+
+[PilotLamp]
+Subject = ats161
+Location = 322, 1630
+DaytimeImage = d3d\pcdl.png
+NighttimeImage = d3d\pcnl.png
+Layer = 10
+
+;パイロットランプ
+[PilotLamp]
+Subject = door
+Location = 949, 1674
+DaytimeImage = d3d\pld.png
+NighttimeImage = d3d\pln.png
+Layer = 9
+
+
+;速度針
+[Needle]
+Subject = kmph
+Location = 977, 1454
+DaytimeImage = d3d\n_s.png
+NighttimeImage = d3d\n_sn.png
+Color = b8b8ad
+Origin = 65, 437
+Layer = 8
+Radius = 80
+InitialAngle = -122
+LastAngle = 119
+Minimum = 0
+Maximum = 120
+NaturalFreq = 6.3
+DampingRatio = 0.5
+
+[PilotLamp]
+Subject = ats161
+Location = 797, 1267
+DaytimeImage = d3d\sdl.png
+NighttimeImage = d3d\snl.png
+Layer = 7
+
+;B指令針
+[Needle]
+Subject = ats51
+Location = 330, 1385
+DaytimeImage = d3d\n_o.png
+NighttimeImage = d3d\n_on.png
+Color = 808075
+Origin = 65, 437
+Layer = 8
+Radius = 78
+InitialAngle = -120
+LastAngle = 40
+Minimum = 0
+Maximum = 10
+NaturalFreq = 6.3
+DampingRatio = 0.5
+
+[PilotLamp]
+Subject = ats161
+Location = 210, 1270
+DaytimeImage = d3d\bdl.png
+NighttimeImage = d3d\bnl.png
+Layer = 7
+
+
+;BC
+[Needle]
+Subject = bc
+Location = 332, 1640
+DaytimeImage = d3d\n_pu.png
+NighttimeImage = d3d\n_pun.png
+Color = 808075
+Origin = 65, 351
+Layer = 8
+Radius = 78
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 271
+DampingRatio = 0.3
+
+[Needle]
+Subject = mr
+Location = 332, 1640
+DaytimeImage = d3d\n_pd.png
+NighttimeImage =  d3d\n_pdn.png
+Color = 783038
+Origin = 65, 351
+Layer = 7
+Radius = 78
+InitialAngle = -133
+LastAngle = 133
+Minimum = 0
+Maximum = 1000
+NaturalFreq = 271
+DampingRatio = 0.3
+
+
+[PilotLamp]
+Subject = ats161
+Location = 200, 1526
+DaytimeImage = d3d\pdl.png
+NighttimeImage = d3d\pnl.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats161
+Location = 182, 1542
+DaytimeImage = d3d\p2dl.png
+NighttimeImage = d3d\p2nl.png
+Layer = 8
+
+;電流計
+[Needle]
+Subject = am
+Location  = 214,641
+DaytimeImage = d3d\n_o.png
+NighttimeImage =  d3d\n_on.png
+Color = 4a4846
+Origin = 65, 437
+Layer = 8
+Radius = 68
+InitialAngle = -120
+LastAngle = 120
+Minimum = -800
+Maximum = 800
+NaturalFreq = 5
+DampingRatio = 0.5
+
+
+;各種表示灯
+;駅名表示
+[PilotLamp]
+Subject = true
+Location = 405, 16
+DaytimeImage = d3d\disp.png
+NighttimeImage = d3d\dispn.png
+Layer = 6
+
+[DigitalNumber]
+Subject = ats245
+Location = 405, 112
+DaytimeImage = d3d\19-50.png
+NighttimeImage = d3d\19-50n.png
+Layer = 4
+Interval = 16
+
+[DigitalNumber]
+Subject = ats247
+Location = 405, 112
+DaytimeImage = d3d\19-50.png
+NighttimeImage = d3d\19-50n.png
+Layer = 4
+Interval = 16
+
+[DigitalNumber]
+Subject = ats248
+Location = 405, 112
+DaytimeImage = d3d\19-40.png
+NighttimeImage = d3d\19-40n.png
+Layer = 5
+Interval = 16
+
+[DigitalNumber]
+Subject = ats250
+Location = 405, 112
+DaytimeImage = d3d\19-40.png
+NighttimeImage = d3d\19-40n.png
+Layer = 5
+Interval = 16
+
+[DigitalNumber]
+Subject = ats172
+Location = 405, 73
+DaytimeImage = d3d\18.png
+NighttimeImage = d3d\18n.png
+Layer = 5
+Interval = 16
+
+;運番表示
+[PilotLamp]
+Subject = true
+Location = 424, 36
+DaytimeImage = d3d\noh.png
+NighttimeImage = d3d\nohn.png
+Layer = 4
+
+[DigitalNumber]
+Subject = ats153
+Location = 437, 36
+DaytimeImage = d3d\no.png
+NighttimeImage = d3d\non.png
+Layer = 4
+Interval = 20
+
+[DigitalNumber]
+Subject = ats154
+Location = 450, 36
+DaytimeImage = d3d\no.png
+NighttimeImage = d3d\non.png
+Layer = 4
+Interval = 20
+
+;CS-ATC
+[PilotLamp]
+Subject = ats21
+Location = 1227, 1394
+DaytimeImage = lump\21.png
+NighttimeImage = lump\21n.png
+Layer = 6
+
+;入換
+[PilotLamp]
+Subject = ats32
+Location = 1227, 1423
+DaytimeImage = lump\32.png
+NighttimeImage = lump\32n.png
+Layer = 6
+
+;構内
+[PilotLamp]
+Subject = ats31
+Location = 1227, 1452
+DaytimeImage = lump\31.png
+NighttimeImage = lump\31n.png
+Layer = 6
+
+;非設
+[PilotLamp]
+Subject = ats29
+Location = 1227, 1481
+DaytimeImage = lump\29.png
+NighttimeImage = lump\29n.png
+Layer = 6
+
+;東急非設
+[PilotLamp]
+Subject = ats28
+Location = 1227, 1538
+DaytimeImage = lump\28.png
+NighttimeImage = lump\28n.png
+Layer = 6
+
+;東急ATS
+[PilotLamp]
+Subject = ats11
+Location = 1227, 1566
+DaytimeImage = lump\11.png
+NighttimeImage = lump\11n.png
+Layer = 6
+
+;車警定位
+[PilotLamp]
+Subject = ats16
+Location = 1227, 1595
+DaytimeImage = lump\16.png
+NighttimeImage = lump\16n.png
+Layer = 6
+
+;ATC非常
+[PilotLamp]
+Subject = ats22
+Location = 1291, 1452
+DaytimeImage = lump\22.png
+NighttimeImage = lump\22n.png
+Layer = 6
+
+
+;ATC常用
+[PilotLamp]
+Subject = ats23
+Location = 1291, 1481
+DaytimeImage = lump\23.png
+NighttimeImage = lump\23n.png
+Layer = 6
+
+;ATS動作
+[PilotLamp]
+Subject = ats12
+Location = 1291, 1566
+DaytimeImage = lump\12.png
+NighttimeImage = lump\12n.png
+Layer = 6
+
+;車警動作
+[PilotLamp]
+Subject = ats17
+Location = 1291, 1595
+DaytimeImage = lump\17.png
+NighttimeImage = lump\17n.png
+Layer = 6
+
+
+
+;過電流
+[PilotLamp]
+Subject = ats96
+Location = 538, 1379
+DaytimeImage = lump\96.png
+NighttimeImage = lump\96n.png
+Layer = 6
+
+;回生
+[PilotLamp]
+Subject = ats53
+Location = 602, 1381
+DaytimeImage = lump\53.png
+NighttimeImage = lump\53n.png
+Layer = 6
+
+;停車
+[PilotLamp]
+Subject = ats251
+Location = 557, 1630
+DaytimeImage = lump\251.png
+NighttimeImage = lump\251n.png
+Layer = 6
+
+;ATC
+[PilotLamp]
+Subject = ats101
+Location = 959, 1550
+DaytimeImage = atc\02.png
+NighttimeImage = atc\02n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats102
+Location = 867, 1493
+DaytimeImage = atc\0.png
+NighttimeImage = atc\0n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats104
+Location = 855, 1463
+DaytimeImage = atc\10.png
+NighttimeImage = atc\10n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats105
+Location = 852, 1444
+DaytimeImage = atc\15.png
+NighttimeImage = atc\15n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats106
+Location = 855, 1425
+DaytimeImage = atc\20.png
+NighttimeImage = atc\20n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats107
+Location = 857, 1405
+DaytimeImage = atc\25.png
+NighttimeImage = atc\25n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats108
+Location = 864, 1387
+DaytimeImage = atc\30.png
+NighttimeImage = atc\30n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats109
+Location = 875, 1371
+DaytimeImage = atc\35.png
+NighttimeImage = atc\35n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats110
+Location = 889, 1357
+DaytimeImage = atc\40.png
+NighttimeImage = atc\40n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats111
+Location = 904, 1345
+DaytimeImage = atc\45.png
+NighttimeImage = atc\45n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats112
+Location = 921, 1335
+DaytimeImage = atc\50.png
+NighttimeImage = atc\50n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats113
+Location = 939, 1330
+DaytimeImage = atc\55.png
+NighttimeImage = atc\55n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats114
+Location = 959, 1328
+DaytimeImage = atc\60.png
+NighttimeImage = atc\60n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats115
+Location = 978, 1328
+DaytimeImage = atc\65.png
+NighttimeImage = atc\65n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats116
+Location = 996, 1333
+DaytimeImage = atc\70.png
+NighttimeImage = atc\70n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats117
+Location = 1015, 1341
+DaytimeImage = atc\75.png
+NighttimeImage = atc\75n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats118
+Location = 1031, 1351
+DaytimeImage = atc\80.png
+NighttimeImage = atc\80n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats119
+Location = 1045, 1365
+DaytimeImage = atc\85.png
+NighttimeImage = atc\85n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats120
+Location = 1057, 1381
+DaytimeImage = atc\90.png
+NighttimeImage = atc\90n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats121
+Location = 1063, 1397
+DaytimeImage = atc\95.png
+NighttimeImage = atc\95n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats122
+Location = 1069, 1417
+DaytimeImage = atc\100.png
+NighttimeImage = atc\100n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats123
+Location = 1069, 1437
+DaytimeImage = atc\105.png
+NighttimeImage = atc\105n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats124
+Location = 1066, 1457
+DaytimeImage = atc\110.png
+NighttimeImage = atc\110n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats125
+Location = 1055, 1493
+DaytimeImage = atc\120.png
+NighttimeImage = atc\120n.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats131
+Location = 888, 1267
+DaytimeImage = atc\r.png
+NighttimeImage = atc\rn.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats132
+Location = 998, 1267
+DaytimeImage = atc\g.png
+NighttimeImage = atc\gn.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats133
+Location = 991, 1550
+DaytimeImage = atc\y.png
+NighttimeImage = atc\yn.png
+Layer = 8
+
+[PilotLamp]
+Subject = ats134
+Location = 927, 1550
+DaytimeImage = atc\p.png
+NighttimeImage = atc\pn.png
+Layer = 8
+
+
+;BC表示灯
+[PilotLamp]
+Subject = true
+Location = 602,1466
+DaytimeImage = lump\bc.png
+NighttimeImage = lump\bcn.png
+Layer = 6
+
+[PilotLamp]
+Subject = ats53
+Location = 602,1466
+DaytimeImage = lump\bcc.png
+NighttimeImage = lump\bccn.png
+Layer = 10
+
+[DigitalNumber]
+Subject = bcd1
+Location = 602,1466
+DaytimeImage = lump\bc10.png
+NighttimeImage = lump\bc10n.png
+Layer = 7
+Interval = 16
+
+[DigitalNumber]
+Subject = bcd2
+Location = 602,1466
+DaytimeImage = lump\bc100.png
+NighttimeImage = lump\bc100n.png
+Layer = 8
+Interval = 16
+
+[DigitalNumber]
+Subject = brake
+Location = 602,1466
+DaytimeImage = lump\bcb.png
+NighttimeImage = lump\bcbn.png
+Layer = 9
+Interval = 16
+
+;EB表示灯
+[DigitalNumber]
+Subject          = brake
+Location         = 602,1423
+DaytimeImage     = lump\eb.png
+NighttimeImage   = lump\ebn.png
+Layer            = 6
+Interval         = 16
+
+;各種スイッチ類
+
+;計器灯NFB
+[PilotLamp]
+Subject = ats161
+Location = 1427, 1652
+DaytimeImage = d3d\nfbd.png
+NighttimeImage = d3d\nfbn.png
+Layer = 10
+
+;レバーサ
+[DigitalNumber]
+Subject = ats86
+Location = 1405, 1775
+DaytimeImage = d3d\revd.png
+NighttimeImage = d3d\revn.png
+Layer = 9
+Interval = 256
+
+;前後切換SW
+[DigitalNumber]
+Subject = ats81
+Location = 47, 37
+DaytimeImage = d3d\fbsw.png
+NighttimeImage = d3d\fbswn.png
+Layer = 9
+Interval = 128
+
+;ATC切換SW
+[DigitalNumber]
+Subject = ats72
+Location = 175, 37
+DaytimeImage = d3d\atssw.png
+NighttimeImage = d3d\atsswn.png
+Layer = 9
+Interval = 128
+
+;マスコンキー
+[DigitalNumber]
+Subject = ats92
+Location = 499, 48
+DaytimeImage = d3d\key.png
+NighttimeImage = d3d\keyn.png
+Layer = 9
+Interval = 64
+
+[PilotLamp]
+Subject = ats254
+Location = 800, 1655
+DaytimeImage = lump\254.png
+NighttimeImage = lump\254n.png
+Layer = 10
